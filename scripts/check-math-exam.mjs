@@ -34,5 +34,28 @@ assert.throws(()=>exam.create(questions,random,{...restricted,count:100}));
 assert.throws(()=>exam.create(questions,random,{...all,mode:'standard',levels:['hard']}));
 const tampered=JSON.parse(JSON.stringify(filtered));tampered.config.sources=['foundation'];assert.equal(exam.restore(tampered,questions),null);
 const legacy=exam.create(questions,random);legacy.version=2;delete legacy.config;const restoredLegacy=exam.restore(legacy,questions);assert.equal(restoredLegacy.version,3);assert.equal(restoredLegacy.config.mode,'standard');
+// Integer allocation preserves the original weights, including zero shares.
+const weights={easy:3,medium:5,hard:7,hell:2};
+for(let total=1;total<=2400;total++){
+ const allocated=exam.allocateCounts(total,weights);assert.equal(Object.values(allocated).reduce((a,b)=>a+b,0),total);
+ for(const [level,weight]of Object.entries(weights)){assert.ok(Number.isInteger(allocated[level]));assert.ok(Math.abs(allocated[level]-total*weight/17)<1);}
+}
+assert.deepEqual(exam.allocateCounts(34,weights),{easy:6,medium:10,hard:14,hell:4});
+assert.deepEqual(exam.allocateCounts(1,{easy:1,medium:1,hard:1,hell:0}),{easy:1,medium:0,hard:0,hell:0});
+assert.deepEqual(exam.allocateCounts(99,{easy:0,medium:0,hard:2,hell:0}),{easy:0,medium:0,hard:99,hell:0});
+for(const total of [0,-1,1.5,NaN,Infinity])assert.throws(()=>exam.allocateCounts(total,weights));
+for(const invalid of [{easy:0,medium:0,hard:0,hell:0},{...weights,easy:-1},{...weights,hell:NaN},{...weights,medium:1.5},{easy:1}])assert.throws(()=>exam.allocateCounts(20,invalid));
+for(const difficultyCounts of [weights,{easy:0,medium:0,hard:7,hell:0},{easy:3,medium:0,hard:0,hell:2}]){
+ const count=Object.values(difficultyCounts).reduce((a,b)=>a+b,0),paper=exam.create(questions,random,{...all,count,difficultyCounts});
+ for(const level of Object.keys(weights))assert.equal(paper.ids.filter(id=>byId.get(id).difficulty===level).length,difficultyCounts[level]);
+ assert.deepEqual(exam.restore(JSON.parse(JSON.stringify(paper)),questions),paper);
+}
+const exactRestricted=exam.create(questions,random,{...restricted,count:7,difficultyCounts:{easy:0,medium:0,hard:7,hell:0}});assert.equal(exactRestricted.ids.length,7);
+assert.throws(()=>exam.create(questions,random,{...restricted,topics:['recurrence'],count:11,difficultyCounts:{easy:0,medium:0,hard:11,hell:0}}),/困难题不足/);
+for(const difficultyCounts of [{...weights,easy:4},{...weights,easy:-1},{...weights,easy:1.5},{...weights,easy:NaN},{easy:17},{...weights,unknown:0},null,[]])assert.throws(()=>exam.create(questions,random,{...all,count:17,difficultyCounts}));
+assert.throws(()=>exam.create(questions,random,{...all,count:17,levels:['hard'],difficultyCounts:weights}),/未勾选/);
+const exactPaper=exam.create(questions,random,{...all,count:17,difficultyCounts:weights});
+const changedQuota=JSON.parse(JSON.stringify(exactPaper));changedQuota.config.difficultyCounts.easy++;changedQuota.config.difficultyCounts.medium--;assert.equal(exam.restore(changedQuota,questions),null);
 console.log('PASS: 500 randomized papers; 4/6/8/2 blueprint, no duplicate families, scoring, unanswered items and saved data validation.');
 console.log('PASS: custom counts 1–2400; intersected labels, empty/insufficient/invalid ranges, pagination-sized papers, proportional scores and legacy restoration.');
+console.log('PASS: exact difficulty quotas, zero shares, restricted capacity, saved quota validation, and integer ratio allocation at every total from 1 to 2400.');

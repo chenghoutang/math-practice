@@ -7,23 +7,66 @@
  const renderMath=el=>window.renderPracticeMath(el);
  const elapsed=()=>exam?exam.elapsed+(!paused&&!exam.submitted?Date.now()-started:0):0;
  const checked=id=>[...$(id).querySelectorAll('input:checked')].map(el=>el.value);
- const settings=()=>({mode:$('examMode').value,count:Number($('examCount').value),levels:checked('levelTags'),topics:checked('topicTags'),sources:checked('sourceTags')});
- function setSettings(config){$('examMode').value=config.mode;$('examCount').value=config.count;for(const [id,field]of [['levelTags','levels'],['topicTags','topics'],['sourceTags','sources']])$(id).querySelectorAll('input').forEach(input=>input.checked=config[field].includes(input.value));}
- function tag(container,value,text){const label=node('label',undefined,'tag-option'),input=node('input');input.type='checkbox';input.value=value;input.checked=true;input.addEventListener('change',updateSettings);label.append(input,node('span',text));$(container).append(label);}
+ const levels=Object.keys(labels),countInput=level=>$('count-'+level);
+ let ratioWeights=null,enabledLevels=new Set(levels),previousCounts={...engine.blueprint},previousWeights={...engine.blueprint};
+ const counts=()=>Object.fromEntries(levels.map(level=>[level,checked('levelTags').includes(level)?countInput(level).value===''?NaN:Number(countInput(level).value):0]));
+ const writeCounts=values=>levels.forEach(level=>countInput(level).value=values[level]);
+ function sumCounts(){const sum=Object.values(counts()).reduce((a,b)=>a+b,0);$('examCount').value=Number.isFinite(sum)?sum:'';}
+ let topicTree;
+ const settings=()=>({mode:$('examMode').value,count:Number($('examCount').value),levels:checked('levelTags'),topics:topicTree.topics(),questionIds:topicTree.selection(),sources:checked('sourceTags'),...($('examMode').value==='custom'?{difficultyCounts:counts()}:{})});
+ function setSettings(config){
+  $('examMode').value=config.mode;$('examCount').value=config.count;for(const [id,field]of [['levelTags','levels'],['sourceTags','sources']])$(id).querySelectorAll('input').forEach(input=>input.checked=config[field].includes(input.value));topicTree.setSelection(config);
+  enabledLevels=new Set(config.levels);const weights=Object.fromEntries(levels.map(level=>[level,enabledLevels.has(level)?engine.blueprint[level]:0]));
+  writeCounts(config.difficultyCounts||(config.levels.length?engine.allocateCounts(config.count,weights):Object.fromEntries(levels.map(level=>[level,0]))));
+  previousCounts={...engine.blueprint,...counts()};$('lockRatio').checked=config.lockRatio===true;
+  if($('lockRatio').checked){try{ratioWeights=Object.fromEntries(levels.map(level=>[level,enabledLevels.has(level)?config.ratioWeights?.[level]??counts()[level]:0]));engine.allocateCounts(1,ratioWeights);previousWeights={...ratioWeights};}catch{ratioWeights=null;$('lockRatio').checked=false;}}
+ }
+ function rangeChanged(){
+  const selected=new Set(checked('levelTags')),locked=$('lockRatio').checked;let changed=false;
+  for(const level of levels){
+   if(enabledLevels.has(level)&&!selected.has(level)){
+    const value=Number(countInput(level).value);
+    if(Number.isInteger(value)&&value>=0)previousCounts[level]=value;
+    if(locked)previousWeights[level]=ratioWeights?.[level]??value;
+    countInput(level).value=0;changed=true;
+   }else if(!enabledLevels.has(level)&&selected.has(level)){countInput(level).value=previousCounts[level];changed=true;}
+  }
+  if(changed){
+   if(locked){
+    ratioWeights=Object.fromEntries(levels.map(level=>{
+     if(!selected.has(level))return [level,0];
+     const weight=enabledLevels.has(level)?ratioWeights?.[level]??Number(countInput(level).value):previousWeights[level];
+     return [level,weight];
+    }));
+    try{writeCounts(engine.allocateCounts(Number($('examCount').value),ratioWeights));}catch{}
+   }else sumCounts();
+   enabledLevels=selected;
+  }
+  updateSettings();
+ }
+ function tag(container,value,text){const label=node('label',undefined,'tag-option'),input=node('input');input.type='checkbox';input.value=value;input.checked=true;input.addEventListener('change',rangeChanged);label.append(input,node('span',text));$(container).append(label);}
  function updateSettings(){
-  const config=settings();$('examCount').disabled=config.mode==='standard';if(config.mode==='standard'){$('examCount').value=20;config.count=20;}
-  let error='',pool=[];try{pool=engine.pool(questions,config);if(!config.levels.length||!config.topics.length||!config.sources.length)error='每组范围至少勾选一个标签。';else if(config.mode==='custom'&&config.count>pool.length)error=`当前范围只有 ${pool.length} 题，请减少题目数量或扩大范围。`;else if(config.mode==='standard'){const missing=Object.entries(engine.blueprint).filter(([level,count])=>pool.filter(q=>q.difficulty===level).length<count);if(missing.length)error=`经典配比题量不足：${missing.map(([level,count])=>`${labels[level]}需 ${count} 题`).join('、')}。可扩大范围或改用自定义模式。`;}}catch(e){error=e.message;}
+  const config=settings(),standard=config.mode==='standard',locked=$('lockRatio').checked;
+  $('examCount').disabled=standard;$('examCount').readOnly=!standard&&!locked;$('difficultySettings').hidden=standard;if(standard){$('examCount').value=20;config.count=20;}
+  for(const level of levels){countInput(level).disabled=standard||!config.levels.includes(level);countInput(level).readOnly=locked;}
+  let error='',pool=[];try{pool=engine.pool(questions,{...config,count:1,difficultyCounts:undefined});engine.normalize(questions,config);if(!config.levels.length||!config.topics.length||!config.sources.length)error='每组范围至少勾选一个标签。';else{const needed=standard?engine.blueprint:config.difficultyCounts;const missing=Object.entries(needed).filter(([level,count])=>pool.filter(q=>q.difficulty===level).length<count);if(missing.length)error=`${standard?'经典配比题量不足':'当前范围题量不足'}：${missing.map(([level,count])=>`${labels[level]}需 ${count} 题，当前可选 ${pool.filter(q=>q.difficulty===level).length} 题`).join('；')}。请调整题量或扩大范围。`;}}catch(e){error=e.message;}
+  for(const level of levels){const available=pool.filter(q=>q.difficulty===level).length;$('available-'+level).textContent=`可选 ${available} 题`;countInput(level).max=String(available);}
+  $('ratioSummary').hidden=standard||!locked;$('ratioSummary').textContent=locked&&ratioWeights?`已锁定 ${levels.map(level=>ratioWeights[level]).join(' : ')}；余数按比例补齐，合计始终等于总题数。`:'';
   $('examCount').max=String(questions.length);$('poolSummary').textContent=`当前范围可选 ${pool.length} 题 · ${Object.keys(labels).map(level=>`${labels[level]} ${pool.filter(q=>q.difficulty===level).length}`).join(' / ')}`;
   $('settingsError').textContent=error;$('settingsError').hidden=!error;$('newExam').disabled=!!error;
-  try{localStorage.setItem(settingsKey,JSON.stringify(config));}catch{storageOK=false;}
+  try{localStorage.setItem(settingsKey,JSON.stringify({...config,lockRatio:locked,ratioWeights:locked?ratioWeights:undefined}));}catch{storageOK=false;}
   return !error;
  }
  for(const [level,label]of Object.entries(labels))tag('levelTags',level,label);
- for(const topic of window.MATH_MANIFEST?.topics||[])tag('topicTags',topic.id,topic.name);
+ for(const [level,text]of Object.entries(labels)){const label=node('label'),input=node('input'),available=node('small');input.id='count-'+level;input.type='number';input.min='0';input.step='1';input.inputMode='numeric';input.value=engine.blueprint[level];available.id='available-'+level;input.setAttribute('aria-describedby',available.id);input.addEventListener('input',()=>{if(input.readOnly)return;sumCounts();updateSettings();});label.append(node('span',text),input,available);$('difficultyCounts').append(label);}
+ topicTree=window.MathKnowledge.mount($('topicTags'),{questions,topics:window.MATH_MANIFEST?.topics||[],selectable:true,onChange:rangeChanged});topicTree.openModules();
  for(const [value,label]of Object.entries(engine.sources))tag('sourceTags',value,label);
- try{const saved=JSON.parse(localStorage.getItem(settingsKey));if(saved)setSettings(engine.normalize(questions,saved));}catch{}
- $('examMode').addEventListener('change',updateSettings);$('examCount').addEventListener('input',updateSettings);
- document.querySelectorAll('[data-group]').forEach(button=>button.addEventListener('click',()=>{$(button.dataset.group).querySelectorAll('input').forEach(input=>input.checked=button.dataset.select==='all');updateSettings();}));
+ try{const saved=JSON.parse(localStorage.getItem(settingsKey));if(saved)setSettings({...engine.normalize(questions,saved),lockRatio:saved.lockRatio,ratioWeights:saved.ratioWeights});}catch{}
+ $('examMode').addEventListener('change',()=>{if($('examMode').value==='custom')sumCounts();updateSettings();});
+ $('examCount').addEventListener('input',()=>{if($('examMode').value==='custom'&&$('lockRatio').checked){try{writeCounts(engine.allocateCounts(Number($('examCount').value),ratioWeights));}catch{}}updateSettings();});
+ $('lockRatio').addEventListener('change',()=>{if($('lockRatio').checked){try{ratioWeights=counts();engine.allocateCounts(1,ratioWeights);sumCounts();}catch{ratioWeights=null;$('lockRatio').checked=false;}}else{ratioWeights=null;sumCounts();}updateSettings();});
+ document.querySelectorAll('[data-group]').forEach(button=>button.addEventListener('click',()=>{if(button.dataset.group==='topicTags'){topicTree.selectAll(button.dataset.select==='all');return;}$(button.dataset.group).querySelectorAll('input').forEach(input=>input.checked=button.dataset.select==='all');rangeChanged();}));
+ $('expandTopics').addEventListener('click',()=>topicTree.openModules());$('collapseTopics').addEventListener('click',()=>topicTree.collapse());
  function capture(){if(!exam)return;exam.elapsed=elapsed();started=Date.now();}
  function save(){if(!exam)return;capture();try{localStorage.setItem(key,JSON.stringify(exam));}catch{storageOK=false;}message();}
  function message(){const text=[];if(bankUpdated)text.push('题库或保存的试卷已更新，原试卷无法继续，请重新出卷。');if(!storageOK)text.push('当前浏览器无法持久保存，请保持页面打开完成试卷。');if(exam&&!exam.submitted&&paused)text.push('计时已暂停，点击“继续计时”接着做。');if(exam&&!exam.submitted&&elapsed()>engine.target(exam,questions)*1000)text.push('已超过建议时间，可以继续作答。');$('examMessage').textContent=text.join(' ');}

@@ -6,7 +6,7 @@ const mode=process.argv[2];
 if(!['build','check'].includes(mode))throw Error('Usage: node scripts/run-tasks.mjs <build|check>');
 const tasks=mode==='build'
     ?Array.from({length:9},(_,i)=>['scripts/build-math-bank.mjs',String(i+1)])
-    :['bank','latex','hell','new-types','exam'].map(name=>[`scripts/check-math-${name}.mjs`]);
+    :['bank','latex','hell','new-types','exam','knowledge'].map(name=>[`scripts/check-math-${name}.mjs`]);
 for(const args of tasks){
     const result=spawnSync(process.execPath,args,{cwd:root,stdio:'inherit',windowsHide:true});
     if(result.error)throw result.error;

@@ -60,7 +60,13 @@ try{
  await run('document.querySelector(".exam-entry a").click()');await until('!!window.MathExam && !!document.querySelector("#newExam")');
  await run('localStorage.removeItem("dengduck-math-exam-v1")');await reload();await until('!!document.querySelector("#newExam")');
  assert.equal(await run('document.querySelector("#examMode").value'),'custom');assert.ok(await run('[...document.querySelectorAll(".tag-options input")].every(input=>input.checked)'));
- assert.equal(await run('document.querySelectorAll("#levelTags input").length'),4);assert.equal(await run('document.querySelectorAll("#topicTags input").length'),30);assert.equal(await run('document.querySelectorAll("#sourceTags input").length'),3);
+ assert.equal(await run('document.querySelectorAll("#levelTags input").length'),4);assert.equal(await run('document.querySelectorAll("#topicTags input[data-kind=topic]").length'),30);assert.equal(await run('document.querySelectorAll("#sourceTags input").length'),3);
+ const chooseTopics=topics=>run(`document.querySelector('[data-group=topicTags][data-select=none]').click();document.querySelector('#expandTopics').click();for(const topic of ${JSON.stringify(topics)})document.querySelector('#topicTags input[data-kind=topic][value="'+topic+'"]').click();`);
+ const setDifficultyCounts=values=>run(`for(const [level,count]of Object.entries(${JSON.stringify(values)})){const input=document.querySelector('#count-'+level);input.value=count;input.dispatchEvent(new Event('input'));}`);
+ const difficultyCounts=()=>run('Object.fromEntries(["easy","medium","hard","hell"].map(level=>[level,Number(document.querySelector("#count-"+level).value)]))');
+ assert.deepEqual(await difficultyCounts(),{easy:4,medium:6,hard:8,hell:2});assert.equal(await run('document.querySelector("#examCount").readOnly'),true);
+ await run('localStorage.setItem("dengduck-math-exam-settings-v1",JSON.stringify({...window.MathExam.defaults(window.MATH_BATCHES.flatMap(b=>b.questions)),count:7,levels:["hard"]}))');await reload();assert.deepEqual(await difficultyCounts(),{easy:0,medium:0,hard:7,hell:0});
+ await run('localStorage.removeItem("dengduck-math-exam-settings-v1")');await reload();assert.deepEqual(await difficultyCounts(),{easy:4,medium:6,hard:8,hell:2});
  await run('document.querySelector("#examMode").value="standard";document.querySelector("#examMode").dispatchEvent(new Event("change"));document.querySelector("#newExam").click()');await until('document.querySelectorAll(".exam-question").length===20');
  assert.deepEqual(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids.map(id=>window.MATH_BATCHES.flatMap(b=>b.questions).find(q=>q.id===id).difficulty).reduce((counts,d)=>(counts[d]=(counts[d]||0)+1,counts),{})'),{easy:4,medium:6,hard:8,hell:2});
  assert.equal(await run('document.querySelectorAll(".exam-feedback").length'),0);
@@ -83,7 +89,7 @@ try{
  await run('document.querySelector("#newExam").click()');await until('document.querySelectorAll(".exam-feedback").length===0');
  await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions);for(const card of document.querySelectorAll('.exam-question')){const q=bank.find(q=>card.id==='exam-q-'+q.id);card.querySelectorAll('input')[q.answer].click();}document.querySelector('#finishExam').click();document.querySelector('#acceptConfirm').click();}`);
  assert.equal(await run('document.querySelector("#examResult h2").textContent'),'100 / 100 分');
- server=http.createServer((req,res)=>{const name=decodeURIComponent(new URL(req.url,'http://localhost').pathname);if(!name.startsWith('/math-practice/')){res.writeHead(404);res.end();return;}let filename=path.resolve(root,'.'+name.slice('/math-practice'.length));if(filename!==path.resolve(root)&&!filename.startsWith(path.resolve(root)+path.sep)){res.writeHead(403);res.end();return;}if(name.endsWith('/'))filename=path.join(filename,'index.html');if(!fs.existsSync(filename)){res.writeHead(404);res.end();return;}res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.woff2':'font/woff2'}[path.extname(filename)]||'application/octet-stream'));fs.createReadStream(filename).pipe(res);});
+ server=http.createServer((req,res)=>{const name=decodeURIComponent(new URL(req.url,'http://localhost').pathname);if(!name.startsWith('/math-practice/')){res.writeHead(404);res.end();return;}let filename=path.resolve(root,'.'+name.slice('/math-practice'.length));if(filename!==path.resolve(root)&&!filename.startsWith(path.resolve(root)+path.sep)){res.writeHead(403);res.end();return;}if(name.endsWith('/'))filename=path.join(filename,'index.html');if(!fs.existsSync(filename)){res.writeHead(404);res.end();return;}res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.woff2':'font/woff2','.ttf':'font/ttf','.svg':'image/svg+xml','.png':'image/png'}[path.extname(filename)]||'application/octet-stream'));fs.createReadStream(filename).pipe(res);});
  await new Promise(r=>server.listen(0,'127.0.0.1',r));await cdp('Network.setBlockedURLs',{urls:['https://*']});await cdp('Emulation.setDeviceMetricsOverride',{width:1280,height:900,deviceScaleFactor:1,mobile:false});
  await cdp('Page.navigate',{url:`http://127.0.0.1:${server.address().port}/math-practice/`});await until('document.querySelectorAll("#options input").length===4 && document.querySelector(".katex")');
  assert.equal(await run('window.MATH_MANIFEST.total'),total);assert.equal(await run('document.querySelectorAll("#topic option").length'),31);
@@ -110,14 +116,16 @@ try{
  await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'exam-rewritten.png'),Buffer.from(p.data,'base64')));
  // Custom labels combine by intersection. Invalid next-paper settings must
  // not discard the paper currently being answered.
- await run(`document.querySelector('#examMode').value='custom';document.querySelector('#examMode').dispatchEvent(new Event('change'));for(const [group,selected] of [['levelTags',['hard']],['topicTags',['recurrence']],['sourceTags',['new']]]){for(const input of document.querySelectorAll('#'+group+' input'))input.checked=selected.includes(input.value);}document.querySelector('#examCount').value='11';document.querySelector('#examCount').dispatchEvent(new Event('input'));`);
+ await run(`document.querySelector('#examMode').value='custom';document.querySelector('#examMode').dispatchEvent(new Event('change'));for(const [group,selected] of [['levelTags',['hard']],['sourceTags',['new']]]){for(const input of document.querySelectorAll('#'+group+' input'))input.checked=selected.includes(input.value);}document.querySelector('#levelTags input').dispatchEvent(new Event('change'));`);await chooseTopics(['recurrence']);
+ await setDifficultyCounts({hard:11});
  assert.equal(await run('document.querySelector("#newExam").disabled'),true);assert.ok(await run('document.querySelector("#poolSummary").textContent.includes("10 题")'));
- await run('document.querySelector("#examCount").value="7";document.querySelector("#examCount").dispatchEvent(new Event("input"));document.querySelector("#newExam").click();document.querySelector("#acceptConfirm").click()');
+ await setDifficultyCounts({hard:7});await run('document.querySelector("#newExam").click();document.querySelector("#acceptConfirm").click()');
  assert.equal(await run('document.querySelectorAll(".exam-question").length'),7);assert.ok(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids.every(id=>{const q=window.MATH_BATCHES.flatMap(b=>b.questions).find(q=>q.id===id);return q.batch===9&&q.topic==="recurrence"&&q.difficulty==="hard"})'));
  await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions);[...document.querySelectorAll('.exam-question')].slice(0,6).forEach((card,i)=>{const q=bank.find(q=>card.id==='exam-q-'+q.id);card.querySelectorAll('input')[i===5?(q.answer+1)%4:q.answer].click();});}`);
- await reload();assert.equal(await run('document.querySelectorAll(".exam-question input:checked").length'),6);assert.equal(await run('document.querySelector("#examCount").value'),'7');assert.deepEqual(await run('[...document.querySelectorAll("#topicTags input:checked")].map(i=>i.value)'),['recurrence']);
+ await reload();assert.equal(await run('document.querySelectorAll(".exam-question input:checked").length'),6);assert.equal(await run('document.querySelector("#examCount").value'),'7');assert.deepEqual(await run('[...document.querySelectorAll("#topicTags input[data-kind=topic]:checked")].map(i=>i.value)'),['recurrence']);
  await run('document.querySelector("#finishExam").click();document.querySelector("#acceptConfirm").click()');assert.equal(await run('document.querySelector("#examResult h2").textContent'),'71.43 / 100 分');assert.equal(await run('document.querySelectorAll(".exam-feedback").length'),7);
- await run('for(const button of document.querySelectorAll("[data-select=all]"))button.click();for(const input of document.querySelectorAll("#sourceTags input"))input.checked=input.value==="new";document.querySelector("#examCount").value="25";document.querySelector("#examCount").dispatchEvent(new Event("input"));document.querySelector("#newExam").click()');
+ await run('for(const button of document.querySelectorAll("[data-select=all]"))button.click();for(const input of document.querySelectorAll("#sourceTags input"))input.checked=input.value==="new";document.querySelector("#sourceTags input").dispatchEvent(new Event("change"))');
+ await setDifficultyCounts({easy:0,medium:0,hard:15,hell:10});await run('document.querySelector("#newExam").click()');
  assert.equal(await run('document.querySelectorAll("#examNav a").length'),25);assert.equal(await run('document.querySelectorAll(".exam-question").length'),20);
  await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions);for(const card of document.querySelectorAll('.exam-question')){const q=bank.find(q=>card.id==='exam-q-'+q.id);card.querySelectorAll('input')[q.answer].click();}document.querySelector('#examPageNext').click();}`);
  assert.equal(await run('document.querySelectorAll(".exam-question").length'),5);
@@ -127,8 +135,62 @@ try{
  await run('document.querySelector("#examPageNext").click()');assert.equal(await run('document.querySelectorAll(".exam-feedback").length'),5);assert.equal(await run('document.querySelectorAll(".exam-question input:disabled").length'),20);
  assert.equal(await run('document.querySelectorAll(".exam-feedback .katex-display").length'),5);
  for(const group of ['levelTags','topicTags','sourceTags']){await run(`document.querySelector('[data-group=${group}][data-select=none]').click()`);assert.equal(await run('document.querySelector("#newExam").disabled'),true);await run(`document.querySelector('[data-group=${group}][data-select=all]').click()`);}
+ // Lock the original ratio through rounding, reloads and scope changes.
+ await setDifficultyCounts({easy:3,medium:5,hard:7,hell:2});assert.equal(await run('document.querySelector("#examCount").value'),'17');
+ await run('document.querySelector("#lockRatio").click()');assert.equal(await run('document.querySelector("#examCount").readOnly'),false);assert.ok(await run('[...document.querySelectorAll("#difficultyCounts input")].every(input=>input.readOnly)'));
+ const resizePaper=count=>run(`document.querySelector('#examCount').value=${count};document.querySelector('#examCount').dispatchEvent(new Event('input'))`);
+ await resizePaper(34);assert.deepEqual(await difficultyCounts(),{easy:6,medium:10,hard:14,hell:4});
+ await resizePaper(1);assert.deepEqual(await difficultyCounts(),{easy:0,medium:0,hard:1,hell:0});
+ await run('document.querySelector("#levelTags input[value=easy]").click();document.querySelector("#levelTags input[value=easy]").click()');
+ await reload();assert.equal(await run('document.querySelector("#lockRatio").checked'),true);await resizePaper(17);assert.deepEqual(await difficultyCounts(),{easy:3,medium:5,hard:7,hell:2});
+ await resizePaper(0);assert.equal(await run('document.querySelector("#newExam").disabled'),true);await resizePaper(17);
+ await run('document.querySelector("#newExam").click()');assert.equal(await run('document.querySelectorAll(".exam-question").length'),17);
+ assert.deepEqual(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).config.difficultyCounts'),{easy:3,medium:5,hard:7,hell:2});
+ assert.deepEqual(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids.reduce((counts,id)=>{const q=window.MATH_BATCHES.flatMap(b=>b.questions).find(q=>q.id===id);counts[q.difficulty]++;return counts;},{easy:0,medium:0,hard:0,hell:0})'),{easy:3,medium:5,hard:7,hell:2});
+ const quotaIds=await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids');
+ await run('document.querySelector("#levelTags input[value=easy]").click()');assert.equal((await difficultyCounts()).easy,0);assert.equal(Object.values(await difficultyCounts()).reduce((a,b)=>a+b,0),17);
+ await run('document.querySelector("#levelTags input[value=easy]").click()');assert.deepEqual(await difficultyCounts(),{easy:3,medium:5,hard:7,hell:2});
+ await run('document.querySelector("#lockRatio").click()');assert.equal(await run('document.querySelector("#examCount").readOnly'),true);await setDifficultyCounts({easy:4});assert.equal(await run('document.querySelector("#examCount").value'),'18');
+ await reload();assert.equal(await run('document.querySelector("#examCount").value'),'18');assert.equal(await run('document.querySelector("#lockRatio").checked'),false);assert.deepEqual(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids'),quotaIds);
+ await setDifficultyCounts({easy:0,medium:0,hard:0,hell:0});assert.equal(await run('document.querySelector("#newExam").disabled'),true);await run('document.querySelector("#lockRatio").click()');assert.equal(await run('document.querySelector("#lockRatio").checked'),false);
+ await setDifficultyCounts({easy:4,medium:6,hard:8,hell:2});await run('document.querySelector("#lockRatio").click()');
+ await until('[...document.querySelectorAll(".little-duck")].every(img=>img.complete)');assert.ok(await run('[...document.querySelectorAll(".little-duck")].every(img=>img.naturalWidth>0)'));
  for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`custom settings overflow ${width}`);}
+ // Expand all four levels and select individual question leaves.
+ const expandKnowledgePath=async(container)=>{
+  for(const id of ['group:foundations','topic:sets','family:sets-easy-1']){
+   await until(`!!document.querySelector('#${container} [data-node-id="${id}"]')`);
+   await run(`{const branch=document.querySelector('#${container} [data-node-id="${id}"]');if(!branch.open)branch.querySelector(':scope > summary').click();}`);
+  }
+  await until(`document.querySelectorAll('#${container} [data-question-id]').length>=10`);
+ };
+ await run('document.querySelector("#lockRatio").click();for(const button of document.querySelectorAll("[data-select=all]"))button.click()');
+ await setDifficultyCounts({easy:3,medium:0,hard:0,hell:0});
+ await run('document.querySelector("[data-group=topicTags][data-select=none]").click()');await expandKnowledgePath('topicTags');
+ await run('for(const id of ["M0001","M0002","M0003"])document.querySelector("#topicTags input[value="+id+"]").click()');
+ assert.deepEqual(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-settings-v1")).questionIds'),['M0001','M0002','M0003']);
+ assert.equal(await run('document.querySelector("#topicTags input[value=sets]").indeterminate'),true);
+ assert.equal(await run('document.querySelector("#topicTags input[value=\\"group:foundations\\"]").indeterminate'),true);
+ assert.equal(await run('document.querySelectorAll("#topicTags .katex-error").length'),0);assert.ok(await run('!!document.querySelector("#topicTags .katex")'));
+ await run('document.querySelector("#newExam").click();if(document.querySelector("#examConfirm").open)document.querySelector("#acceptConfirm").click()');
+ assert.deepEqual((await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids')).sort(),['M0001','M0002','M0003']);
+ await reload();assert.equal(await run('document.querySelectorAll(".exam-question").length'),3);assert.equal(await run('document.querySelector("#topicTags input[value=sets]").indeterminate'),true);
+ await expandKnowledgePath('topicTags');assert.equal(await run('document.querySelectorAll("#topicTags input[data-kind=question]:checked").length'),3);
+ await run('document.querySelector("#topicTags [data-node-id=\\"family:sets-easy-1\\"] > summary input").click()');assert.equal(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-settings-v1")).questionIds.length'),10);
+ await run('document.querySelector("#topicTags [data-node-id=\\"topic:sets\\"] > summary input").click()');assert.equal(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-settings-v1")).questionIds.length'),60);
+ await run('document.querySelector("#topicTags [data-node-id=\\"group:foundations\\"] > summary input").click()');assert.equal(await run('document.querySelector("#topicTags input[value=sets]").checked'),true);
+ await run('document.querySelector("#topicTags [data-node-id=\\"group:foundations\\"] > summary input").click()');assert.equal(await run('document.querySelector("#newExam").disabled'),true);
+ await run('document.querySelector("[data-group=topicTags][data-select=all]").click()');assert.equal(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-settings-v1")).questionIds'),undefined);
+ for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`expanded exam knowledge overflow ${width}`);}
  await run('document.querySelector("#settingsTitle").scrollIntoView()');await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'exam-custom.png'),Buffer.from(p.data,'base64')));
+ await run('document.querySelector("#topicTags").scrollIntoView({block:"center"})');await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'knowledge-exam.png'),Buffer.from(p.data,'base64')));
+ await run('document.querySelector(".topbar a").click()');await until('document.querySelectorAll("#options input").length===4');
+ assert.equal(await run('document.querySelectorAll("#knowledgeBrowser > ul > li").length'),8);
+ await run('document.querySelector("#search").value="no-such-question";document.querySelector("#search").dispatchEvent(new Event("input"))');
+ await expandKnowledgePath('knowledgeBrowser');await run('document.querySelector("#knowledgeBrowser [data-question-id=M0002] a").click()');await until('document.querySelector("#questionMeta").textContent.startsWith("M0002")');assert.equal(await run('document.querySelector("#empty").hidden'),true);assert.equal(await run('document.querySelector("#search").value'),'');
+ assert.ok(await run('!!document.querySelector("#knowledgeBrowser .katex")'));assert.equal(await run('document.querySelectorAll("#knowledgeBrowser .katex-error").length'),0);
+ for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`expanded practice knowledge overflow ${width}`);if(width===320){await run('document.querySelector("#knowledgeBrowser").scrollIntoView({block:"center"})');await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'knowledge-mobile.png'),Buffer.from(p.data,'base64')));}}
+ await run('document.querySelector("#collapseKnowledge").click()');assert.equal(await run('document.querySelectorAll("#knowledgeBrowser details[open]").length'),0);
  assert.equal(errors.length,0,JSON.stringify(errors));
- console.log(`PASS: ${total} questions; ${families.length} families at 320px; exam grading, migration of old hell answers and papers, retention of other answers, offline and HTTP. Screenshots: ${profile}`);
+ console.log(`PASS: ${total} questions; ${families.length} families at 320px; exam grading, migration, exact difficulty quotas, ratio lock, four-level knowledge trees, parent/child selection, question-specific papers, settings restoration, offline and HTTP. Screenshots: ${profile}`);
 }finally{ws?.close();browser.kill();server?.close();}

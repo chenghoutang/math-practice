@@ -2,6 +2,7 @@
 <html lang="zh-CN">
 <head>
  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#fff5f9">
+ <link rel="preload" href="assets/fonts/ZCOOLKuaiLe-Regular.ttf" as="font" type="font/ttf" crossorigin>
  <title>数学试卷 · DengDuck</title><link rel="icon" href="icon.png"><link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="math.css">
  <script src="assets/katex/katex.min.js" defer></script><script src="assets/katex/auto-render.min.js" defer></script><script src="data/manifest.js" defer></script>
  <!-- batches-start -->
@@ -15,20 +16,21 @@
     <script src="data/batch-8.js" defer></script>
     <script src="data/batch-9.js" defer></script>
     <!-- batches-end -->
- <script src="math-render.js" defer></script><script src="exam-engine.js" defer></script><script src="exam.js" defer></script>
+ <script src="math-render.js" defer></script><script src="knowledge-tree.js" defer></script><script src="exam-engine.js" defer></script><script src="exam.js" defer></script>
 </head>
 <body>
  <header class="topbar"><a class="pill" href="index.html">← 数学练习本</a><span>学习 / 数学 / 出卷</span></header>
  <main class="page">
-  <section class="intro"><span class="eyebrow">ONE PAPER, ONE LITTLE CHALLENGE</span><h1>数学小考场 📝</h1><p>慢慢想，认真写，你的思路会发光。(｡•̀ᴗ-)✧</p></section>
+  <section class="intro"><span class="eyebrow">ONE PAPER, ONE LITTLE CHALLENGE</span><h1>数学小考场 <span aria-hidden="true">📝</span></h1><p>慢慢想，认真写，你的思路会发光。<img class="little-duck inline-duck" src="assets/little-duck-write.svg" width="28" height="28" alt="" aria-hidden="true" draggable="false"></p><img class="little-duck intro-duck" src="assets/little-duck.svg" width="48" height="48" alt="" aria-hidden="true" draggable="false"></section>
   <section class="paper exam-settings" aria-labelledby="settingsTitle">
-   <h2 id="settingsTitle">按自己的节奏出卷 (ง •̀_•́)ง</h2>
-   <div class="exam-controls"><label>出卷模式<select id="examMode"><option value="custom">自定义题量与范围</option><option value="standard">经典 20 题 · 4 / 6 / 8 / 2</option></select></label><label>题目数量<input id="examCount" type="number" min="1" value="20" step="1" inputmode="numeric" aria-describedby="poolSummary"></label></div>
+   <h2 id="settingsTitle">按自己的节奏出卷 <img class="little-duck inline-duck heading-duck" src="assets/little-duck-think.svg" width="32" height="32" alt="" aria-hidden="true" draggable="false"></h2>
+   <div class="exam-controls"><label>出卷模式<select id="examMode"><option value="custom">自定义题量与范围</option><option value="standard">经典 20 题 · 4 / 6 / 8 / 2</option></select></label><label>总题数<input id="examCount" type="number" min="1" value="20" step="1" inputmode="numeric" aria-describedby="countHint poolSummary" readonly></label></div>
    <fieldset class="tag-group"><legend>难度</legend><div class="tag-actions"><button class="pill" type="button" data-group="levelTags" data-select="all">全选</button><button class="pill" type="button" data-group="levelTags" data-select="none">全不选</button></div><div id="levelTags" class="tag-options"></div></fieldset>
-   <fieldset class="tag-group"><legend>知识模块</legend><div class="tag-actions"><button class="pill" type="button" data-group="topicTags" data-select="all">全选</button><button class="pill" type="button" data-group="topicTags" data-select="none">全不选</button></div><div id="topicTags" class="tag-options"></div></fieldset>
+   <fieldset id="difficultySettings" class="difficulty-settings"><legend>各难度题量</legend><div id="difficultyCounts" class="difficulty-counts"></div><label class="ratio-lock"><input id="lockRatio" type="checkbox"><span>锁定比例</span></label><p id="countHint" class="note">分别填写各难度题数，总题数自动求和；锁定比例后，可调整总题数按比例增减。</p><p id="ratioSummary" class="note" role="status" hidden></p></fieldset>
+   <fieldset class="tag-group"><legend>知识模块与题目</legend><p class="note">大类 → 知识模块 → 题型 → 具体题目。展开查看，勾选一层即可选择其下全部题目；横线表示部分选中。</p><div class="tag-actions"><button class="pill" type="button" data-group="topicTags" data-select="all">全选</button><button class="pill" type="button" data-group="topicTags" data-select="none">全不选</button><button id="expandTopics" class="pill" type="button">展开模块</button><button id="collapseTopics" class="pill" type="button">收起全部</button></div><div id="topicTags" aria-label="出卷知识模块与题目目录"></div></fieldset>
    <fieldset class="tag-group"><legend>题库来源</legend><div class="tag-actions"><button class="pill" type="button" data-group="sourceTags" data-select="all">全选</button><button class="pill" type="button" data-group="sourceTags" data-select="none">全不选</button></div><div id="sourceTags" class="tag-options"></div></fieldset>
    <p id="poolSummary" class="note" role="status"></p><p id="settingsError" class="settings-error" role="alert" hidden></p>
-   <p class="note">各组标签默认全选，可自行取消；同时满足所选难度、模块和来源的题才会入卷。自定义模式从范围内随机抽取，优先覆盖不同题型。总分 100 分、每题等权，不倒扣，分数保留两位小数。建议用时按实际抽到的题目累计，超时可继续。</p>
+   <p class="note">各组标签默认全选，可自行取消；同时满足所选难度、模块和来源的题才会入卷。自定义模式按填写的各难度题数随机抽取，优先覆盖不同题型。总分 100 分、每题等权，不倒扣，分数保留两位小数。建议用时按实际抽到的题目累计，超时可继续。</p>
    <button id="newExam" class="pill primary" type="button">按当前设置出卷</button>
   </section>
   <p id="examMessage" role="status" class="note"></p>
@@ -38,6 +40,7 @@
    <form id="examForm"><div id="examQuestions"></div><div class="paper exam-entry"><p id="examSubmitHint" class="note">完成后交卷，查看成绩与解析。</p><button id="finishExam" class="pill primary" type="submit">提交试卷</button></div></form>
   </section>
   <dialog id="examConfirm" class="paper exam-dialog"><h2 id="confirmTitle"></h2><p id="confirmText"></p><div class="actions"><button id="cancelConfirm" class="pill" type="button">继续当前试卷</button><button id="acceptConfirm" class="pill primary" type="button">确认</button></div></dialog>
+  <footer class="page-footer"><span>认真写下的每一步，都算数。</span><span class="footer-signature"><img class="little-duck footer-duck" src="assets/little-duck.svg" width="22" height="22" alt="" aria-hidden="true" draggable="false">DengDuck · 数学小考场</span></footer>
   <noscript><p>请开启 JavaScript 使用试卷。</p></noscript>
  </main>
 </body></html>
