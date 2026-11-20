@@ -1,0 +1,14 @@
+{
+  "name": "dengduck-math-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone offline math practice and exam website",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/run-tasks.mjs build",
+    "test": "node scripts/run-tasks.mjs check",
+    "test:browser": "node scripts/check-math-page.mjs"
+  }
+}

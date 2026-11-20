@@ -1,0 +1,134 @@
+import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import http from 'node:http';import assert from 'node:assert/strict';import {spawn} from 'node:child_process';import {pathToFileURL,fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('..',import.meta.url));
+const profile=fs.mkdtempSync(path.join(os.tmpdir(),'dengduck-math-'));
+const chrome=process.env.CHROME_PATH||'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+if(!fs.existsSync(chrome))throw Error('Chrome not found. Set CHROME_PATH to your browser executable.');
+const browser=spawn(chrome,['--headless=new','--no-sandbox','--disable-extensions','--disable-gpu','--no-first-run','--remote-debugging-port=0','--user-data-dir='+profile,'about:blank'],{windowsHide:true,stdio:'ignore'});
+const delay=ms=>new Promise(r=>setTimeout(r,ms));let ws,server;const errors=[],pending=new Map();let id=0;
+try{
+ const file=path.join(profile,'DevToolsActivePort');for(let i=0;i<100&&!fs.existsSync(file);i++)await delay(100);
+ const port=+fs.readFileSync(file,'utf8').split('\n')[0],tabs=await(await fetch(`http://127.0.0.1:${port}/json`)).json();
+ ws=new WebSocket(tabs.find(t=>t.type==='page').webSocketDebuggerUrl);await new Promise(r=>ws.onopen=r);
+ ws.onmessage=e=>{const m=JSON.parse(e.data);if(m.id&&pending.has(m.id)){const p=pending.get(m.id);pending.delete(m.id);m.error?p.reject(m.error):p.resolve(m.result);}if(m.method==='Runtime.exceptionThrown')errors.push(m.params);};
+ const cdp=(method,params={})=>new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('CDP timeout: '+method)),10000);pending.set(++id,{resolve:r=>{clearTimeout(timer);resolve(r);},reject});ws.send(JSON.stringify({id,method,params}));});
+ const run=async expression=>{const r=await cdp('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(JSON.stringify(r.exceptionDetails));return r.result.value;};
+ const unrenderedMath=selector=>run(`(() => {const copy=document.querySelector(${JSON.stringify(selector)}).cloneNode(true);copy.querySelectorAll('.katex').forEach(node=>node.remove());return /[A-Za-z0-9\\p{Sm}\\p{No}\\p{M}′″$]/u.test(copy.textContent);})()`);
+ const until=async exp=>{for(let i=0;i<100;i++){if(await run(exp))return;await delay(50);}throw Error('Timeout: '+exp+' '+JSON.stringify(await run('({url:location.href,message:document.querySelector("#examMessage")?.textContent,scripts:[...document.scripts].map(s=>s.src)})'))+' '+JSON.stringify(errors));};
+ const reload=async()=>{const previous=await run('performance.timeOrigin');await cdp('Page.reload');await until(`performance.timeOrigin!==${previous} && document.readyState==='complete'`);};
+ await cdp('Runtime.enable');await cdp('Page.enable');await cdp('Network.enable');await cdp('Network.setBlockedURLs',{urls:['http://*','https://*']});
+ const url=pathToFileURL(path.join(root,'index.html')).href;
+ await cdp('Page.navigate',{url});await until('document.querySelectorAll("#options input").length===4 && document.querySelector(".katex")');
+ await run('localStorage.removeItem("dengduck-math-v1")');await reload();await until('document.querySelectorAll("#options input").length===4');
+ const total=await run('window.MATH_MANIFEST.total');
+ assert.equal(await run('window.MATH_BATCHES.flatMap(b=>b.questions).length'),total);
+ assert.equal(await run('document.querySelectorAll(".katex-error").length'),0);
+ await run('document.querySelector("#star").click();const q=window.MATH_BATCHES[0].questions[0];document.querySelectorAll("#options input")[(q.answer+1)%4].click();document.querySelector("#submit").click()');
+ assert.equal(await run('document.querySelector("#feedback").hidden'),false);
+ assert.equal(await run('document.querySelectorAll(".incorrect").length'),1);
+ await run('document.querySelector("#scope").value="wrong";document.querySelector("#scope").dispatchEvent(new Event("change"))');
+ assert.equal(await run('document.querySelectorAll(".question-link").length'),1);
+ assert.equal(await run('document.querySelector("#next").disabled'),true);
+ await run('document.querySelector("#scope").value="starred";document.querySelector("#scope").dispatchEvent(new Event("change"))');
+ assert.equal(await run('document.querySelectorAll(".question-link").length'),1);
+ await reload();await until('document.querySelectorAll("#options input").length===4');
+ assert.equal(await run('document.querySelector("#feedback").hidden'),false);assert.equal(await run('document.querySelector("#star").getAttribute("aria-pressed")'),'true');
+ await run('document.querySelector("#retry").click();const q=window.MATH_BATCHES[0].questions[0];document.querySelectorAll("#options input")[q.answer].click();document.querySelector("#submit").click()');
+ assert.equal(await run('document.querySelectorAll(".correct").length'),1);assert.equal(await run('document.querySelectorAll(".incorrect").length'),0);
+ await run('document.querySelector("#difficulty").value="hard";document.querySelector("#difficulty").dispatchEvent(new Event("change"))');
+ await until('location.hash==="#M0041"');
+ assert.equal(await run('document.querySelector("#filterCount").textContent.split(" ")[0]'),String(600+(total>2300?50:0)));
+ await run('document.querySelector("#pause").click()');const t=await run('document.querySelector("#timer").textContent');await delay(1100);assert.equal(await run('document.querySelector("#timer").textContent'),t);
+ for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`overflow ${width}`);}
+ await cdp('Emulation.setDeviceMetricsOverride',{width:320,height:900,deviceScaleFactor:1,mobile:true});
+ const families=await run('window.MATH_BATCHES.flatMap(b=>b.questions).filter(q=>q.variant===1).map(q=>q.id)');
+ for(const qid of families){await delay(70);await run(`location.hash='${qid}'`);await until(`document.querySelector('#questionMeta').textContent.startsWith('${qid}')`);await run(`{const q=window.MATH_BATCHES.flatMap(b=>b.questions).find(q=>q.id==='${qid}');document.querySelectorAll('#options input')[q.answer].click();document.querySelector('#submit').click();}`);assert.equal(await run('document.querySelectorAll(".correct").length'),1,qid);assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`long formula overflow ${qid}`);assert.equal(await run('document.querySelectorAll(".katex-error").length'),0,qid);assert.ok(await run('document.querySelectorAll("#explanation .katex-display").length>=1'),`missing display derivation ${qid}`);assert.equal(await unrenderedMath("#explanation"),false,`unrendered explanation formula ${qid}`);}
+ const latexProbe=String.raw`行内 $x^2$ 与 \(\sqrt2\)。独立公式 $$\begin{aligned}u+v&=1\\u-v&=0\end{aligned}$$ 及 \[\frac12\]`;
+ await run(`{const probe=document.createElement('div');probe.id='latexProbe';probe.textContent=${JSON.stringify(latexProbe)};document.body.append(probe);window.renderPracticeMath(probe);window.renderPracticeMath(probe);}`);
+ assert.equal(await run('document.querySelectorAll("#latexProbe .katex").length'),4);assert.equal(await run('document.querySelectorAll("#latexProbe .katex-display").length'),2);assert.equal(await run('document.querySelectorAll("#latexProbe .katex-error").length'),0);await run('document.querySelector("#latexProbe").remove()');
+ await delay(70);await run('location.hash="M0291"');await until('document.querySelector("#questionMeta").textContent.startsWith("M0291")');await run('document.querySelectorAll("#options input")[0].click();document.querySelector("#submit").click();document.querySelector("#explanation").scrollIntoView()');
+ await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'latex-proof-mobile.png'),Buffer.from(p.data,'base64')));
+ assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'));
+ await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'math-mobile.png'),Buffer.from(p.data,'base64')));
+ await run('document.querySelector("#search").value="no-such-question";document.querySelector("#search").dispatchEvent(new Event("input"))');assert.equal(await run('document.querySelector("#empty").hidden'),false);
+ await cdp('Page.navigate',{url:url+'#M'+String(total).padStart(4,'0')});await until(`document.querySelector('#questionMeta').textContent.startsWith('M${String(total).padStart(4,'0')}')`);
+ assert.equal(errors.length,0,JSON.stringify(errors));assert.equal(await run('document.querySelectorAll(".katex-error").length'),0);
+ await run('localStorage.setItem("dengduck-math-v1",JSON.stringify({answers:{M0001:null,M0002:{selected:99,submitted:true,elapsed:-1}},stars:["M0001","invalid"]}))');await reload();await until('document.querySelectorAll("#options input").length===4');
+ await run('document.querySelector("#difficulty").value="hell";document.querySelector("#difficulty").dispatchEvent(new Event("change"))');
+ assert.equal(await run('document.querySelector("#target").textContent'),'建议 10 分钟');assert.equal(await run('document.querySelector("#filterCount").textContent.split(" ")[0]'),String(500+(total>2300?50:0)));
+ // A full offline paper: persisted partial answers, cancellation, grading,
+ // read-only results, replacement, and another fully completed paper.
+ await run('document.querySelector(".exam-entry a").click()');await until('!!window.MathExam && !!document.querySelector("#newExam")');
+ await run('localStorage.removeItem("dengduck-math-exam-v1")');await reload();await until('!!document.querySelector("#newExam")');
+ assert.equal(await run('document.querySelector("#examMode").value'),'custom');assert.ok(await run('[...document.querySelectorAll(".tag-options input")].every(input=>input.checked)'));
+ assert.equal(await run('document.querySelectorAll("#levelTags input").length'),4);assert.equal(await run('document.querySelectorAll("#topicTags input").length'),30);assert.equal(await run('document.querySelectorAll("#sourceTags input").length'),3);
+ await run('document.querySelector("#examMode").value="standard";document.querySelector("#examMode").dispatchEvent(new Event("change"));document.querySelector("#newExam").click()');await until('document.querySelectorAll(".exam-question").length===20');
+ assert.deepEqual(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids.map(id=>window.MATH_BATCHES.flatMap(b=>b.questions).find(q=>q.id===id).difficulty).reduce((counts,d)=>(counts[d]=(counts[d]||0)+1,counts),{})'),{easy:4,medium:6,hard:8,hell:2});
+ assert.equal(await run('document.querySelectorAll(".exam-feedback").length'),0);
+ const originalIds=await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids');
+ await run(`{const cards=[...document.querySelectorAll('.exam-question')],bank=window.MATH_BATCHES.flatMap(b=>b.questions);cards.slice(0,19).forEach((card,i)=>{const q=bank.find(q=>card.id==='exam-q-'+q.id);card.querySelectorAll('input')[i===18?(q.answer+1)%4:q.answer].click();});}`);
+ assert.equal(await run('document.querySelector("#examProgress").textContent.includes("19 / 20")'),true);
+ await reload();await until('document.querySelectorAll(".exam-question").length===20');
+ assert.equal(await run('document.querySelectorAll(".exam-question input:checked").length'),19);
+ const time=await run('document.querySelector("#examTimer").textContent');await delay(1100);assert.equal(await run('document.querySelector("#examTimer").textContent'),time);
+ await run('document.querySelector("#newExam").click()');assert.equal(await run('document.querySelector("#examConfirm").open'),true);await run('document.querySelector("#cancelConfirm").click()');
+ assert.deepEqual(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids'),originalIds);
+ await run('document.querySelector("#finishExam").click()');assert.equal(await run('document.querySelector("#confirmText").textContent.includes("1")'),true);await run('document.querySelector("#cancelConfirm").click()');assert.equal(await run('document.querySelector("#examResult").hidden'),true);
+ await run('document.querySelector("#finishExam").click();document.querySelector("#acceptConfirm").click()');
+ assert.equal(await run('document.querySelectorAll(".exam-feedback .katex-display").length'),20);for(let i=1;i<=20;i++)assert.equal(await unrenderedMath('.exam-question:nth-child('+i+') .explanation'),false,'unrendered paper formula '+i);assert.equal(await run('document.querySelectorAll(".katex-error").length'),0);
+ assert.equal(await run('document.querySelector("#examResult h2").textContent'),'90 / 100 分');assert.equal(await run('document.querySelectorAll(".exam-feedback").length'),20);assert.equal(await run('document.querySelectorAll(".exam-question input:disabled").length'),80);
+ await reload();await until('document.querySelectorAll(".exam-feedback").length===20');assert.equal(await run('document.querySelector("#examResult h2").textContent'),'90 / 100 分');
+ for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`paper overflow ${width}`);}
+ assert.equal(await run('document.querySelectorAll(".katex-error").length'),0);
+ await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'exam-results.png'),Buffer.from(p.data,'base64')));
+ await run('document.querySelector("#newExam").click()');await until('document.querySelectorAll(".exam-feedback").length===0');
+ await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions);for(const card of document.querySelectorAll('.exam-question')){const q=bank.find(q=>card.id==='exam-q-'+q.id);card.querySelectorAll('input')[q.answer].click();}document.querySelector('#finishExam').click();document.querySelector('#acceptConfirm').click();}`);
+ assert.equal(await run('document.querySelector("#examResult h2").textContent'),'100 / 100 分');
+ server=http.createServer((req,res)=>{const name=decodeURIComponent(new URL(req.url,'http://localhost').pathname);if(!name.startsWith('/math-practice/')){res.writeHead(404);res.end();return;}let filename=path.resolve(root,'.'+name.slice('/math-practice'.length));if(filename!==path.resolve(root)&&!filename.startsWith(path.resolve(root)+path.sep)){res.writeHead(403);res.end();return;}if(name.endsWith('/'))filename=path.join(filename,'index.html');if(!fs.existsSync(filename)){res.writeHead(404);res.end();return;}res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.woff2':'font/woff2'}[path.extname(filename)]||'application/octet-stream'));fs.createReadStream(filename).pipe(res);});
+ await new Promise(r=>server.listen(0,'127.0.0.1',r));await cdp('Network.setBlockedURLs',{urls:['https://*']});await cdp('Emulation.setDeviceMetricsOverride',{width:1280,height:900,deviceScaleFactor:1,mobile:false});
+ await cdp('Page.navigate',{url:`http://127.0.0.1:${server.address().port}/math-practice/`});await until('document.querySelectorAll("#options input").length===4 && document.querySelector(".katex")');
+ assert.equal(await run('window.MATH_MANIFEST.total'),total);assert.equal(await run('document.querySelectorAll("#topic option").length'),31);
+ await run('location.hash="M0041"');await until('document.querySelector("#questionMeta").textContent.startsWith("M0041")');await run('const question=window.MATH_BATCHES[0].questions.find(q=>q.id==="M0041");document.querySelectorAll("#options input")[question.answer].click();document.querySelector("#submit").click()');
+ await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'math-desktop.png'),Buffer.from(p.data,'base64')));
+ // Seed storage before page scripts run, so pagehide cannot overwrite the
+ // fixture. Verify that only replaced questions lose their saved answers.
+ const seed=await cdp('Page.addScriptToEvaluateOnNewDocument',{source:`localStorage.setItem('dengduck-math-v1',JSON.stringify({answers:{M0001:{selected:0,submitted:true,elapsed:5000},M1801:{selected:0,submitted:true,elapsed:6000}},stars:['M0001','M1801']}));`});
+ await reload();await cdp('Page.removeScriptToEvaluateOnNewDocument',{identifier:seed.identifier});
+ assert.equal(await run('document.querySelector("#bankNotice").hidden'),false);
+ await run('location.hash="M0001"');await until('document.querySelector("#questionMeta").textContent.startsWith("M0001")');
+ assert.equal(await run('document.querySelector("#feedback").hidden'),false);assert.equal(await run('document.querySelector("#star").getAttribute("aria-pressed")'),'true');
+ await run('location.hash="M1801"');await until('document.querySelector("#questionMeta").textContent.startsWith("M1801")');
+ assert.equal(await run('document.querySelector("#feedback").hidden'),true);assert.equal(await run('document.querySelector("#star").getAttribute("aria-pressed")'),'false');
+ assert.equal(await run('JSON.parse(localStorage.getItem("dengduck-math-v1")).hellRevision'),2);
+ await run('document.querySelectorAll("#options input")[0].click();document.querySelector("#submit").click();document.querySelector("#star").click()');
+ await reload();assert.equal(await run('document.querySelector("#feedback").hidden'),false);assert.equal(await run('document.querySelector("#star").getAttribute("aria-pressed")'),'true');
+ const legacy=await cdp('Page.addScriptToEvaluateOnNewDocument',{source:`localStorage.setItem('dengduck-math-exam-v1',JSON.stringify({version:1,ids:${JSON.stringify(originalIds)},answers:{},elapsed:1000,submitted:true}));`});
+ await run('document.querySelector(".exam-entry a").click()');await until('!!window.MathExam && !!document.querySelector("#newExam")');
+ await cdp('Page.removeScriptToEvaluateOnNewDocument',{identifier:legacy.identifier});
+ assert.equal(await run('document.querySelector("#examSession").hidden'),true);assert.ok(await run('document.querySelector("#examMessage").textContent.includes("无法继续")'));
+ await run('document.querySelector("#newExam").click()');await until('document.querySelectorAll(".exam-question").length===20');
+ assert.ok(await run('Object.entries(JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).revisions).filter(([id])=>Number(id.slice(1))>=1801&&Number(id.slice(1))<=2300).every(([,revision])=>revision===2)'));
+ await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'exam-rewritten.png'),Buffer.from(p.data,'base64')));
+ // Custom labels combine by intersection. Invalid next-paper settings must
+ // not discard the paper currently being answered.
+ await run(`document.querySelector('#examMode').value='custom';document.querySelector('#examMode').dispatchEvent(new Event('change'));for(const [group,selected] of [['levelTags',['hard']],['topicTags',['recurrence']],['sourceTags',['new']]]){for(const input of document.querySelectorAll('#'+group+' input'))input.checked=selected.includes(input.value);}document.querySelector('#examCount').value='11';document.querySelector('#examCount').dispatchEvent(new Event('input'));`);
+ assert.equal(await run('document.querySelector("#newExam").disabled'),true);assert.ok(await run('document.querySelector("#poolSummary").textContent.includes("10 题")'));
+ await run('document.querySelector("#examCount").value="7";document.querySelector("#examCount").dispatchEvent(new Event("input"));document.querySelector("#newExam").click();document.querySelector("#acceptConfirm").click()');
+ assert.equal(await run('document.querySelectorAll(".exam-question").length'),7);assert.ok(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids.every(id=>{const q=window.MATH_BATCHES.flatMap(b=>b.questions).find(q=>q.id===id);return q.batch===9&&q.topic==="recurrence"&&q.difficulty==="hard"})'));
+ await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions);[...document.querySelectorAll('.exam-question')].slice(0,6).forEach((card,i)=>{const q=bank.find(q=>card.id==='exam-q-'+q.id);card.querySelectorAll('input')[i===5?(q.answer+1)%4:q.answer].click();});}`);
+ await reload();assert.equal(await run('document.querySelectorAll(".exam-question input:checked").length'),6);assert.equal(await run('document.querySelector("#examCount").value'),'7');assert.deepEqual(await run('[...document.querySelectorAll("#topicTags input:checked")].map(i=>i.value)'),['recurrence']);
+ await run('document.querySelector("#finishExam").click();document.querySelector("#acceptConfirm").click()');assert.equal(await run('document.querySelector("#examResult h2").textContent'),'71.43 / 100 分');assert.equal(await run('document.querySelectorAll(".exam-feedback").length'),7);
+ await run('for(const button of document.querySelectorAll("[data-select=all]"))button.click();for(const input of document.querySelectorAll("#sourceTags input"))input.checked=input.value==="new";document.querySelector("#examCount").value="25";document.querySelector("#examCount").dispatchEvent(new Event("input"));document.querySelector("#newExam").click()');
+ assert.equal(await run('document.querySelectorAll("#examNav a").length'),25);assert.equal(await run('document.querySelectorAll(".exam-question").length'),20);
+ await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions);for(const card of document.querySelectorAll('.exam-question')){const q=bank.find(q=>card.id==='exam-q-'+q.id);card.querySelectorAll('input')[q.answer].click();}document.querySelector('#examPageNext').click();}`);
+ assert.equal(await run('document.querySelectorAll(".exam-question").length'),5);
+ await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions);for(const card of [...document.querySelectorAll('.exam-question')].slice(0,4)){const q=bank.find(q=>card.id==='exam-q-'+q.id);card.querySelectorAll('input')[q.answer].click();}document.querySelector('#examNav a').click();}`);
+ assert.equal(await run('document.querySelectorAll(".exam-question input:checked").length'),20);await reload();assert.ok(await run('document.querySelector("#examProgress").textContent.includes("24 / 25")'));
+ await run('document.querySelector("#finishExam").click();document.querySelector("#acceptConfirm").click()');assert.equal(await run('document.querySelector("#examResult h2").textContent'),'96 / 100 分');
+ await run('document.querySelector("#examPageNext").click()');assert.equal(await run('document.querySelectorAll(".exam-feedback").length'),5);assert.equal(await run('document.querySelectorAll(".exam-question input:disabled").length'),20);
+ assert.equal(await run('document.querySelectorAll(".exam-feedback .katex-display").length'),5);
+ for(const group of ['levelTags','topicTags','sourceTags']){await run(`document.querySelector('[data-group=${group}][data-select=none]').click()`);assert.equal(await run('document.querySelector("#newExam").disabled'),true);await run(`document.querySelector('[data-group=${group}][data-select=all]').click()`);}
+ for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`custom settings overflow ${width}`);}
+ await run('document.querySelector("#settingsTitle").scrollIntoView()');await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'exam-custom.png'),Buffer.from(p.data,'base64')));
+ assert.equal(errors.length,0,JSON.stringify(errors));
+ console.log(`PASS: ${total} questions; ${families.length} families at 320px; exam grading, migration of old hell answers and papers, retention of other answers, offline and HTTP. Screenshots: ${profile}`);
+}finally{ws?.close();browser.kill();server?.close();}

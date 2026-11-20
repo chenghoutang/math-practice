@@ -1,0 +1,90 @@
+# 数学练习
+
+这是可以独立上传到 GitHub 仓库 `math-practice` 的完整项目。本文件所在目录就是新仓库根目录；网页、题库、KaTeX 字体、题目生成器和检查脚本均在目录内，无须依赖 DengDuckPages 的其他文件。返回个人主页的链接是可选的外部导航。
+
+## 上传与 GitHub Pages
+
+1. 在 `chenghoutang` 账号下创建公开仓库 `math-practice`。
+2. 上传本目录内的全部文件和子目录，使 `index.html`、`exam.html`、`data/`、`assets/` 直接位于仓库根目录。不要再套一层 `math-practice/`；使用 Git 上传时也应包含 `.nojekyll`、`.gitignore` 和 `.gitattributes`。
+3. 在仓库 Settings → Pages 中选择 Deploy from a branch，分支为 `main`，目录为 `/ (root)`，保存。
+4. 部署完成后访问 <https://chenghoutang.github.io/math-practice/>。
+
+日常浏览无需安装依赖或运行构建命令，直接双击 `index.html` 也能离线使用。修改数据后才需要重新构建。`assets/katex/LICENSE` 随项目保留。
+
+## 一键更新
+
+Windows 上安装 Git、完成 GitHub 登录后，双击本目录的 `update.bat`。仓库必须先在 GitHub 创建；首次也可以直接用脚本上传到空仓库，再启用 Pages。可指定提交说明：
+
+```powershell
+.\update.bat "Update math questions"
+```
+
+脚本调用目录内的 `scripts/update.ps1`，默认推送到 `https://github.com/chenghoutang/math-practice.git` 的 `main` 分支。脚本每次在系统临时目录建立独立克隆，将本目录的文件（包括维护脚本）同步为仓库内容，提交并普通推送；本地删除的文件也会从远端项目中移除。不会使用父目录的网站仓库或其部署缓存，不执行强制推送，也不自动重新生成题库。每次保留临时克隆路径，便于排查失败，可定期手动清理。
+
+`node_modules/`、`.git/`、缓存和日志不参与上传。若在 GitHub 修改过文件，先把需要保留的修改同步回本地，再运行更新脚本。若换账号或仓库，修改 `scripts/update.ps1` 开头的 `RepositoryUrl`、`Branch` 和 `SiteUrl` 默认值。
+
+## 项目结构
+
+```text
+math-practice/
+├── index.html / math.js           单题练习
+├── exam.html / exam.js            试卷界面
+├── exam-engine.js                组卷、评分与记录校验
+├── math-render.js / math.css      公式渲染与样式
+├── data/                         九批题库、JSON 和离线数据脚本
+├── assets/katex/                 KaTeX、字体及授权
+├── scripts/math/                 题目生成器和详细推导
+├── scripts/build-math-bank.mjs    题库构建
+├── scripts/check-math*.mjs        数据、公式、组卷与浏览器检查
+├── scripts/run-tasks.mjs          批量构建和检查入口
+├── scripts/update.ps1            部署实现
+├── icon.png
+├── package.json                  无第三方 npm 依赖
+└── update.bat                    Windows 一键更新
+```
+
+## 题库与功能
+
+2400 道自编单项选择题，30 个模块。简单、中等各 600 题，困难 650 题、地狱 550 题。第 9 批新增 10 类题型、每类 10 道变式，包含记录事件、折叠迭代、反射最短路、奇偶对合、根系可行性、对称积分、量词转换和空间构造。地狱原有 500 题按 50 种解题思路组织；全部题型采用小参数和符号答案，侧重转换、技巧与推理。每题有四个选项、唯一答案和解析。
+
+建议用时：简单 15 秒、中等 120 秒、困难 300 秒、地狱 600 秒。题型与用时用于分级练习，包含基础微积分拓展。新增 500 题分两批发布，第 7 批 300 题、第 8 批 200 题。
+
+页面可从个人主页的“学习”文件夹进入，也可直接打开本项目根目录的 `index.html`。KaTeX 和字体均保存在本地，数据通过普通脚本加载，支持 `file://` 离线打开。练习记录、错题与收藏保存在当前浏览器的 localStorage 中。存储键保持原样；同一域名下继续访问原路径时可以沿用记录，换域名或从本地文件切换到网站时不会自动迁移。
+
+全部 2400 道题的解析包含原理说明、对应题目的关键公式推导，以及必要的定义域、边界或取等条件检查。240 类题型分别维护在 `scripts/math/proofs-1.mjs` 至 `proofs-6.mjs` 与 `proofs-advanced.mjs`，构建时通过 `explanations.mjs` 合入；修改解析后需重建对应批次。只调整解析不改变题目内容版本，也不清理作答记录。
+
+单题与试卷共用 `math-render.js`，支持 `$...$`、`\(...\)` 行内公式和 `$$...$$`、`\[...\]` 独立公式。多步推导可用 `aligned`、`cases`、`array` 等 LaTeX 环境，文字放在 `\text{...}` 内。手机上的长独立公式在自身区域横向滚动；页面以纯文本设置解析后交给 KaTeX 渲染，不允许解析注入 HTML。
+
+答案选项、解析正文、关键推导和补充说明中的数学表达式全部使用 LaTeX，包括导数、上下标、根式、分数、区间和求和。旧正文在构建时由 `scripts/math/latex-prose.mjs` 转换，已有 LaTeX 保留，并将插入的分数和相邻表达式合并。新增内容优先直接写完整 LaTeX，含中文的公式用 `\text{...}`，模板中的反斜杠用 `String.raw`（`L`）保留。题库检查会拒绝解析中遗漏在公式外的变量、数值和数学符号。
+
+## 维护题库
+
+维护和检查需要 Node.js 22 或更新版本，无需执行 `npm install`。命令均从本 README 所在目录（独立仓库根目录）运行。
+
+题目源文件为 `scripts/math/batch-1.mjs` 至 `batch-6.mjs`，每批五个模块、300 题；思维训练源文件为 `scripts/math/hell.mjs`，由第 7、8 批构建；新增题型源文件为 `scripts/math/new-types.mjs`，第 9 批构建为 M2301–M2400。修改题目后重新构建对应批次：
+
+```sh
+node scripts/build-math-bank.mjs 1
+node scripts/check-math-bank.mjs
+node scripts/check-math-latex.mjs
+node scripts/check-math-hell.mjs
+node scripts/check-math-new-types.mjs
+node scripts/check-math-exam.mjs
+node scripts/check-math-page.mjs
+```
+
+也可以运行 `npm run build` 重建全部九批，运行 `npm test` 执行上述五项数据与逻辑检查，运行 `npm run test:browser` 执行浏览器检查。浏览器检查默认使用 `C:\Program Files\Google\Chrome\Application\chrome.exe`，安装位置不同时设置环境变量 `CHROME_PATH`。检查覆盖离线打开和仅由本目录提供资源的 `/math-practice/` HTTP 路径。
+
+命令从仓库根目录运行。构建结果为 `data/batch-N.json` 与对应离线脚本，清单与练习/试卷页面的数据脚本由构建程序更新。原题号 M0001–M1800 不变；重写后的地狱题使用 M1801–M2300，第 7 批含前 30 个题型，第 8 批含后 20 个题型，每型 10 题。
+
+地狱题当前内容版本为 2，存放在每题的 `contentRevision` 和清单的 `hellRevision`。换题后会清理旧地狱题的作答、收藏，保留其他 1800 题的记录。试卷保存每道题的版本；旧版本试卷不再恢复，以免用新答案批改旧题。再次更换题意时应递增版本，不要仅覆盖同题号的数据。
+
+## 随机试卷
+
+`exam.html` 默认进入自定义模式，题量可设为 1–2400 的整数（不能超过所选范围的可用题数）。难度、知识模块、题库来源各组标签初始全部勾选，可逐项取消或全选／全不选；三组条件取交集，组内选项取并集。页面实时显示各难度可用数量，空范围或题量不足时阻止出卷。题库来源分为基础题库（1–6 批）、思维训练（7–8 批）、新增题型（9 批）。设置保存在独立的浏览器记录中，刷新可恢复；设置只影响下一张卷。
+
+保留经典模式：20 题，简单 4、中等 6、困难 8、地狱 2，所选范围须满足配比。自定义模式在选定范围随机抽题，并优先覆盖不同题型；题目不重复。所有试卷总分 100、每题等权，成绩四舍五入保留两位小数，未答题计零分。建议用时根据实际题目目标时间求和。每页显示 20 题，答题卡可跨页跳转，刷新保留所有页作答；交卷后各页均可查看解析。计时可暂停，超时不强制交卷，替换未交卷试卷和交卷操作均需页面内确认。
+
+当前试卷与作答独立保存在 localStorage 的 `dengduck-math-exam-v1` 中，刷新后恢复并暂停计时；不修改单题练习记录。浏览器不允许持久存储时，仍可在当前页面完成试卷。重新出卷会替换当前试卷，暂不保存历史试卷列表。
+
+校验覆盖题量、题号、难度分布、选项、公式渲染、资源路径，并对参数边界、计数概率、几何关系、导数和积分进行数值或枚举检查。浏览器检查使用 Chrome，验证离线与 HTTP 访问、作答和保存、筛选、计时及手机长公式布局。检查使用独立的临时浏览器配置，不修改日常浏览器的学习记录。
