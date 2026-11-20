@@ -28,11 +28,10 @@
         <section class="paper exam-entry"><div><h2>来做一张数学卷子吧 <img class="little-duck inline-duck heading-duck" src="assets/little-duck-cheer.svg" width="32" height="32" alt="" aria-hidden="true" draggable="false"></h2><p class="note">各难度题量自由填写 · 锁定比例联动调整 · 也可选经典 20 题配比</p></div><a class="pill primary" href="exam.html">自定义出卷 →</a></section>
         <section class="paper filters" aria-label="题目筛选">
             <label>难度<select id="difficulty"><option value="all">全部难度</option><option value="easy">简单 · 15 秒</option><option value="medium">中等 · 2 分钟</option><option value="hard">困难 · 5 分钟</option><option value="hell">地狱 · 10 分钟</option></select></label>
-            <label>知识模块<select id="topic"><option value="all">全部知识模块</option></select></label>
             <label>练习范围<select id="scope"><option value="all">全部题目</option><option value="unanswered">未作答</option><option value="wrong">错题本</option><option value="starred">收藏夹</option></select></label>
             <label>搜索<input id="search" type="search" placeholder="题号、知识点或关键词"></label>
         </section>
-        <details class="paper knowledge-browser" open><summary>知识模块树 <span class="note">从知识大类，一层层找到具体题目</span></summary><div class="knowledge-toolbar"><span class="note">大类 → 知识模块 → 题型 → 具体题目</span><div class="tag-actions"><button id="expandKnowledge" class="pill" type="button">展开模块</button><button id="collapseKnowledge" class="pill" type="button">收起全部</button></div></div><div id="knowledgeBrowser" aria-label="全部知识模块与题目目录"></div></details>
+        <details class="paper knowledge-browser" open><summary>知识模块树 <span class="note">按上方条件筛选，一层层找到具体题目</span></summary><div class="knowledge-toolbar"><div><span class="note">大类 → 知识模块 → 题型 → 具体题目</span><p id="knowledgeFilterCount" class="note" role="status"></p></div><div class="tag-actions"><button id="expandKnowledge" class="pill" type="button">展开模块</button><button id="collapseKnowledge" class="pill" type="button">收起全部</button></div></div><div id="knowledgeBrowser" aria-label="符合筛选条件的知识模块与题目目录"></div></details>
         <section class="study-layout">
             <aside class="paper question-index"><div class="index-heading"><h2>选一题 <img class="little-duck index-duck" src="assets/little-duck.svg" width="24" height="24" alt="" aria-hidden="true" draggable="false"></h2><button id="random" class="pill" type="button">随机一题</button></div><p id="filterCount" class="note" role="status"></p><div id="questionList"></div><nav class="pagination"><button id="pagePrev" class="pill" type="button">上一页</button><span id="pageNumber"></span><button id="pageNext" class="pill" type="button">下一页</button></nav></aside>
             <section id="workspace" class="paper workspace" aria-labelledby="questionTitle">
@@ -43,7 +42,7 @@
                     <p id="timeMessage" class="note" role="status"></p>
                     <form id="answerForm"><h2 id="questionTitle" class="math-copy"></h2><fieldset id="options"><legend class="sr-only">请选择一个答案</legend></fieldset><div class="actions"><button id="submit" class="pill primary" type="submit">提交答案</button><button id="retry" class="pill" type="button">重新作答</button></div></form>
                     <div id="feedback" hidden><p id="result" role="status" aria-live="polite"></p><div id="explanation" class="math-copy explanation"></div></div>
-                    <nav class="question-navigation"><button id="previous" class="pill" type="button">← 上一题</button><button id="next" class="pill" type="button">下一题 →</button></nav>
+                    <nav class="question-navigation" aria-label="题目与题型导航"><button id="previous" class="pill" type="button">← 上一题</button><button id="next" class="pill" type="button">下一题 →</button><button id="previousFamily" class="pill" type="button">← 上一题型</button><button id="nextFamily" class="pill" type="button">下一题型 →</button></nav>
                 </div>
             </section>
         </section>

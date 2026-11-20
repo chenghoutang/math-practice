@@ -59,6 +59,8 @@ h2 { font-weight: 600; line-height: 1.7; letter-spacing: .025em; }
 .exam-entry { padding: 24px; }
 .exam-entry > .primary { flex-shrink: 0; padding-inline: 20px; }
 .filters label, .exam-controls label { color: var(--soft); font-size: .82rem; font-weight: 500; }
+.filters { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 800px) { .filters { grid-template-columns: repeat(2, minmax(0, 1fr)); } .filters > label:last-child { grid-column: 1 / -1; } }
 input, select {
     padding: 10px 12px;
     font-size: .86rem;
@@ -91,7 +93,7 @@ input:focus-visible, select:focus-visible { background-color: #fffbfd; }
 .option.incorrect:has(input:checked) { border-color: #b8326b; }
 .actions { gap: 12px; }
 .actions > .primary { padding-inline: 22px; }
-.question-navigation { padding-top: 20px; border-top: 1px dashed var(--line); }
+.question-navigation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding-top: 20px; border-top: 1px dashed var(--line); }
 .explanation { border: 1px solid #f1dce6; }
 .guide { margin-bottom: 28px; padding: 20px 24px; }
 .guide summary { border-radius: 4px; font-weight: 500; }
@@ -138,6 +140,8 @@ input:focus-visible, select:focus-visible { background-color: #fffbfd; }
 .knowledge-browser > summary .note { display: inline-block; margin-left: 8px; font-weight: 400; }
 .knowledge-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin: 16px 0; }
 .knowledge-toolbar .tag-actions { margin: 0; }
+#knowledgeFilterCount { margin: 4px 0 0; }
+.knowledge-empty { padding: 14px 8px; }
 .knowledge-tree { max-height: 510px; overflow: auto; overscroll-behavior: contain; border: 1px solid var(--line); border-radius: 14px; background: #fffbfd; padding: 10px 14px; scrollbar-color: #e8c3d4 #fffbfd; }
 .knowledge-tree ul { list-style: none; padding: 0; margin: 0; }
 .knowledge-tree ul ul { margin-left: 13px; padding-left: 16px; border-left: 1px solid var(--line); }

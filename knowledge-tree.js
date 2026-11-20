@@ -52,11 +52,11 @@
   nodes.forEach(collect);return nodes.filter(node=>node.ids.length);
  }
  function mount(container,{questions,topics,selectable=false,onChange=()=>{},onOpen}={}){
-  const roots=build(questions,topics),allIds=questions.map(q=>q.id),byId=new Map(),views=new Map();let selected=new Set(allIds);
+  const roots=build(questions,topics),allIds=questions.map(q=>q.id),byId=new Map(),views=new Map();let selected=new Set(allIds),visible=new Set(allIds);
   const el=(tag,text,cls)=>{const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(cls)node.className=cls;return node;};
   const visit=node=>{byId.set(node.id,node);node.children?.forEach(visit);};roots.forEach(visit);
   container.classList.add('knowledge-tree');
-  function update(){for(const [id,{input,count}]of views){const node=byId.get(id),total=node.ids.length,chosen=node.ids.filter(id=>selected.has(id)).length;if(input){input.checked=chosen===total;input.indeterminate=chosen>0&&chosen<total;}if(count)count.textContent=selectable?`${chosen} / ${total} 题`:`${total} 题`;}}
+  function update(){for(const [id,{input,count,item}]of views){const node=byId.get(id),ids=node.ids.filter(id=>visible.has(id)),total=ids.length,chosen=ids.filter(id=>selected.has(id)).length;item.hidden=total===0;if(input){input.checked=total>0&&chosen===total;input.indeterminate=chosen>0&&chosen<total;}if(count)count.textContent=selectable?`${chosen} / ${total} 题`:`${total} 题`;}empty.hidden=visible.size>0;}
   function choose(node,checked){for(const id of node.ids)checked?selected.add(id):selected.delete(id);update();onChange();}
   function checkbox(node){const input=el('input');input.type='checkbox';input.value=node.kind==='topic'?node.topic:node.id;input.dataset.kind=node.kind;input.setAttribute('aria-label',`选择${node.title}`);input.addEventListener('change',()=>choose(node,input.checked));return input;}
   function render(node,list){
@@ -66,22 +66,23 @@
     const copy=el('div',undefined,'knowledge-question-copy'),link=el('a',`${node.id} · ${levels[node.question.difficulty]}`,'knowledge-question-link');link.href=(selectable?'index.html':'')+'#'+node.id;
     if(onOpen)link.addEventListener('click',event=>{event.preventDefault();onOpen(node.question);});
     const stem=el('div',node.question.stem,'math-copy knowledge-stem');copy.append(link,stem);
-    const input=selectable?checkbox(node):null;if(input)row.append(input);row.append(copy);item.append(row);views.set(node.id,{input});window.renderPracticeMath?.(stem);return;
+    const input=selectable?checkbox(node):null;if(input)row.append(input);row.append(copy);item.append(row);views.set(node.id,{input,item});window.renderPracticeMath?.(stem);return;
    }
    const details=el('details',undefined,'knowledge-branch'),summary=el('summary'),label=el('label',undefined,'knowledge-label'),title=el('span',node.title,'knowledge-title'),count=el('small'),input=selectable?checkbox(node):null;
    details.dataset.nodeId=node.id;details.dataset.kind=node.kind;
    if(input){label.append(input);label.addEventListener('click',event=>event.stopPropagation());}
-   label.append(title);summary.append(label);if(node.difficulty)summary.append(el('span',levels[node.difficulty],'knowledge-level'));summary.append(count);details.append(summary);item.append(details);views.set(node.id,{input,count});
+   label.append(title);summary.append(label);if(node.difficulty)summary.append(el('span',levels[node.difficulty],'knowledge-level'));summary.append(count);details.append(summary);item.append(details);views.set(node.id,{input,count,item});
    let loaded=false;function load(){if(loaded)return;loaded=true;const children=el('ul');details.append(children);for(const child of node.children)render(child,children);update();}
    details.addEventListener('toggle',()=>{if(details.open)load();});details.loadChildren=load;
   }
-  const list=el('ul');container.replaceChildren(list);roots.forEach(node=>render(node,list));update();
+  const list=el('ul'),empty=el('p','没有符合当前条件的题目，试试调整难度、练习范围或搜索词。','note knowledge-empty');empty.setAttribute('role','status');container.replaceChildren(list,empty);roots.forEach(node=>render(node,list));update();
   function openNode(node){const view=container.querySelector(`[data-node-id="${node.id}"]`);if(view){view.loadChildren();view.open=true;}}
   return {
    selection:()=>selected.size===allIds.length?undefined:allIds.filter(id=>selected.has(id)),
    topics:()=>topics.filter(topic=>questions.some(q=>q.topic===topic.id&&selected.has(q.id))).map(topic=>topic.id),
    setSelection(config){const allowed=config.questionIds===undefined?new Set(allIds):new Set(config.questionIds),topicSet=new Set(config.topics);selected=new Set(questions.filter(q=>topicSet.has(q.topic)&&allowed.has(q.id)).map(q=>q.id));update();},
    selectAll(checked){selected=new Set(checked?allIds:[]);update();onChange();},
+   filter(ids){const next=new Set(ids.filter(id=>byId.has(id)));if(next.size===visible.size&&[...next].every(id=>visible.has(id)))return;visible=next;update();},
    collapse(){container.querySelectorAll('details').forEach(details=>details.open=false);},
    reveal(id){function walk(nodes){for(const node of nodes){if(!node.ids.includes(id))continue;openNode(node);if(node.children)walk(node.children);}}walk(roots);update();},
    openModules(){for(const root of roots)openNode(root);update();}
