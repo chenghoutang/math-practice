@@ -1,0 +1,3595 @@
+{
+  "batch": 10,
+  "questions": [
+    {
+      "id": "M2401",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-subject",
+      "variant": 1,
+      "strategy": "公式变形与主项系数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "已知 $\\frac{Ax+C}{B}=3x$，其中 $B\\ne0$ 且 $3B\\ne A$。将 $x$ 表为其他字母的式子。",
+      "options": [
+        "\\frac{C}{3B-A}",
+        "\\frac{C}{A-3B}",
+        "\\frac{C}{3B+A}",
+        "\\frac{BC}{3-A}"
+      ],
+      "answer": 0,
+      "explanation": "先去分母，再把含未知数的项合并，最后除以非零系数。\n关键推导\n$$\nAx+C=3Bx\\quad\\Longrightarrow\\quad C=(3B-A)x\\quad\\Longrightarrow\\quad x=\\frac{C}{3B-A}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 3
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "2",
+        "page": "试卷第 2 页；PDF 第 3 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2401"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "字母同时出现在等式两侧，需要去分母、合并主项并检查可除系数。"
+      }
+    },
+    {
+      "id": "M2402",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-subject",
+      "variant": 2,
+      "strategy": "公式变形与主项系数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "已知 $\\frac{Ax+C}{B}=4x$，其中 $B\\ne0$ 且 $4B\\ne A$。将 $x$ 表为其他字母的式子。",
+      "options": [
+        "\\frac{C}{A-4B}",
+        "\\frac{C}{4B+A}",
+        "\\frac{BC}{4-A}",
+        "\\frac{C}{4B-A}"
+      ],
+      "answer": 3,
+      "explanation": "先去分母，再把含未知数的项合并，最后除以非零系数。\n关键推导\n$$\nAx+C=4Bx\\quad\\Longrightarrow\\quad C=(4B-A)x\\quad\\Longrightarrow\\quad x=\\frac{C}{4B-A}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 4
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "2",
+        "page": "试卷第 2 页；PDF 第 3 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2401"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "字母同时出现在等式两侧，需要去分母、合并主项并检查可除系数。"
+      }
+    },
+    {
+      "id": "M2403",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-subject",
+      "variant": 3,
+      "strategy": "公式变形与主项系数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "已知 $\\frac{Ax+C}{B}=5x$，其中 $B\\ne0$ 且 $5B\\ne A$。将 $x$ 表为其他字母的式子。",
+      "options": [
+        "\\frac{C}{5B+A}",
+        "\\frac{BC}{5-A}",
+        "\\frac{C}{5B-A}",
+        "\\frac{C}{A-5B}"
+      ],
+      "answer": 2,
+      "explanation": "先去分母，再把含未知数的项合并，最后除以非零系数。\n关键推导\n$$\nAx+C=5Bx\\quad\\Longrightarrow\\quad C=(5B-A)x\\quad\\Longrightarrow\\quad x=\\frac{C}{5B-A}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "2",
+        "page": "试卷第 2 页；PDF 第 3 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2401"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "字母同时出现在等式两侧，需要去分母、合并主项并检查可除系数。"
+      }
+    },
+    {
+      "id": "M2404",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-subject",
+      "variant": 4,
+      "strategy": "公式变形与主项系数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "已知 $\\frac{Ax+C}{B}=6x$，其中 $B\\ne0$ 且 $6B\\ne A$。将 $x$ 表为其他字母的式子。",
+      "options": [
+        "\\frac{BC}{6-A}",
+        "\\frac{C}{6B-A}",
+        "\\frac{C}{A-6B}",
+        "\\frac{C}{6B+A}"
+      ],
+      "answer": 1,
+      "explanation": "先去分母，再把含未知数的项合并，最后除以非零系数。\n关键推导\n$$\nAx+C=6Bx\\quad\\Longrightarrow\\quad C=(6B-A)x\\quad\\Longrightarrow\\quad x=\\frac{C}{6B-A}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 6
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "2",
+        "page": "试卷第 2 页；PDF 第 3 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2401"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "字母同时出现在等式两侧，需要去分母、合并主项并检查可除系数。"
+      }
+    },
+    {
+      "id": "M2405",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-subject",
+      "variant": 5,
+      "strategy": "公式变形与主项系数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "已知 $\\frac{Ax+C}{B}=7x$，其中 $B\\ne0$ 且 $7B\\ne A$。将 $x$ 表为其他字母的式子。",
+      "options": [
+        "\\frac{C}{7B-A}",
+        "\\frac{C}{A-7B}",
+        "\\frac{C}{7B+A}",
+        "\\frac{BC}{7-A}"
+      ],
+      "answer": 0,
+      "explanation": "先去分母，再把含未知数的项合并，最后除以非零系数。\n关键推导\n$$\nAx+C=7Bx\\quad\\Longrightarrow\\quad C=(7B-A)x\\quad\\Longrightarrow\\quad x=\\frac{C}{7B-A}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 7
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "2",
+        "page": "试卷第 2 页；PDF 第 3 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2401"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "字母同时出现在等式两侧，需要去分母、合并主项并检查可除系数。"
+      }
+    },
+    {
+      "id": "M2406",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-subject",
+      "variant": 6,
+      "strategy": "公式变形与主项系数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "已知 $\\frac{Ax+C}{B}=8x$，其中 $B\\ne0$ 且 $8B\\ne A$。将 $x$ 表为其他字母的式子。",
+      "options": [
+        "\\frac{C}{A-8B}",
+        "\\frac{C}{8B+A}",
+        "\\frac{BC}{8-A}",
+        "\\frac{C}{8B-A}"
+      ],
+      "answer": 3,
+      "explanation": "先去分母，再把含未知数的项合并，最后除以非零系数。\n关键推导\n$$\nAx+C=8Bx\\quad\\Longrightarrow\\quad C=(8B-A)x\\quad\\Longrightarrow\\quad x=\\frac{C}{8B-A}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 8
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "2",
+        "page": "试卷第 2 页；PDF 第 3 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2401"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "字母同时出现在等式两侧，需要去分母、合并主项并检查可除系数。"
+      }
+    },
+    {
+      "id": "M2407",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-subject",
+      "variant": 7,
+      "strategy": "公式变形与主项系数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "已知 $\\frac{Ax+C}{B}=9x$，其中 $B\\ne0$ 且 $9B\\ne A$。将 $x$ 表为其他字母的式子。",
+      "options": [
+        "\\frac{C}{9B+A}",
+        "\\frac{BC}{9-A}",
+        "\\frac{C}{9B-A}",
+        "\\frac{C}{A-9B}"
+      ],
+      "answer": 2,
+      "explanation": "先去分母，再把含未知数的项合并，最后除以非零系数。\n关键推导\n$$\nAx+C=9Bx\\quad\\Longrightarrow\\quad C=(9B-A)x\\quad\\Longrightarrow\\quad x=\\frac{C}{9B-A}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 9
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "2",
+        "page": "试卷第 2 页；PDF 第 3 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2401"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "字母同时出现在等式两侧，需要去分母、合并主项并检查可除系数。"
+      }
+    },
+    {
+      "id": "M2408",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-subject",
+      "variant": 8,
+      "strategy": "公式变形与主项系数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "已知 $\\frac{Ax+C}{B}=10x$，其中 $B\\ne0$ 且 $10B\\ne A$。将 $x$ 表为其他字母的式子。",
+      "options": [
+        "\\frac{BC}{10-A}",
+        "\\frac{C}{10B-A}",
+        "\\frac{C}{A-10B}",
+        "\\frac{C}{10B+A}"
+      ],
+      "answer": 1,
+      "explanation": "先去分母，再把含未知数的项合并，最后除以非零系数。\n关键推导\n$$\nAx+C=10Bx\\quad\\Longrightarrow\\quad C=(10B-A)x\\quad\\Longrightarrow\\quad x=\\frac{C}{10B-A}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 10
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "2",
+        "page": "试卷第 2 页；PDF 第 3 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2401"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "字母同时出现在等式两侧，需要去分母、合并主项并检查可除系数。"
+      }
+    },
+    {
+      "id": "M2409",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-subject",
+      "variant": 9,
+      "strategy": "公式变形与主项系数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "已知 $\\frac{Ax+C}{B}=11x$，其中 $B\\ne0$ 且 $11B\\ne A$。将 $x$ 表为其他字母的式子。",
+      "options": [
+        "\\frac{C}{11B-A}",
+        "\\frac{C}{A-11B}",
+        "\\frac{C}{11B+A}",
+        "\\frac{BC}{11-A}"
+      ],
+      "answer": 0,
+      "explanation": "先去分母，再把含未知数的项合并，最后除以非零系数。\n关键推导\n$$\nAx+C=11Bx\\quad\\Longrightarrow\\quad C=(11B-A)x\\quad\\Longrightarrow\\quad x=\\frac{C}{11B-A}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 11
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "2",
+        "page": "试卷第 2 页；PDF 第 3 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2401"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "字母同时出现在等式两侧，需要去分母、合并主项并检查可除系数。"
+      }
+    },
+    {
+      "id": "M2410",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-subject",
+      "variant": 10,
+      "strategy": "公式变形与主项系数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "已知 $\\frac{Ax+C}{B}=12x$，其中 $B\\ne0$ 且 $12B\\ne A$。将 $x$ 表为其他字母的式子。",
+      "options": [
+        "\\frac{C}{A-12B}",
+        "\\frac{C}{12B+A}",
+        "\\frac{BC}{12-A}",
+        "\\frac{C}{12B-A}"
+      ],
+      "answer": 3,
+      "explanation": "先去分母，再把含未知数的项合并，最后除以非零系数。\n关键推导\n$$\nAx+C=12Bx\\quad\\Longrightarrow\\quad C=(12B-A)x\\quad\\Longrightarrow\\quad x=\\frac{C}{12B-A}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 12
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "2",
+        "page": "试卷第 2 页；PDF 第 3 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2401"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "字母同时出现在等式两侧，需要去分母、合并主项并检查可除系数。"
+      }
+    },
+    {
+      "id": "M2411",
+      "batch": 10,
+      "topic": "inequalities",
+      "topicName": "不等式与基本不等式",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-inequality",
+      "variant": 1,
+      "strategy": "联立一次不等式求最小整数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "同时满足 $\\frac{5x+7}4-1<2x$ 与 $3x+9\\ge0$ 的最小整数是多少？",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "分别解两个不等式，再取交集；严格不等式的端点不能取到。\n关键推导\n$$\n5x+7-4<8x\\Longrightarrow x>1,\\qquad3x+9\\ge0\\Longrightarrow x\\ge-3,\\qquad x_{\\min,\\mathbb Z}=2\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 1,
+        "b": 7
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "4(a)(b)",
+        "page": "试卷第 3 页；PDF 第 4 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2411"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "联立两个不等式取交集，再由严格端点确定最小整数。"
+      }
+    },
+    {
+      "id": "M2412",
+      "batch": 10,
+      "topic": "inequalities",
+      "topicName": "不等式与基本不等式",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-inequality",
+      "variant": 2,
+      "strategy": "联立一次不等式求最小整数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "同时满足 $\\frac{5x+10}4-1<2x$ 与 $3x+9\\ge0$ 的最小整数是多少？",
+      "options": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "分别解两个不等式，再取交集；严格不等式的端点不能取到。\n关键推导\n$$\n5x+10-4<8x\\Longrightarrow x>2,\\qquad3x+9\\ge0\\Longrightarrow x\\ge-3,\\qquad x_{\\min,\\mathbb Z}=3\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 2,
+        "b": 10
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "4(a)(b)",
+        "page": "试卷第 3 页；PDF 第 4 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2411"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "联立两个不等式取交集，再由严格端点确定最小整数。"
+      }
+    },
+    {
+      "id": "M2413",
+      "batch": 10,
+      "topic": "inequalities",
+      "topicName": "不等式与基本不等式",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-inequality",
+      "variant": 3,
+      "strategy": "联立一次不等式求最小整数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "同时满足 $\\frac{5x+13}4-1<2x$ 与 $3x+9\\ge0$ 的最小整数是多少？",
+      "options": [
+        "6",
+        "4",
+        "5",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "分别解两个不等式，再取交集；严格不等式的端点不能取到。\n关键推导\n$$\n5x+13-4<8x\\Longrightarrow x>3,\\qquad3x+9\\ge0\\Longrightarrow x\\ge-3,\\qquad x_{\\min,\\mathbb Z}=4\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 3,
+        "b": 13
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "4(a)(b)",
+        "page": "试卷第 3 页；PDF 第 4 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2411"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "联立两个不等式取交集，再由严格端点确定最小整数。"
+      }
+    },
+    {
+      "id": "M2414",
+      "batch": 10,
+      "topic": "inequalities",
+      "topicName": "不等式与基本不等式",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-inequality",
+      "variant": 4,
+      "strategy": "联立一次不等式求最小整数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "同时满足 $\\frac{5x+16}4-1<2x$ 与 $3x+9\\ge0$ 的最小整数是多少？",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "分别解两个不等式，再取交集；严格不等式的端点不能取到。\n关键推导\n$$\n5x+16-4<8x\\Longrightarrow x>4,\\qquad3x+9\\ge0\\Longrightarrow x\\ge-3,\\qquad x_{\\min,\\mathbb Z}=5\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 4,
+        "b": 16
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "4(a)(b)",
+        "page": "试卷第 3 页；PDF 第 4 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2411"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "联立两个不等式取交集，再由严格端点确定最小整数。"
+      }
+    },
+    {
+      "id": "M2415",
+      "batch": 10,
+      "topic": "inequalities",
+      "topicName": "不等式与基本不等式",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-inequality",
+      "variant": 5,
+      "strategy": "联立一次不等式求最小整数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "同时满足 $\\frac{5x+19}4-1<2x$ 与 $3x+9\\ge0$ 的最小整数是多少？",
+      "options": [
+        "7",
+        "5",
+        "8",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "分别解两个不等式，再取交集；严格不等式的端点不能取到。\n关键推导\n$$\n5x+19-4<8x\\Longrightarrow x>5,\\qquad3x+9\\ge0\\Longrightarrow x\\ge-3,\\qquad x_{\\min,\\mathbb Z}=6\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 5,
+        "b": 19
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "4(a)(b)",
+        "page": "试卷第 3 页；PDF 第 4 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2411"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "联立两个不等式取交集，再由严格端点确定最小整数。"
+      }
+    },
+    {
+      "id": "M2416",
+      "batch": 10,
+      "topic": "inequalities",
+      "topicName": "不等式与基本不等式",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-inequality",
+      "variant": 6,
+      "strategy": "联立一次不等式求最小整数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "同时满足 $\\frac{5x+22}4-1<2x$ 与 $3x+9\\ge0$ 的最小整数是多少？",
+      "options": [
+        "6",
+        "9",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "分别解两个不等式，再取交集；严格不等式的端点不能取到。\n关键推导\n$$\n5x+22-4<8x\\Longrightarrow x>6,\\qquad3x+9\\ge0\\Longrightarrow x\\ge-3,\\qquad x_{\\min,\\mathbb Z}=7\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 6,
+        "b": 22
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "4(a)(b)",
+        "page": "试卷第 3 页；PDF 第 4 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2411"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "联立两个不等式取交集，再由严格端点确定最小整数。"
+      }
+    },
+    {
+      "id": "M2417",
+      "batch": 10,
+      "topic": "inequalities",
+      "topicName": "不等式与基本不等式",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-inequality",
+      "variant": 7,
+      "strategy": "联立一次不等式求最小整数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "同时满足 $\\frac{5x+25}4-1<2x$ 与 $3x+9\\ge0$ 的最小整数是多少？",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "分别解两个不等式，再取交集；严格不等式的端点不能取到。\n关键推导\n$$\n5x+25-4<8x\\Longrightarrow x>7,\\qquad3x+9\\ge0\\Longrightarrow x\\ge-3,\\qquad x_{\\min,\\mathbb Z}=8\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 7,
+        "b": 25
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "4(a)(b)",
+        "page": "试卷第 3 页；PDF 第 4 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2411"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "联立两个不等式取交集，再由严格端点确定最小整数。"
+      }
+    },
+    {
+      "id": "M2418",
+      "batch": 10,
+      "topic": "inequalities",
+      "topicName": "不等式与基本不等式",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-inequality",
+      "variant": 8,
+      "strategy": "联立一次不等式求最小整数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "同时满足 $\\frac{5x+28}4-1<2x$ 与 $3x+9\\ge0$ 的最小整数是多少？",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "分别解两个不等式，再取交集；严格不等式的端点不能取到。\n关键推导\n$$\n5x+28-4<8x\\Longrightarrow x>8,\\qquad3x+9\\ge0\\Longrightarrow x\\ge-3,\\qquad x_{\\min,\\mathbb Z}=9\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 8,
+        "b": 28
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "4(a)(b)",
+        "page": "试卷第 3 页；PDF 第 4 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2411"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "联立两个不等式取交集，再由严格端点确定最小整数。"
+      }
+    },
+    {
+      "id": "M2419",
+      "batch": 10,
+      "topic": "inequalities",
+      "topicName": "不等式与基本不等式",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-inequality",
+      "variant": 9,
+      "strategy": "联立一次不等式求最小整数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "同时满足 $\\frac{5x+31}4-1<2x$ 与 $3x+9\\ge0$ 的最小整数是多少？",
+      "options": [
+        "11",
+        "9",
+        "12",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "分别解两个不等式，再取交集；严格不等式的端点不能取到。\n关键推导\n$$\n5x+31-4<8x\\Longrightarrow x>9,\\qquad3x+9\\ge0\\Longrightarrow x\\ge-3,\\qquad x_{\\min,\\mathbb Z}=10\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 9,
+        "b": 31
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "4(a)(b)",
+        "page": "试卷第 3 页；PDF 第 4 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2411"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "联立两个不等式取交集，再由严格端点确定最小整数。"
+      }
+    },
+    {
+      "id": "M2420",
+      "batch": 10,
+      "topic": "inequalities",
+      "topicName": "不等式与基本不等式",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-inequality",
+      "variant": 10,
+      "strategy": "联立一次不等式求最小整数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "同时满足 $\\frac{5x+34}4-1<2x$ 与 $3x+9\\ge0$ 的最小整数是多少？",
+      "options": [
+        "10",
+        "13",
+        "11",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "分别解两个不等式，再取交集；严格不等式的端点不能取到。\n关键推导\n$$\n5x+34-4<8x\\Longrightarrow x>10,\\qquad3x+9\\ge0\\Longrightarrow x\\ge-3,\\qquad x_{\\min,\\mathbb Z}=11\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 10,
+        "b": 34
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "4(a)(b)",
+        "page": "试卷第 3 页；PDF 第 4 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2411"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "联立两个不等式取交集，再由严格端点确定最小整数。"
+      }
+    },
+    {
+      "id": "M2421",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-profit",
+      "variant": 1,
+      "strategy": "标价折扣与实际利润",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "某商品的标价比成本高 $40\\%$，按标价的 $75\\%$ 出售后获利 $13$ 元。该商品的标价是多少元？",
+      "options": [
+        "351",
+        "390",
+        "364",
+        "377"
+      ],
+      "answer": 2,
+      "explanation": "把成本设为未知数，将折后售价与成本的差写成利润。\n关键推导\n$$\n0.75\\times1.4c-c=13\\Longrightarrow0.05c=13\\Longrightarrow c=260,\\qquad\\text{标价}=1.4c=364\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "profit": 13
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "6",
+        "page": "试卷第 4 页；PDF 第 5 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2421"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "标价、成本和折扣的百分比基准不同，需要列利润方程。"
+      }
+    },
+    {
+      "id": "M2422",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-profit",
+      "variant": 2,
+      "strategy": "标价折扣与实际利润",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "某商品的标价比成本高 $40\\%$，按标价的 $75\\%$ 出售后获利 $14$ 元。该商品的标价是多少元？",
+      "options": [
+        "420",
+        "392",
+        "406",
+        "378"
+      ],
+      "answer": 1,
+      "explanation": "把成本设为未知数，将折后售价与成本的差写成利润。\n关键推导\n$$\n0.75\\times1.4c-c=14\\Longrightarrow0.05c=14\\Longrightarrow c=280,\\qquad\\text{标价}=1.4c=392\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "profit": 14
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "6",
+        "page": "试卷第 4 页；PDF 第 5 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2421"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "标价、成本和折扣的百分比基准不同，需要列利润方程。"
+      }
+    },
+    {
+      "id": "M2423",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-profit",
+      "variant": 3,
+      "strategy": "标价折扣与实际利润",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "某商品的标价比成本高 $40\\%$，按标价的 $75\\%$ 出售后获利 $15$ 元。该商品的标价是多少元？",
+      "options": [
+        "420",
+        "435",
+        "405",
+        "450"
+      ],
+      "answer": 0,
+      "explanation": "把成本设为未知数，将折后售价与成本的差写成利润。\n关键推导\n$$\n0.75\\times1.4c-c=15\\Longrightarrow0.05c=15\\Longrightarrow c=300,\\qquad\\text{标价}=1.4c=420\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "profit": 15
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "6",
+        "page": "试卷第 4 页；PDF 第 5 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2421"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "标价、成本和折扣的百分比基准不同，需要列利润方程。"
+      }
+    },
+    {
+      "id": "M2424",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-profit",
+      "variant": 4,
+      "strategy": "标价折扣与实际利润",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "某商品的标价比成本高 $40\\%$，按标价的 $75\\%$ 出售后获利 $16$ 元。该商品的标价是多少元？",
+      "options": [
+        "464",
+        "432",
+        "480",
+        "448"
+      ],
+      "answer": 3,
+      "explanation": "把成本设为未知数，将折后售价与成本的差写成利润。\n关键推导\n$$\n0.75\\times1.4c-c=16\\Longrightarrow0.05c=16\\Longrightarrow c=320,\\qquad\\text{标价}=1.4c=448\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "profit": 16
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "6",
+        "page": "试卷第 4 页；PDF 第 5 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2421"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "标价、成本和折扣的百分比基准不同，需要列利润方程。"
+      }
+    },
+    {
+      "id": "M2425",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-profit",
+      "variant": 5,
+      "strategy": "标价折扣与实际利润",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "某商品的标价比成本高 $40\\%$，按标价的 $75\\%$ 出售后获利 $17$ 元。该商品的标价是多少元？",
+      "options": [
+        "459",
+        "510",
+        "476",
+        "493"
+      ],
+      "answer": 2,
+      "explanation": "把成本设为未知数，将折后售价与成本的差写成利润。\n关键推导\n$$\n0.75\\times1.4c-c=17\\Longrightarrow0.05c=17\\Longrightarrow c=340,\\qquad\\text{标价}=1.4c=476\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "profit": 17
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "6",
+        "page": "试卷第 4 页；PDF 第 5 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2421"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "标价、成本和折扣的百分比基准不同，需要列利润方程。"
+      }
+    },
+    {
+      "id": "M2426",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-profit",
+      "variant": 6,
+      "strategy": "标价折扣与实际利润",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "某商品的标价比成本高 $40\\%$，按标价的 $75\\%$ 出售后获利 $18$ 元。该商品的标价是多少元？",
+      "options": [
+        "540",
+        "504",
+        "522",
+        "486"
+      ],
+      "answer": 1,
+      "explanation": "把成本设为未知数，将折后售价与成本的差写成利润。\n关键推导\n$$\n0.75\\times1.4c-c=18\\Longrightarrow0.05c=18\\Longrightarrow c=360,\\qquad\\text{标价}=1.4c=504\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "profit": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "6",
+        "page": "试卷第 4 页；PDF 第 5 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2421"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "标价、成本和折扣的百分比基准不同，需要列利润方程。"
+      }
+    },
+    {
+      "id": "M2427",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-profit",
+      "variant": 7,
+      "strategy": "标价折扣与实际利润",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "某商品的标价比成本高 $40\\%$，按标价的 $75\\%$ 出售后获利 $19$ 元。该商品的标价是多少元？",
+      "options": [
+        "532",
+        "551",
+        "513",
+        "570"
+      ],
+      "answer": 0,
+      "explanation": "把成本设为未知数，将折后售价与成本的差写成利润。\n关键推导\n$$\n0.75\\times1.4c-c=19\\Longrightarrow0.05c=19\\Longrightarrow c=380,\\qquad\\text{标价}=1.4c=532\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "profit": 19
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "6",
+        "page": "试卷第 4 页；PDF 第 5 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2421"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "标价、成本和折扣的百分比基准不同，需要列利润方程。"
+      }
+    },
+    {
+      "id": "M2428",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-profit",
+      "variant": 8,
+      "strategy": "标价折扣与实际利润",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "某商品的标价比成本高 $40\\%$，按标价的 $75\\%$ 出售后获利 $20$ 元。该商品的标价是多少元？",
+      "options": [
+        "580",
+        "540",
+        "600",
+        "560"
+      ],
+      "answer": 3,
+      "explanation": "把成本设为未知数，将折后售价与成本的差写成利润。\n关键推导\n$$\n0.75\\times1.4c-c=20\\Longrightarrow0.05c=20\\Longrightarrow c=400,\\qquad\\text{标价}=1.4c=560\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "profit": 20
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "6",
+        "page": "试卷第 4 页；PDF 第 5 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2421"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "标价、成本和折扣的百分比基准不同，需要列利润方程。"
+      }
+    },
+    {
+      "id": "M2429",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-profit",
+      "variant": 9,
+      "strategy": "标价折扣与实际利润",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "某商品的标价比成本高 $40\\%$，按标价的 $75\\%$ 出售后获利 $21$ 元。该商品的标价是多少元？",
+      "options": [
+        "567",
+        "630",
+        "588",
+        "609"
+      ],
+      "answer": 2,
+      "explanation": "把成本设为未知数，将折后售价与成本的差写成利润。\n关键推导\n$$\n0.75\\times1.4c-c=21\\Longrightarrow0.05c=21\\Longrightarrow c=420,\\qquad\\text{标价}=1.4c=588\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "profit": 21
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "6",
+        "page": "试卷第 4 页；PDF 第 5 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2421"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "标价、成本和折扣的百分比基准不同，需要列利润方程。"
+      }
+    },
+    {
+      "id": "M2430",
+      "batch": 10,
+      "topic": "quadratic",
+      "topicName": "二次函数与方程",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-profit",
+      "variant": 10,
+      "strategy": "标价折扣与实际利润",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "某商品的标价比成本高 $40\\%$，按标价的 $75\\%$ 出售后获利 $22$ 元。该商品的标价是多少元？",
+      "options": [
+        "660",
+        "616",
+        "638",
+        "594"
+      ],
+      "answer": 1,
+      "explanation": "把成本设为未知数，将折后售价与成本的差写成利润。\n关键推导\n$$\n0.75\\times1.4c-c=22\\Longrightarrow0.05c=22\\Longrightarrow c=440,\\qquad\\text{标价}=1.4c=616\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "profit": 22
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "6",
+        "page": "试卷第 4 页；PDF 第 5 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2421"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "easy",
+        "reason": "标价、成本和折扣的百分比基准不同，需要列利润方程。"
+      }
+    },
+    {
+      "id": "M2431",
+      "batch": 10,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-polar",
+      "variant": 1,
+      "strategy": "极坐标中的垂直与三角形周长",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "在同一极坐标系中，$P(11,59^\\circ)$、$Q(60,149^\\circ)$、$R(144,239^\\circ)$。求三角形 $PQR$ 的周长。",
+      "options": [
+        "\\frac{373}{2}",
+        "372",
+        "373",
+        "186"
+      ],
+      "answer": 1,
+      "explanation": "相邻两条极径互相垂直，另两条极径反向；分别求三条边后相加。\n关键推导\n$$\nk=1,\\quad\\angle POQ=\\angle QOR=90^\\circ,\\quad PQ=k\\sqrt{11^2+60^2}=61k,\\quad QR=k\\sqrt{60^2+144^2}=156k,\\quad PR=155k,\\quad PQ+QR+PR=372k=372\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "scale": 1,
+        "radii": [
+          "11",
+          "60",
+          "144"
+        ]
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "7(c)",
+        "page": "试卷第 5 页；PDF 第 6 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2431"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从极角辨认两次垂直与一组反向极径，再计算三边并处理同比缩放。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2431.svg",
+        "alt": "极坐标中的垂直与三角形周长示意图；具体条件以题干为准",
+        "kind": "polar"
+      }
+    },
+    {
+      "id": "M2432",
+      "batch": 10,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-polar",
+      "variant": 2,
+      "strategy": "极坐标中的垂直与三角形周长",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "在同一极坐标系中，$P(\\frac{121}{10},59^\\circ)$、$Q(66,149^\\circ)$、$R(\\frac{792}{5},239^\\circ)$。求三角形 $PQR$ 的周长。",
+      "options": [
+        "\\frac{2046}{5}",
+        "\\frac{2051}{5}",
+        "\\frac{1023}{5}",
+        "\\frac{2051}{10}"
+      ],
+      "answer": 0,
+      "explanation": "相邻两条极径互相垂直，另两条极径反向；分别求三条边后相加。\n关键推导\n$$\nk=\\frac{11}{10},\\quad\\angle POQ=\\angle QOR=90^\\circ,\\quad PQ=k\\sqrt{11^2+60^2}=61k,\\quad QR=k\\sqrt{60^2+144^2}=156k,\\quad PR=155k,\\quad PQ+QR+PR=372k=\\frac{2046}{5}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "scale": 1.1,
+        "radii": [
+          "12.1",
+          "66",
+          "158.4"
+        ]
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "7(c)",
+        "page": "试卷第 5 页；PDF 第 6 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2431"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从极角辨认两次垂直与一组反向极径，再计算三边并处理同比缩放。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2432.svg",
+        "alt": "极坐标中的垂直与三角形周长示意图；具体条件以题干为准",
+        "kind": "polar"
+      }
+    },
+    {
+      "id": "M2433",
+      "batch": 10,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-polar",
+      "variant": 3,
+      "strategy": "极坐标中的垂直与三角形周长",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "在同一极坐标系中，$P(\\frac{66}{5},59^\\circ)$、$Q(72,149^\\circ)$、$R(\\frac{864}{5},239^\\circ)$。求三角形 $PQR$ 的周长。",
+      "options": [
+        "\\frac{2237}{5}",
+        "\\frac{1116}{5}",
+        "\\frac{2237}{10}",
+        "\\frac{2232}{5}"
+      ],
+      "answer": 3,
+      "explanation": "相邻两条极径互相垂直，另两条极径反向；分别求三条边后相加。\n关键推导\n$$\nk=\\frac{6}{5},\\quad\\angle POQ=\\angle QOR=90^\\circ,\\quad PQ=k\\sqrt{11^2+60^2}=61k,\\quad QR=k\\sqrt{60^2+144^2}=156k,\\quad PR=155k,\\quad PQ+QR+PR=372k=\\frac{2232}{5}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "scale": 1.2,
+        "radii": [
+          "13.2",
+          "72",
+          "172.8"
+        ]
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "7(c)",
+        "page": "试卷第 5 页；PDF 第 6 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2431"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从极角辨认两次垂直与一组反向极径，再计算三边并处理同比缩放。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2433.svg",
+        "alt": "极坐标中的垂直与三角形周长示意图；具体条件以题干为准",
+        "kind": "polar"
+      }
+    },
+    {
+      "id": "M2434",
+      "batch": 10,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-polar",
+      "variant": 4,
+      "strategy": "极坐标中的垂直与三角形周长",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "在同一极坐标系中，$P(\\frac{143}{10},59^\\circ)$、$Q(78,149^\\circ)$、$R(\\frac{936}{5},239^\\circ)$。求三角形 $PQR$ 的周长。",
+      "options": [
+        "\\frac{1209}{5}",
+        "\\frac{2423}{10}",
+        "\\frac{2418}{5}",
+        "\\frac{2423}{5}"
+      ],
+      "answer": 2,
+      "explanation": "相邻两条极径互相垂直，另两条极径反向；分别求三条边后相加。\n关键推导\n$$\nk=\\frac{13}{10},\\quad\\angle POQ=\\angle QOR=90^\\circ,\\quad PQ=k\\sqrt{11^2+60^2}=61k,\\quad QR=k\\sqrt{60^2+144^2}=156k,\\quad PR=155k,\\quad PQ+QR+PR=372k=\\frac{2418}{5}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "scale": 1.3,
+        "radii": [
+          "14.3",
+          "78",
+          "187.2"
+        ]
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "7(c)",
+        "page": "试卷第 5 页；PDF 第 6 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2431"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从极角辨认两次垂直与一组反向极径，再计算三边并处理同比缩放。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2434.svg",
+        "alt": "极坐标中的垂直与三角形周长示意图；具体条件以题干为准",
+        "kind": "polar"
+      }
+    },
+    {
+      "id": "M2435",
+      "batch": 10,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-polar",
+      "variant": 5,
+      "strategy": "极坐标中的垂直与三角形周长",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "在同一极坐标系中，$P(\\frac{77}{5},59^\\circ)$、$Q(84,149^\\circ)$、$R(\\frac{1008}{5},239^\\circ)$。求三角形 $PQR$ 的周长。",
+      "options": [
+        "\\frac{2609}{10}",
+        "\\frac{2604}{5}",
+        "\\frac{2609}{5}",
+        "\\frac{1302}{5}"
+      ],
+      "answer": 1,
+      "explanation": "相邻两条极径互相垂直，另两条极径反向；分别求三条边后相加。\n关键推导\n$$\nk=\\frac{7}{5},\\quad\\angle POQ=\\angle QOR=90^\\circ,\\quad PQ=k\\sqrt{11^2+60^2}=61k,\\quad QR=k\\sqrt{60^2+144^2}=156k,\\quad PR=155k,\\quad PQ+QR+PR=372k=\\frac{2604}{5}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "scale": 1.4,
+        "radii": [
+          "15.4",
+          "84",
+          "201.6"
+        ]
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "7(c)",
+        "page": "试卷第 5 页；PDF 第 6 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2431"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从极角辨认两次垂直与一组反向极径，再计算三边并处理同比缩放。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2435.svg",
+        "alt": "极坐标中的垂直与三角形周长示意图；具体条件以题干为准",
+        "kind": "polar"
+      }
+    },
+    {
+      "id": "M2436",
+      "batch": 10,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-polar",
+      "variant": 6,
+      "strategy": "极坐标中的垂直与三角形周长",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "在同一极坐标系中，$P(\\frac{33}{2},59^\\circ)$、$Q(90,149^\\circ)$、$R(216,239^\\circ)$。求三角形 $PQR$ 的周长。",
+      "options": [
+        "558",
+        "559",
+        "279",
+        "\\frac{559}{2}"
+      ],
+      "answer": 0,
+      "explanation": "相邻两条极径互相垂直，另两条极径反向；分别求三条边后相加。\n关键推导\n$$\nk=\\frac{3}{2},\\quad\\angle POQ=\\angle QOR=90^\\circ,\\quad PQ=k\\sqrt{11^2+60^2}=61k,\\quad QR=k\\sqrt{60^2+144^2}=156k,\\quad PR=155k,\\quad PQ+QR+PR=372k=558\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "scale": 1.5,
+        "radii": [
+          "16.5",
+          "90",
+          "216"
+        ]
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "7(c)",
+        "page": "试卷第 5 页；PDF 第 6 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2431"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从极角辨认两次垂直与一组反向极径，再计算三边并处理同比缩放。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2436.svg",
+        "alt": "极坐标中的垂直与三角形周长示意图；具体条件以题干为准",
+        "kind": "polar"
+      }
+    },
+    {
+      "id": "M2437",
+      "batch": 10,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-polar",
+      "variant": 7,
+      "strategy": "极坐标中的垂直与三角形周长",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "在同一极坐标系中，$P(\\frac{88}{5},59^\\circ)$、$Q(96,149^\\circ)$、$R(\\frac{1152}{5},239^\\circ)$。求三角形 $PQR$ 的周长。",
+      "options": [
+        "\\frac{2981}{5}",
+        "\\frac{1488}{5}",
+        "\\frac{2981}{10}",
+        "\\frac{2976}{5}"
+      ],
+      "answer": 3,
+      "explanation": "相邻两条极径互相垂直，另两条极径反向；分别求三条边后相加。\n关键推导\n$$\nk=\\frac{8}{5},\\quad\\angle POQ=\\angle QOR=90^\\circ,\\quad PQ=k\\sqrt{11^2+60^2}=61k,\\quad QR=k\\sqrt{60^2+144^2}=156k,\\quad PR=155k,\\quad PQ+QR+PR=372k=\\frac{2976}{5}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "scale": 1.6,
+        "radii": [
+          "17.6",
+          "96",
+          "230.4"
+        ]
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "7(c)",
+        "page": "试卷第 5 页；PDF 第 6 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2431"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从极角辨认两次垂直与一组反向极径，再计算三边并处理同比缩放。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2437.svg",
+        "alt": "极坐标中的垂直与三角形周长示意图；具体条件以题干为准",
+        "kind": "polar"
+      }
+    },
+    {
+      "id": "M2438",
+      "batch": 10,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-polar",
+      "variant": 8,
+      "strategy": "极坐标中的垂直与三角形周长",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "在同一极坐标系中，$P(\\frac{187}{10},59^\\circ)$、$Q(102,149^\\circ)$、$R(\\frac{1224}{5},239^\\circ)$。求三角形 $PQR$ 的周长。",
+      "options": [
+        "\\frac{1581}{5}",
+        "\\frac{3167}{10}",
+        "\\frac{3162}{5}",
+        "\\frac{3167}{5}"
+      ],
+      "answer": 2,
+      "explanation": "相邻两条极径互相垂直，另两条极径反向；分别求三条边后相加。\n关键推导\n$$\nk=\\frac{17}{10},\\quad\\angle POQ=\\angle QOR=90^\\circ,\\quad PQ=k\\sqrt{11^2+60^2}=61k,\\quad QR=k\\sqrt{60^2+144^2}=156k,\\quad PR=155k,\\quad PQ+QR+PR=372k=\\frac{3162}{5}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "scale": 1.7,
+        "radii": [
+          "18.7",
+          "102",
+          "244.8"
+        ]
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "7(c)",
+        "page": "试卷第 5 页；PDF 第 6 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2431"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从极角辨认两次垂直与一组反向极径，再计算三边并处理同比缩放。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2438.svg",
+        "alt": "极坐标中的垂直与三角形周长示意图；具体条件以题干为准",
+        "kind": "polar"
+      }
+    },
+    {
+      "id": "M2439",
+      "batch": 10,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-polar",
+      "variant": 9,
+      "strategy": "极坐标中的垂直与三角形周长",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "在同一极坐标系中，$P(\\frac{99}{5},59^\\circ)$、$Q(108,149^\\circ)$、$R(\\frac{1296}{5},239^\\circ)$。求三角形 $PQR$ 的周长。",
+      "options": [
+        "\\frac{3353}{10}",
+        "\\frac{3348}{5}",
+        "\\frac{3353}{5}",
+        "\\frac{1674}{5}"
+      ],
+      "answer": 1,
+      "explanation": "相邻两条极径互相垂直，另两条极径反向；分别求三条边后相加。\n关键推导\n$$\nk=\\frac{9}{5},\\quad\\angle POQ=\\angle QOR=90^\\circ,\\quad PQ=k\\sqrt{11^2+60^2}=61k,\\quad QR=k\\sqrt{60^2+144^2}=156k,\\quad PR=155k,\\quad PQ+QR+PR=372k=\\frac{3348}{5}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "scale": 1.8,
+        "radii": [
+          "19.8",
+          "108",
+          "259.2"
+        ]
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "7(c)",
+        "page": "试卷第 5 页；PDF 第 6 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2431"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从极角辨认两次垂直与一组反向极径，再计算三边并处理同比缩放。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2439.svg",
+        "alt": "极坐标中的垂直与三角形周长示意图；具体条件以题干为准",
+        "kind": "polar"
+      }
+    },
+    {
+      "id": "M2440",
+      "batch": 10,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-polar",
+      "variant": 10,
+      "strategy": "极坐标中的垂直与三角形周长",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "在同一极坐标系中，$P(\\frac{209}{10},59^\\circ)$、$Q(114,149^\\circ)$、$R(\\frac{1368}{5},239^\\circ)$。求三角形 $PQR$ 的周长。",
+      "options": [
+        "\\frac{3534}{5}",
+        "\\frac{3539}{5}",
+        "\\frac{1767}{5}",
+        "\\frac{3539}{10}"
+      ],
+      "answer": 0,
+      "explanation": "相邻两条极径互相垂直，另两条极径反向；分别求三条边后相加。\n关键推导\n$$\nk=\\frac{19}{10},\\quad\\angle POQ=\\angle QOR=90^\\circ,\\quad PQ=k\\sqrt{11^2+60^2}=61k,\\quad QR=k\\sqrt{60^2+144^2}=156k,\\quad PR=155k,\\quad PQ+QR+PR=372k=\\frac{3534}{5}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "scale": 1.9,
+        "radii": [
+          "20.9",
+          "114",
+          "273.6"
+        ]
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "7(c)",
+        "page": "试卷第 5 页；PDF 第 6 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2431"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从极角辨认两次垂直与一组反向极径，再计算三边并处理同比缩放。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2440.svg",
+        "alt": "极坐标中的垂直与三角形周长示意图；具体条件以题干为准",
+        "kind": "polar"
+      }
+    },
+    {
+      "id": "M2441",
+      "batch": 10,
+      "topic": "statistics",
+      "topicName": "统计、方差与线性回归",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-frequency",
+      "variant": 1,
+      "strategy": "频数表与概率反求未知频数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一组钥匙数量的频数表为 $\\begin{array}{c|rrrrrr}\\text{数量}&3&4&5&6&7&8\\\\\\hline\\text{频数}&10&9&4&3&4&k\\end{array}$。随机选一组，其钥匙数量超过 $6$ 的概率为 $\\frac{5}{18}$，求 $k$。",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "超过给定数量的频数为最后两列之和；分母是全部频数之和。\n关键推导\n$$\n\\frac{4+k}{30+k}=\\frac{5}{18}\\Longrightarrow (36)(4+k)=(10)(30+k)\\Longrightarrow 26k=156\\Longrightarrow k=6\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 6
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "9(a)",
+        "page": "试卷第 7 页；PDF 第 8 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2441"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从频数表构造分子与总频数，解一个分式方程并检验频数。"
+      }
+    },
+    {
+      "id": "M2442",
+      "batch": 10,
+      "topic": "statistics",
+      "topicName": "统计、方差与线性回归",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-frequency",
+      "variant": 2,
+      "strategy": "频数表与概率反求未知频数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一组钥匙数量的频数表为 $\\begin{array}{c|rrrrrr}\\text{数量}&3&4&5&6&7&8\\\\\\hline\\text{频数}&10&9&4&3&4&k\\end{array}$。随机选一组，其钥匙数量超过 $6$ 的概率为 $\\frac{11}{37}$，求 $k$。",
+      "options": [
+        "8",
+        "6",
+        "9",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "超过给定数量的频数为最后两列之和；分母是全部频数之和。\n关键推导\n$$\n\\frac{4+k}{30+k}=\\frac{11}{37}\\Longrightarrow (37)(4+k)=(11)(30+k)\\Longrightarrow 26k=182\\Longrightarrow k=7\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 7
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "9(a)",
+        "page": "试卷第 7 页；PDF 第 8 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2441"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从频数表构造分子与总频数，解一个分式方程并检验频数。"
+      }
+    },
+    {
+      "id": "M2443",
+      "batch": 10,
+      "topic": "statistics",
+      "topicName": "统计、方差与线性回归",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-frequency",
+      "variant": 3,
+      "strategy": "频数表与概率反求未知频数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一组钥匙数量的频数表为 $\\begin{array}{c|rrrrrr}\\text{数量}&3&4&5&6&7&8\\\\\\hline\\text{频数}&10&9&4&3&4&k\\end{array}$。随机选一组，其钥匙数量超过 $6$ 的概率为 $\\frac{6}{19}$，求 $k$。",
+      "options": [
+        "7",
+        "10",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "超过给定数量的频数为最后两列之和；分母是全部频数之和。\n关键推导\n$$\n\\frac{4+k}{30+k}=\\frac{6}{19}\\Longrightarrow (38)(4+k)=(12)(30+k)\\Longrightarrow 26k=208\\Longrightarrow k=8\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 8
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "9(a)",
+        "page": "试卷第 7 页；PDF 第 8 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2441"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从频数表构造分子与总频数，解一个分式方程并检验频数。"
+      }
+    },
+    {
+      "id": "M2444",
+      "batch": 10,
+      "topic": "statistics",
+      "topicName": "统计、方差与线性回归",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-frequency",
+      "variant": 4,
+      "strategy": "频数表与概率反求未知频数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一组钥匙数量的频数表为 $\\begin{array}{c|rrrrrr}\\text{数量}&3&4&5&6&7&8\\\\\\hline\\text{频数}&10&9&4&3&4&k\\end{array}$。随机选一组，其钥匙数量超过 $6$ 的概率为 $\\frac{1}{3}$，求 $k$。",
+      "options": [
+        "11",
+        "9",
+        "10",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "超过给定数量的频数为最后两列之和；分母是全部频数之和。\n关键推导\n$$\n\\frac{4+k}{30+k}=\\frac{1}{3}\\Longrightarrow (39)(4+k)=(13)(30+k)\\Longrightarrow 26k=234\\Longrightarrow k=9\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 9
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "9(a)",
+        "page": "试卷第 7 页；PDF 第 8 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2441"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从频数表构造分子与总频数，解一个分式方程并检验频数。"
+      }
+    },
+    {
+      "id": "M2445",
+      "batch": 10,
+      "topic": "statistics",
+      "topicName": "统计、方差与线性回归",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-frequency",
+      "variant": 5,
+      "strategy": "频数表与概率反求未知频数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一组钥匙数量的频数表为 $\\begin{array}{c|rrrrrr}\\text{数量}&3&4&5&6&7&8\\\\\\hline\\text{频数}&10&9&4&3&4&k\\end{array}$。随机选一组，其钥匙数量超过 $6$ 的概率为 $\\frac{7}{20}$，求 $k$。",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "超过给定数量的频数为最后两列之和；分母是全部频数之和。\n关键推导\n$$\n\\frac{4+k}{30+k}=\\frac{7}{20}\\Longrightarrow (40)(4+k)=(14)(30+k)\\Longrightarrow 26k=260\\Longrightarrow k=10\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 10
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "9(a)",
+        "page": "试卷第 7 页；PDF 第 8 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2441"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从频数表构造分子与总频数，解一个分式方程并检验频数。"
+      }
+    },
+    {
+      "id": "M2446",
+      "batch": 10,
+      "topic": "statistics",
+      "topicName": "统计、方差与线性回归",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-frequency",
+      "variant": 6,
+      "strategy": "频数表与概率反求未知频数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一组钥匙数量的频数表为 $\\begin{array}{c|rrrrrr}\\text{数量}&3&4&5&6&7&8\\\\\\hline\\text{频数}&10&9&4&3&4&k\\end{array}$。随机选一组，其钥匙数量超过 $6$ 的概率为 $\\frac{15}{41}$，求 $k$。",
+      "options": [
+        "12",
+        "10",
+        "13",
+        "11"
+      ],
+      "answer": 3,
+      "explanation": "超过给定数量的频数为最后两列之和；分母是全部频数之和。\n关键推导\n$$\n\\frac{4+k}{30+k}=\\frac{15}{41}\\Longrightarrow (41)(4+k)=(15)(30+k)\\Longrightarrow 26k=286\\Longrightarrow k=11\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 11
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "9(a)",
+        "page": "试卷第 7 页；PDF 第 8 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2441"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从频数表构造分子与总频数，解一个分式方程并检验频数。"
+      }
+    },
+    {
+      "id": "M2447",
+      "batch": 10,
+      "topic": "statistics",
+      "topicName": "统计、方差与线性回归",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-frequency",
+      "variant": 7,
+      "strategy": "频数表与概率反求未知频数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一组钥匙数量的频数表为 $\\begin{array}{c|rrrrrr}\\text{数量}&3&4&5&6&7&8\\\\\\hline\\text{频数}&10&9&4&3&4&k\\end{array}$。随机选一组，其钥匙数量超过 $6$ 的概率为 $\\frac{8}{21}$，求 $k$。",
+      "options": [
+        "11",
+        "14",
+        "12",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "超过给定数量的频数为最后两列之和；分母是全部频数之和。\n关键推导\n$$\n\\frac{4+k}{30+k}=\\frac{8}{21}\\Longrightarrow (42)(4+k)=(16)(30+k)\\Longrightarrow 26k=312\\Longrightarrow k=12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 12
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "9(a)",
+        "page": "试卷第 7 页；PDF 第 8 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2441"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从频数表构造分子与总频数，解一个分式方程并检验频数。"
+      }
+    },
+    {
+      "id": "M2448",
+      "batch": 10,
+      "topic": "statistics",
+      "topicName": "统计、方差与线性回归",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-frequency",
+      "variant": 8,
+      "strategy": "频数表与概率反求未知频数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一组钥匙数量的频数表为 $\\begin{array}{c|rrrrrr}\\text{数量}&3&4&5&6&7&8\\\\\\hline\\text{频数}&10&9&4&3&4&k\\end{array}$。随机选一组，其钥匙数量超过 $6$ 的概率为 $\\frac{17}{43}$，求 $k$。",
+      "options": [
+        "15",
+        "13",
+        "14",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "超过给定数量的频数为最后两列之和；分母是全部频数之和。\n关键推导\n$$\n\\frac{4+k}{30+k}=\\frac{17}{43}\\Longrightarrow (43)(4+k)=(17)(30+k)\\Longrightarrow 26k=338\\Longrightarrow k=13\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 13
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "9(a)",
+        "page": "试卷第 7 页；PDF 第 8 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2441"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从频数表构造分子与总频数，解一个分式方程并检验频数。"
+      }
+    },
+    {
+      "id": "M2449",
+      "batch": 10,
+      "topic": "statistics",
+      "topicName": "统计、方差与线性回归",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-frequency",
+      "variant": 9,
+      "strategy": "频数表与概率反求未知频数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一组钥匙数量的频数表为 $\\begin{array}{c|rrrrrr}\\text{数量}&3&4&5&6&7&8\\\\\\hline\\text{频数}&10&9&4&3&4&k\\end{array}$。随机选一组，其钥匙数量超过 $6$ 的概率为 $\\frac{9}{22}$，求 $k$。",
+      "options": [
+        "14",
+        "15",
+        "13",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "超过给定数量的频数为最后两列之和；分母是全部频数之和。\n关键推导\n$$\n\\frac{4+k}{30+k}=\\frac{9}{22}\\Longrightarrow (44)(4+k)=(18)(30+k)\\Longrightarrow 26k=364\\Longrightarrow k=14\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 14
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "9(a)",
+        "page": "试卷第 7 页；PDF 第 8 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2441"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从频数表构造分子与总频数，解一个分式方程并检验频数。"
+      }
+    },
+    {
+      "id": "M2450",
+      "batch": 10,
+      "topic": "statistics",
+      "topicName": "统计、方差与线性回归",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-frequency",
+      "variant": 10,
+      "strategy": "频数表与概率反求未知频数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一组钥匙数量的频数表为 $\\begin{array}{c|rrrrrr}\\text{数量}&3&4&5&6&7&8\\\\\\hline\\text{频数}&10&9&4&3&4&k\\end{array}$。随机选一组，其钥匙数量超过 $6$ 的概率为 $\\frac{19}{45}$，求 $k$。",
+      "options": [
+        "16",
+        "14",
+        "17",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "超过给定数量的频数为最后两列之和；分母是全部频数之和。\n关键推导\n$$\n\\frac{4+k}{30+k}=\\frac{19}{45}\\Longrightarrow (45)(4+k)=(19)(30+k)\\Longrightarrow 26k=390\\Longrightarrow k=15\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "k": 15
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "9(a)",
+        "page": "试卷第 7 页；PDF 第 8 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2441"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "从频数表构造分子与总频数，解一个分式方程并检验频数。"
+      }
+    },
+    {
+      "id": "M2451",
+      "batch": 10,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-linear",
+      "variant": 1,
+      "strategy": "部分正比关系与一次函数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "函数 $g(x)=ax+b$ 中，$a,b$ 为常数。已知 $g(-3)=-21$、$g(7)=9$，求 $g(x)$。",
+      "options": [
+        "3x+12",
+        "4x-12",
+        "3x-11",
+        "3x-12"
+      ],
+      "answer": 3,
+      "explanation": "两点的函数值之差消去常数项，再代回任意一点。\n关键推导\n$$\na=\\frac{9-(-21)}{7-(-3)}=3,\\qquad b=-21+3\\times3=-12,\\qquad g(x)=3x-12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 3,
+        "b": -12,
+        "y1": -21,
+        "y2": 9
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "10(a)",
+        "page": "试卷第 8 页；PDF 第 9 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2451"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两点确定斜率，再代回求截距，属于常规线性建模。"
+      }
+    },
+    {
+      "id": "M2452",
+      "batch": 10,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-linear",
+      "variant": 2,
+      "strategy": "部分正比关系与一次函数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "函数 $g(x)=ax+b$ 中，$a,b$ 为常数。已知 $g(-3)=-24$、$g(7)=16$，求 $g(x)$。",
+      "options": [
+        "5x-12",
+        "4x-11",
+        "4x-12",
+        "4x+12"
+      ],
+      "answer": 2,
+      "explanation": "两点的函数值之差消去常数项，再代回任意一点。\n关键推导\n$$\na=\\frac{16-(-24)}{7-(-3)}=4,\\qquad b=-24+3\\times4=-12,\\qquad g(x)=4x-12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 4,
+        "b": -12,
+        "y1": -24,
+        "y2": 16
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "10(a)",
+        "page": "试卷第 8 页；PDF 第 9 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2451"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两点确定斜率，再代回求截距，属于常规线性建模。"
+      }
+    },
+    {
+      "id": "M2453",
+      "batch": 10,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-linear",
+      "variant": 3,
+      "strategy": "部分正比关系与一次函数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "函数 $g(x)=ax+b$ 中，$a,b$ 为常数。已知 $g(-3)=-27$、$g(7)=23$，求 $g(x)$。",
+      "options": [
+        "5x-11",
+        "5x-12",
+        "5x+12",
+        "6x-12"
+      ],
+      "answer": 1,
+      "explanation": "两点的函数值之差消去常数项，再代回任意一点。\n关键推导\n$$\na=\\frac{23-(-27)}{7-(-3)}=5,\\qquad b=-27+3\\times5=-12,\\qquad g(x)=5x-12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 5,
+        "b": -12,
+        "y1": -27,
+        "y2": 23
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "10(a)",
+        "page": "试卷第 8 页；PDF 第 9 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2451"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两点确定斜率，再代回求截距，属于常规线性建模。"
+      }
+    },
+    {
+      "id": "M2454",
+      "batch": 10,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-linear",
+      "variant": 4,
+      "strategy": "部分正比关系与一次函数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "函数 $g(x)=ax+b$ 中，$a,b$ 为常数。已知 $g(-3)=-30$、$g(7)=30$，求 $g(x)$。",
+      "options": [
+        "6x-12",
+        "6x+12",
+        "7x-12",
+        "6x-11"
+      ],
+      "answer": 0,
+      "explanation": "两点的函数值之差消去常数项，再代回任意一点。\n关键推导\n$$\na=\\frac{30-(-30)}{7-(-3)}=6,\\qquad b=-30+3\\times6=-12,\\qquad g(x)=6x-12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 6,
+        "b": -12,
+        "y1": -30,
+        "y2": 30
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "10(a)",
+        "page": "试卷第 8 页；PDF 第 9 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2451"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两点确定斜率，再代回求截距，属于常规线性建模。"
+      }
+    },
+    {
+      "id": "M2455",
+      "batch": 10,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-linear",
+      "variant": 5,
+      "strategy": "部分正比关系与一次函数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "函数 $g(x)=ax+b$ 中，$a,b$ 为常数。已知 $g(-3)=-33$、$g(7)=37$，求 $g(x)$。",
+      "options": [
+        "7x+12",
+        "8x-12",
+        "7x-11",
+        "7x-12"
+      ],
+      "answer": 3,
+      "explanation": "两点的函数值之差消去常数项，再代回任意一点。\n关键推导\n$$\na=\\frac{37-(-33)}{7-(-3)}=7,\\qquad b=-33+3\\times7=-12,\\qquad g(x)=7x-12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 7,
+        "b": -12,
+        "y1": -33,
+        "y2": 37
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "10(a)",
+        "page": "试卷第 8 页；PDF 第 9 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2451"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两点确定斜率，再代回求截距，属于常规线性建模。"
+      }
+    },
+    {
+      "id": "M2456",
+      "batch": 10,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-linear",
+      "variant": 6,
+      "strategy": "部分正比关系与一次函数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "函数 $g(x)=ax+b$ 中，$a,b$ 为常数。已知 $g(-3)=-36$、$g(7)=44$，求 $g(x)$。",
+      "options": [
+        "9x-12",
+        "8x-11",
+        "8x-12",
+        "8x+12"
+      ],
+      "answer": 2,
+      "explanation": "两点的函数值之差消去常数项，再代回任意一点。\n关键推导\n$$\na=\\frac{44-(-36)}{7-(-3)}=8,\\qquad b=-36+3\\times8=-12,\\qquad g(x)=8x-12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 8,
+        "b": -12,
+        "y1": -36,
+        "y2": 44
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "10(a)",
+        "page": "试卷第 8 页；PDF 第 9 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2451"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两点确定斜率，再代回求截距，属于常规线性建模。"
+      }
+    },
+    {
+      "id": "M2457",
+      "batch": 10,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-linear",
+      "variant": 7,
+      "strategy": "部分正比关系与一次函数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "函数 $g(x)=ax+b$ 中，$a,b$ 为常数。已知 $g(-3)=-39$、$g(7)=51$，求 $g(x)$。",
+      "options": [
+        "9x-11",
+        "9x-12",
+        "9x+12",
+        "10x-12"
+      ],
+      "answer": 1,
+      "explanation": "两点的函数值之差消去常数项，再代回任意一点。\n关键推导\n$$\na=\\frac{51-(-39)}{7-(-3)}=9,\\qquad b=-39+3\\times9=-12,\\qquad g(x)=9x-12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 9,
+        "b": -12,
+        "y1": -39,
+        "y2": 51
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "10(a)",
+        "page": "试卷第 8 页；PDF 第 9 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2451"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两点确定斜率，再代回求截距，属于常规线性建模。"
+      }
+    },
+    {
+      "id": "M2458",
+      "batch": 10,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-linear",
+      "variant": 8,
+      "strategy": "部分正比关系与一次函数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "函数 $g(x)=ax+b$ 中，$a,b$ 为常数。已知 $g(-3)=-42$、$g(7)=58$，求 $g(x)$。",
+      "options": [
+        "10x-12",
+        "10x+12",
+        "11x-12",
+        "10x-11"
+      ],
+      "answer": 0,
+      "explanation": "两点的函数值之差消去常数项，再代回任意一点。\n关键推导\n$$\na=\\frac{58-(-42)}{7-(-3)}=10,\\qquad b=-42+3\\times10=-12,\\qquad g(x)=10x-12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 10,
+        "b": -12,
+        "y1": -42,
+        "y2": 58
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "10(a)",
+        "page": "试卷第 8 页；PDF 第 9 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2451"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两点确定斜率，再代回求截距，属于常规线性建模。"
+      }
+    },
+    {
+      "id": "M2459",
+      "batch": 10,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-linear",
+      "variant": 9,
+      "strategy": "部分正比关系与一次函数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "函数 $g(x)=ax+b$ 中，$a,b$ 为常数。已知 $g(-3)=-45$、$g(7)=65$，求 $g(x)$。",
+      "options": [
+        "11x+12",
+        "12x-12",
+        "11x-11",
+        "11x-12"
+      ],
+      "answer": 3,
+      "explanation": "两点的函数值之差消去常数项，再代回任意一点。\n关键推导\n$$\na=\\frac{65-(-45)}{7-(-3)}=11,\\qquad b=-45+3\\times11=-12,\\qquad g(x)=11x-12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 11,
+        "b": -12,
+        "y1": -45,
+        "y2": 65
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "10(a)",
+        "page": "试卷第 8 页；PDF 第 9 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2451"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两点确定斜率，再代回求截距，属于常规线性建模。"
+      }
+    },
+    {
+      "id": "M2460",
+      "batch": 10,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-linear",
+      "variant": 10,
+      "strategy": "部分正比关系与一次函数",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "函数 $g(x)=ax+b$ 中，$a,b$ 为常数。已知 $g(-3)=-48$、$g(7)=72$，求 $g(x)$。",
+      "options": [
+        "13x-12",
+        "12x-11",
+        "12x-12",
+        "12x+12"
+      ],
+      "answer": 2,
+      "explanation": "两点的函数值之差消去常数项，再代回任意一点。\n关键推导\n$$\na=\\frac{72-(-48)}{7-(-3)}=12,\\qquad b=-48+3\\times12=-12,\\qquad g(x)=12x-12\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 12,
+        "b": -12,
+        "y1": -48,
+        "y2": 72
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "10(a)",
+        "page": "试卷第 8 页；PDF 第 9 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2451"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两点确定斜率，再代回求截距，属于常规线性建模。"
+      }
+    },
+    {
+      "id": "M2461",
+      "batch": 10,
+      "topic": "solid",
+      "topicName": "立体几何、体积与表面积",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-frustum",
+      "variant": 1,
+      "strategy": "相似棱锥与棱台体积",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一个底边长为 $64$ 厘米、高为 $24$ 厘米的正四棱锥，被平行于底面的平面分成上部小棱锥 $Y$ 和下部棱台 $X$。若 $Y$ 的高为 $18$ 厘米，求 $X$ 的体积（立方厘米）。",
+      "options": [
+        "9472",
+        "\\frac{18945}{2}",
+        "18944",
+        "18945"
+      ],
+      "answer": 2,
+      "explanation": "截面平行于底面，小棱锥与原棱锥相似；体积比是高度比的立方。\n关键推导\n$$\n\\frac{h}{H}=\\frac34,\\quad V_{\\text{原}}=\\frac13\\times64^2\\times24=32768,\\quad V_X=V_{\\text{原}}\\left[1-\\left(\\frac34\\right)^3\\right]=18944\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 64,
+        "H": 24,
+        "h": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "13(a)",
+        "page": "试卷第 12 页；PDF 第 13 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2461"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "从平行截面得到线性相似比，再立方求体积比并相减。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2461.svg",
+        "alt": "相似棱锥与棱台体积示意图；具体条件以题干为准",
+        "kind": "pyramid"
+      }
+    },
+    {
+      "id": "M2462",
+      "batch": 10,
+      "topic": "solid",
+      "topicName": "立体几何、体积与表面积",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-frustum",
+      "variant": 2,
+      "strategy": "相似棱锥与棱台体积",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一个底边长为 $68$ 厘米、高为 $24$ 厘米的正四棱锥，被平行于底面的平面分成上部小棱锥 $Y$ 和下部棱台 $X$。若 $Y$ 的高为 $18$ 厘米，求 $X$ 的体积（立方厘米）。",
+      "options": [
+        "\\frac{21387}{2}",
+        "21386",
+        "21387",
+        "10693"
+      ],
+      "answer": 1,
+      "explanation": "截面平行于底面，小棱锥与原棱锥相似；体积比是高度比的立方。\n关键推导\n$$\n\\frac{h}{H}=\\frac34,\\quad V_{\\text{原}}=\\frac13\\times68^2\\times24=36992,\\quad V_X=V_{\\text{原}}\\left[1-\\left(\\frac34\\right)^3\\right]=21386\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 68,
+        "H": 24,
+        "h": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "13(a)",
+        "page": "试卷第 12 页；PDF 第 13 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2461"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "从平行截面得到线性相似比，再立方求体积比并相减。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2462.svg",
+        "alt": "相似棱锥与棱台体积示意图；具体条件以题干为准",
+        "kind": "pyramid"
+      }
+    },
+    {
+      "id": "M2463",
+      "batch": 10,
+      "topic": "solid",
+      "topicName": "立体几何、体积与表面积",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-frustum",
+      "variant": 3,
+      "strategy": "相似棱锥与棱台体积",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一个底边长为 $72$ 厘米、高为 $24$ 厘米的正四棱锥，被平行于底面的平面分成上部小棱锥 $Y$ 和下部棱台 $X$。若 $Y$ 的高为 $18$ 厘米，求 $X$ 的体积（立方厘米）。",
+      "options": [
+        "23976",
+        "23977",
+        "11988",
+        "\\frac{23977}{2}"
+      ],
+      "answer": 0,
+      "explanation": "截面平行于底面，小棱锥与原棱锥相似；体积比是高度比的立方。\n关键推导\n$$\n\\frac{h}{H}=\\frac34,\\quad V_{\\text{原}}=\\frac13\\times72^2\\times24=41472,\\quad V_X=V_{\\text{原}}\\left[1-\\left(\\frac34\\right)^3\\right]=23976\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 72,
+        "H": 24,
+        "h": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "13(a)",
+        "page": "试卷第 12 页；PDF 第 13 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2461"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "从平行截面得到线性相似比，再立方求体积比并相减。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2463.svg",
+        "alt": "相似棱锥与棱台体积示意图；具体条件以题干为准",
+        "kind": "pyramid"
+      }
+    },
+    {
+      "id": "M2464",
+      "batch": 10,
+      "topic": "solid",
+      "topicName": "立体几何、体积与表面积",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-frustum",
+      "variant": 4,
+      "strategy": "相似棱锥与棱台体积",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一个底边长为 $76$ 厘米、高为 $24$ 厘米的正四棱锥，被平行于底面的平面分成上部小棱锥 $Y$ 和下部棱台 $X$。若 $Y$ 的高为 $18$ 厘米，求 $X$ 的体积（立方厘米）。",
+      "options": [
+        "26715",
+        "13357",
+        "\\frac{26715}{2}",
+        "26714"
+      ],
+      "answer": 3,
+      "explanation": "截面平行于底面，小棱锥与原棱锥相似；体积比是高度比的立方。\n关键推导\n$$\n\\frac{h}{H}=\\frac34,\\quad V_{\\text{原}}=\\frac13\\times76^2\\times24=46208,\\quad V_X=V_{\\text{原}}\\left[1-\\left(\\frac34\\right)^3\\right]=26714\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 76,
+        "H": 24,
+        "h": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "13(a)",
+        "page": "试卷第 12 页；PDF 第 13 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2461"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "从平行截面得到线性相似比，再立方求体积比并相减。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2464.svg",
+        "alt": "相似棱锥与棱台体积示意图；具体条件以题干为准",
+        "kind": "pyramid"
+      }
+    },
+    {
+      "id": "M2465",
+      "batch": 10,
+      "topic": "solid",
+      "topicName": "立体几何、体积与表面积",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-frustum",
+      "variant": 5,
+      "strategy": "相似棱锥与棱台体积",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一个底边长为 $80$ 厘米、高为 $24$ 厘米的正四棱锥，被平行于底面的平面分成上部小棱锥 $Y$ 和下部棱台 $X$。若 $Y$ 的高为 $18$ 厘米，求 $X$ 的体积（立方厘米）。",
+      "options": [
+        "14800",
+        "\\frac{29601}{2}",
+        "29600",
+        "29601"
+      ],
+      "answer": 2,
+      "explanation": "截面平行于底面，小棱锥与原棱锥相似；体积比是高度比的立方。\n关键推导\n$$\n\\frac{h}{H}=\\frac34,\\quad V_{\\text{原}}=\\frac13\\times80^2\\times24=51200,\\quad V_X=V_{\\text{原}}\\left[1-\\left(\\frac34\\right)^3\\right]=29600\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 80,
+        "H": 24,
+        "h": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "13(a)",
+        "page": "试卷第 12 页；PDF 第 13 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2461"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "从平行截面得到线性相似比，再立方求体积比并相减。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2465.svg",
+        "alt": "相似棱锥与棱台体积示意图；具体条件以题干为准",
+        "kind": "pyramid"
+      }
+    },
+    {
+      "id": "M2466",
+      "batch": 10,
+      "topic": "solid",
+      "topicName": "立体几何、体积与表面积",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-frustum",
+      "variant": 6,
+      "strategy": "相似棱锥与棱台体积",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一个底边长为 $84$ 厘米、高为 $24$ 厘米的正四棱锥，被平行于底面的平面分成上部小棱锥 $Y$ 和下部棱台 $X$。若 $Y$ 的高为 $18$ 厘米，求 $X$ 的体积（立方厘米）。",
+      "options": [
+        "\\frac{32635}{2}",
+        "32634",
+        "32635",
+        "16317"
+      ],
+      "answer": 1,
+      "explanation": "截面平行于底面，小棱锥与原棱锥相似；体积比是高度比的立方。\n关键推导\n$$\n\\frac{h}{H}=\\frac34,\\quad V_{\\text{原}}=\\frac13\\times84^2\\times24=56448,\\quad V_X=V_{\\text{原}}\\left[1-\\left(\\frac34\\right)^3\\right]=32634\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 84,
+        "H": 24,
+        "h": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "13(a)",
+        "page": "试卷第 12 页；PDF 第 13 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2461"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "从平行截面得到线性相似比，再立方求体积比并相减。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2466.svg",
+        "alt": "相似棱锥与棱台体积示意图；具体条件以题干为准",
+        "kind": "pyramid"
+      }
+    },
+    {
+      "id": "M2467",
+      "batch": 10,
+      "topic": "solid",
+      "topicName": "立体几何、体积与表面积",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-frustum",
+      "variant": 7,
+      "strategy": "相似棱锥与棱台体积",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一个底边长为 $88$ 厘米、高为 $24$ 厘米的正四棱锥，被平行于底面的平面分成上部小棱锥 $Y$ 和下部棱台 $X$。若 $Y$ 的高为 $18$ 厘米，求 $X$ 的体积（立方厘米）。",
+      "options": [
+        "35816",
+        "35817",
+        "17908",
+        "\\frac{35817}{2}"
+      ],
+      "answer": 0,
+      "explanation": "截面平行于底面，小棱锥与原棱锥相似；体积比是高度比的立方。\n关键推导\n$$\n\\frac{h}{H}=\\frac34,\\quad V_{\\text{原}}=\\frac13\\times88^2\\times24=61952,\\quad V_X=V_{\\text{原}}\\left[1-\\left(\\frac34\\right)^3\\right]=35816\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 88,
+        "H": 24,
+        "h": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "13(a)",
+        "page": "试卷第 12 页；PDF 第 13 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2461"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "从平行截面得到线性相似比，再立方求体积比并相减。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2467.svg",
+        "alt": "相似棱锥与棱台体积示意图；具体条件以题干为准",
+        "kind": "pyramid"
+      }
+    },
+    {
+      "id": "M2468",
+      "batch": 10,
+      "topic": "solid",
+      "topicName": "立体几何、体积与表面积",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-frustum",
+      "variant": 8,
+      "strategy": "相似棱锥与棱台体积",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一个底边长为 $92$ 厘米、高为 $24$ 厘米的正四棱锥，被平行于底面的平面分成上部小棱锥 $Y$ 和下部棱台 $X$。若 $Y$ 的高为 $18$ 厘米，求 $X$ 的体积（立方厘米）。",
+      "options": [
+        "39147",
+        "19573",
+        "\\frac{39147}{2}",
+        "39146"
+      ],
+      "answer": 3,
+      "explanation": "截面平行于底面，小棱锥与原棱锥相似；体积比是高度比的立方。\n关键推导\n$$\n\\frac{h}{H}=\\frac34,\\quad V_{\\text{原}}=\\frac13\\times92^2\\times24=67712,\\quad V_X=V_{\\text{原}}\\left[1-\\left(\\frac34\\right)^3\\right]=39146\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 92,
+        "H": 24,
+        "h": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "13(a)",
+        "page": "试卷第 12 页；PDF 第 13 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2461"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "从平行截面得到线性相似比，再立方求体积比并相减。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2468.svg",
+        "alt": "相似棱锥与棱台体积示意图；具体条件以题干为准",
+        "kind": "pyramid"
+      }
+    },
+    {
+      "id": "M2469",
+      "batch": 10,
+      "topic": "solid",
+      "topicName": "立体几何、体积与表面积",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-frustum",
+      "variant": 9,
+      "strategy": "相似棱锥与棱台体积",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一个底边长为 $96$ 厘米、高为 $24$ 厘米的正四棱锥，被平行于底面的平面分成上部小棱锥 $Y$ 和下部棱台 $X$。若 $Y$ 的高为 $18$ 厘米，求 $X$ 的体积（立方厘米）。",
+      "options": [
+        "21312",
+        "\\frac{42625}{2}",
+        "42624",
+        "42625"
+      ],
+      "answer": 2,
+      "explanation": "截面平行于底面，小棱锥与原棱锥相似；体积比是高度比的立方。\n关键推导\n$$\n\\frac{h}{H}=\\frac34,\\quad V_{\\text{原}}=\\frac13\\times96^2\\times24=73728,\\quad V_X=V_{\\text{原}}\\left[1-\\left(\\frac34\\right)^3\\right]=42624\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 96,
+        "H": 24,
+        "h": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "13(a)",
+        "page": "试卷第 12 页；PDF 第 13 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2461"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "从平行截面得到线性相似比，再立方求体积比并相减。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2469.svg",
+        "alt": "相似棱锥与棱台体积示意图；具体条件以题干为准",
+        "kind": "pyramid"
+      }
+    },
+    {
+      "id": "M2470",
+      "batch": 10,
+      "topic": "solid",
+      "topicName": "立体几何、体积与表面积",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "dse-frustum",
+      "variant": 10,
+      "strategy": "相似棱锥与棱台体积",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "一个底边长为 $100$ 厘米、高为 $24$ 厘米的正四棱锥，被平行于底面的平面分成上部小棱锥 $Y$ 和下部棱台 $X$。若 $Y$ 的高为 $18$ 厘米，求 $X$ 的体积（立方厘米）。",
+      "options": [
+        "\\frac{46251}{2}",
+        "46250",
+        "46251",
+        "23125"
+      ],
+      "answer": 1,
+      "explanation": "截面平行于底面，小棱锥与原棱锥相似；体积比是高度比的立方。\n关键推导\n$$\n\\frac{h}{H}=\\frac34,\\quad V_{\\text{原}}=\\frac13\\times100^2\\times24=80000,\\quad V_X=V_{\\text{原}}\\left[1-\\left(\\frac34\\right)^3\\right]=46250\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "a": 100,
+        "H": 24,
+        "h": 18
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "13(a)",
+        "page": "试卷第 12 页；PDF 第 13 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2461"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "从平行截面得到线性相似比，再立方求体积比并相减。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2470.svg",
+        "alt": "相似棱锥与棱台体积示意图；具体条件以题干为准",
+        "kind": "pyramid"
+      }
+    },
+    {
+      "id": "M2471",
+      "batch": 10,
+      "topic": "probability",
+      "topicName": "古典概型、独立事件与抽样",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-cups",
+      "variant": 1,
+      "strategy": "不放回抽样与恰好一次命中",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "箱中有 $16$ 个红杯和 $4$ 个白杯，各杯等可能被抽到。一次随机抽出 $5$ 个杯子且不放回，恰有 $1$ 个白杯的概率是多少？",
+      "options": [
+        "\\frac{712}{969}",
+        "\\frac{455}{969}",
+        "\\frac{1424}{969}",
+        "\\frac{455}{1938}"
+      ],
+      "answer": 1,
+      "explanation": "把同时抽样看成等可能的组合；有利情况由一个白杯和四个红杯组成。\n关键推导\n$$\nP=\\frac{\\binom41\\binom{16}4}{\\binom{20}5}=\\frac{7280}{15504}=\\frac{455}{969}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "red": 16,
+        "white": 4,
+        "draw": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "16(a)",
+        "page": "试卷第 17 页；PDF 第 18 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2471"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "标准不放回抽样，一次组合比即可表达恰有一个白杯的概率。"
+      }
+    },
+    {
+      "id": "M2472",
+      "batch": 10,
+      "topic": "probability",
+      "topicName": "古典概型、独立事件与抽样",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-cups",
+      "variant": 2,
+      "strategy": "不放回抽样与恰好一次命中",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "箱中有 $17$ 个红杯和 $4$ 个白杯，各杯等可能被抽到。一次随机抽出 $5$ 个杯子且不放回，恰有 $1$ 个白杯的概率是多少？",
+      "options": [
+        "\\frac{80}{171}",
+        "\\frac{251}{171}",
+        "\\frac{40}{171}",
+        "\\frac{251}{342}"
+      ],
+      "answer": 0,
+      "explanation": "把同时抽样看成等可能的组合；有利情况由一个白杯和四个红杯组成。\n关键推导\n$$\nP=\\frac{\\binom41\\binom{17}4}{\\binom{21}5}=\\frac{9520}{20349}=\\frac{80}{171}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "red": 17,
+        "white": 4,
+        "draw": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "16(a)",
+        "page": "试卷第 17 页；PDF 第 18 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2471"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "标准不放回抽样，一次组合比即可表达恰有一个白杯的概率。"
+      }
+    },
+    {
+      "id": "M2473",
+      "batch": 10,
+      "topic": "probability",
+      "topicName": "古典概型、独立事件与抽样",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-cups",
+      "variant": 3,
+      "strategy": "不放回抽样与恰好一次命中",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "箱中有 $18$ 个红杯和 $4$ 个白杯，各杯等可能被抽到。一次随机抽出 $5$ 个杯子且不放回，恰有 $1$ 个白杯的概率是多少？",
+      "options": [
+        "\\frac{2143}{1463}",
+        "\\frac{340}{1463}",
+        "\\frac{2143}{2926}",
+        "\\frac{680}{1463}"
+      ],
+      "answer": 3,
+      "explanation": "把同时抽样看成等可能的组合；有利情况由一个白杯和四个红杯组成。\n关键推导\n$$\nP=\\frac{\\binom41\\binom{18}4}{\\binom{22}5}=\\frac{12240}{26334}=\\frac{680}{1463}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "red": 18,
+        "white": 4,
+        "draw": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "16(a)",
+        "page": "试卷第 17 页；PDF 第 18 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2471"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "标准不放回抽样，一次组合比即可表达恰有一个白杯的概率。"
+      }
+    },
+    {
+      "id": "M2474",
+      "batch": 10,
+      "topic": "probability",
+      "topicName": "古典概型、独立事件与抽样",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-cups",
+      "variant": 4,
+      "strategy": "不放回抽样与恰好一次命中",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "箱中有 $19$ 个红杯和 $4$ 个白杯，各杯等可能被抽到。一次随机抽出 $5$ 个杯子且不放回，恰有 $1$ 个白杯的概率是多少？",
+      "options": [
+        "\\frac{408}{1771}",
+        "\\frac{2587}{3542}",
+        "\\frac{816}{1771}",
+        "\\frac{2587}{1771}"
+      ],
+      "answer": 2,
+      "explanation": "把同时抽样看成等可能的组合；有利情况由一个白杯和四个红杯组成。\n关键推导\n$$\nP=\\frac{\\binom41\\binom{19}4}{\\binom{23}5}=\\frac{15504}{33649}=\\frac{816}{1771}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "red": 19,
+        "white": 4,
+        "draw": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "16(a)",
+        "page": "试卷第 17 页；PDF 第 18 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2471"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "标准不放回抽样，一次组合比即可表达恰有一个白杯的概率。"
+      }
+    },
+    {
+      "id": "M2475",
+      "batch": 10,
+      "topic": "probability",
+      "topicName": "古典概型、独立事件与抽样",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-cups",
+      "variant": 5,
+      "strategy": "不放回抽样与恰好一次命中",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "箱中有 $20$ 个红杯和 $4$ 个白杯，各杯等可能被抽到。一次随机抽出 $5$ 个杯子且不放回，恰有 $1$ 个白杯的概率是多少？",
+      "options": [
+        "\\frac{5157}{7084}",
+        "\\frac{1615}{3542}",
+        "\\frac{5157}{3542}",
+        "\\frac{1615}{7084}"
+      ],
+      "answer": 1,
+      "explanation": "把同时抽样看成等可能的组合；有利情况由一个白杯和四个红杯组成。\n关键推导\n$$\nP=\\frac{\\binom41\\binom{20}4}{\\binom{24}5}=\\frac{19380}{42504}=\\frac{1615}{3542}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "red": 20,
+        "white": 4,
+        "draw": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "16(a)",
+        "page": "试卷第 17 页；PDF 第 18 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2471"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "标准不放回抽样，一次组合比即可表达恰有一个白杯的概率。"
+      }
+    },
+    {
+      "id": "M2476",
+      "batch": 10,
+      "topic": "probability",
+      "topicName": "古典概型、独立事件与抽样",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-cups",
+      "variant": 6,
+      "strategy": "不放回抽样与恰好一次命中",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "箱中有 $21$ 个红杯和 $4$ 个白杯，各杯等可能被抽到。一次随机抽出 $5$ 个杯子且不放回，恰有 $1$ 个白杯的概率是多少？",
+      "options": [
+        "\\frac{114}{253}",
+        "\\frac{367}{253}",
+        "\\frac{57}{253}",
+        "\\frac{367}{506}"
+      ],
+      "answer": 0,
+      "explanation": "把同时抽样看成等可能的组合；有利情况由一个白杯和四个红杯组成。\n关键推导\n$$\nP=\\frac{\\binom41\\binom{21}4}{\\binom{25}5}=\\frac{23940}{53130}=\\frac{114}{253}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "red": 21,
+        "white": 4,
+        "draw": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "16(a)",
+        "page": "试卷第 17 页；PDF 第 18 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2471"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "标准不放回抽样，一次组合比即可表达恰有一个白杯的概率。"
+      }
+    },
+    {
+      "id": "M2477",
+      "batch": 10,
+      "topic": "probability",
+      "topicName": "古典概型、独立事件与抽样",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-cups",
+      "variant": 7,
+      "strategy": "不放回抽样与恰好一次命中",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "箱中有 $22$ 个红杯和 $4$ 个白杯，各杯等可能被抽到。一次随机抽出 $5$ 个杯子且不放回，恰有 $1$ 个白杯的概率是多少？",
+      "options": [
+        "\\frac{432}{299}",
+        "\\frac{133}{598}",
+        "\\frac{216}{299}",
+        "\\frac{133}{299}"
+      ],
+      "answer": 3,
+      "explanation": "把同时抽样看成等可能的组合；有利情况由一个白杯和四个红杯组成。\n关键推导\n$$\nP=\\frac{\\binom41\\binom{22}4}{\\binom{26}5}=\\frac{29260}{65780}=\\frac{133}{299}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "red": 22,
+        "white": 4,
+        "draw": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "16(a)",
+        "page": "试卷第 17 页；PDF 第 18 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2471"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "标准不放回抽样，一次组合比即可表达恰有一个白杯的概率。"
+      }
+    },
+    {
+      "id": "M2478",
+      "batch": 10,
+      "topic": "probability",
+      "topicName": "古典概型、独立事件与抽样",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-cups",
+      "variant": 8,
+      "strategy": "不放回抽样与恰好一次命中",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "箱中有 $23$ 个红杯和 $4$ 个白杯，各杯等可能被抽到。一次随机抽出 $5$ 个杯子且不放回，恰有 $1$ 个白杯的概率是多少？",
+      "options": [
+        "\\frac{77}{351}",
+        "\\frac{505}{702}",
+        "\\frac{154}{351}",
+        "\\frac{505}{351}"
+      ],
+      "answer": 2,
+      "explanation": "把同时抽样看成等可能的组合；有利情况由一个白杯和四个红杯组成。\n关键推导\n$$\nP=\\frac{\\binom41\\binom{23}4}{\\binom{27}5}=\\frac{35420}{80730}=\\frac{154}{351}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "red": 23,
+        "white": 4,
+        "draw": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "16(a)",
+        "page": "试卷第 17 页；PDF 第 18 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2471"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "标准不放回抽样，一次组合比即可表达恰有一个白杯的概率。"
+      }
+    },
+    {
+      "id": "M2479",
+      "batch": 10,
+      "topic": "probability",
+      "topicName": "古典概型、独立事件与抽样",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-cups",
+      "variant": 9,
+      "strategy": "不放回抽样与恰好一次命中",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "箱中有 $24$ 个红杯和 $4$ 个白杯，各杯等可能被抽到。一次随机抽出 $5$ 个杯子且不放回，恰有 $1$ 个白杯的概率是多少？",
+      "options": [
+        "\\frac{419}{585}",
+        "\\frac{253}{585}",
+        "\\frac{838}{585}",
+        "\\frac{253}{1170}"
+      ],
+      "answer": 1,
+      "explanation": "把同时抽样看成等可能的组合；有利情况由一个白杯和四个红杯组成。\n关键推导\n$$\nP=\\frac{\\binom41\\binom{24}4}{\\binom{28}5}=\\frac{42504}{98280}=\\frac{253}{585}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "red": 24,
+        "white": 4,
+        "draw": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "16(a)",
+        "page": "试卷第 17 页；PDF 第 18 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2471"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "标准不放回抽样，一次组合比即可表达恰有一个白杯的概率。"
+      }
+    },
+    {
+      "id": "M2480",
+      "batch": 10,
+      "topic": "probability",
+      "topicName": "古典概型、独立事件与抽样",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "dse-cups",
+      "variant": 10,
+      "strategy": "不放回抽样与恰好一次命中",
+      "contentRevision": 1,
+      "exam": "dse",
+      "stem": "箱中有 $25$ 个红杯和 $4$ 个白杯，各杯等可能被抽到。一次随机抽出 $5$ 个杯子且不放回，恰有 $1$ 个白杯的概率是多少？",
+      "options": [
+        "\\frac{10120}{23751}",
+        "\\frac{33871}{23751}",
+        "\\frac{5060}{23751}",
+        "\\frac{33871}{47502}"
+      ],
+      "answer": 0,
+      "explanation": "把同时抽样看成等可能的组合；有利情况由一个白杯和四个红杯组成。\n关键推导\n$$\nP=\\frac{\\binom41\\binom{25}4}{\\binom{29}5}=\\frac{50600}{118755}=\\frac{10120}{23751}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "red": 25,
+        "white": 4,
+        "draw": 5
+      },
+      "provenance": {
+        "sourceId": "dse",
+        "year": 2024,
+        "paper": "数学必修部分试卷一",
+        "question": "16(a)",
+        "page": "试卷第 17 页；PDF 第 18 页",
+        "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2471"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "标准不放回抽样，一次组合比即可表达恰有一个白杯的概率。"
+      }
+    }
+  ]
+}

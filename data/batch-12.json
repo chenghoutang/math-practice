@@ -1,0 +1,3655 @@
+{
+  "batch": 12,
+  "questions": [
+    {
+      "id": "M2561",
+      "batch": 12,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-power",
+      "variant": 1,
+      "strategy": "幂函数的乘法性单调性与导数奇偶",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "从以下幂函数中选出满足全部条件的一项：对任意实数 $x_1,x_2$ 有 $f(x_1x_2)=f(x_1)f(x_2)$；当 $x>0$ 时 $f'(x)>0$；导函数 $f'(x)$ 为奇函数。",
+      "options": [
+        "f(x)=x^{2}",
+        "f(x)=-x^{2}",
+        "f(x)=x^{3}",
+        "f(x)=1"
+      ],
+      "answer": 0,
+      "explanation": "正偶数幂满足乘法性，其导数是正系数的正奇数幂；逐一排除其余选项。\n关键推导\n$$\nf(x)=x^{2},\\quad f(x_1x_2)=x_1^{2}x_2^{2},\\quad f'(x)=2x^{1}>0\\ (x>0),\\quad f'(-x)=-f'(x)\n$$\n负号破坏乘法性；奇数幂的导数为偶函数；常函数的导数不严格为正。",
+      "params": {
+        "power": 2
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 14 题",
+        "page": "评析例 1，第 71 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2561"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "逐项检查乘法性、导数单调与奇偶，选项使原开放构造任务简化。"
+      }
+    },
+    {
+      "id": "M2562",
+      "batch": 12,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-power",
+      "variant": 2,
+      "strategy": "幂函数的乘法性单调性与导数奇偶",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "从以下幂函数中选出满足全部条件的一项：对任意实数 $x_1,x_2$ 有 $f(x_1x_2)=f(x_1)f(x_2)$；当 $x>0$ 时 $f'(x)>0$；导函数 $f'(x)$ 为奇函数，且 $f(2)=16$。",
+      "options": [
+        "f(x)=-x^{4}",
+        "f(x)=x^{5}",
+        "f(x)=1",
+        "f(x)=x^{4}"
+      ],
+      "answer": 3,
+      "explanation": "正偶数幂满足乘法性，其导数是正系数的正奇数幂；逐一排除其余选项。\n关键推导\n$$\nf(x)=x^{4},\\quad f(x_1x_2)=x_1^{4}x_2^{4},\\quad f'(x)=4x^{3}>0\\ (x>0),\\quad f'(-x)=-f'(x)\n$$\n负号破坏乘法性；奇数幂的导数为偶函数；常函数的导数不严格为正。",
+      "params": {
+        "power": 4
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 14 题",
+        "page": "评析例 1，第 71 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2561"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "逐项检查乘法性、导数单调与奇偶，选项使原开放构造任务简化。"
+      }
+    },
+    {
+      "id": "M2563",
+      "batch": 12,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-power",
+      "variant": 3,
+      "strategy": "幂函数的乘法性单调性与导数奇偶",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "从以下幂函数中选出满足全部条件的一项：对任意实数 $x_1,x_2$ 有 $f(x_1x_2)=f(x_1)f(x_2)$；当 $x>0$ 时 $f'(x)>0$；导函数 $f'(x)$ 为奇函数，且 $f(2)=64$。",
+      "options": [
+        "f(x)=x^{7}",
+        "f(x)=1",
+        "f(x)=x^{6}",
+        "f(x)=-x^{6}"
+      ],
+      "answer": 2,
+      "explanation": "正偶数幂满足乘法性，其导数是正系数的正奇数幂；逐一排除其余选项。\n关键推导\n$$\nf(x)=x^{6},\\quad f(x_1x_2)=x_1^{6}x_2^{6},\\quad f'(x)=6x^{5}>0\\ (x>0),\\quad f'(-x)=-f'(x)\n$$\n负号破坏乘法性；奇数幂的导数为偶函数；常函数的导数不严格为正。",
+      "params": {
+        "power": 6
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 14 题",
+        "page": "评析例 1，第 71 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2561"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "逐项检查乘法性、导数单调与奇偶，选项使原开放构造任务简化。"
+      }
+    },
+    {
+      "id": "M2564",
+      "batch": 12,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-power",
+      "variant": 4,
+      "strategy": "幂函数的乘法性单调性与导数奇偶",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "从以下幂函数中选出满足全部条件的一项：对任意实数 $x_1,x_2$ 有 $f(x_1x_2)=f(x_1)f(x_2)$；当 $x>0$ 时 $f'(x)>0$；导函数 $f'(x)$ 为奇函数，且 $f(2)=256$。",
+      "options": [
+        "f(x)=1",
+        "f(x)=x^{8}",
+        "f(x)=-x^{8}",
+        "f(x)=x^{9}"
+      ],
+      "answer": 1,
+      "explanation": "正偶数幂满足乘法性，其导数是正系数的正奇数幂；逐一排除其余选项。\n关键推导\n$$\nf(x)=x^{8},\\quad f(x_1x_2)=x_1^{8}x_2^{8},\\quad f'(x)=8x^{7}>0\\ (x>0),\\quad f'(-x)=-f'(x)\n$$\n负号破坏乘法性；奇数幂的导数为偶函数；常函数的导数不严格为正。",
+      "params": {
+        "power": 8
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 14 题",
+        "page": "评析例 1，第 71 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2561"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "逐项检查乘法性、导数单调与奇偶，选项使原开放构造任务简化。"
+      }
+    },
+    {
+      "id": "M2565",
+      "batch": 12,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-power",
+      "variant": 5,
+      "strategy": "幂函数的乘法性单调性与导数奇偶",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "从以下幂函数中选出满足全部条件的一项：对任意实数 $x_1,x_2$ 有 $f(x_1x_2)=f(x_1)f(x_2)$；当 $x>0$ 时 $f'(x)>0$；导函数 $f'(x)$ 为奇函数，且 $f(2)=1024$。",
+      "options": [
+        "f(x)=x^{10}",
+        "f(x)=-x^{10}",
+        "f(x)=x^{11}",
+        "f(x)=1"
+      ],
+      "answer": 0,
+      "explanation": "正偶数幂满足乘法性，其导数是正系数的正奇数幂；逐一排除其余选项。\n关键推导\n$$\nf(x)=x^{10},\\quad f(x_1x_2)=x_1^{10}x_2^{10},\\quad f'(x)=10x^{9}>0\\ (x>0),\\quad f'(-x)=-f'(x)\n$$\n负号破坏乘法性；奇数幂的导数为偶函数；常函数的导数不严格为正。",
+      "params": {
+        "power": 10
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 14 题",
+        "page": "评析例 1，第 71 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2561"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "逐项检查乘法性、导数单调与奇偶，选项使原开放构造任务简化。"
+      }
+    },
+    {
+      "id": "M2566",
+      "batch": 12,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-power",
+      "variant": 6,
+      "strategy": "幂函数的乘法性单调性与导数奇偶",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "从以下幂函数中选出满足全部条件的一项：对任意实数 $x_1,x_2$ 有 $f(x_1x_2)=f(x_1)f(x_2)$；当 $x>0$ 时 $f'(x)>0$；导函数 $f'(x)$ 为奇函数，且 $f(2)=4096$。",
+      "options": [
+        "f(x)=-x^{12}",
+        "f(x)=x^{13}",
+        "f(x)=1",
+        "f(x)=x^{12}"
+      ],
+      "answer": 3,
+      "explanation": "正偶数幂满足乘法性，其导数是正系数的正奇数幂；逐一排除其余选项。\n关键推导\n$$\nf(x)=x^{12},\\quad f(x_1x_2)=x_1^{12}x_2^{12},\\quad f'(x)=12x^{11}>0\\ (x>0),\\quad f'(-x)=-f'(x)\n$$\n负号破坏乘法性；奇数幂的导数为偶函数；常函数的导数不严格为正。",
+      "params": {
+        "power": 12
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 14 题",
+        "page": "评析例 1，第 71 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2561"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "逐项检查乘法性、导数单调与奇偶，选项使原开放构造任务简化。"
+      }
+    },
+    {
+      "id": "M2567",
+      "batch": 12,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-power",
+      "variant": 7,
+      "strategy": "幂函数的乘法性单调性与导数奇偶",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "从以下幂函数中选出满足全部条件的一项：对任意实数 $x_1,x_2$ 有 $f(x_1x_2)=f(x_1)f(x_2)$；当 $x>0$ 时 $f'(x)>0$；导函数 $f'(x)$ 为奇函数，且 $f(2)=16384$。",
+      "options": [
+        "f(x)=x^{15}",
+        "f(x)=1",
+        "f(x)=x^{14}",
+        "f(x)=-x^{14}"
+      ],
+      "answer": 2,
+      "explanation": "正偶数幂满足乘法性，其导数是正系数的正奇数幂；逐一排除其余选项。\n关键推导\n$$\nf(x)=x^{14},\\quad f(x_1x_2)=x_1^{14}x_2^{14},\\quad f'(x)=14x^{13}>0\\ (x>0),\\quad f'(-x)=-f'(x)\n$$\n负号破坏乘法性；奇数幂的导数为偶函数；常函数的导数不严格为正。",
+      "params": {
+        "power": 14
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 14 题",
+        "page": "评析例 1，第 71 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2561"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "逐项检查乘法性、导数单调与奇偶，选项使原开放构造任务简化。"
+      }
+    },
+    {
+      "id": "M2568",
+      "batch": 12,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-power",
+      "variant": 8,
+      "strategy": "幂函数的乘法性单调性与导数奇偶",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "从以下幂函数中选出满足全部条件的一项：对任意实数 $x_1,x_2$ 有 $f(x_1x_2)=f(x_1)f(x_2)$；当 $x>0$ 时 $f'(x)>0$；导函数 $f'(x)$ 为奇函数，且 $f(2)=65536$。",
+      "options": [
+        "f(x)=1",
+        "f(x)=x^{16}",
+        "f(x)=-x^{16}",
+        "f(x)=x^{17}"
+      ],
+      "answer": 1,
+      "explanation": "正偶数幂满足乘法性，其导数是正系数的正奇数幂；逐一排除其余选项。\n关键推导\n$$\nf(x)=x^{16},\\quad f(x_1x_2)=x_1^{16}x_2^{16},\\quad f'(x)=16x^{15}>0\\ (x>0),\\quad f'(-x)=-f'(x)\n$$\n负号破坏乘法性；奇数幂的导数为偶函数；常函数的导数不严格为正。",
+      "params": {
+        "power": 16
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 14 题",
+        "page": "评析例 1，第 71 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2561"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "逐项检查乘法性、导数单调与奇偶，选项使原开放构造任务简化。"
+      }
+    },
+    {
+      "id": "M2569",
+      "batch": 12,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-power",
+      "variant": 9,
+      "strategy": "幂函数的乘法性单调性与导数奇偶",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "从以下幂函数中选出满足全部条件的一项：对任意实数 $x_1,x_2$ 有 $f(x_1x_2)=f(x_1)f(x_2)$；当 $x>0$ 时 $f'(x)>0$；导函数 $f'(x)$ 为奇函数，且 $f(2)=262144$。",
+      "options": [
+        "f(x)=x^{18}",
+        "f(x)=-x^{18}",
+        "f(x)=x^{19}",
+        "f(x)=1"
+      ],
+      "answer": 0,
+      "explanation": "正偶数幂满足乘法性，其导数是正系数的正奇数幂；逐一排除其余选项。\n关键推导\n$$\nf(x)=x^{18},\\quad f(x_1x_2)=x_1^{18}x_2^{18},\\quad f'(x)=18x^{17}>0\\ (x>0),\\quad f'(-x)=-f'(x)\n$$\n负号破坏乘法性；奇数幂的导数为偶函数；常函数的导数不严格为正。",
+      "params": {
+        "power": 18
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 14 题",
+        "page": "评析例 1，第 71 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2561"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "逐项检查乘法性、导数单调与奇偶，选项使原开放构造任务简化。"
+      }
+    },
+    {
+      "id": "M2570",
+      "batch": 12,
+      "topic": "properties",
+      "topicName": "函数的奇偶、单调与对称",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-power",
+      "variant": 10,
+      "strategy": "幂函数的乘法性单调性与导数奇偶",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "从以下幂函数中选出满足全部条件的一项：对任意实数 $x_1,x_2$ 有 $f(x_1x_2)=f(x_1)f(x_2)$；当 $x>0$ 时 $f'(x)>0$；导函数 $f'(x)$ 为奇函数，且 $f(2)=1048576$。",
+      "options": [
+        "f(x)=-x^{20}",
+        "f(x)=x^{21}",
+        "f(x)=1",
+        "f(x)=x^{20}"
+      ],
+      "answer": 3,
+      "explanation": "正偶数幂满足乘法性，其导数是正系数的正奇数幂；逐一排除其余选项。\n关键推导\n$$\nf(x)=x^{20},\\quad f(x_1x_2)=x_1^{20}x_2^{20},\\quad f'(x)=20x^{19}>0\\ (x>0),\\quad f'(-x)=-f'(x)\n$$\n负号破坏乘法性；奇数幂的导数为偶函数；常函数的导数不严格为正。",
+      "params": {
+        "power": 20
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 14 题",
+        "page": "评析例 1，第 71 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2561"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "逐项检查乘法性、导数单调与奇偶，选项使原开放构造任务简化。"
+      }
+    },
+    {
+      "id": "M2571",
+      "batch": 12,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-triangle",
+      "variant": 1,
+      "strategy": "正弦定理与三边成等差的面积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "三角形 $ABC$ 的内角 $A,B,C$ 的对边为 $a,b,c$。已知 $b=a+1$、$c=a+2$，且 $2\\sin C=3\\sin A$。求三角形面积。",
+      "options": [
+        "\\frac{15\\sqrt7}{2}",
+        "\\frac{15\\sqrt3}{4}",
+        "\\frac{30\\sqrt7}{3}",
+        "\\frac{15\\sqrt7}{4}"
+      ],
+      "answer": 3,
+      "explanation": "正弦定理把角的条件转为边的比例，再由三边求半周长，应用海伦公式。\n关键推导\n$$\n2c=3a,\\quad a=4,\\ b=5,\\ c=6,\\quad t=\\frac{a+b+c}{2}=\\frac{15}{2},\\quad S=\\sqrt{t(t-a)(t-b)(t-c)}=\\frac{15\\sqrt7}{4}\n$$\n三边均为正且满足严格三角不等式，所以构成非退化三角形。",
+      "params": {
+        "a": 4,
+        "d": 1
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 18 题(1)",
+        "page": "评析例 5，第 72 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2571"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "正弦定理转为边比，联立等差边条件，再用海伦公式求面积。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2571.svg",
+        "alt": "正弦定理与三边成等差的面积示意图；具体条件以题干为准",
+        "kind": "triangle"
+      }
+    },
+    {
+      "id": "M2572",
+      "batch": 12,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-triangle",
+      "variant": 2,
+      "strategy": "正弦定理与三边成等差的面积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "三角形 $ABC$ 的内角 $A,B,C$ 的对边为 $a,b,c$。已知 $b=a+2$、$c=a+4$，且 $2\\sin C=3\\sin A$。求三角形面积。",
+      "options": [
+        "\\frac{60\\sqrt3}{4}",
+        "\\frac{120\\sqrt7}{3}",
+        "\\frac{60\\sqrt7}{4}",
+        "\\frac{60\\sqrt7}{2}"
+      ],
+      "answer": 2,
+      "explanation": "正弦定理把角的条件转为边的比例，再由三边求半周长，应用海伦公式。\n关键推导\n$$\n2c=3a,\\quad a=8,\\ b=10,\\ c=12,\\quad t=\\frac{a+b+c}{2}=15,\\quad S=\\sqrt{t(t-a)(t-b)(t-c)}=\\frac{60\\sqrt7}{4}\n$$\n三边均为正且满足严格三角不等式，所以构成非退化三角形。",
+      "params": {
+        "a": 8,
+        "d": 2
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 18 题(1)",
+        "page": "评析例 5，第 72 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2571"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "正弦定理转为边比，联立等差边条件，再用海伦公式求面积。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2572.svg",
+        "alt": "正弦定理与三边成等差的面积示意图；具体条件以题干为准",
+        "kind": "triangle"
+      }
+    },
+    {
+      "id": "M2573",
+      "batch": 12,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-triangle",
+      "variant": 3,
+      "strategy": "正弦定理与三边成等差的面积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "三角形 $ABC$ 的内角 $A,B,C$ 的对边为 $a,b,c$。已知 $b=a+3$、$c=a+6$，且 $2\\sin C=3\\sin A$。求三角形面积。",
+      "options": [
+        "\\frac{270\\sqrt7}{3}",
+        "\\frac{135\\sqrt7}{4}",
+        "\\frac{135\\sqrt7}{2}",
+        "\\frac{135\\sqrt3}{4}"
+      ],
+      "answer": 1,
+      "explanation": "正弦定理把角的条件转为边的比例，再由三边求半周长，应用海伦公式。\n关键推导\n$$\n2c=3a,\\quad a=12,\\ b=15,\\ c=18,\\quad t=\\frac{a+b+c}{2}=\\frac{45}{2},\\quad S=\\sqrt{t(t-a)(t-b)(t-c)}=\\frac{135\\sqrt7}{4}\n$$\n三边均为正且满足严格三角不等式，所以构成非退化三角形。",
+      "params": {
+        "a": 12,
+        "d": 3
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 18 题(1)",
+        "page": "评析例 5，第 72 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2571"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "正弦定理转为边比，联立等差边条件，再用海伦公式求面积。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2573.svg",
+        "alt": "正弦定理与三边成等差的面积示意图；具体条件以题干为准",
+        "kind": "triangle"
+      }
+    },
+    {
+      "id": "M2574",
+      "batch": 12,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-triangle",
+      "variant": 4,
+      "strategy": "正弦定理与三边成等差的面积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "三角形 $ABC$ 的内角 $A,B,C$ 的对边为 $a,b,c$。已知 $b=a+4$、$c=a+8$，且 $2\\sin C=3\\sin A$。求三角形面积。",
+      "options": [
+        "\\frac{240\\sqrt7}{4}",
+        "\\frac{240\\sqrt7}{2}",
+        "\\frac{240\\sqrt3}{4}",
+        "\\frac{480\\sqrt7}{3}"
+      ],
+      "answer": 0,
+      "explanation": "正弦定理把角的条件转为边的比例，再由三边求半周长，应用海伦公式。\n关键推导\n$$\n2c=3a,\\quad a=16,\\ b=20,\\ c=24,\\quad t=\\frac{a+b+c}{2}=30,\\quad S=\\sqrt{t(t-a)(t-b)(t-c)}=\\frac{240\\sqrt7}{4}\n$$\n三边均为正且满足严格三角不等式，所以构成非退化三角形。",
+      "params": {
+        "a": 16,
+        "d": 4
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 18 题(1)",
+        "page": "评析例 5，第 72 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2571"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "正弦定理转为边比，联立等差边条件，再用海伦公式求面积。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2574.svg",
+        "alt": "正弦定理与三边成等差的面积示意图；具体条件以题干为准",
+        "kind": "triangle"
+      }
+    },
+    {
+      "id": "M2575",
+      "batch": 12,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-triangle",
+      "variant": 5,
+      "strategy": "正弦定理与三边成等差的面积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "三角形 $ABC$ 的内角 $A,B,C$ 的对边为 $a,b,c$。已知 $b=a+5$、$c=a+10$，且 $2\\sin C=3\\sin A$。求三角形面积。",
+      "options": [
+        "\\frac{375\\sqrt7}{2}",
+        "\\frac{375\\sqrt3}{4}",
+        "\\frac{750\\sqrt7}{3}",
+        "\\frac{375\\sqrt7}{4}"
+      ],
+      "answer": 3,
+      "explanation": "正弦定理把角的条件转为边的比例，再由三边求半周长，应用海伦公式。\n关键推导\n$$\n2c=3a,\\quad a=20,\\ b=25,\\ c=30,\\quad t=\\frac{a+b+c}{2}=\\frac{75}{2},\\quad S=\\sqrt{t(t-a)(t-b)(t-c)}=\\frac{375\\sqrt7}{4}\n$$\n三边均为正且满足严格三角不等式，所以构成非退化三角形。",
+      "params": {
+        "a": 20,
+        "d": 5
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 18 题(1)",
+        "page": "评析例 5，第 72 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2571"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "正弦定理转为边比，联立等差边条件，再用海伦公式求面积。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2575.svg",
+        "alt": "正弦定理与三边成等差的面积示意图；具体条件以题干为准",
+        "kind": "triangle"
+      }
+    },
+    {
+      "id": "M2576",
+      "batch": 12,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-triangle",
+      "variant": 6,
+      "strategy": "正弦定理与三边成等差的面积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "三角形 $ABC$ 的内角 $A,B,C$ 的对边为 $a,b,c$。已知 $b=a+6$、$c=a+12$，且 $2\\sin C=3\\sin A$。求三角形面积。",
+      "options": [
+        "\\frac{540\\sqrt3}{4}",
+        "\\frac{1080\\sqrt7}{3}",
+        "\\frac{540\\sqrt7}{4}",
+        "\\frac{540\\sqrt7}{2}"
+      ],
+      "answer": 2,
+      "explanation": "正弦定理把角的条件转为边的比例，再由三边求半周长，应用海伦公式。\n关键推导\n$$\n2c=3a,\\quad a=24,\\ b=30,\\ c=36,\\quad t=\\frac{a+b+c}{2}=45,\\quad S=\\sqrt{t(t-a)(t-b)(t-c)}=\\frac{540\\sqrt7}{4}\n$$\n三边均为正且满足严格三角不等式，所以构成非退化三角形。",
+      "params": {
+        "a": 24,
+        "d": 6
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 18 题(1)",
+        "page": "评析例 5，第 72 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2571"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "正弦定理转为边比，联立等差边条件，再用海伦公式求面积。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2576.svg",
+        "alt": "正弦定理与三边成等差的面积示意图；具体条件以题干为准",
+        "kind": "triangle"
+      }
+    },
+    {
+      "id": "M2577",
+      "batch": 12,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-triangle",
+      "variant": 7,
+      "strategy": "正弦定理与三边成等差的面积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "三角形 $ABC$ 的内角 $A,B,C$ 的对边为 $a,b,c$。已知 $b=a+7$、$c=a+14$，且 $2\\sin C=3\\sin A$。求三角形面积。",
+      "options": [
+        "\\frac{1470\\sqrt7}{3}",
+        "\\frac{735\\sqrt7}{4}",
+        "\\frac{735\\sqrt7}{2}",
+        "\\frac{735\\sqrt3}{4}"
+      ],
+      "answer": 1,
+      "explanation": "正弦定理把角的条件转为边的比例，再由三边求半周长，应用海伦公式。\n关键推导\n$$\n2c=3a,\\quad a=28,\\ b=35,\\ c=42,\\quad t=\\frac{a+b+c}{2}=\\frac{105}{2},\\quad S=\\sqrt{t(t-a)(t-b)(t-c)}=\\frac{735\\sqrt7}{4}\n$$\n三边均为正且满足严格三角不等式，所以构成非退化三角形。",
+      "params": {
+        "a": 28,
+        "d": 7
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 18 题(1)",
+        "page": "评析例 5，第 72 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2571"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "正弦定理转为边比，联立等差边条件，再用海伦公式求面积。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2577.svg",
+        "alt": "正弦定理与三边成等差的面积示意图；具体条件以题干为准",
+        "kind": "triangle"
+      }
+    },
+    {
+      "id": "M2578",
+      "batch": 12,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-triangle",
+      "variant": 8,
+      "strategy": "正弦定理与三边成等差的面积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "三角形 $ABC$ 的内角 $A,B,C$ 的对边为 $a,b,c$。已知 $b=a+8$、$c=a+16$，且 $2\\sin C=3\\sin A$。求三角形面积。",
+      "options": [
+        "\\frac{960\\sqrt7}{4}",
+        "\\frac{960\\sqrt7}{2}",
+        "\\frac{960\\sqrt3}{4}",
+        "\\frac{1920\\sqrt7}{3}"
+      ],
+      "answer": 0,
+      "explanation": "正弦定理把角的条件转为边的比例，再由三边求半周长，应用海伦公式。\n关键推导\n$$\n2c=3a,\\quad a=32,\\ b=40,\\ c=48,\\quad t=\\frac{a+b+c}{2}=60,\\quad S=\\sqrt{t(t-a)(t-b)(t-c)}=\\frac{960\\sqrt7}{4}\n$$\n三边均为正且满足严格三角不等式，所以构成非退化三角形。",
+      "params": {
+        "a": 32,
+        "d": 8
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 18 题(1)",
+        "page": "评析例 5，第 72 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2571"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "正弦定理转为边比，联立等差边条件，再用海伦公式求面积。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2578.svg",
+        "alt": "正弦定理与三边成等差的面积示意图；具体条件以题干为准",
+        "kind": "triangle"
+      }
+    },
+    {
+      "id": "M2579",
+      "batch": 12,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-triangle",
+      "variant": 9,
+      "strategy": "正弦定理与三边成等差的面积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "三角形 $ABC$ 的内角 $A,B,C$ 的对边为 $a,b,c$。已知 $b=a+9$、$c=a+18$，且 $2\\sin C=3\\sin A$。求三角形面积。",
+      "options": [
+        "\\frac{1215\\sqrt7}{2}",
+        "\\frac{1215\\sqrt3}{4}",
+        "\\frac{2430\\sqrt7}{3}",
+        "\\frac{1215\\sqrt7}{4}"
+      ],
+      "answer": 3,
+      "explanation": "正弦定理把角的条件转为边的比例，再由三边求半周长，应用海伦公式。\n关键推导\n$$\n2c=3a,\\quad a=36,\\ b=45,\\ c=54,\\quad t=\\frac{a+b+c}{2}=\\frac{135}{2},\\quad S=\\sqrt{t(t-a)(t-b)(t-c)}=\\frac{1215\\sqrt7}{4}\n$$\n三边均为正且满足严格三角不等式，所以构成非退化三角形。",
+      "params": {
+        "a": 36,
+        "d": 9
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 18 题(1)",
+        "page": "评析例 5，第 72 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2571"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "正弦定理转为边比，联立等差边条件，再用海伦公式求面积。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2579.svg",
+        "alt": "正弦定理与三边成等差的面积示意图；具体条件以题干为准",
+        "kind": "triangle"
+      }
+    },
+    {
+      "id": "M2580",
+      "batch": 12,
+      "topic": "triangle",
+      "topicName": "正弦定理、余弦定理与解三角形",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-triangle",
+      "variant": 10,
+      "strategy": "正弦定理与三边成等差的面积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "三角形 $ABC$ 的内角 $A,B,C$ 的对边为 $a,b,c$。已知 $b=a+10$、$c=a+20$，且 $2\\sin C=3\\sin A$。求三角形面积。",
+      "options": [
+        "\\frac{1500\\sqrt3}{4}",
+        "\\frac{3000\\sqrt7}{3}",
+        "\\frac{1500\\sqrt7}{4}",
+        "\\frac{1500\\sqrt7}{2}"
+      ],
+      "answer": 2,
+      "explanation": "正弦定理把角的条件转为边的比例，再由三边求半周长，应用海伦公式。\n关键推导\n$$\n2c=3a,\\quad a=40,\\ b=50,\\ c=60,\\quad t=\\frac{a+b+c}{2}=75,\\quad S=\\sqrt{t(t-a)(t-b)(t-c)}=\\frac{1500\\sqrt7}{4}\n$$\n三边均为正且满足严格三角不等式，所以构成非退化三角形。",
+      "params": {
+        "a": 40,
+        "d": 10
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 18 题(1)",
+        "page": "评析例 5，第 72 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2571"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "正弦定理转为边比，联立等差边条件，再用海伦公式求面积。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2580.svg",
+        "alt": "正弦定理与三边成等差的面积示意图；具体条件以题干为准",
+        "kind": "triangle"
+      }
+    },
+    {
+      "id": "M2581",
+      "batch": 12,
+      "topic": "hyperbola",
+      "topicName": "双曲线与渐近线",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-locus",
+      "variant": 1,
+      "strategy": "焦点距离差定义与双曲线方程",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "已知两定点 $F_1(-\\sqrt{17},0)$、$F_2(\\sqrt{17},0)$。动点 $M$ 满足 $\\bigl||MF_1|-|MF_2|\\bigr|=2$，求其轨迹方程。",
+      "options": [
+        "\\frac{x^2}{16}-y^2=1",
+        "x^2-\\frac{y^2}{17}=1",
+        "x^2-\\frac{y^2}{16}=1",
+        "x^2+\\frac{y^2}{16}=1"
+      ],
+      "answer": 2,
+      "explanation": "到两焦点的距离差的绝对值为正常数，且小于焦距，轨迹为双曲线。\n关键推导\n$$\n2a=2\\Longrightarrow a=1,\\qquad c^2=17,\\quad b^2=c^2-a^2=16,\\qquad x^2-\\frac{y^2}{16}=1\n$$\n焦点在横轴上，常数严格小于两焦点间距离，轨迹包含左右两支。",
+      "params": {
+        "c2": 17
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 21 题(1)",
+        "page": "评析例 6，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2581"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "按双曲线定义确定实半轴，再由焦距关系求虚半轴。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2581.svg",
+        "alt": "焦点距离差定义与双曲线方程示意图；具体条件以题干为准",
+        "kind": "hyperbola"
+      }
+    },
+    {
+      "id": "M2582",
+      "batch": 12,
+      "topic": "hyperbola",
+      "topicName": "双曲线与渐近线",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-locus",
+      "variant": 2,
+      "strategy": "焦点距离差定义与双曲线方程",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "已知两定点 $F_1(-\\sqrt{18},0)$、$F_2(\\sqrt{18},0)$。动点 $M$ 满足 $\\bigl||MF_1|-|MF_2|\\bigr|=2$，求其轨迹方程。",
+      "options": [
+        "x^2-\\frac{y^2}{18}=1",
+        "x^2-\\frac{y^2}{17}=1",
+        "x^2+\\frac{y^2}{17}=1",
+        "\\frac{x^2}{17}-y^2=1"
+      ],
+      "answer": 1,
+      "explanation": "到两焦点的距离差的绝对值为正常数，且小于焦距，轨迹为双曲线。\n关键推导\n$$\n2a=2\\Longrightarrow a=1,\\qquad c^2=18,\\quad b^2=c^2-a^2=17,\\qquad x^2-\\frac{y^2}{17}=1\n$$\n焦点在横轴上，常数严格小于两焦点间距离，轨迹包含左右两支。",
+      "params": {
+        "c2": 18
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 21 题(1)",
+        "page": "评析例 6，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2581"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "按双曲线定义确定实半轴，再由焦距关系求虚半轴。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2582.svg",
+        "alt": "焦点距离差定义与双曲线方程示意图；具体条件以题干为准",
+        "kind": "hyperbola"
+      }
+    },
+    {
+      "id": "M2583",
+      "batch": 12,
+      "topic": "hyperbola",
+      "topicName": "双曲线与渐近线",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-locus",
+      "variant": 3,
+      "strategy": "焦点距离差定义与双曲线方程",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "已知两定点 $F_1(-\\sqrt{19},0)$、$F_2(\\sqrt{19},0)$。动点 $M$ 满足 $\\bigl||MF_1|-|MF_2|\\bigr|=2$，求其轨迹方程。",
+      "options": [
+        "x^2-\\frac{y^2}{18}=1",
+        "x^2+\\frac{y^2}{18}=1",
+        "\\frac{x^2}{18}-y^2=1",
+        "x^2-\\frac{y^2}{19}=1"
+      ],
+      "answer": 0,
+      "explanation": "到两焦点的距离差的绝对值为正常数，且小于焦距，轨迹为双曲线。\n关键推导\n$$\n2a=2\\Longrightarrow a=1,\\qquad c^2=19,\\quad b^2=c^2-a^2=18,\\qquad x^2-\\frac{y^2}{18}=1\n$$\n焦点在横轴上，常数严格小于两焦点间距离，轨迹包含左右两支。",
+      "params": {
+        "c2": 19
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 21 题(1)",
+        "page": "评析例 6，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2581"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "按双曲线定义确定实半轴，再由焦距关系求虚半轴。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2583.svg",
+        "alt": "焦点距离差定义与双曲线方程示意图；具体条件以题干为准",
+        "kind": "hyperbola"
+      }
+    },
+    {
+      "id": "M2584",
+      "batch": 12,
+      "topic": "hyperbola",
+      "topicName": "双曲线与渐近线",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-locus",
+      "variant": 4,
+      "strategy": "焦点距离差定义与双曲线方程",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "已知两定点 $F_1(-\\sqrt{20},0)$、$F_2(\\sqrt{20},0)$。动点 $M$ 满足 $\\bigl||MF_1|-|MF_2|\\bigr|=2$，求其轨迹方程。",
+      "options": [
+        "x^2+\\frac{y^2}{19}=1",
+        "\\frac{x^2}{19}-y^2=1",
+        "x^2-\\frac{y^2}{20}=1",
+        "x^2-\\frac{y^2}{19}=1"
+      ],
+      "answer": 3,
+      "explanation": "到两焦点的距离差的绝对值为正常数，且小于焦距，轨迹为双曲线。\n关键推导\n$$\n2a=2\\Longrightarrow a=1,\\qquad c^2=20,\\quad b^2=c^2-a^2=19,\\qquad x^2-\\frac{y^2}{19}=1\n$$\n焦点在横轴上，常数严格小于两焦点间距离，轨迹包含左右两支。",
+      "params": {
+        "c2": 20
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 21 题(1)",
+        "page": "评析例 6，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2581"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "按双曲线定义确定实半轴，再由焦距关系求虚半轴。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2584.svg",
+        "alt": "焦点距离差定义与双曲线方程示意图；具体条件以题干为准",
+        "kind": "hyperbola"
+      }
+    },
+    {
+      "id": "M2585",
+      "batch": 12,
+      "topic": "hyperbola",
+      "topicName": "双曲线与渐近线",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-locus",
+      "variant": 5,
+      "strategy": "焦点距离差定义与双曲线方程",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "已知两定点 $F_1(-\\sqrt{21},0)$、$F_2(\\sqrt{21},0)$。动点 $M$ 满足 $\\bigl||MF_1|-|MF_2|\\bigr|=2$，求其轨迹方程。",
+      "options": [
+        "\\frac{x^2}{20}-y^2=1",
+        "x^2-\\frac{y^2}{21}=1",
+        "x^2-\\frac{y^2}{20}=1",
+        "x^2+\\frac{y^2}{20}=1"
+      ],
+      "answer": 2,
+      "explanation": "到两焦点的距离差的绝对值为正常数，且小于焦距，轨迹为双曲线。\n关键推导\n$$\n2a=2\\Longrightarrow a=1,\\qquad c^2=21,\\quad b^2=c^2-a^2=20,\\qquad x^2-\\frac{y^2}{20}=1\n$$\n焦点在横轴上，常数严格小于两焦点间距离，轨迹包含左右两支。",
+      "params": {
+        "c2": 21
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 21 题(1)",
+        "page": "评析例 6，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2581"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "按双曲线定义确定实半轴，再由焦距关系求虚半轴。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2585.svg",
+        "alt": "焦点距离差定义与双曲线方程示意图；具体条件以题干为准",
+        "kind": "hyperbola"
+      }
+    },
+    {
+      "id": "M2586",
+      "batch": 12,
+      "topic": "hyperbola",
+      "topicName": "双曲线与渐近线",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-locus",
+      "variant": 6,
+      "strategy": "焦点距离差定义与双曲线方程",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "已知两定点 $F_1(-\\sqrt{22},0)$、$F_2(\\sqrt{22},0)$。动点 $M$ 满足 $\\bigl||MF_1|-|MF_2|\\bigr|=2$，求其轨迹方程。",
+      "options": [
+        "x^2-\\frac{y^2}{22}=1",
+        "x^2-\\frac{y^2}{21}=1",
+        "x^2+\\frac{y^2}{21}=1",
+        "\\frac{x^2}{21}-y^2=1"
+      ],
+      "answer": 1,
+      "explanation": "到两焦点的距离差的绝对值为正常数，且小于焦距，轨迹为双曲线。\n关键推导\n$$\n2a=2\\Longrightarrow a=1,\\qquad c^2=22,\\quad b^2=c^2-a^2=21,\\qquad x^2-\\frac{y^2}{21}=1\n$$\n焦点在横轴上，常数严格小于两焦点间距离，轨迹包含左右两支。",
+      "params": {
+        "c2": 22
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 21 题(1)",
+        "page": "评析例 6，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2581"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "按双曲线定义确定实半轴，再由焦距关系求虚半轴。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2586.svg",
+        "alt": "焦点距离差定义与双曲线方程示意图；具体条件以题干为准",
+        "kind": "hyperbola"
+      }
+    },
+    {
+      "id": "M2587",
+      "batch": 12,
+      "topic": "hyperbola",
+      "topicName": "双曲线与渐近线",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-locus",
+      "variant": 7,
+      "strategy": "焦点距离差定义与双曲线方程",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "已知两定点 $F_1(-\\sqrt{23},0)$、$F_2(\\sqrt{23},0)$。动点 $M$ 满足 $\\bigl||MF_1|-|MF_2|\\bigr|=2$，求其轨迹方程。",
+      "options": [
+        "x^2-\\frac{y^2}{22}=1",
+        "x^2+\\frac{y^2}{22}=1",
+        "\\frac{x^2}{22}-y^2=1",
+        "x^2-\\frac{y^2}{23}=1"
+      ],
+      "answer": 0,
+      "explanation": "到两焦点的距离差的绝对值为正常数，且小于焦距，轨迹为双曲线。\n关键推导\n$$\n2a=2\\Longrightarrow a=1,\\qquad c^2=23,\\quad b^2=c^2-a^2=22,\\qquad x^2-\\frac{y^2}{22}=1\n$$\n焦点在横轴上，常数严格小于两焦点间距离，轨迹包含左右两支。",
+      "params": {
+        "c2": 23
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 21 题(1)",
+        "page": "评析例 6，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2581"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "按双曲线定义确定实半轴，再由焦距关系求虚半轴。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2587.svg",
+        "alt": "焦点距离差定义与双曲线方程示意图；具体条件以题干为准",
+        "kind": "hyperbola"
+      }
+    },
+    {
+      "id": "M2588",
+      "batch": 12,
+      "topic": "hyperbola",
+      "topicName": "双曲线与渐近线",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-locus",
+      "variant": 8,
+      "strategy": "焦点距离差定义与双曲线方程",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "已知两定点 $F_1(-\\sqrt{24},0)$、$F_2(\\sqrt{24},0)$。动点 $M$ 满足 $\\bigl||MF_1|-|MF_2|\\bigr|=2$，求其轨迹方程。",
+      "options": [
+        "x^2+\\frac{y^2}{23}=1",
+        "\\frac{x^2}{23}-y^2=1",
+        "x^2-\\frac{y^2}{24}=1",
+        "x^2-\\frac{y^2}{23}=1"
+      ],
+      "answer": 3,
+      "explanation": "到两焦点的距离差的绝对值为正常数，且小于焦距，轨迹为双曲线。\n关键推导\n$$\n2a=2\\Longrightarrow a=1,\\qquad c^2=24,\\quad b^2=c^2-a^2=23,\\qquad x^2-\\frac{y^2}{23}=1\n$$\n焦点在横轴上，常数严格小于两焦点间距离，轨迹包含左右两支。",
+      "params": {
+        "c2": 24
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 21 题(1)",
+        "page": "评析例 6，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2581"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "按双曲线定义确定实半轴，再由焦距关系求虚半轴。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2588.svg",
+        "alt": "焦点距离差定义与双曲线方程示意图；具体条件以题干为准",
+        "kind": "hyperbola"
+      }
+    },
+    {
+      "id": "M2589",
+      "batch": 12,
+      "topic": "hyperbola",
+      "topicName": "双曲线与渐近线",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-locus",
+      "variant": 9,
+      "strategy": "焦点距离差定义与双曲线方程",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "已知两定点 $F_1(-\\sqrt{25},0)$、$F_2(\\sqrt{25},0)$。动点 $M$ 满足 $\\bigl||MF_1|-|MF_2|\\bigr|=2$，求其轨迹方程。",
+      "options": [
+        "\\frac{x^2}{24}-y^2=1",
+        "x^2-\\frac{y^2}{25}=1",
+        "x^2-\\frac{y^2}{24}=1",
+        "x^2+\\frac{y^2}{24}=1"
+      ],
+      "answer": 2,
+      "explanation": "到两焦点的距离差的绝对值为正常数，且小于焦距，轨迹为双曲线。\n关键推导\n$$\n2a=2\\Longrightarrow a=1,\\qquad c^2=25,\\quad b^2=c^2-a^2=24,\\qquad x^2-\\frac{y^2}{24}=1\n$$\n焦点在横轴上，常数严格小于两焦点间距离，轨迹包含左右两支。",
+      "params": {
+        "c2": 25
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 21 题(1)",
+        "page": "评析例 6，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2581"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "按双曲线定义确定实半轴，再由焦距关系求虚半轴。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2589.svg",
+        "alt": "焦点距离差定义与双曲线方程示意图；具体条件以题干为准",
+        "kind": "hyperbola"
+      }
+    },
+    {
+      "id": "M2590",
+      "batch": 12,
+      "topic": "hyperbola",
+      "topicName": "双曲线与渐近线",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-locus",
+      "variant": 10,
+      "strategy": "焦点距离差定义与双曲线方程",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "已知两定点 $F_1(-\\sqrt{26},0)$、$F_2(\\sqrt{26},0)$。动点 $M$ 满足 $\\bigl||MF_1|-|MF_2|\\bigr|=2$，求其轨迹方程。",
+      "options": [
+        "x^2-\\frac{y^2}{26}=1",
+        "x^2-\\frac{y^2}{25}=1",
+        "x^2+\\frac{y^2}{25}=1",
+        "\\frac{x^2}{25}-y^2=1"
+      ],
+      "answer": 1,
+      "explanation": "到两焦点的距离差的绝对值为正常数，且小于焦距，轨迹为双曲线。\n关键推导\n$$\n2a=2\\Longrightarrow a=1,\\qquad c^2=26,\\quad b^2=c^2-a^2=25,\\qquad x^2-\\frac{y^2}{25}=1\n$$\n焦点在横轴上，常数严格小于两焦点间距离，轨迹包含左右两支。",
+      "params": {
+        "c2": 26
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 21 题(1)",
+        "page": "评析例 6，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2581"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "按双曲线定义确定实半轴，再由焦距关系求虚半轴。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2590.svg",
+        "alt": "焦点距离差定义与双曲线方程示意图；具体条件以题干为准",
+        "kind": "hyperbola"
+      }
+    },
+    {
+      "id": "M2591",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-branching",
+      "variant": 1,
+      "strategy": "离散分布列与后代数量期望",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "一种动物一只个体的下一代数量 $X$ 的分布列为 $\\begin{array}{c|rrrr}X&0&1&2&3\\\\\\hline P&\\frac{2}{5}&\\frac{3}{10}&\\frac{1}{5}&\\frac{1}{10}\\end{array}$。求 $E(X)$。",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "\\frac{1}{2}"
+      ],
+      "answer": 1,
+      "explanation": "检查概率非负且和为一，再用取值与概率的乘积求和。\n关键推导\n$$\n\\sum p_i=1,\\qquad E(X)=0\\times\\frac{2}{5}+1\\times\\frac{3}{10}+2\\times\\frac{1}{5}+3\\times\\frac{1}{10}=1\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "weights": [
+          80,
+          60,
+          40,
+          20
+        ],
+        "denominator": 200
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 21 题(1)",
+        "page": "评析例 7，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2591"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "当前只求给定分布列的期望，不含原大题中的灭绝概率证明。"
+      }
+    },
+    {
+      "id": "M2592",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-branching",
+      "variant": 2,
+      "strategy": "离散分布列与后代数量期望",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "一种动物一只个体的下一代数量 $X$ 的分布列为 $\\begin{array}{c|rrrr}X&0&1&2&3\\\\\\hline P&\\frac{79}{200}&\\frac{3}{10}&\\frac{1}{5}&\\frac{21}{200}\\end{array}$。求 $E(X)$。",
+      "options": [
+        "\\frac{203}{200}",
+        "\\frac{403}{200}",
+        "\\frac{203}{400}",
+        "\\frac{403}{400}"
+      ],
+      "answer": 0,
+      "explanation": "检查概率非负且和为一，再用取值与概率的乘积求和。\n关键推导\n$$\n\\sum p_i=1,\\qquad E(X)=0\\times\\frac{79}{200}+1\\times\\frac{3}{10}+2\\times\\frac{1}{5}+3\\times\\frac{21}{200}=\\frac{203}{200}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "weights": [
+          79,
+          60,
+          40,
+          21
+        ],
+        "denominator": 200
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 21 题(1)",
+        "page": "评析例 7，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2591"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "当前只求给定分布列的期望，不含原大题中的灭绝概率证明。"
+      }
+    },
+    {
+      "id": "M2593",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-branching",
+      "variant": 3,
+      "strategy": "离散分布列与后代数量期望",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "一种动物一只个体的下一代数量 $X$ 的分布列为 $\\begin{array}{c|rrrr}X&0&1&2&3\\\\\\hline P&\\frac{39}{100}&\\frac{3}{10}&\\frac{1}{5}&\\frac{11}{100}\\end{array}$。求 $E(X)$。",
+      "options": [
+        "\\frac{203}{100}",
+        "\\frac{103}{200}",
+        "\\frac{203}{200}",
+        "\\frac{103}{100}"
+      ],
+      "answer": 3,
+      "explanation": "检查概率非负且和为一，再用取值与概率的乘积求和。\n关键推导\n$$\n\\sum p_i=1,\\qquad E(X)=0\\times\\frac{39}{100}+1\\times\\frac{3}{10}+2\\times\\frac{1}{5}+3\\times\\frac{11}{100}=\\frac{103}{100}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "weights": [
+          78,
+          60,
+          40,
+          22
+        ],
+        "denominator": 200
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 21 题(1)",
+        "page": "评析例 7，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2591"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "当前只求给定分布列的期望，不含原大题中的灭绝概率证明。"
+      }
+    },
+    {
+      "id": "M2594",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-branching",
+      "variant": 4,
+      "strategy": "离散分布列与后代数量期望",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "一种动物一只个体的下一代数量 $X$ 的分布列为 $\\begin{array}{c|rrrr}X&0&1&2&3\\\\\\hline P&\\frac{77}{200}&\\frac{3}{10}&\\frac{1}{5}&\\frac{23}{200}\\end{array}$。求 $E(X)$。",
+      "options": [
+        "\\frac{209}{400}",
+        "\\frac{409}{400}",
+        "\\frac{209}{200}",
+        "\\frac{409}{200}"
+      ],
+      "answer": 2,
+      "explanation": "检查概率非负且和为一，再用取值与概率的乘积求和。\n关键推导\n$$\n\\sum p_i=1,\\qquad E(X)=0\\times\\frac{77}{200}+1\\times\\frac{3}{10}+2\\times\\frac{1}{5}+3\\times\\frac{23}{200}=\\frac{209}{200}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "weights": [
+          77,
+          60,
+          40,
+          23
+        ],
+        "denominator": 200
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 21 题(1)",
+        "page": "评析例 7，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2591"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "当前只求给定分布列的期望，不含原大题中的灭绝概率证明。"
+      }
+    },
+    {
+      "id": "M2595",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-branching",
+      "variant": 5,
+      "strategy": "离散分布列与后代数量期望",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "一种动物一只个体的下一代数量 $X$ 的分布列为 $\\begin{array}{c|rrrr}X&0&1&2&3\\\\\\hline P&\\frac{19}{50}&\\frac{3}{10}&\\frac{1}{5}&\\frac{3}{25}\\end{array}$。求 $E(X)$。",
+      "options": [
+        "\\frac{103}{100}",
+        "\\frac{53}{50}",
+        "\\frac{103}{50}",
+        "\\frac{53}{100}"
+      ],
+      "answer": 1,
+      "explanation": "检查概率非负且和为一，再用取值与概率的乘积求和。\n关键推导\n$$\n\\sum p_i=1,\\qquad E(X)=0\\times\\frac{19}{50}+1\\times\\frac{3}{10}+2\\times\\frac{1}{5}+3\\times\\frac{3}{25}=\\frac{53}{50}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "weights": [
+          76,
+          60,
+          40,
+          24
+        ],
+        "denominator": 200
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 21 题(1)",
+        "page": "评析例 7，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2591"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "当前只求给定分布列的期望，不含原大题中的灭绝概率证明。"
+      }
+    },
+    {
+      "id": "M2596",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-branching",
+      "variant": 6,
+      "strategy": "离散分布列与后代数量期望",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "一种动物一只个体的下一代数量 $X$ 的分布列为 $\\begin{array}{c|rrrr}X&0&1&2&3\\\\\\hline P&\\frac{3}{8}&\\frac{3}{10}&\\frac{1}{5}&\\frac{1}{8}\\end{array}$。求 $E(X)$。",
+      "options": [
+        "\\frac{43}{40}",
+        "\\frac{83}{40}",
+        "\\frac{43}{80}",
+        "\\frac{83}{80}"
+      ],
+      "answer": 0,
+      "explanation": "检查概率非负且和为一，再用取值与概率的乘积求和。\n关键推导\n$$\n\\sum p_i=1,\\qquad E(X)=0\\times\\frac{3}{8}+1\\times\\frac{3}{10}+2\\times\\frac{1}{5}+3\\times\\frac{1}{8}=\\frac{43}{40}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "weights": [
+          75,
+          60,
+          40,
+          25
+        ],
+        "denominator": 200
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 21 题(1)",
+        "page": "评析例 7，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2591"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "当前只求给定分布列的期望，不含原大题中的灭绝概率证明。"
+      }
+    },
+    {
+      "id": "M2597",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-branching",
+      "variant": 7,
+      "strategy": "离散分布列与后代数量期望",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "一种动物一只个体的下一代数量 $X$ 的分布列为 $\\begin{array}{c|rrrr}X&0&1&2&3\\\\\\hline P&\\frac{37}{100}&\\frac{3}{10}&\\frac{1}{5}&\\frac{13}{100}\\end{array}$。求 $E(X)$。",
+      "options": [
+        "\\frac{209}{100}",
+        "\\frac{109}{200}",
+        "\\frac{209}{200}",
+        "\\frac{109}{100}"
+      ],
+      "answer": 3,
+      "explanation": "检查概率非负且和为一，再用取值与概率的乘积求和。\n关键推导\n$$\n\\sum p_i=1,\\qquad E(X)=0\\times\\frac{37}{100}+1\\times\\frac{3}{10}+2\\times\\frac{1}{5}+3\\times\\frac{13}{100}=\\frac{109}{100}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "weights": [
+          74,
+          60,
+          40,
+          26
+        ],
+        "denominator": 200
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 21 题(1)",
+        "page": "评析例 7，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2591"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "当前只求给定分布列的期望，不含原大题中的灭绝概率证明。"
+      }
+    },
+    {
+      "id": "M2598",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-branching",
+      "variant": 8,
+      "strategy": "离散分布列与后代数量期望",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "一种动物一只个体的下一代数量 $X$ 的分布列为 $\\begin{array}{c|rrrr}X&0&1&2&3\\\\\\hline P&\\frac{73}{200}&\\frac{3}{10}&\\frac{1}{5}&\\frac{27}{200}\\end{array}$。求 $E(X)$。",
+      "options": [
+        "\\frac{221}{400}",
+        "\\frac{421}{400}",
+        "\\frac{221}{200}",
+        "\\frac{421}{200}"
+      ],
+      "answer": 2,
+      "explanation": "检查概率非负且和为一，再用取值与概率的乘积求和。\n关键推导\n$$\n\\sum p_i=1,\\qquad E(X)=0\\times\\frac{73}{200}+1\\times\\frac{3}{10}+2\\times\\frac{1}{5}+3\\times\\frac{27}{200}=\\frac{221}{200}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "weights": [
+          73,
+          60,
+          40,
+          27
+        ],
+        "denominator": 200
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 21 题(1)",
+        "page": "评析例 7，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2591"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "当前只求给定分布列的期望，不含原大题中的灭绝概率证明。"
+      }
+    },
+    {
+      "id": "M2599",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-branching",
+      "variant": 9,
+      "strategy": "离散分布列与后代数量期望",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "一种动物一只个体的下一代数量 $X$ 的分布列为 $\\begin{array}{c|rrrr}X&0&1&2&3\\\\\\hline P&\\frac{9}{25}&\\frac{3}{10}&\\frac{1}{5}&\\frac{7}{50}\\end{array}$。求 $E(X)$。",
+      "options": [
+        "\\frac{53}{50}",
+        "\\frac{28}{25}",
+        "\\frac{53}{25}",
+        "\\frac{14}{25}"
+      ],
+      "answer": 1,
+      "explanation": "检查概率非负且和为一，再用取值与概率的乘积求和。\n关键推导\n$$\n\\sum p_i=1,\\qquad E(X)=0\\times\\frac{9}{25}+1\\times\\frac{3}{10}+2\\times\\frac{1}{5}+3\\times\\frac{7}{50}=\\frac{28}{25}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "weights": [
+          72,
+          60,
+          40,
+          28
+        ],
+        "denominator": 200
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 21 题(1)",
+        "page": "评析例 7，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2591"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "当前只求给定分布列的期望，不含原大题中的灭绝概率证明。"
+      }
+    },
+    {
+      "id": "M2600",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-branching",
+      "variant": 10,
+      "strategy": "离散分布列与后代数量期望",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "一种动物一只个体的下一代数量 $X$ 的分布列为 $\\begin{array}{c|rrrr}X&0&1&2&3\\\\\\hline P&\\frac{71}{200}&\\frac{3}{10}&\\frac{1}{5}&\\frac{29}{200}\\end{array}$。求 $E(X)$。",
+      "options": [
+        "\\frac{227}{200}",
+        "\\frac{427}{200}",
+        "\\frac{227}{400}",
+        "\\frac{427}{400}"
+      ],
+      "answer": 0,
+      "explanation": "检查概率非负且和为一，再用取值与概率的乘积求和。\n关键推导\n$$\n\\sum p_i=1,\\qquad E(X)=0\\times\\frac{71}{200}+1\\times\\frac{3}{10}+2\\times\\frac{1}{5}+3\\times\\frac{29}{200}=\\frac{227}{200}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "weights": [
+          71,
+          60,
+          40,
+          29
+        ],
+        "denominator": 200
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 21 题(1)",
+        "page": "评析例 7，第 73 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2591"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "当前只求给定分布列的期望，不含原大题中的灭绝概率证明。"
+      }
+    },
+    {
+      "id": "M2601",
+      "batch": 12,
+      "topic": "exp-log",
+      "topicName": "指数、对数与幂",
+      "difficulty": "easy",
+      "difficultyLabel": "简单",
+      "targetSeconds": 15,
+      "family": "gaokao-earthquake",
+      "variant": 1,
+      "strategy": "震级模型与常用对数反解",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "采用震级模型 $L=5+\\lg V$，其中 $\\lg$ 为常用对数，$V>0$。某次震级为 $4.9$，求 $V$ 的精确值。",
+      "options": [
+        "10^{-\\frac{1}{10}}",
+        "10^{\\frac{9}{10}}",
+        "10^{-\\frac{11}{10}}",
+        "10^{\\frac{2}{5}}"
+      ],
+      "answer": 0,
+      "explanation": "先将常数移项，再按照常用对数的定义改写为指数形式。\n关键推导\n$$\n\\lg V=4.9-5=-\\frac{1}{10}\\quad\\Longrightarrow\\quad V=10^{-\\frac{1}{10}}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": -1,
+        "level": "4.9"
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "全国甲卷",
+        "question": "全国甲卷理科第 4 题／文科第 6 题",
+        "page": "评析例 9，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2601"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "题面已给对数模型，只需移项并按常用对数定义转指数。"
+      }
+    },
+    {
+      "id": "M2602",
+      "batch": 12,
+      "topic": "exp-log",
+      "topicName": "指数、对数与幂",
+      "difficulty": "easy",
+      "difficultyLabel": "简单",
+      "targetSeconds": 15,
+      "family": "gaokao-earthquake",
+      "variant": 2,
+      "strategy": "震级模型与常用对数反解",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "采用震级模型 $L=5+\\lg V$，其中 $\\lg$ 为常用对数，$V>0$。某次震级为 $5$，求 $V$ 的精确值。",
+      "options": [
+        "10^{1}",
+        "10^{-1}",
+        "10^{\\frac{1}{2}}",
+        "10^{0}"
+      ],
+      "answer": 3,
+      "explanation": "先将常数移项，再按照常用对数的定义改写为指数形式。\n关键推导\n$$\n\\lg V=5-5=0\\quad\\Longrightarrow\\quad V=10^{0}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 0,
+        "level": "5"
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "全国甲卷",
+        "question": "全国甲卷理科第 4 题／文科第 6 题",
+        "page": "评析例 9，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2601"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "题面已给对数模型，只需移项并按常用对数定义转指数。"
+      }
+    },
+    {
+      "id": "M2603",
+      "batch": 12,
+      "topic": "exp-log",
+      "topicName": "指数、对数与幂",
+      "difficulty": "easy",
+      "difficultyLabel": "简单",
+      "targetSeconds": 15,
+      "family": "gaokao-earthquake",
+      "variant": 3,
+      "strategy": "震级模型与常用对数反解",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "采用震级模型 $L=5+\\lg V$，其中 $\\lg$ 为常用对数，$V>0$。某次震级为 $5.1$，求 $V$ 的精确值。",
+      "options": [
+        "10^{-\\frac{9}{10}}",
+        "10^{\\frac{3}{5}}",
+        "10^{\\frac{1}{10}}",
+        "10^{\\frac{11}{10}}"
+      ],
+      "answer": 2,
+      "explanation": "先将常数移项，再按照常用对数的定义改写为指数形式。\n关键推导\n$$\n\\lg V=5.1-5=\\frac{1}{10}\\quad\\Longrightarrow\\quad V=10^{\\frac{1}{10}}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 1,
+        "level": "5.1"
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "全国甲卷",
+        "question": "全国甲卷理科第 4 题／文科第 6 题",
+        "page": "评析例 9，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2601"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "题面已给对数模型，只需移项并按常用对数定义转指数。"
+      }
+    },
+    {
+      "id": "M2604",
+      "batch": 12,
+      "topic": "exp-log",
+      "topicName": "指数、对数与幂",
+      "difficulty": "easy",
+      "difficultyLabel": "简单",
+      "targetSeconds": 15,
+      "family": "gaokao-earthquake",
+      "variant": 4,
+      "strategy": "震级模型与常用对数反解",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "采用震级模型 $L=5+\\lg V$，其中 $\\lg$ 为常用对数，$V>0$。某次震级为 $5.2$，求 $V$ 的精确值。",
+      "options": [
+        "10^{\\frac{7}{10}}",
+        "10^{\\frac{1}{5}}",
+        "10^{\\frac{6}{5}}",
+        "10^{-\\frac{4}{5}}"
+      ],
+      "answer": 1,
+      "explanation": "先将常数移项，再按照常用对数的定义改写为指数形式。\n关键推导\n$$\n\\lg V=5.2-5=\\frac{1}{5}\\quad\\Longrightarrow\\quad V=10^{\\frac{1}{5}}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 2,
+        "level": "5.2"
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "全国甲卷",
+        "question": "全国甲卷理科第 4 题／文科第 6 题",
+        "page": "评析例 9，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2601"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "题面已给对数模型，只需移项并按常用对数定义转指数。"
+      }
+    },
+    {
+      "id": "M2605",
+      "batch": 12,
+      "topic": "exp-log",
+      "topicName": "指数、对数与幂",
+      "difficulty": "easy",
+      "difficultyLabel": "简单",
+      "targetSeconds": 15,
+      "family": "gaokao-earthquake",
+      "variant": 5,
+      "strategy": "震级模型与常用对数反解",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "采用震级模型 $L=5+\\lg V$，其中 $\\lg$ 为常用对数，$V>0$。某次震级为 $5.3$，求 $V$ 的精确值。",
+      "options": [
+        "10^{\\frac{3}{10}}",
+        "10^{\\frac{13}{10}}",
+        "10^{-\\frac{7}{10}}",
+        "10^{\\frac{4}{5}}"
+      ],
+      "answer": 0,
+      "explanation": "先将常数移项，再按照常用对数的定义改写为指数形式。\n关键推导\n$$\n\\lg V=5.3-5=\\frac{3}{10}\\quad\\Longrightarrow\\quad V=10^{\\frac{3}{10}}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 3,
+        "level": "5.3"
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "全国甲卷",
+        "question": "全国甲卷理科第 4 题／文科第 6 题",
+        "page": "评析例 9，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2601"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "题面已给对数模型，只需移项并按常用对数定义转指数。"
+      }
+    },
+    {
+      "id": "M2606",
+      "batch": 12,
+      "topic": "exp-log",
+      "topicName": "指数、对数与幂",
+      "difficulty": "easy",
+      "difficultyLabel": "简单",
+      "targetSeconds": 15,
+      "family": "gaokao-earthquake",
+      "variant": 6,
+      "strategy": "震级模型与常用对数反解",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "采用震级模型 $L=5+\\lg V$，其中 $\\lg$ 为常用对数，$V>0$。某次震级为 $5.4$，求 $V$ 的精确值。",
+      "options": [
+        "10^{\\frac{7}{5}}",
+        "10^{-\\frac{3}{5}}",
+        "10^{\\frac{9}{10}}",
+        "10^{\\frac{2}{5}}"
+      ],
+      "answer": 3,
+      "explanation": "先将常数移项，再按照常用对数的定义改写为指数形式。\n关键推导\n$$\n\\lg V=5.4-5=\\frac{2}{5}\\quad\\Longrightarrow\\quad V=10^{\\frac{2}{5}}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 4,
+        "level": "5.4"
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "全国甲卷",
+        "question": "全国甲卷理科第 4 题／文科第 6 题",
+        "page": "评析例 9，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2601"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "题面已给对数模型，只需移项并按常用对数定义转指数。"
+      }
+    },
+    {
+      "id": "M2607",
+      "batch": 12,
+      "topic": "exp-log",
+      "topicName": "指数、对数与幂",
+      "difficulty": "easy",
+      "difficultyLabel": "简单",
+      "targetSeconds": 15,
+      "family": "gaokao-earthquake",
+      "variant": 7,
+      "strategy": "震级模型与常用对数反解",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "采用震级模型 $L=5+\\lg V$，其中 $\\lg$ 为常用对数，$V>0$。某次震级为 $5.5$，求 $V$ 的精确值。",
+      "options": [
+        "10^{-\\frac{1}{2}}",
+        "10^{1}",
+        "10^{\\frac{1}{2}}",
+        "10^{\\frac{3}{2}}"
+      ],
+      "answer": 2,
+      "explanation": "先将常数移项，再按照常用对数的定义改写为指数形式。\n关键推导\n$$\n\\lg V=5.5-5=\\frac{1}{2}\\quad\\Longrightarrow\\quad V=10^{\\frac{1}{2}}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 5,
+        "level": "5.5"
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "全国甲卷",
+        "question": "全国甲卷理科第 4 题／文科第 6 题",
+        "page": "评析例 9，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2601"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "题面已给对数模型，只需移项并按常用对数定义转指数。"
+      }
+    },
+    {
+      "id": "M2608",
+      "batch": 12,
+      "topic": "exp-log",
+      "topicName": "指数、对数与幂",
+      "difficulty": "easy",
+      "difficultyLabel": "简单",
+      "targetSeconds": 15,
+      "family": "gaokao-earthquake",
+      "variant": 8,
+      "strategy": "震级模型与常用对数反解",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "采用震级模型 $L=5+\\lg V$，其中 $\\lg$ 为常用对数，$V>0$。某次震级为 $5.6$，求 $V$ 的精确值。",
+      "options": [
+        "10^{\\frac{11}{10}}",
+        "10^{\\frac{3}{5}}",
+        "10^{\\frac{8}{5}}",
+        "10^{-\\frac{2}{5}}"
+      ],
+      "answer": 1,
+      "explanation": "先将常数移项，再按照常用对数的定义改写为指数形式。\n关键推导\n$$\n\\lg V=5.6-5=\\frac{3}{5}\\quad\\Longrightarrow\\quad V=10^{\\frac{3}{5}}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 6,
+        "level": "5.6"
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "全国甲卷",
+        "question": "全国甲卷理科第 4 题／文科第 6 题",
+        "page": "评析例 9，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2601"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "题面已给对数模型，只需移项并按常用对数定义转指数。"
+      }
+    },
+    {
+      "id": "M2609",
+      "batch": 12,
+      "topic": "exp-log",
+      "topicName": "指数、对数与幂",
+      "difficulty": "easy",
+      "difficultyLabel": "简单",
+      "targetSeconds": 15,
+      "family": "gaokao-earthquake",
+      "variant": 9,
+      "strategy": "震级模型与常用对数反解",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "采用震级模型 $L=5+\\lg V$，其中 $\\lg$ 为常用对数，$V>0$。某次震级为 $5.7$，求 $V$ 的精确值。",
+      "options": [
+        "10^{\\frac{7}{10}}",
+        "10^{\\frac{17}{10}}",
+        "10^{-\\frac{3}{10}}",
+        "10^{\\frac{6}{5}}"
+      ],
+      "answer": 0,
+      "explanation": "先将常数移项，再按照常用对数的定义改写为指数形式。\n关键推导\n$$\n\\lg V=5.7-5=\\frac{7}{10}\\quad\\Longrightarrow\\quad V=10^{\\frac{7}{10}}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 7,
+        "level": "5.7"
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "全国甲卷",
+        "question": "全国甲卷理科第 4 题／文科第 6 题",
+        "page": "评析例 9，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2601"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "题面已给对数模型，只需移项并按常用对数定义转指数。"
+      }
+    },
+    {
+      "id": "M2610",
+      "batch": 12,
+      "topic": "exp-log",
+      "topicName": "指数、对数与幂",
+      "difficulty": "easy",
+      "difficultyLabel": "简单",
+      "targetSeconds": 15,
+      "family": "gaokao-earthquake",
+      "variant": 10,
+      "strategy": "震级模型与常用对数反解",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "采用震级模型 $L=5+\\lg V$，其中 $\\lg$ 为常用对数，$V>0$。某次震级为 $5.8$，求 $V$ 的精确值。",
+      "options": [
+        "10^{\\frac{9}{5}}",
+        "10^{-\\frac{1}{5}}",
+        "10^{\\frac{13}{10}}",
+        "10^{\\frac{4}{5}}"
+      ],
+      "answer": 3,
+      "explanation": "先将常数移项，再按照常用对数的定义改写为指数形式。\n关键推导\n$$\n\\lg V=5.8-5=\\frac{4}{5}\\quad\\Longrightarrow\\quad V=10^{\\frac{4}{5}}\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "t": 8,
+        "level": "5.8"
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "全国甲卷",
+        "question": "全国甲卷理科第 4 题／文科第 6 题",
+        "page": "评析例 9，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2601"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "题面已给对数模型，只需移项并按常用对数定义转指数。"
+      }
+    },
+    {
+      "id": "M2611",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-normal",
+      "variant": 1,
+      "strategy": "正态分布的对称性与区间概率",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "设 $X\\sim N(10,\\sigma^2)$，$\\sigma>0$。以下说法中错误的是哪一项？",
+      "options": [
+        "P(X>10)=\\frac12",
+        "P(X<10.01)=P(X>9.99)",
+        "\\sigma\\text{ 越小，}P(9.9<X<10.1)\\text{ 越大}",
+        "P(9.9<X<10.2)=P(10<X<10.3)"
+      ],
+      "answer": 3,
+      "explanation": "正态密度关于均值对称，且随到均值距离增大而严格减小。比较两个等长区间时，可消去重叠部分。\n关键推导\n$$\nP(9.9<X<10.2)-P(10<X<10.3)=P(9.9<X<10)-P(10.2<X<10.3)>0\n$$\n靠近均值的等长区间概率严格更大，所以所列等式错误；其余三项均由对称性或标准化得到。",
+      "params": {
+        "mu": 10
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 6 题",
+        "page": "评析例 11，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2611"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "要同时核对四个命题，区间比较需消去重叠部分并使用密度单峰性。"
+      }
+    },
+    {
+      "id": "M2612",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-normal",
+      "variant": 2,
+      "strategy": "正态分布的对称性与区间概率",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "设 $X\\sim N(10.1,\\sigma^2)$，$\\sigma>0$。以下说法中错误的是哪一项？",
+      "options": [
+        "P(X<10.11)=P(X>10.09)",
+        "\\sigma\\text{ 越小，}P(10<X<10.2)\\text{ 越大}",
+        "P(10<X<10.3)=P(10.1<X<10.4)",
+        "P(X>10.1)=\\frac12"
+      ],
+      "answer": 2,
+      "explanation": "正态密度关于均值对称，且随到均值距离增大而严格减小。比较两个等长区间时，可消去重叠部分。\n关键推导\n$$\nP(10<X<10.3)-P(10.1<X<10.4)=P(10<X<10.1)-P(10.3<X<10.4)>0\n$$\n靠近均值的等长区间概率严格更大，所以所列等式错误；其余三项均由对称性或标准化得到。",
+      "params": {
+        "mu": 10.1
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 6 题",
+        "page": "评析例 11，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2611"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "要同时核对四个命题，区间比较需消去重叠部分并使用密度单峰性。"
+      }
+    },
+    {
+      "id": "M2613",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-normal",
+      "variant": 3,
+      "strategy": "正态分布的对称性与区间概率",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "设 $X\\sim N(10.2,\\sigma^2)$，$\\sigma>0$。以下说法中错误的是哪一项？",
+      "options": [
+        "\\sigma\\text{ 越小，}P(10.1<X<10.3)\\text{ 越大}",
+        "P(10.1<X<10.4)=P(10.2<X<10.5)",
+        "P(X>10.2)=\\frac12",
+        "P(X<10.21)=P(X>10.19)"
+      ],
+      "answer": 1,
+      "explanation": "正态密度关于均值对称，且随到均值距离增大而严格减小。比较两个等长区间时，可消去重叠部分。\n关键推导\n$$\nP(10.1<X<10.4)-P(10.2<X<10.5)=P(10.1<X<10.2)-P(10.4<X<10.5)>0\n$$\n靠近均值的等长区间概率严格更大，所以所列等式错误；其余三项均由对称性或标准化得到。",
+      "params": {
+        "mu": 10.2
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 6 题",
+        "page": "评析例 11，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2611"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "要同时核对四个命题，区间比较需消去重叠部分并使用密度单峰性。"
+      }
+    },
+    {
+      "id": "M2614",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-normal",
+      "variant": 4,
+      "strategy": "正态分布的对称性与区间概率",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "设 $X\\sim N(10.3,\\sigma^2)$，$\\sigma>0$。以下说法中错误的是哪一项？",
+      "options": [
+        "P(10.2<X<10.5)=P(10.3<X<10.6)",
+        "P(X>10.3)=\\frac12",
+        "P(X<10.31)=P(X>10.29)",
+        "\\sigma\\text{ 越小，}P(10.2<X<10.4)\\text{ 越大}"
+      ],
+      "answer": 0,
+      "explanation": "正态密度关于均值对称，且随到均值距离增大而严格减小。比较两个等长区间时，可消去重叠部分。\n关键推导\n$$\nP(10.2<X<10.5)-P(10.3<X<10.6)=P(10.2<X<10.3)-P(10.5<X<10.6)>0\n$$\n靠近均值的等长区间概率严格更大，所以所列等式错误；其余三项均由对称性或标准化得到。",
+      "params": {
+        "mu": 10.3
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 6 题",
+        "page": "评析例 11，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2611"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "要同时核对四个命题，区间比较需消去重叠部分并使用密度单峰性。"
+      }
+    },
+    {
+      "id": "M2615",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-normal",
+      "variant": 5,
+      "strategy": "正态分布的对称性与区间概率",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "设 $X\\sim N(10.4,\\sigma^2)$，$\\sigma>0$。以下说法中错误的是哪一项？",
+      "options": [
+        "P(X>10.4)=\\frac12",
+        "P(X<10.41)=P(X>10.39)",
+        "\\sigma\\text{ 越小，}P(10.3<X<10.5)\\text{ 越大}",
+        "P(10.3<X<10.6)=P(10.4<X<10.7)"
+      ],
+      "answer": 3,
+      "explanation": "正态密度关于均值对称，且随到均值距离增大而严格减小。比较两个等长区间时，可消去重叠部分。\n关键推导\n$$\nP(10.3<X<10.6)-P(10.4<X<10.7)=P(10.3<X<10.4)-P(10.6<X<10.7)>0\n$$\n靠近均值的等长区间概率严格更大，所以所列等式错误；其余三项均由对称性或标准化得到。",
+      "params": {
+        "mu": 10.4
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 6 题",
+        "page": "评析例 11，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2611"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "要同时核对四个命题，区间比较需消去重叠部分并使用密度单峰性。"
+      }
+    },
+    {
+      "id": "M2616",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-normal",
+      "variant": 6,
+      "strategy": "正态分布的对称性与区间概率",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "设 $X\\sim N(10.5,\\sigma^2)$，$\\sigma>0$。以下说法中错误的是哪一项？",
+      "options": [
+        "P(X<10.51)=P(X>10.49)",
+        "\\sigma\\text{ 越小，}P(10.4<X<10.6)\\text{ 越大}",
+        "P(10.4<X<10.7)=P(10.5<X<10.8)",
+        "P(X>10.5)=\\frac12"
+      ],
+      "answer": 2,
+      "explanation": "正态密度关于均值对称，且随到均值距离增大而严格减小。比较两个等长区间时，可消去重叠部分。\n关键推导\n$$\nP(10.4<X<10.7)-P(10.5<X<10.8)=P(10.4<X<10.5)-P(10.7<X<10.8)>0\n$$\n靠近均值的等长区间概率严格更大，所以所列等式错误；其余三项均由对称性或标准化得到。",
+      "params": {
+        "mu": 10.5
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 6 题",
+        "page": "评析例 11，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2611"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "要同时核对四个命题，区间比较需消去重叠部分并使用密度单峰性。"
+      }
+    },
+    {
+      "id": "M2617",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-normal",
+      "variant": 7,
+      "strategy": "正态分布的对称性与区间概率",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "设 $X\\sim N(10.6,\\sigma^2)$，$\\sigma>0$。以下说法中错误的是哪一项？",
+      "options": [
+        "\\sigma\\text{ 越小，}P(10.5<X<10.7)\\text{ 越大}",
+        "P(10.5<X<10.8)=P(10.6<X<10.9)",
+        "P(X>10.6)=\\frac12",
+        "P(X<10.61)=P(X>10.59)"
+      ],
+      "answer": 1,
+      "explanation": "正态密度关于均值对称，且随到均值距离增大而严格减小。比较两个等长区间时，可消去重叠部分。\n关键推导\n$$\nP(10.5<X<10.8)-P(10.6<X<10.9)=P(10.5<X<10.6)-P(10.8<X<10.9)>0\n$$\n靠近均值的等长区间概率严格更大，所以所列等式错误；其余三项均由对称性或标准化得到。",
+      "params": {
+        "mu": 10.6
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 6 题",
+        "page": "评析例 11，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2611"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "要同时核对四个命题，区间比较需消去重叠部分并使用密度单峰性。"
+      }
+    },
+    {
+      "id": "M2618",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-normal",
+      "variant": 8,
+      "strategy": "正态分布的对称性与区间概率",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "设 $X\\sim N(10.7,\\sigma^2)$，$\\sigma>0$。以下说法中错误的是哪一项？",
+      "options": [
+        "P(10.6<X<10.9)=P(10.7<X<11)",
+        "P(X>10.7)=\\frac12",
+        "P(X<10.71)=P(X>10.69)",
+        "\\sigma\\text{ 越小，}P(10.6<X<10.8)\\text{ 越大}"
+      ],
+      "answer": 0,
+      "explanation": "正态密度关于均值对称，且随到均值距离增大而严格减小。比较两个等长区间时，可消去重叠部分。\n关键推导\n$$\nP(10.6<X<10.9)-P(10.7<X<11)=P(10.6<X<10.7)-P(10.9<X<11)>0\n$$\n靠近均值的等长区间概率严格更大，所以所列等式错误；其余三项均由对称性或标准化得到。",
+      "params": {
+        "mu": 10.7
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 6 题",
+        "page": "评析例 11，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2611"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "要同时核对四个命题，区间比较需消去重叠部分并使用密度单峰性。"
+      }
+    },
+    {
+      "id": "M2619",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-normal",
+      "variant": 9,
+      "strategy": "正态分布的对称性与区间概率",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "设 $X\\sim N(10.8,\\sigma^2)$，$\\sigma>0$。以下说法中错误的是哪一项？",
+      "options": [
+        "P(X>10.8)=\\frac12",
+        "P(X<10.81)=P(X>10.79)",
+        "\\sigma\\text{ 越小，}P(10.7<X<10.9)\\text{ 越大}",
+        "P(10.7<X<11)=P(10.8<X<11.1)"
+      ],
+      "answer": 3,
+      "explanation": "正态密度关于均值对称，且随到均值距离增大而严格减小。比较两个等长区间时，可消去重叠部分。\n关键推导\n$$\nP(10.7<X<11)-P(10.8<X<11.1)=P(10.7<X<10.8)-P(11<X<11.1)>0\n$$\n靠近均值的等长区间概率严格更大，所以所列等式错误；其余三项均由对称性或标准化得到。",
+      "params": {
+        "mu": 10.8
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 6 题",
+        "page": "评析例 11，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2611"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "要同时核对四个命题，区间比较需消去重叠部分并使用密度单峰性。"
+      }
+    },
+    {
+      "id": "M2620",
+      "batch": 12,
+      "topic": "random-variable",
+      "topicName": "随机变量、二项分布与正态分布",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-normal",
+      "variant": 10,
+      "strategy": "正态分布的对称性与区间概率",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "设 $X\\sim N(10.9,\\sigma^2)$，$\\sigma>0$。以下说法中错误的是哪一项？",
+      "options": [
+        "P(X<10.91)=P(X>10.89)",
+        "\\sigma\\text{ 越小，}P(10.8<X<11)\\text{ 越大}",
+        "P(10.8<X<11.1)=P(10.9<X<11.2)",
+        "P(X>10.9)=\\frac12"
+      ],
+      "answer": 2,
+      "explanation": "正态密度关于均值对称，且随到均值距离增大而严格减小。比较两个等长区间时，可消去重叠部分。\n关键推导\n$$\nP(10.8<X<11.1)-P(10.9<X<11.2)=P(10.8<X<10.9)-P(11.1<X<11.2)>0\n$$\n靠近均值的等长区间概率严格更大，所以所列等式错误；其余三项均由对称性或标准化得到。",
+      "params": {
+        "mu": 10.9
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 II 卷",
+        "question": "新高考 II 卷第 6 题",
+        "page": "评析例 11，第 74 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2611"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "要同时核对四个命题，区间比较需消去重叠部分并使用密度单峰性。"
+      }
+    },
+    {
+      "id": "M2621",
+      "batch": 12,
+      "topic": "vectors",
+      "topicName": "平面向量与数量积",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-unit-vectors",
+      "variant": 1,
+      "strategy": "单位圆上的向量夹角与数量积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "单位圆上有 $A(1,0)$、$P_1(\\cos\\alpha,\\sin\\alpha)$、$P_2(\\cos\\beta,\\sin\\beta)$、$P_3(\\cos(\\alpha+\\beta),\\sin(\\alpha+\\beta))$。若 $\\alpha=30^\\circ$、$\\beta=60^\\circ$，则 $\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}$ 等于哪一项？",
+      "options": [
+        "\\cos90^\\circ",
+        "-\\cos30^\\circ",
+        "\\cos30^\\circ",
+        "\\cos60^\\circ"
+      ],
+      "answer": 2,
+      "explanation": "两个向量均为单位向量，夹角由两极角相减得到，也可用余弦差公式直接展开。\n关键推导\n$$\n\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}=\\cos\\beta\\cos(\\alpha+\\beta)+\\sin\\beta\\sin(\\alpha+\\beta)=\\cos\\alpha=\\cos30^\\circ\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "alpha": 30,
+        "beta": 60
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 10 题",
+        "page": "评析例 12，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2621"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两个单位向量的极角相减，应用数量积或余弦差公式。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2621.svg",
+        "alt": "单位圆上的向量夹角与数量积示意图；具体条件以题干为准",
+        "kind": "unit-circle"
+      }
+    },
+    {
+      "id": "M2622",
+      "batch": 12,
+      "topic": "vectors",
+      "topicName": "平面向量与数量积",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-unit-vectors",
+      "variant": 2,
+      "strategy": "单位圆上的向量夹角与数量积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "单位圆上有 $A(1,0)$、$P_1(\\cos\\alpha,\\sin\\alpha)$、$P_2(\\cos\\beta,\\sin\\beta)$、$P_3(\\cos(\\alpha+\\beta),\\sin(\\alpha+\\beta))$。若 $\\alpha=33^\\circ$、$\\beta=62^\\circ$，则 $\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}$ 等于哪一项？",
+      "options": [
+        "-\\cos33^\\circ",
+        "\\cos33^\\circ",
+        "\\cos62^\\circ",
+        "\\cos95^\\circ"
+      ],
+      "answer": 1,
+      "explanation": "两个向量均为单位向量，夹角由两极角相减得到，也可用余弦差公式直接展开。\n关键推导\n$$\n\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}=\\cos\\beta\\cos(\\alpha+\\beta)+\\sin\\beta\\sin(\\alpha+\\beta)=\\cos\\alpha=\\cos33^\\circ\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "alpha": 33,
+        "beta": 62
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 10 题",
+        "page": "评析例 12，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2621"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两个单位向量的极角相减，应用数量积或余弦差公式。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2622.svg",
+        "alt": "单位圆上的向量夹角与数量积示意图；具体条件以题干为准",
+        "kind": "unit-circle"
+      }
+    },
+    {
+      "id": "M2623",
+      "batch": 12,
+      "topic": "vectors",
+      "topicName": "平面向量与数量积",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-unit-vectors",
+      "variant": 3,
+      "strategy": "单位圆上的向量夹角与数量积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "单位圆上有 $A(1,0)$、$P_1(\\cos\\alpha,\\sin\\alpha)$、$P_2(\\cos\\beta,\\sin\\beta)$、$P_3(\\cos(\\alpha+\\beta),\\sin(\\alpha+\\beta))$。若 $\\alpha=36^\\circ$、$\\beta=64^\\circ$，则 $\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}$ 等于哪一项？",
+      "options": [
+        "\\cos36^\\circ",
+        "\\cos64^\\circ",
+        "\\cos100^\\circ",
+        "-\\cos36^\\circ"
+      ],
+      "answer": 0,
+      "explanation": "两个向量均为单位向量，夹角由两极角相减得到，也可用余弦差公式直接展开。\n关键推导\n$$\n\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}=\\cos\\beta\\cos(\\alpha+\\beta)+\\sin\\beta\\sin(\\alpha+\\beta)=\\cos\\alpha=\\cos36^\\circ\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "alpha": 36,
+        "beta": 64
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 10 题",
+        "page": "评析例 12，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2621"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两个单位向量的极角相减，应用数量积或余弦差公式。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2623.svg",
+        "alt": "单位圆上的向量夹角与数量积示意图；具体条件以题干为准",
+        "kind": "unit-circle"
+      }
+    },
+    {
+      "id": "M2624",
+      "batch": 12,
+      "topic": "vectors",
+      "topicName": "平面向量与数量积",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-unit-vectors",
+      "variant": 4,
+      "strategy": "单位圆上的向量夹角与数量积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "单位圆上有 $A(1,0)$、$P_1(\\cos\\alpha,\\sin\\alpha)$、$P_2(\\cos\\beta,\\sin\\beta)$、$P_3(\\cos(\\alpha+\\beta),\\sin(\\alpha+\\beta))$。若 $\\alpha=39^\\circ$、$\\beta=66^\\circ$，则 $\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}$ 等于哪一项？",
+      "options": [
+        "\\cos66^\\circ",
+        "\\cos105^\\circ",
+        "-\\cos39^\\circ",
+        "\\cos39^\\circ"
+      ],
+      "answer": 3,
+      "explanation": "两个向量均为单位向量，夹角由两极角相减得到，也可用余弦差公式直接展开。\n关键推导\n$$\n\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}=\\cos\\beta\\cos(\\alpha+\\beta)+\\sin\\beta\\sin(\\alpha+\\beta)=\\cos\\alpha=\\cos39^\\circ\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "alpha": 39,
+        "beta": 66
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 10 题",
+        "page": "评析例 12，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2621"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两个单位向量的极角相减，应用数量积或余弦差公式。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2624.svg",
+        "alt": "单位圆上的向量夹角与数量积示意图；具体条件以题干为准",
+        "kind": "unit-circle"
+      }
+    },
+    {
+      "id": "M2625",
+      "batch": 12,
+      "topic": "vectors",
+      "topicName": "平面向量与数量积",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-unit-vectors",
+      "variant": 5,
+      "strategy": "单位圆上的向量夹角与数量积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "单位圆上有 $A(1,0)$、$P_1(\\cos\\alpha,\\sin\\alpha)$、$P_2(\\cos\\beta,\\sin\\beta)$、$P_3(\\cos(\\alpha+\\beta),\\sin(\\alpha+\\beta))$。若 $\\alpha=42^\\circ$、$\\beta=68^\\circ$，则 $\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}$ 等于哪一项？",
+      "options": [
+        "\\cos110^\\circ",
+        "-\\cos42^\\circ",
+        "\\cos42^\\circ",
+        "\\cos68^\\circ"
+      ],
+      "answer": 2,
+      "explanation": "两个向量均为单位向量，夹角由两极角相减得到，也可用余弦差公式直接展开。\n关键推导\n$$\n\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}=\\cos\\beta\\cos(\\alpha+\\beta)+\\sin\\beta\\sin(\\alpha+\\beta)=\\cos\\alpha=\\cos42^\\circ\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "alpha": 42,
+        "beta": 68
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 10 题",
+        "page": "评析例 12，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2621"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两个单位向量的极角相减，应用数量积或余弦差公式。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2625.svg",
+        "alt": "单位圆上的向量夹角与数量积示意图；具体条件以题干为准",
+        "kind": "unit-circle"
+      }
+    },
+    {
+      "id": "M2626",
+      "batch": 12,
+      "topic": "vectors",
+      "topicName": "平面向量与数量积",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-unit-vectors",
+      "variant": 6,
+      "strategy": "单位圆上的向量夹角与数量积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "单位圆上有 $A(1,0)$、$P_1(\\cos\\alpha,\\sin\\alpha)$、$P_2(\\cos\\beta,\\sin\\beta)$、$P_3(\\cos(\\alpha+\\beta),\\sin(\\alpha+\\beta))$。若 $\\alpha=45^\\circ$、$\\beta=70^\\circ$，则 $\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}$ 等于哪一项？",
+      "options": [
+        "-\\cos45^\\circ",
+        "\\cos45^\\circ",
+        "\\cos70^\\circ",
+        "\\cos115^\\circ"
+      ],
+      "answer": 1,
+      "explanation": "两个向量均为单位向量，夹角由两极角相减得到，也可用余弦差公式直接展开。\n关键推导\n$$\n\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}=\\cos\\beta\\cos(\\alpha+\\beta)+\\sin\\beta\\sin(\\alpha+\\beta)=\\cos\\alpha=\\cos45^\\circ\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "alpha": 45,
+        "beta": 70
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 10 题",
+        "page": "评析例 12，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2621"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两个单位向量的极角相减，应用数量积或余弦差公式。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2626.svg",
+        "alt": "单位圆上的向量夹角与数量积示意图；具体条件以题干为准",
+        "kind": "unit-circle"
+      }
+    },
+    {
+      "id": "M2627",
+      "batch": 12,
+      "topic": "vectors",
+      "topicName": "平面向量与数量积",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-unit-vectors",
+      "variant": 7,
+      "strategy": "单位圆上的向量夹角与数量积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "单位圆上有 $A(1,0)$、$P_1(\\cos\\alpha,\\sin\\alpha)$、$P_2(\\cos\\beta,\\sin\\beta)$、$P_3(\\cos(\\alpha+\\beta),\\sin(\\alpha+\\beta))$。若 $\\alpha=48^\\circ$、$\\beta=72^\\circ$，则 $\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}$ 等于哪一项？",
+      "options": [
+        "\\cos48^\\circ",
+        "\\cos72^\\circ",
+        "\\cos120^\\circ",
+        "-\\cos48^\\circ"
+      ],
+      "answer": 0,
+      "explanation": "两个向量均为单位向量，夹角由两极角相减得到，也可用余弦差公式直接展开。\n关键推导\n$$\n\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}=\\cos\\beta\\cos(\\alpha+\\beta)+\\sin\\beta\\sin(\\alpha+\\beta)=\\cos\\alpha=\\cos48^\\circ\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "alpha": 48,
+        "beta": 72
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 10 题",
+        "page": "评析例 12，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2621"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两个单位向量的极角相减，应用数量积或余弦差公式。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2627.svg",
+        "alt": "单位圆上的向量夹角与数量积示意图；具体条件以题干为准",
+        "kind": "unit-circle"
+      }
+    },
+    {
+      "id": "M2628",
+      "batch": 12,
+      "topic": "vectors",
+      "topicName": "平面向量与数量积",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-unit-vectors",
+      "variant": 8,
+      "strategy": "单位圆上的向量夹角与数量积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "单位圆上有 $A(1,0)$、$P_1(\\cos\\alpha,\\sin\\alpha)$、$P_2(\\cos\\beta,\\sin\\beta)$、$P_3(\\cos(\\alpha+\\beta),\\sin(\\alpha+\\beta))$。若 $\\alpha=51^\\circ$、$\\beta=74^\\circ$，则 $\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}$ 等于哪一项？",
+      "options": [
+        "\\cos74^\\circ",
+        "\\cos125^\\circ",
+        "-\\cos51^\\circ",
+        "\\cos51^\\circ"
+      ],
+      "answer": 3,
+      "explanation": "两个向量均为单位向量，夹角由两极角相减得到，也可用余弦差公式直接展开。\n关键推导\n$$\n\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}=\\cos\\beta\\cos(\\alpha+\\beta)+\\sin\\beta\\sin(\\alpha+\\beta)=\\cos\\alpha=\\cos51^\\circ\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "alpha": 51,
+        "beta": 74
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 10 题",
+        "page": "评析例 12，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2621"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两个单位向量的极角相减，应用数量积或余弦差公式。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2628.svg",
+        "alt": "单位圆上的向量夹角与数量积示意图；具体条件以题干为准",
+        "kind": "unit-circle"
+      }
+    },
+    {
+      "id": "M2629",
+      "batch": 12,
+      "topic": "vectors",
+      "topicName": "平面向量与数量积",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-unit-vectors",
+      "variant": 9,
+      "strategy": "单位圆上的向量夹角与数量积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "单位圆上有 $A(1,0)$、$P_1(\\cos\\alpha,\\sin\\alpha)$、$P_2(\\cos\\beta,\\sin\\beta)$、$P_3(\\cos(\\alpha+\\beta),\\sin(\\alpha+\\beta))$。若 $\\alpha=54^\\circ$、$\\beta=76^\\circ$，则 $\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}$ 等于哪一项？",
+      "options": [
+        "\\cos130^\\circ",
+        "-\\cos54^\\circ",
+        "\\cos54^\\circ",
+        "\\cos76^\\circ"
+      ],
+      "answer": 2,
+      "explanation": "两个向量均为单位向量，夹角由两极角相减得到，也可用余弦差公式直接展开。\n关键推导\n$$\n\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}=\\cos\\beta\\cos(\\alpha+\\beta)+\\sin\\beta\\sin(\\alpha+\\beta)=\\cos\\alpha=\\cos54^\\circ\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "alpha": 54,
+        "beta": 76
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 10 题",
+        "page": "评析例 12，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2621"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两个单位向量的极角相减，应用数量积或余弦差公式。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2629.svg",
+        "alt": "单位圆上的向量夹角与数量积示意图；具体条件以题干为准",
+        "kind": "unit-circle"
+      }
+    },
+    {
+      "id": "M2630",
+      "batch": 12,
+      "topic": "vectors",
+      "topicName": "平面向量与数量积",
+      "difficulty": "medium",
+      "difficultyLabel": "中等",
+      "targetSeconds": 120,
+      "family": "gaokao-unit-vectors",
+      "variant": 10,
+      "strategy": "单位圆上的向量夹角与数量积",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "单位圆上有 $A(1,0)$、$P_1(\\cos\\alpha,\\sin\\alpha)$、$P_2(\\cos\\beta,\\sin\\beta)$、$P_3(\\cos(\\alpha+\\beta),\\sin(\\alpha+\\beta))$。若 $\\alpha=57^\\circ$、$\\beta=78^\\circ$，则 $\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}$ 等于哪一项？",
+      "options": [
+        "-\\cos57^\\circ",
+        "\\cos57^\\circ",
+        "\\cos78^\\circ",
+        "\\cos135^\\circ"
+      ],
+      "answer": 1,
+      "explanation": "两个向量均为单位向量，夹角由两极角相减得到，也可用余弦差公式直接展开。\n关键推导\n$$\n\\overrightarrow{OP_2}\\cdot\\overrightarrow{OP_3}=\\cos\\beta\\cos(\\alpha+\\beta)+\\sin\\beta\\sin(\\alpha+\\beta)=\\cos\\alpha=\\cos57^\\circ\n$$\n代回题设并检查适用条件，得到所求结果。",
+      "params": {
+        "alpha": 57,
+        "beta": 78
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 10 题",
+        "page": "评析例 12，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2621"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "medium",
+        "reason": "两个单位向量的极角相减，应用数量积或余弦差公式。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2630.svg",
+        "alt": "单位圆上的向量夹角与数量积示意图；具体条件以题干为准",
+        "kind": "unit-circle"
+      }
+    },
+    {
+      "id": "M2631",
+      "batch": 12,
+      "topic": "space",
+      "topicName": "空间向量、线面关系与夹角",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-cube",
+      "variant": 1,
+      "strategy": "正方体侧面动点与三角形面积最值",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $1$。点 $P$ 满足 $\\overrightarrow{BP}=\\lambda\\overrightarrow{BC}+\\mu\\overrightarrow{BB_1}$，其中 $0\\le\\lambda,\\mu\\le1$。求三角形 $ABP$ 面积的最大值。",
+      "options": [
+        "\\frac{1}2",
+        "\\frac{\\sqrt2}{2}",
+        "\\sqrt2",
+        "\\frac{\\sqrt3}{2}"
+      ],
+      "answer": 1,
+      "explanation": "以底边为一条坐标轴，动点到这条直线的距离只由另两个坐标决定。面积在两个参数同时取上界时最大。\n关键推导\n$$\nA=(0,0,0),\\quad B=(1,0,0),\\quad P=(1,1\\lambda,1\\mu),\\quad S=\\frac{1^2}{2}\\sqrt{\\lambda^2+\\mu^2}\\le\\frac{\\sqrt2}{2}\n$$\n当两个参数均为一时取等，即动点到达侧面的对角顶点；边界属于允许范围。",
+      "params": {
+        "a": 1
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 12 题",
+        "page": "评析例 13，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "adapted",
+        "baseId": "M2631"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "需独立建立空间坐标，把三角形面积转为到直线距离并验证闭边界取等。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2631.svg",
+        "alt": "正方体侧面动点与三角形面积最值示意图；具体条件以题干为准",
+        "kind": "cube"
+      }
+    },
+    {
+      "id": "M2632",
+      "batch": 12,
+      "topic": "space",
+      "topicName": "空间向量、线面关系与夹角",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-cube",
+      "variant": 2,
+      "strategy": "正方体侧面动点与三角形面积最值",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $2$。点 $P$ 满足 $\\overrightarrow{BP}=\\lambda\\overrightarrow{BC}+\\mu\\overrightarrow{BB_1}$，其中 $0\\le\\lambda,\\mu\\le1$。求三角形 $ABP$ 面积的最大值。",
+      "options": [
+        "\\frac{4\\sqrt2}{2}",
+        "4\\sqrt2",
+        "\\frac{4\\sqrt3}{2}",
+        "\\frac{4}2"
+      ],
+      "answer": 0,
+      "explanation": "以底边为一条坐标轴，动点到这条直线的距离只由另两个坐标决定。面积在两个参数同时取上界时最大。\n关键推导\n$$\nA=(0,0,0),\\quad B=(2,0,0),\\quad P=(2,2\\lambda,2\\mu),\\quad S=\\frac{2^2}{2}\\sqrt{\\lambda^2+\\mu^2}\\le\\frac{4\\sqrt2}{2}\n$$\n当两个参数均为一时取等，即动点到达侧面的对角顶点；边界属于允许范围。",
+      "params": {
+        "a": 2
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 12 题",
+        "page": "评析例 13，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2631"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "需独立建立空间坐标，把三角形面积转为到直线距离并验证闭边界取等。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2632.svg",
+        "alt": "正方体侧面动点与三角形面积最值示意图；具体条件以题干为准",
+        "kind": "cube"
+      }
+    },
+    {
+      "id": "M2633",
+      "batch": 12,
+      "topic": "space",
+      "topicName": "空间向量、线面关系与夹角",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-cube",
+      "variant": 3,
+      "strategy": "正方体侧面动点与三角形面积最值",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $3$。点 $P$ 满足 $\\overrightarrow{BP}=\\lambda\\overrightarrow{BC}+\\mu\\overrightarrow{BB_1}$，其中 $0\\le\\lambda,\\mu\\le1$。求三角形 $ABP$ 面积的最大值。",
+      "options": [
+        "9\\sqrt2",
+        "\\frac{9\\sqrt3}{2}",
+        "\\frac{9}2",
+        "\\frac{9\\sqrt2}{2}"
+      ],
+      "answer": 3,
+      "explanation": "以底边为一条坐标轴，动点到这条直线的距离只由另两个坐标决定。面积在两个参数同时取上界时最大。\n关键推导\n$$\nA=(0,0,0),\\quad B=(3,0,0),\\quad P=(3,3\\lambda,3\\mu),\\quad S=\\frac{3^2}{2}\\sqrt{\\lambda^2+\\mu^2}\\le\\frac{9\\sqrt2}{2}\n$$\n当两个参数均为一时取等，即动点到达侧面的对角顶点；边界属于允许范围。",
+      "params": {
+        "a": 3
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 12 题",
+        "page": "评析例 13，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2631"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "需独立建立空间坐标，把三角形面积转为到直线距离并验证闭边界取等。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2633.svg",
+        "alt": "正方体侧面动点与三角形面积最值示意图；具体条件以题干为准",
+        "kind": "cube"
+      }
+    },
+    {
+      "id": "M2634",
+      "batch": 12,
+      "topic": "space",
+      "topicName": "空间向量、线面关系与夹角",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-cube",
+      "variant": 4,
+      "strategy": "正方体侧面动点与三角形面积最值",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $4$。点 $P$ 满足 $\\overrightarrow{BP}=\\lambda\\overrightarrow{BC}+\\mu\\overrightarrow{BB_1}$，其中 $0\\le\\lambda,\\mu\\le1$。求三角形 $ABP$ 面积的最大值。",
+      "options": [
+        "\\frac{16\\sqrt3}{2}",
+        "\\frac{16}2",
+        "\\frac{16\\sqrt2}{2}",
+        "16\\sqrt2"
+      ],
+      "answer": 2,
+      "explanation": "以底边为一条坐标轴，动点到这条直线的距离只由另两个坐标决定。面积在两个参数同时取上界时最大。\n关键推导\n$$\nA=(0,0,0),\\quad B=(4,0,0),\\quad P=(4,4\\lambda,4\\mu),\\quad S=\\frac{4^2}{2}\\sqrt{\\lambda^2+\\mu^2}\\le\\frac{16\\sqrt2}{2}\n$$\n当两个参数均为一时取等，即动点到达侧面的对角顶点；边界属于允许范围。",
+      "params": {
+        "a": 4
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 12 题",
+        "page": "评析例 13，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2631"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "需独立建立空间坐标，把三角形面积转为到直线距离并验证闭边界取等。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2634.svg",
+        "alt": "正方体侧面动点与三角形面积最值示意图；具体条件以题干为准",
+        "kind": "cube"
+      }
+    },
+    {
+      "id": "M2635",
+      "batch": 12,
+      "topic": "space",
+      "topicName": "空间向量、线面关系与夹角",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-cube",
+      "variant": 5,
+      "strategy": "正方体侧面动点与三角形面积最值",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $5$。点 $P$ 满足 $\\overrightarrow{BP}=\\lambda\\overrightarrow{BC}+\\mu\\overrightarrow{BB_1}$，其中 $0\\le\\lambda,\\mu\\le1$。求三角形 $ABP$ 面积的最大值。",
+      "options": [
+        "\\frac{25}2",
+        "\\frac{25\\sqrt2}{2}",
+        "25\\sqrt2",
+        "\\frac{25\\sqrt3}{2}"
+      ],
+      "answer": 1,
+      "explanation": "以底边为一条坐标轴，动点到这条直线的距离只由另两个坐标决定。面积在两个参数同时取上界时最大。\n关键推导\n$$\nA=(0,0,0),\\quad B=(5,0,0),\\quad P=(5,5\\lambda,5\\mu),\\quad S=\\frac{5^2}{2}\\sqrt{\\lambda^2+\\mu^2}\\le\\frac{25\\sqrt2}{2}\n$$\n当两个参数均为一时取等，即动点到达侧面的对角顶点；边界属于允许范围。",
+      "params": {
+        "a": 5
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 12 题",
+        "page": "评析例 13，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2631"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "需独立建立空间坐标，把三角形面积转为到直线距离并验证闭边界取等。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2635.svg",
+        "alt": "正方体侧面动点与三角形面积最值示意图；具体条件以题干为准",
+        "kind": "cube"
+      }
+    },
+    {
+      "id": "M2636",
+      "batch": 12,
+      "topic": "space",
+      "topicName": "空间向量、线面关系与夹角",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-cube",
+      "variant": 6,
+      "strategy": "正方体侧面动点与三角形面积最值",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $6$。点 $P$ 满足 $\\overrightarrow{BP}=\\lambda\\overrightarrow{BC}+\\mu\\overrightarrow{BB_1}$，其中 $0\\le\\lambda,\\mu\\le1$。求三角形 $ABP$ 面积的最大值。",
+      "options": [
+        "\\frac{36\\sqrt2}{2}",
+        "36\\sqrt2",
+        "\\frac{36\\sqrt3}{2}",
+        "\\frac{36}2"
+      ],
+      "answer": 0,
+      "explanation": "以底边为一条坐标轴，动点到这条直线的距离只由另两个坐标决定。面积在两个参数同时取上界时最大。\n关键推导\n$$\nA=(0,0,0),\\quad B=(6,0,0),\\quad P=(6,6\\lambda,6\\mu),\\quad S=\\frac{6^2}{2}\\sqrt{\\lambda^2+\\mu^2}\\le\\frac{36\\sqrt2}{2}\n$$\n当两个参数均为一时取等，即动点到达侧面的对角顶点；边界属于允许范围。",
+      "params": {
+        "a": 6
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 12 题",
+        "page": "评析例 13，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2631"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "需独立建立空间坐标，把三角形面积转为到直线距离并验证闭边界取等。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2636.svg",
+        "alt": "正方体侧面动点与三角形面积最值示意图；具体条件以题干为准",
+        "kind": "cube"
+      }
+    },
+    {
+      "id": "M2637",
+      "batch": 12,
+      "topic": "space",
+      "topicName": "空间向量、线面关系与夹角",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-cube",
+      "variant": 7,
+      "strategy": "正方体侧面动点与三角形面积最值",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $7$。点 $P$ 满足 $\\overrightarrow{BP}=\\lambda\\overrightarrow{BC}+\\mu\\overrightarrow{BB_1}$，其中 $0\\le\\lambda,\\mu\\le1$。求三角形 $ABP$ 面积的最大值。",
+      "options": [
+        "49\\sqrt2",
+        "\\frac{49\\sqrt3}{2}",
+        "\\frac{49}2",
+        "\\frac{49\\sqrt2}{2}"
+      ],
+      "answer": 3,
+      "explanation": "以底边为一条坐标轴，动点到这条直线的距离只由另两个坐标决定。面积在两个参数同时取上界时最大。\n关键推导\n$$\nA=(0,0,0),\\quad B=(7,0,0),\\quad P=(7,7\\lambda,7\\mu),\\quad S=\\frac{7^2}{2}\\sqrt{\\lambda^2+\\mu^2}\\le\\frac{49\\sqrt2}{2}\n$$\n当两个参数均为一时取等，即动点到达侧面的对角顶点；边界属于允许范围。",
+      "params": {
+        "a": 7
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 12 题",
+        "page": "评析例 13，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2631"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "需独立建立空间坐标，把三角形面积转为到直线距离并验证闭边界取等。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2637.svg",
+        "alt": "正方体侧面动点与三角形面积最值示意图；具体条件以题干为准",
+        "kind": "cube"
+      }
+    },
+    {
+      "id": "M2638",
+      "batch": 12,
+      "topic": "space",
+      "topicName": "空间向量、线面关系与夹角",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-cube",
+      "variant": 8,
+      "strategy": "正方体侧面动点与三角形面积最值",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $8$。点 $P$ 满足 $\\overrightarrow{BP}=\\lambda\\overrightarrow{BC}+\\mu\\overrightarrow{BB_1}$，其中 $0\\le\\lambda,\\mu\\le1$。求三角形 $ABP$ 面积的最大值。",
+      "options": [
+        "\\frac{64\\sqrt3}{2}",
+        "\\frac{64}2",
+        "\\frac{64\\sqrt2}{2}",
+        "64\\sqrt2"
+      ],
+      "answer": 2,
+      "explanation": "以底边为一条坐标轴，动点到这条直线的距离只由另两个坐标决定。面积在两个参数同时取上界时最大。\n关键推导\n$$\nA=(0,0,0),\\quad B=(8,0,0),\\quad P=(8,8\\lambda,8\\mu),\\quad S=\\frac{8^2}{2}\\sqrt{\\lambda^2+\\mu^2}\\le\\frac{64\\sqrt2}{2}\n$$\n当两个参数均为一时取等，即动点到达侧面的对角顶点；边界属于允许范围。",
+      "params": {
+        "a": 8
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 12 题",
+        "page": "评析例 13，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2631"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "需独立建立空间坐标，把三角形面积转为到直线距离并验证闭边界取等。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2638.svg",
+        "alt": "正方体侧面动点与三角形面积最值示意图；具体条件以题干为准",
+        "kind": "cube"
+      }
+    },
+    {
+      "id": "M2639",
+      "batch": 12,
+      "topic": "space",
+      "topicName": "空间向量、线面关系与夹角",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-cube",
+      "variant": 9,
+      "strategy": "正方体侧面动点与三角形面积最值",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $9$。点 $P$ 满足 $\\overrightarrow{BP}=\\lambda\\overrightarrow{BC}+\\mu\\overrightarrow{BB_1}$，其中 $0\\le\\lambda,\\mu\\le1$。求三角形 $ABP$ 面积的最大值。",
+      "options": [
+        "\\frac{81}2",
+        "\\frac{81\\sqrt2}{2}",
+        "81\\sqrt2",
+        "\\frac{81\\sqrt3}{2}"
+      ],
+      "answer": 1,
+      "explanation": "以底边为一条坐标轴，动点到这条直线的距离只由另两个坐标决定。面积在两个参数同时取上界时最大。\n关键推导\n$$\nA=(0,0,0),\\quad B=(9,0,0),\\quad P=(9,9\\lambda,9\\mu),\\quad S=\\frac{9^2}{2}\\sqrt{\\lambda^2+\\mu^2}\\le\\frac{81\\sqrt2}{2}\n$$\n当两个参数均为一时取等，即动点到达侧面的对角顶点；边界属于允许范围。",
+      "params": {
+        "a": 9
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 12 题",
+        "page": "评析例 13，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2631"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "需独立建立空间坐标，把三角形面积转为到直线距离并验证闭边界取等。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2639.svg",
+        "alt": "正方体侧面动点与三角形面积最值示意图；具体条件以题干为准",
+        "kind": "cube"
+      }
+    },
+    {
+      "id": "M2640",
+      "batch": 12,
+      "topic": "space",
+      "topicName": "空间向量、线面关系与夹角",
+      "difficulty": "hard",
+      "difficultyLabel": "困难",
+      "targetSeconds": 300,
+      "family": "gaokao-cube",
+      "variant": 10,
+      "strategy": "正方体侧面动点与三角形面积最值",
+      "contentRevision": 1,
+      "exam": "gaokao",
+      "stem": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 $10$。点 $P$ 满足 $\\overrightarrow{BP}=\\lambda\\overrightarrow{BC}+\\mu\\overrightarrow{BB_1}$，其中 $0\\le\\lambda,\\mu\\le1$。求三角形 $ABP$ 面积的最大值。",
+      "options": [
+        "\\frac{100\\sqrt2}{2}",
+        "100\\sqrt2",
+        "\\frac{100\\sqrt3}{2}",
+        "\\frac{100}2"
+      ],
+      "answer": 0,
+      "explanation": "以底边为一条坐标轴，动点到这条直线的距离只由另两个坐标决定。面积在两个参数同时取上界时最大。\n关键推导\n$$\nA=(0,0,0),\\quad B=(10,0,0),\\quad P=(10,10\\lambda,10\\mu),\\quad S=\\frac{10^2}{2}\\sqrt{\\lambda^2+\\mu^2}\\le\\frac{100\\sqrt2}{2}\n$$\n当两个参数均为一时取等，即动点到达侧面的对角顶点；边界属于允许范围。",
+      "params": {
+        "a": 10
+      },
+      "provenance": {
+        "sourceId": "gaokao",
+        "year": 2021,
+        "paper": "新高考 I 卷",
+        "question": "新高考 I 卷第 12 题",
+        "page": "评析例 13，第 75 页",
+        "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+        "checkedDate": "2026-11-20",
+        "kind": "variant",
+        "baseId": "M2631"
+      },
+      "difficultyReview": {
+        "revision": 1,
+        "previousLevel": "hard",
+        "reason": "需独立建立空间坐标，把三角形面积转为到直线距离并验证闭边界取等。"
+      },
+      "diagram": {
+        "src": "assets/geometry/M2640.svg",
+        "alt": "正方体侧面动点与三角形面积最值示意图；具体条件以题干为准",
+        "kind": "cube"
+      }
+    }
+  ]
+}

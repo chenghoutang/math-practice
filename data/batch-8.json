@@ -21,7 +21,12 @@
         "\\frac{3\\sqrt3}{4}"
       ],
       "answer": 2,
-      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/2,y)$，椭圆变为单位圆，所有面积统一除以 $2$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $2$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/2,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=2S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot2.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。"
+      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/2,y)$，椭圆变为单位圆，所有面积统一除以 $2$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $2$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/2,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=2S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot2.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。",
+      "diagram": {
+        "src": "assets/geometry/M2101.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2102",
@@ -43,7 +48,12 @@
         "\\frac{3\\sqrt3}{4}\\cdot3^2"
       ],
       "answer": 1,
-      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/3,y)$，椭圆变为单位圆，所有面积统一除以 $3$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $3$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/3,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=3S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot3.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。"
+      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/3,y)$，椭圆变为单位圆，所有面积统一除以 $3$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $3$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/3,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=3S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot3.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。",
+      "diagram": {
+        "src": "assets/geometry/M2102.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2103",
@@ -65,7 +75,12 @@
         "2\\cdot4"
       ],
       "answer": 0,
-      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/4,y)$，椭圆变为单位圆，所有面积统一除以 $4$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $4$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/4,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=4S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot4.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。"
+      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/4,y)$，椭圆变为单位圆，所有面积统一除以 $4$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $4$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/4,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=4S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot4.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。",
+      "diagram": {
+        "src": "assets/geometry/M2103.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2104",
@@ -87,7 +102,12 @@
         "\\frac{3\\sqrt3}{4}\\cdot5"
       ],
       "answer": 3,
-      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/5,y)$，椭圆变为单位圆，所有面积统一除以 $5$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $5$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/5,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=5S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot5.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。"
+      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/5,y)$，椭圆变为单位圆，所有面积统一除以 $5$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $5$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/5,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=5S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot5.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。",
+      "diagram": {
+        "src": "assets/geometry/M2104.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2105",
@@ -109,7 +129,12 @@
         "\\frac{3\\sqrt3}{4}"
       ],
       "answer": 2,
-      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/6,y)$，椭圆变为单位圆，所有面积统一除以 $6$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $6$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/6,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=6S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot6.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。"
+      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/6,y)$，椭圆变为单位圆，所有面积统一除以 $6$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $6$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/6,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=6S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot6.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。",
+      "diagram": {
+        "src": "assets/geometry/M2105.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2106",
@@ -131,7 +156,12 @@
         "\\frac{3\\sqrt3}{4}\\cdot7^2"
       ],
       "answer": 1,
-      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/7,y)$，椭圆变为单位圆，所有面积统一除以 $7$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $7$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/7,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=7S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot7.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。"
+      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/7,y)$，椭圆变为单位圆，所有面积统一除以 $7$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $7$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/7,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=7S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot7.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。",
+      "diagram": {
+        "src": "assets/geometry/M2106.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2107",
@@ -153,7 +183,12 @@
         "2\\cdot8"
       ],
       "answer": 0,
-      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/8,y)$，椭圆变为单位圆，所有面积统一除以 $8$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $8$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/8,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=8S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot8.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。"
+      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/8,y)$，椭圆变为单位圆，所有面积统一除以 $8$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $8$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/8,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=8S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot8.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。",
+      "diagram": {
+        "src": "assets/geometry/M2107.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2108",
@@ -175,7 +210,12 @@
         "\\frac{3\\sqrt3}{4}\\cdot9"
       ],
       "answer": 3,
-      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/9,y)$，椭圆变为单位圆，所有面积统一除以 $9$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $9$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/9,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=9S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot9.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。"
+      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/9,y)$，椭圆变为单位圆，所有面积统一除以 $9$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $9$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/9,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=9S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot9.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。",
+      "diagram": {
+        "src": "assets/geometry/M2108.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2109",
@@ -197,7 +237,12 @@
         "\\frac{3\\sqrt3}{4}"
       ],
       "answer": 2,
-      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/10,y)$，椭圆变为单位圆，所有面积统一除以 $10$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $10$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/10,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=10S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot10.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。"
+      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/10,y)$，椭圆变为单位圆，所有面积统一除以 $10$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $10$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/10,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=10S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot10.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。",
+      "diagram": {
+        "src": "assets/geometry/M2109.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2110",
@@ -219,7 +264,12 @@
         "\\frac{3\\sqrt3}{4}\\cdot11^2"
       ],
       "answer": 1,
-      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/11,y)$，椭圆变为单位圆，所有面积统一除以 $11$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $11$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/11,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=11S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot11.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。"
+      "explanation": "思路：仿射变换保留面积比。\n先作 $(x,y)\\mapsto (x/11,y)$，椭圆变为单位圆，所有面积统一除以 $11$。单位圆内接三角形面积为 $2\\sin A \\sin B \\sin C$，$A+B+C=\\pi $；$\\log  \\sin $ 的凹性给乘积$\\le (\\sin  \\pi /3)^{3}$，最大面积为 $3\\sqrt{3}/4$。将正三角形映回椭圆就取到上界，面积乘 $11$。映回后的三角形一般不是正三角形，直接猜等边会漏掉真正的极值构造。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&\\mapsto(X,Y)=(x/11,y),\\quad X^2+Y^2=1,\\\\S_{\\text{椭圆}}&=11S_{\\text{圆}},\\\\S_{\\text{圆}}&=2\\sin A\\sin B\\sin C\\\\&\\le2\\left(\\sin\\frac\\pi3\\right)^3=\\frac{3\\sqrt3}{4},\\\\\\max S_{\\text{椭圆}}&=\\frac{3\\sqrt3}{4}\\cdot11.\\end{aligned}\n$$\n圆内接三角形可用面积公式与正弦定理得到 $2\\sin A \\sin B \\sin C$；三角之和为 $\\pi $，$\\log  \\sin $ 的严格凹性给等角时最大。仿射映射的行列式为 $a$，所有面积按同一比例缩放，映回即可取等。",
+      "diagram": {
+        "src": "assets/geometry/M2110.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2111",
@@ -3541,7 +3591,12 @@
         "\\frac{4\\sqrt6}{1}"
       ],
       "answer": 2,
-      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=1\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/1$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{1\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{1}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。"
+      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=1\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/1$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{1\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{1}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。",
+      "diagram": {
+        "src": "assets/geometry/M2261.svg",
+        "alt": "立体几何、体积与表面积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2262",
@@ -3563,7 +3618,12 @@
         "\\frac{16\\sqrt6}{2}"
       ],
       "answer": 1,
-      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=2\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/2$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{2\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{2}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。"
+      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=2\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/2$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{2\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{2}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。",
+      "diagram": {
+        "src": "assets/geometry/M2262.svg",
+        "alt": "立体几何、体积与表面积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2263",
@@ -3585,7 +3645,12 @@
         "\\frac{8\\sqrt3}{3}"
       ],
       "answer": 0,
-      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=3\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/3$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{3\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{3}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。"
+      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=3\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/3$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{3\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{3}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。",
+      "diagram": {
+        "src": "assets/geometry/M2263.svg",
+        "alt": "立体几何、体积与表面积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2264",
@@ -3607,7 +3672,12 @@
         "\\frac{8\\sqrt6}{4}"
       ],
       "answer": 3,
-      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=4\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/4$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{4\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{4}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。"
+      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=4\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/4$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{4\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{4}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。",
+      "diagram": {
+        "src": "assets/geometry/M2264.svg",
+        "alt": "立体几何、体积与表面积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2265",
@@ -3629,7 +3699,12 @@
         "\\frac{4\\sqrt6}{5}"
       ],
       "answer": 2,
-      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=5\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/5$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{5\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{5}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。"
+      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=5\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/5$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{5\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{5}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。",
+      "diagram": {
+        "src": "assets/geometry/M2265.svg",
+        "alt": "立体几何、体积与表面积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2266",
@@ -3651,7 +3726,12 @@
         "\\frac{16\\sqrt6}{6}"
       ],
       "answer": 1,
-      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=6\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/6$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{6\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{6}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。"
+      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=6\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/6$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{6\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{6}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。",
+      "diagram": {
+        "src": "assets/geometry/M2266.svg",
+        "alt": "立体几何、体积与表面积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2267",
@@ -3673,7 +3753,12 @@
         "\\frac{8\\sqrt3}{7}"
       ],
       "answer": 0,
-      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=7\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/7$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{7\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{7}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。"
+      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=7\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/7$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{7\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{7}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。",
+      "diagram": {
+        "src": "assets/geometry/M2267.svg",
+        "alt": "立体几何、体积与表面积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2268",
@@ -3695,7 +3780,12 @@
         "\\frac{8\\sqrt6}{8}"
       ],
       "answer": 3,
-      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=8\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/8$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{8\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{8}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。"
+      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=8\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/8$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{8\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{8}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。",
+      "diagram": {
+        "src": "assets/geometry/M2268.svg",
+        "alt": "立体几何、体积与表面积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2269",
@@ -3717,7 +3807,12 @@
         "\\frac{4\\sqrt6}{9}"
       ],
       "answer": 2,
-      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=9\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/9$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{9\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{9}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。"
+      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=9\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/9$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{9\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{9}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。",
+      "diagram": {
+        "src": "assets/geometry/M2269.svg",
+        "alt": "立体几何、体积与表面积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2270",
@@ -3739,7 +3834,12 @@
         "\\frac{16\\sqrt6}{10}"
       ],
       "answer": 1,
-      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=10\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/10$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{10\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{10}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。"
+      "explanation": "思路：体积分割给距离和，再用倒数均值。\n以 $P$ 和四个面分割成四个小棱锥。四面面积相等，总体积守恒给 $d_{1}+d_{2}+d_{3}+d_{4}=h$，其中正四面体高 $h=10\\sqrt{6}/3$。柯西得 $(\\sum d_i)(\\sum 1/d_i)\\ge 16$，所以倒数和$\\ge 16/h=8\\sqrt{6}/10$。四面体中心到四面等距且在内部，可取等。第一步将空间位置消去，第二步才是一元和约束下的最值。\n\n关键推导\n$$\n\\begin{aligned}V&=\\sum_{i=1}^4\\frac13S_{\\text{面}}d_i=\\frac13S_{\\text{面}}h,\\\\\\sum_{i=1}^4d_i&=h=\\frac{10\\sqrt6}{3},\\\\\\left(\\sum d_i\\right)\\left(\\sum\\frac1{d_i}\\right)&\\ge(1+1+1+1)^2=16,\\\\\\min\\sum\\frac1{d_i}&=\\frac{16}{h}=\\frac{8\\sqrt6}{10}.\\end{aligned}\n$$\n正四面体四面面积相同，所以体积分割能直接给距离和。等号要求四距离相等，中心点确实满足且严格在内部，符合分母均正的条件。",
+      "diagram": {
+        "src": "assets/geometry/M2270.svg",
+        "alt": "立体几何、体积与表面积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M2271",

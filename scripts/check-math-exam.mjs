@@ -13,13 +13,13 @@ for(let n=0;n<500;n++){
  const result=exam.grade(paper,questions);assert.equal(result.score,90);assert.equal(result.correct,18);assert.equal(result.wrong,1);assert.equal(result.unanswered,1);
  assert.deepEqual(exam.restore(JSON.parse(JSON.stringify(paper)),questions),paper);
  assert.equal(exam.restore({...paper,version:1},questions),null);
- const stale=JSON.parse(JSON.stringify(paper));const hellId=paper.ids.find(id=>byId.get(id).difficulty==='hell');stale.revisions[hellId]=1;assert.equal(exam.restore(stale,questions),null);
+ const stale=JSON.parse(JSON.stringify(paper));const hellId=paper.ids.find(id=>byId.get(id).difficulty==='hell');stale.revisions[hellId]=0;assert.equal(exam.restore(stale,questions),null);
  const duplicate={...paper,ids:Array(20).fill(paper.ids[0])};assert.equal(exam.restore(duplicate,questions),null);
  const broken={...paper,answers:{[paper.ids[0]]:19,[paper.ids[1]]:'2'},elapsed:-100};const restored=exam.restore(broken,questions);assert.deepEqual(restored.answers,{});assert.equal(restored.elapsed,0);
 }
 assert.ok(seen.size>490);assert.throws(()=>exam.create(questions.filter(q=>q.difficulty!=='hell')));
 assert.equal(exam.durationSeconds,4*15+6*120+8*300+2*600);
-const all=exam.defaults(questions);assert.deepEqual(all.levels,['easy','medium','hard','hell']);assert.equal(all.topics.length,30);assert.equal(all.sources.length,3);
+const all=exam.defaults(questions);assert.deepEqual(all.levels,['easy','medium','hard','hell']);assert.equal(all.topics.length,30);assert.equal(all.sources.length,6);
 assert.equal(exam.pool(questions,all).length,questions.length);
 for(const count of [1,7,21,55,100,questions.length]){
  const custom=exam.create(questions,random,{...all,count});assert.equal(custom.ids.length,count);assert.equal(new Set(custom.ids).size,count);assert.deepEqual(exam.restore(custom,questions),custom);
@@ -36,7 +36,7 @@ const tampered=JSON.parse(JSON.stringify(filtered));tampered.config.sources=['fo
 const legacy=exam.create(questions,random);legacy.version=2;delete legacy.config;const restoredLegacy=exam.restore(legacy,questions);assert.equal(restoredLegacy.version,3);assert.equal(restoredLegacy.config.mode,'standard');
 // Integer allocation preserves the original weights, including zero shares.
 const weights={easy:3,medium:5,hard:7,hell:2};
-for(let total=1;total<=2400;total++){
+for(let total=1;total<=questions.length;total++){
  const allocated=exam.allocateCounts(total,weights);assert.equal(Object.values(allocated).reduce((a,b)=>a+b,0),total);
  for(const [level,weight]of Object.entries(weights)){assert.ok(Number.isInteger(allocated[level]));assert.ok(Math.abs(allocated[level]-total*weight/17)<1);}
 }
@@ -57,5 +57,5 @@ assert.throws(()=>exam.create(questions,random,{...all,count:17,levels:['hard'],
 const exactPaper=exam.create(questions,random,{...all,count:17,difficultyCounts:weights});
 const changedQuota=JSON.parse(JSON.stringify(exactPaper));changedQuota.config.difficultyCounts.easy++;changedQuota.config.difficultyCounts.medium--;assert.equal(exam.restore(changedQuota,questions),null);
 console.log('PASS: 500 randomized papers; 4/6/8/2 blueprint, no duplicate families, scoring, unanswered items and saved data validation.');
-console.log('PASS: custom counts 1–2400; intersected labels, empty/insufficient/invalid ranges, pagination-sized papers, proportional scores and legacy restoration.');
-console.log('PASS: exact difficulty quotas, zero shares, restricted capacity, saved quota validation, and integer ratio allocation at every total from 1 to 2400.');
+console.log('PASS: custom counts 1–3640; intersected labels, empty/insufficient/invalid ranges, pagination-sized papers, proportional scores and legacy restoration.');
+console.log('PASS: exact difficulty quotas, zero shares, restricted capacity, saved quota validation, and integer ratio allocation at every total from 1 to 3640.');

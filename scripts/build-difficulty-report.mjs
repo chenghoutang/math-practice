@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import {difficultyRevision,difficultyLevels,rubric} from './math/difficulty-review.mjs';
+const root=new URL('../',import.meta.url),manifest=JSON.parse(fs.readFileSync(new URL('data/manifest.json',root),'utf8')),all=manifest.batches.flatMap(n=>JSON.parse(fs.readFileSync(new URL(`data/batch-${n}.json`,root),'utf8')).questions),reviewed=all.filter(q=>q.difficultyReview),families=reviewed.filter(q=>q.variant===1),levels=Object.keys(difficultyLevels);
+const counts=(questions,prior=false)=>Object.fromEntries(levels.map(level=>[level,questions.filter(q=>(prior?q.difficultyReview?.previousLevel||q.difficulty:q.difficulty)===level).length]));
+const before=counts(reviewed,true),after=counts(reviewed),total=counts(all),changed=families.filter(q=>q.difficulty!==q.difficultyReview.previousLevel);
+let md=`# 新增考题难度复评\n\n复评日期：2026-11-21；评级版本：${difficultyRevision}。范围为两轮新增的 124 型、1240 题（M2401–M3640）。原有 M0001–M2400 的分级本次未重新评定。\n\n依据当前独立题面及其十道变式的可行解法，人工逐型评定；数值放大、考试来源、试卷名称均不直接决定难度。同型变式解法相同，使用同一评级。每型保留具体理由，可在练习页或试卷的“难度依据”中展开查看。建议用时是练习目标，尚未由学生实测数据校准。\n\n## 分级标准\n\n`;
+for(const level of levels)md+=`- **${difficultyLevels[level].label} · ${difficultyLevels[level].seconds} 秒**：${rubric[level]}\n`;
+md+=`\n## 分布变化\n\n| 范围 | 简单 | 中等 | 困难 | 地狱 |\n| --- | ---: | ---: | ---: | ---: |\n| 1240 道考题复评前 | ${levels.map(l=>before[l]).join(' | ')} |\n| 1240 道考题复评后 | ${levels.map(l=>after[l]).join(' | ')} |\n| 全站 3640 题复评后 | ${levels.map(l=>total[l]).join(' | ')} |\n\n${changed.length} 型、${changed.length*10} 题调整等级；其余新增题已复核并保留原级。\n\n`;
+md+='## 地狱题型\n\n';for(const q of families.filter(q=>q.difficulty==='hell'))md+=`- [${q.id} · ${q.strategy}](index.html#${q.id})：${q.difficultyReview.reason}\n`;
+md+='\n这里的地狱等级只适用于当前题面没有给出中间结论的综合任务；已经给出方程、坐标或因式分解的小题，按剩余解题工作量评定。评级不按固定比例分配。\n\n## 逐型记录\n\n| 题型 | 原级 | 新级 | 建议用时 | 评级依据 | 母题 |\n| --- | --- | --- | ---: | --- | --- |\n';
+for(const q of families)md+=`| ${q.strategy} | ${difficultyLevels[q.difficultyReview.previousLevel].label} | ${q.difficultyLabel} | ${q.targetSeconds} 秒 | ${q.difficultyReview.reason} | [${q.id}](index.html#${q.id}) |\n`;
+md+='\n## 学习记录兼容\n\n本次只调整难度、建议用时及评级说明，题干、选项、答案、SVG、题号与内容版本保持不变。单题作答与收藏继续使用。已保存的旧试卷先按复评前难度验证，受影响的试卷保留原题号、答案、计时和交卷状态，以当前难度的精确配比恢复为自定义试卷。新出卷使用新评级；另存的下一张试卷设置继续保留。\n';
+fs.writeFileSync(new URL('DIFFICULTY-REVIEW.md',root),md);console.log(`Built difficulty review: ${families.length} families, ${changed.length} reclassified.`);

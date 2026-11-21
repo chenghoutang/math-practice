@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { expandExplanation } from './math/explanations.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const batch=Number(process.argv[2]);
-assert.ok(Number.isInteger(batch)&&batch>=1&&batch<=9,'Usage: node scripts/build-math-bank.mjs <1..9>');
+assert.ok(Number.isInteger(batch)&&batch>=1&&batch<=17,'Usage: node scripts/build-math-bank.mjs <1..17>');
 const {topics}=batch<=6?await import(`./math/batch-${batch}.mjs`):{topics:[]};
 if(batch<=6)assert.equal(topics.length,5);
 const levels=[['easy','简单',15],['medium','中等',120],['hard','复杂',300]];
@@ -38,16 +38,40 @@ if(batch===9){
   questions.push({id:`M${String(2301+f*10+seed).padStart(4,'0')}`,batch,topic:item.topic,topicName:item.name,difficulty:item.difficulty,difficultyLabel:item.difficulty==='hell'?'地狱':'困难',targetSeconds:item.difficulty==='hell'?600:300,family:`new-${f+1}`,variant:seed+1,contentRevision:item.difficulty==='hell'?2:1,strategy:item.strategy,stem:q.stem,options,answer:options.indexOf(q.correct),explanation:`思路：${item.strategy}。\n${q.explanation}`});
  }
 }
-for(const question of questions)question.explanation=expandExplanation(question);
-assert.equal(questions.length,batch===9?100:batch===8?200:300);
+if(batch>=10&&batch<=12){
+ const {buildExamQuestions}=await import('./math/exam-questions.mjs');
+ const topicList=JSON.parse(fs.readFileSync(path.join(root,'data/manifest.json'),'utf8')).topics;
+ questions.push(...buildExamQuestions(batch,topicList));
+ const {diagram}=await import('./math/exam-diagrams.mjs');
+ fs.mkdirSync(path.join(root,'assets/geometry'),{recursive:true});
+ for(const q of questions)if(q.diagram)fs.writeFileSync(path.join(root,q.diagram.src),diagram(q.diagram.kind,q.params));
+}
+if(batch>=13){
+ const {buildExpansion}=await import('./math/expansion.mjs');
+ const topicList=JSON.parse(fs.readFileSync(path.join(root,'data/manifest.json'),'utf8')).topics;
+ questions.push(...buildExpansion(batch,topicList));
+ const {expansionSVG}=await import('./math/expansion-diagrams.mjs');
+ fs.mkdirSync(path.join(root,'assets/geometry'),{recursive:true});
+ for(const q of questions)if(q.diagram)fs.writeFileSync(path.join(root,q.diagram.src),expansionSVG(q.figure));
+}
+if(batch<=9){
+ const {legacyDiagram}=await import('./math/legacy-diagrams.mjs');
+ fs.mkdirSync(path.join(root,'assets/geometry'),{recursive:true});
+ for(const q of questions){const svg=legacyDiagram(q);if(!svg)continue;q.diagram={src:`assets/geometry/${q.id}.svg`,alt:q.topicName+'示意图；具体条件以题干为准',kind:'legacy'};fs.writeFileSync(path.join(root,q.diagram.src),svg);}
+}
+for(const question of questions)if(!question.provenance)question.explanation=expandExplanation(question);
+assert.equal(questions.length,batch>=13?200:batch>=10?80:batch===9?100:batch===8?200:300);
 assert.equal(new Set(questions.map(q=>q.stem)).size,questions.length,'Duplicate question stems');
 const folder=path.join(root,'data');fs.mkdirSync(folder,{recursive:true});
 const filename=`batch-${batch}`;
 fs.writeFileSync(path.join(folder,filename+'.json'),JSON.stringify({batch,questions},null,2)+'\n');
 fs.writeFileSync(path.join(folder,filename+'.js'),`window.MATH_BATCHES=window.MATH_BATCHES||[];window.MATH_BATCHES.push(${JSON.stringify({batch,questions}).replace(/</g,'\\u003c')});\n`);
-const completed=Array.from({length:9},(_,i)=>i+1).filter(n=>fs.existsSync(path.join(folder,`batch-${n}.json`)));
+const completed=Array.from({length:17},(_,i)=>i+1).filter(n=>fs.existsSync(path.join(folder,`batch-${n}.json`)));
 const {hellRevision}=await import('./math/hell.mjs');
-const manifest={schemaVersion:3,hellRevision,total:0,target:2400,batches:completed,topics:[]};
+const {examSources}=await import('./math/exam-questions.mjs');
+const {expansionSources}=await import('./math/expansion.mjs');
+const {difficultyRevision}=await import('./math/difficulty-review.mjs');
+const manifest={schemaVersion:5,hellRevision,difficultyRevision,total:0,target:3640,batches:completed,topics:[],examSources,sourceDocuments:expansionSources};
 for(const n of completed){const data=JSON.parse(fs.readFileSync(path.join(folder,`batch-${n}.json`),'utf8'));manifest.total+=data.questions.length;for(const q of data.questions)if(!manifest.topics.some(t=>t.id===q.topic))manifest.topics.push({id:q.topic,name:q.topicName});}
 fs.writeFileSync(path.join(folder,'manifest.json'),JSON.stringify(manifest,null,2)+'\n');
 fs.writeFileSync(path.join(folder,'manifest.js'),`window.MATH_MANIFEST=${JSON.stringify(manifest)};\n`);

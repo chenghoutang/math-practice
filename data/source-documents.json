@@ -1,0 +1,57 @@
+[
+  {
+    "id": "dse23",
+    "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2023-Sample-MATH-CP-Level5-E-4792.pdf",
+    "checkedDate": "2026-11-21",
+    "sha256": "b31be05ab17cb0c62e749f63e36e5252811a1b28891561a1b13d4e6bedf61c5a",
+    "bytes": 2987308,
+    "pages": 49
+  },
+  {
+    "id": "dse24",
+    "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+    "checkedDate": "2026-11-21",
+    "sha256": "bc51911c917cea17d99b7c73d7169df869612984ff0c532386c3adf73e3a0fbb",
+    "bytes": 2904516,
+    "pages": 49
+  },
+  {
+    "id": "macau25",
+    "url": "https://reg.um.edu.mo/download/admission-local/jae/pastexampaper1/JM01.pdf",
+    "checkedDate": "2026-11-21",
+    "sha256": "530b06e9f3920b7d8206fa86ac36ad8eaca017ee3b854384cd85c2cbaa157f90",
+    "bytes": 565698,
+    "pages": 13
+  },
+  {
+    "id": "macau26",
+    "url": "https://reg.um.edu.mo/download/admission-local/jae/pastexampaper2/JM01.pdf",
+    "checkedDate": "2026-11-21",
+    "sha256": "e69379e8561439cae6a13c54afef2b9313972a03e1ed061787b2ccf132471ffc",
+    "bytes": 561072,
+    "pages": 15
+  },
+  {
+    "id": "macau25s",
+    "url": "https://reg.um.edu.mo/download/admission-local/jae/pastexampaper1/JM02.pdf",
+    "checkedDate": "2026-11-21",
+    "sha256": "1519d0b0c56eaaee8d087a7a1196695f40bee905c0dd0fd342314bc575b69aac",
+    "bytes": 828745,
+    "pages": 17
+  },
+  {
+    "id": "macau26s",
+    "url": "https://reg.um.edu.mo/download/admission-local/jae/pastexampaper2/JM02.pdf",
+    "checkedDate": "2026-11-21",
+    "sha256": "90ba52e97376ae87ba9abf5438cef2e84469572d00ad370a2a91277f540d340f",
+    "bytes": 716304,
+    "pages": 15
+  },
+  {
+    "id": "gaokao21",
+    "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+    "checkedDate": "2026-11-21",
+    "sha256": "65d11ee399ece6ccdddf4881c86633a27ec9e5c29725e8881561b20c4d47ca55",
+    "bytes": 22292
+  }
+]

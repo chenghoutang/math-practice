@@ -1,8 +1,9 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 5,
   "hellRevision": 2,
-  "total": 2400,
-  "target": 2400,
+  "difficultyRevision": 1,
+  "total": 3640,
+  "target": 3640,
   "batches": [
     1,
     2,
@@ -12,7 +13,15 @@
     6,
     7,
     8,
-    9
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
   ],
   "topics": [
     {
@@ -135,5 +144,91 @@
       "id": "integral",
       "name": "基础不定积分与换元"
     }
-  ]
+  ],
+  "examSources": {
+    "dse": {
+      "label": "香港 DSE",
+      "year": 2024,
+      "paper": "数学必修部分试卷一",
+      "title": "HKEAA 2024 HKDSE Mathematics Compulsory Part — Level 5 sample",
+      "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2024-Sample-MATH-CP-Level5-E-976D.pdf",
+      "indexUrl": "https://www.hkeaa.edu.hk/en/HKDSE/assessment/subject_information/category_a_subjects/math/sp/2024_Sample_CP.html",
+      "checkedDate": "2026-11-20",
+      "note": "官方英文评卷样本中的试题；中文改写并统一为单项选择题。"
+    },
+    "macau": {
+      "label": "澳门四校联考",
+      "year": 2025,
+      "paper": "数学正卷",
+      "title": "2025 Joint Admission Examination — Mathematics Standard Paper",
+      "url": "https://reg.um.edu.mo/download/admission-local/jae/pastexampaper1/JM01.pdf",
+      "indexUrl": "https://reg.um.edu.mo/admissions/macao-students/admission-examination/jae/syllabus-paper/",
+      "checkedDate": "2026-11-20",
+      "note": "澳门大学官方历届试卷及参考答案；下载路径可能随年份轮换，以试卷封面年份为准。"
+    },
+    "gaokao": {
+      "label": "内地高考",
+      "year": 2021,
+      "paper": "全国卷",
+      "title": "2021年高考数学全国卷试题评析：聚焦核心素养 考查关键能力",
+      "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+      "checkedDate": "2026-11-20",
+      "note": "教育部教育考试院官网刊载的试题评析，使用其中明确列出的例题；部分开放题、多选题改为单项选择题。"
+    }
+  },
+  "sourceDocuments": {
+    "macau25": {
+      "label": "澳门四校联考",
+      "year": 2025,
+      "paper": "数学正卷",
+      "url": "https://reg.um.edu.mo/download/admission-local/jae/pastexampaper1/JM01.pdf",
+      "indexUrl": "https://reg.um.edu.mo/admissions/macao-students/admission-examination/jae/syllabus-paper/",
+      "checkedDate": "2026-11-21",
+      "exam": "macau"
+    },
+    "macau26": {
+      "label": "澳门四校联考",
+      "year": 2026,
+      "paper": "数学正卷",
+      "url": "https://reg.um.edu.mo/download/admission-local/jae/pastexampaper2/JM01.pdf",
+      "indexUrl": "https://reg.um.edu.mo/admissions/macao-students/admission-examination/jae/syllabus-paper/",
+      "checkedDate": "2026-11-21",
+      "exam": "macau"
+    },
+    "macau25s": {
+      "label": "澳门四校联考",
+      "year": 2025,
+      "paper": "数学附加卷",
+      "url": "https://reg.um.edu.mo/download/admission-local/jae/pastexampaper1/JM02.pdf",
+      "indexUrl": "https://reg.um.edu.mo/admissions/macao-students/admission-examination/jae/syllabus-paper/",
+      "checkedDate": "2026-11-21",
+      "exam": "macau"
+    },
+    "macau26s": {
+      "label": "澳门四校联考",
+      "year": 2026,
+      "paper": "数学附加卷",
+      "url": "https://reg.um.edu.mo/download/admission-local/jae/pastexampaper2/JM02.pdf",
+      "indexUrl": "https://reg.um.edu.mo/admissions/macao-students/admission-examination/jae/syllabus-paper/",
+      "checkedDate": "2026-11-21",
+      "exam": "macau"
+    },
+    "dse23": {
+      "label": "香港 DSE",
+      "year": 2023,
+      "paper": "数学必修部分试卷一",
+      "url": "https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/math/2023-Sample-MATH-CP-Level5-E-4792.pdf",
+      "indexUrl": "https://www.hkeaa.edu.hk/en/HKDSE/assessment/subject_information/category_a_subjects/math/sp/2023_Sample_CP.html",
+      "checkedDate": "2026-11-21",
+      "exam": "dse"
+    },
+    "gaokao21": {
+      "label": "内地高考",
+      "year": 2021,
+      "paper": "全国卷",
+      "url": "https://gaokao.neea.edu.cn/html1/report/22012/3061-1.htm",
+      "checkedDate": "2026-11-21",
+      "exam": "gaokao"
+    }
+  }
 }

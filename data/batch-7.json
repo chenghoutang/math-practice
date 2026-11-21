@@ -3101,7 +3101,12 @@
         "h-2\\cdot1"
       ],
       "answer": 2,
-      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 1t^{2},2\\cdot 1t )$ 参数化，法线为 $y=-tx+2\\cdot 1t+1t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/1)t-k/1=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/1$，所以 $\\sum t^{2}=2h/1-4$，乘 $1$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(1t^2,2\\cdot1t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot1t+1t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/1)t-k/1=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/1,\\\\\\sum x_i&=1\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot1.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。"
+      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 1t^{2},2\\cdot 1t )$ 参数化，法线为 $y=-tx+2\\cdot 1t+1t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/1)t-k/1=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/1$，所以 $\\sum t^{2}=2h/1-4$，乘 $1$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(1t^2,2\\cdot1t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot1t+1t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/1)t-k/1=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/1,\\\\\\sum x_i&=1\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot1.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。",
+      "diagram": {
+        "src": "assets/geometry/M1941.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1942",
@@ -3123,7 +3128,12 @@
         "2h+4\\cdot2"
       ],
       "answer": 1,
-      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 2t^{2},2\\cdot 2t )$ 参数化，法线为 $y=-tx+2\\cdot 2t+2t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/2)t-k/2=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/2$，所以 $\\sum t^{2}=2h/2-4$，乘 $2$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(2t^2,2\\cdot2t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot2t+2t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/2)t-k/2=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/2,\\\\\\sum x_i&=2\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot2.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。"
+      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 2t^{2},2\\cdot 2t )$ 参数化，法线为 $y=-tx+2\\cdot 2t+2t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/2)t-k/2=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/2$，所以 $\\sum t^{2}=2h/2-4$，乘 $2$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(2t^2,2\\cdot2t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot2t+2t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/2)t-k/2=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/2,\\\\\\sum x_i&=2\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot2.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。",
+      "diagram": {
+        "src": "assets/geometry/M1942.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1943",
@@ -3145,7 +3155,12 @@
         "3h"
       ],
       "answer": 0,
-      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 3t^{2},2\\cdot 3t )$ 参数化，法线为 $y=-tx+2\\cdot 3t+3t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/3)t-k/3=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/3$，所以 $\\sum t^{2}=2h/3-4$，乘 $3$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(3t^2,2\\cdot3t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot3t+3t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/3)t-k/3=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/3,\\\\\\sum x_i&=3\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot3.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。"
+      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 3t^{2},2\\cdot 3t )$ 参数化，法线为 $y=-tx+2\\cdot 3t+3t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/3)t-k/3=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/3$，所以 $\\sum t^{2}=2h/3-4$，乘 $3$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(3t^2,2\\cdot3t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot3t+3t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/3)t-k/3=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/3,\\\\\\sum x_i&=3\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot3.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。",
+      "diagram": {
+        "src": "assets/geometry/M1943.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1944",
@@ -3167,7 +3182,12 @@
         "2h-4\\cdot4"
       ],
       "answer": 3,
-      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 4t^{2},2\\cdot 4t )$ 参数化，法线为 $y=-tx+2\\cdot 4t+4t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/4)t-k/4=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/4$，所以 $\\sum t^{2}=2h/4-4$，乘 $4$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(4t^2,2\\cdot4t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot4t+4t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/4)t-k/4=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/4,\\\\\\sum x_i&=4\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot4.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。"
+      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 4t^{2},2\\cdot 4t )$ 参数化，法线为 $y=-tx+2\\cdot 4t+4t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/4)t-k/4=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/4$，所以 $\\sum t^{2}=2h/4-4$，乘 $4$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(4t^2,2\\cdot4t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot4t+4t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/4)t-k/4=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/4,\\\\\\sum x_i&=4\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot4.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。",
+      "diagram": {
+        "src": "assets/geometry/M1944.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1945",
@@ -3189,7 +3209,12 @@
         "h-2\\cdot5"
       ],
       "answer": 2,
-      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 5t^{2},2\\cdot 5t )$ 参数化，法线为 $y=-tx+2\\cdot 5t+5t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/5)t-k/5=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/5$，所以 $\\sum t^{2}=2h/5-4$，乘 $5$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(5t^2,2\\cdot5t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot5t+5t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/5)t-k/5=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/5,\\\\\\sum x_i&=5\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot5.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。"
+      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 5t^{2},2\\cdot 5t )$ 参数化，法线为 $y=-tx+2\\cdot 5t+5t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/5)t-k/5=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/5$，所以 $\\sum t^{2}=2h/5-4$，乘 $5$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(5t^2,2\\cdot5t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot5t+5t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/5)t-k/5=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/5,\\\\\\sum x_i&=5\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot5.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。",
+      "diagram": {
+        "src": "assets/geometry/M1945.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1946",
@@ -3211,7 +3236,12 @@
         "2h+4\\cdot6"
       ],
       "answer": 1,
-      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 6t^{2},2\\cdot 6t )$ 参数化，法线为 $y=-tx+2\\cdot 6t+6t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/6)t-k/6=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/6$，所以 $\\sum t^{2}=2h/6-4$，乘 $6$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(6t^2,2\\cdot6t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot6t+6t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/6)t-k/6=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/6,\\\\\\sum x_i&=6\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot6.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。"
+      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 6t^{2},2\\cdot 6t )$ 参数化，法线为 $y=-tx+2\\cdot 6t+6t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/6)t-k/6=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/6$，所以 $\\sum t^{2}=2h/6-4$，乘 $6$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(6t^2,2\\cdot6t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot6t+6t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/6)t-k/6=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/6,\\\\\\sum x_i&=6\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot6.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。",
+      "diagram": {
+        "src": "assets/geometry/M1946.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1947",
@@ -3233,7 +3263,12 @@
         "3h"
       ],
       "answer": 0,
-      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 7t^{2},2\\cdot 7t )$ 参数化，法线为 $y=-tx+2\\cdot 7t+7t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/7)t-k/7=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/7$，所以 $\\sum t^{2}=2h/7-4$，乘 $7$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(7t^2,2\\cdot7t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot7t+7t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/7)t-k/7=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/7,\\\\\\sum x_i&=7\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot7.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。"
+      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 7t^{2},2\\cdot 7t )$ 参数化，法线为 $y=-tx+2\\cdot 7t+7t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/7)t-k/7=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/7$，所以 $\\sum t^{2}=2h/7-4$，乘 $7$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(7t^2,2\\cdot7t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot7t+7t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/7)t-k/7=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/7,\\\\\\sum x_i&=7\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot7.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。",
+      "diagram": {
+        "src": "assets/geometry/M1947.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1948",
@@ -3255,7 +3290,12 @@
         "2h-4\\cdot8"
       ],
       "answer": 3,
-      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 8t^{2},2\\cdot 8t )$ 参数化，法线为 $y=-tx+2\\cdot 8t+8t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/8)t-k/8=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/8$，所以 $\\sum t^{2}=2h/8-4$，乘 $8$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(8t^2,2\\cdot8t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot8t+8t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/8)t-k/8=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/8,\\\\\\sum x_i&=8\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot8.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。"
+      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 8t^{2},2\\cdot 8t )$ 参数化，法线为 $y=-tx+2\\cdot 8t+8t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/8)t-k/8=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/8$，所以 $\\sum t^{2}=2h/8-4$，乘 $8$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(8t^2,2\\cdot8t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot8t+8t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/8)t-k/8=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/8,\\\\\\sum x_i&=8\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot8.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。",
+      "diagram": {
+        "src": "assets/geometry/M1948.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1949",
@@ -3277,7 +3317,12 @@
         "h-2\\cdot9"
       ],
       "answer": 2,
-      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 9t^{2},2\\cdot 9t )$ 参数化，法线为 $y=-tx+2\\cdot 9t+9t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/9)t-k/9=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/9$，所以 $\\sum t^{2}=2h/9-4$，乘 $9$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(9t^2,2\\cdot9t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot9t+9t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/9)t-k/9=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/9,\\\\\\sum x_i&=9\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot9.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。"
+      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 9t^{2},2\\cdot 9t )$ 参数化，法线为 $y=-tx+2\\cdot 9t+9t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/9)t-k/9=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/9$，所以 $\\sum t^{2}=2h/9-4$，乘 $9$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(9t^2,2\\cdot9t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot9t+9t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/9)t-k/9=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/9,\\\\\\sum x_i&=9\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot9.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。",
+      "diagram": {
+        "src": "assets/geometry/M1949.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1950",
@@ -3299,7 +3344,12 @@
         "2h+4\\cdot10"
       ],
       "answer": 1,
-      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 10t^{2},2\\cdot 10t )$ 参数化，法线为 $y=-tx+2\\cdot 10t+10t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/10)t-k/10=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/10$，所以 $\\sum t^{2}=2h/10-4$，乘 $10$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(10t^2,2\\cdot10t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot10t+10t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/10)t-k/10=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/10,\\\\\\sum x_i&=10\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot10.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。"
+      "explanation": "思路：法线参数化与根系韦达关系。\n用 $( 10t^{2},2\\cdot 10t )$ 参数化，法线为 $y=-tx+2\\cdot 10t+10t^{3}$，$t=0$ 也成立。经过 $P$ 等价于 $t^{3}+(2-h/10)t-k/10=0$。三个不同法点对应全部三个实根，根和为 $0$，两两乘积和为 $2-h/10$，所以 $\\sum t^{2}=2h/10-4$，乘 $10$ 即得 $\\sum x$。无需解出法点；“三条法线”提示使用完整根系而非求三次方程。\n\n关键推导\n$$\n\\begin{aligned}(x,y)&=(10t^2,2\\cdot10t),\\\\\\text{法线}:\\quad y&=-tx+2\\cdot10t+10t^3,\\\\P=(h,k)\\text{ 在法线上}&\\iff t^3+(2-h/10)t-k/10=0,\\\\\\sum t_i=0,\\quad\\sum_{i<j}t_it_j&=2-h/10,\\\\\\sum x_i&=10\\left[(\\sum t_i)^2-2\\sum_{i<j}t_it_j\\right]=2h-4\\cdot10.\\end{aligned}\n$$\n参数 $t=0$ 对应顶点法线 $y=0$，所列法线式仍然成立。三个不同法点对应三次方程完整根系，不应另除去顶点。",
+      "diagram": {
+        "src": "assets/geometry/M1950.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1951",
@@ -3321,7 +3371,12 @@
         "(h+2\\cdot1,0)"
       ],
       "answer": 1,
-      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 1)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 1^{2}-8\\cdot 1h$，故 $\\sum y^{2}=16\\cdot 1h-32\\cdot 1^{2}$。于是 $\\sum x=4h-8\\cdot 1$，除以 $4$ 得重心 $(h-2\\cdot 1,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot1},\\\\y^4+(16\\cdot1^2-8\\cdot1h)y^2-32\\cdot1^2ky&+16\\cdot1^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot1h-32\\cdot1^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot1}=h-2\\cdot1,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。"
+      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 1)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 1^{2}-8\\cdot 1h$，故 $\\sum y^{2}=16\\cdot 1h-32\\cdot 1^{2}$。于是 $\\sum x=4h-8\\cdot 1$，除以 $4$ 得重心 $(h-2\\cdot 1,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot1},\\\\y^4+(16\\cdot1^2-8\\cdot1h)y^2-32\\cdot1^2ky&+16\\cdot1^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot1h-32\\cdot1^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot1}=h-2\\cdot1,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。",
+      "diagram": {
+        "src": "assets/geometry/M1951.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1952",
@@ -3343,7 +3398,12 @@
         "(0,k-2\\cdot2)"
       ],
       "answer": 0,
-      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 2)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 2^{2}-8\\cdot 2h$，故 $\\sum y^{2}=16\\cdot 2h-32\\cdot 2^{2}$。于是 $\\sum x=4h-8\\cdot 2$，除以 $4$ 得重心 $(h-2\\cdot 2,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot2},\\\\y^4+(16\\cdot2^2-8\\cdot2h)y^2-32\\cdot2^2ky&+16\\cdot2^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot2h-32\\cdot2^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot2}=h-2\\cdot2,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。"
+      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 2)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 2^{2}-8\\cdot 2h$，故 $\\sum y^{2}=16\\cdot 2h-32\\cdot 2^{2}$。于是 $\\sum x=4h-8\\cdot 2$，除以 $4$ 得重心 $(h-2\\cdot 2,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot2},\\\\y^4+(16\\cdot2^2-8\\cdot2h)y^2-32\\cdot2^2ky&+16\\cdot2^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot2h-32\\cdot2^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot2}=h-2\\cdot2,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。",
+      "diagram": {
+        "src": "assets/geometry/M1952.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1953",
@@ -3365,7 +3425,12 @@
         "(h-2\\cdot3,0)"
       ],
       "answer": 3,
-      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 3)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 3^{2}-8\\cdot 3h$，故 $\\sum y^{2}=16\\cdot 3h-32\\cdot 3^{2}$。于是 $\\sum x=4h-8\\cdot 3$，除以 $4$ 得重心 $(h-2\\cdot 3,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot3},\\\\y^4+(16\\cdot3^2-8\\cdot3h)y^2-32\\cdot3^2ky&+16\\cdot3^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot3h-32\\cdot3^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot3}=h-2\\cdot3,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。"
+      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 3)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 3^{2}-8\\cdot 3h$，故 $\\sum y^{2}=16\\cdot 3h-32\\cdot 3^{2}$。于是 $\\sum x=4h-8\\cdot 3$，除以 $4$ 得重心 $(h-2\\cdot 3,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot3},\\\\y^4+(16\\cdot3^2-8\\cdot3h)y^2-32\\cdot3^2ky&+16\\cdot3^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot3h-32\\cdot3^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot3}=h-2\\cdot3,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。",
+      "diagram": {
+        "src": "assets/geometry/M1953.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1954",
@@ -3387,7 +3452,12 @@
         "(h,k)"
       ],
       "answer": 2,
-      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 4)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 4^{2}-8\\cdot 4h$，故 $\\sum y^{2}=16\\cdot 4h-32\\cdot 4^{2}$。于是 $\\sum x=4h-8\\cdot 4$，除以 $4$ 得重心 $(h-2\\cdot 4,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot4},\\\\y^4+(16\\cdot4^2-8\\cdot4h)y^2-32\\cdot4^2ky&+16\\cdot4^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot4h-32\\cdot4^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot4}=h-2\\cdot4,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。"
+      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 4)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 4^{2}-8\\cdot 4h$，故 $\\sum y^{2}=16\\cdot 4h-32\\cdot 4^{2}$。于是 $\\sum x=4h-8\\cdot 4$，除以 $4$ 得重心 $(h-2\\cdot 4,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot4},\\\\y^4+(16\\cdot4^2-8\\cdot4h)y^2-32\\cdot4^2ky&+16\\cdot4^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot4h-32\\cdot4^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot4}=h-2\\cdot4,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。",
+      "diagram": {
+        "src": "assets/geometry/M1954.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1955",
@@ -3409,7 +3479,12 @@
         "(h+2\\cdot5,0)"
       ],
       "answer": 1,
-      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 5)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 5^{2}-8\\cdot 5h$，故 $\\sum y^{2}=16\\cdot 5h-32\\cdot 5^{2}$。于是 $\\sum x=4h-8\\cdot 5$，除以 $4$ 得重心 $(h-2\\cdot 5,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot5},\\\\y^4+(16\\cdot5^2-8\\cdot5h)y^2-32\\cdot5^2ky&+16\\cdot5^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot5h-32\\cdot5^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot5}=h-2\\cdot5,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。"
+      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 5)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 5^{2}-8\\cdot 5h$，故 $\\sum y^{2}=16\\cdot 5h-32\\cdot 5^{2}$。于是 $\\sum x=4h-8\\cdot 5$，除以 $4$ 得重心 $(h-2\\cdot 5,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot5},\\\\y^4+(16\\cdot5^2-8\\cdot5h)y^2-32\\cdot5^2ky&+16\\cdot5^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot5h-32\\cdot5^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot5}=h-2\\cdot5,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。",
+      "diagram": {
+        "src": "assets/geometry/M1955.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1956",
@@ -3431,7 +3506,12 @@
         "(0,k-2\\cdot6)"
       ],
       "answer": 0,
-      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 6)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 6^{2}-8\\cdot 6h$，故 $\\sum y^{2}=16\\cdot 6h-32\\cdot 6^{2}$。于是 $\\sum x=4h-8\\cdot 6$，除以 $4$ 得重心 $(h-2\\cdot 6,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot6},\\\\y^4+(16\\cdot6^2-8\\cdot6h)y^2-32\\cdot6^2ky&+16\\cdot6^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot6h-32\\cdot6^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot6}=h-2\\cdot6,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。"
+      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 6)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 6^{2}-8\\cdot 6h$，故 $\\sum y^{2}=16\\cdot 6h-32\\cdot 6^{2}$。于是 $\\sum x=4h-8\\cdot 6$，除以 $4$ 得重心 $(h-2\\cdot 6,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot6},\\\\y^4+(16\\cdot6^2-8\\cdot6h)y^2-32\\cdot6^2ky&+16\\cdot6^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot6h-32\\cdot6^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot6}=h-2\\cdot6,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。",
+      "diagram": {
+        "src": "assets/geometry/M1956.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1957",
@@ -3453,7 +3533,12 @@
         "(h-2\\cdot7,0)"
       ],
       "answer": 3,
-      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 7)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 7^{2}-8\\cdot 7h$，故 $\\sum y^{2}=16\\cdot 7h-32\\cdot 7^{2}$。于是 $\\sum x=4h-8\\cdot 7$，除以 $4$ 得重心 $(h-2\\cdot 7,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot7},\\\\y^4+(16\\cdot7^2-8\\cdot7h)y^2-32\\cdot7^2ky&+16\\cdot7^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot7h-32\\cdot7^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot7}=h-2\\cdot7,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。"
+      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 7)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 7^{2}-8\\cdot 7h$，故 $\\sum y^{2}=16\\cdot 7h-32\\cdot 7^{2}$。于是 $\\sum x=4h-8\\cdot 7$，除以 $4$ 得重心 $(h-2\\cdot 7,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot7},\\\\y^4+(16\\cdot7^2-8\\cdot7h)y^2-32\\cdot7^2ky&+16\\cdot7^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot7h-32\\cdot7^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot7}=h-2\\cdot7,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。",
+      "diagram": {
+        "src": "assets/geometry/M1957.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1958",
@@ -3475,7 +3560,12 @@
         "(h,k)"
       ],
       "answer": 2,
-      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 8)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 8^{2}-8\\cdot 8h$，故 $\\sum y^{2}=16\\cdot 8h-32\\cdot 8^{2}$。于是 $\\sum x=4h-8\\cdot 8$，除以 $4$ 得重心 $(h-2\\cdot 8,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot8},\\\\y^4+(16\\cdot8^2-8\\cdot8h)y^2-32\\cdot8^2ky&+16\\cdot8^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot8h-32\\cdot8^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot8}=h-2\\cdot8,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。"
+      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 8)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 8^{2}-8\\cdot 8h$，故 $\\sum y^{2}=16\\cdot 8h-32\\cdot 8^{2}$。于是 $\\sum x=4h-8\\cdot 8$，除以 $4$ 得重心 $(h-2\\cdot 8,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot8},\\\\y^4+(16\\cdot8^2-8\\cdot8h)y^2-32\\cdot8^2ky&+16\\cdot8^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot8h-32\\cdot8^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot8}=h-2\\cdot8,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。",
+      "diagram": {
+        "src": "assets/geometry/M1958.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1959",
@@ -3497,7 +3587,12 @@
         "(h+2\\cdot9,0)"
       ],
       "answer": 1,
-      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 9)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 9^{2}-8\\cdot 9h$，故 $\\sum y^{2}=16\\cdot 9h-32\\cdot 9^{2}$。于是 $\\sum x=4h-8\\cdot 9$，除以 $4$ 得重心 $(h-2\\cdot 9,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot9},\\\\y^4+(16\\cdot9^2-8\\cdot9h)y^2-32\\cdot9^2ky&+16\\cdot9^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot9h-32\\cdot9^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot9}=h-2\\cdot9,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。"
+      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 9)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 9^{2}-8\\cdot 9h$，故 $\\sum y^{2}=16\\cdot 9h-32\\cdot 9^{2}$。于是 $\\sum x=4h-8\\cdot 9$，除以 $4$ 得重心 $(h-2\\cdot 9,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot9},\\\\y^4+(16\\cdot9^2-8\\cdot9h)y^2-32\\cdot9^2ky&+16\\cdot9^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot9h-32\\cdot9^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot9}=h-2\\cdot9,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。",
+      "diagram": {
+        "src": "assets/geometry/M1959.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1960",
@@ -3519,7 +3614,12 @@
         "(0,k-2\\cdot10)"
       ],
       "answer": 0,
-      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 10)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 10^{2}-8\\cdot 10h$，故 $\\sum y^{2}=16\\cdot 10h-32\\cdot 10^{2}$。于是 $\\sum x=4h-8\\cdot 10$，除以 $4$ 得重心 $(h-2\\cdot 10,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot10},\\\\y^4+(16\\cdot10^2-8\\cdot10h)y^2-32\\cdot10^2ky&+16\\cdot10^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot10h-32\\cdot10^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot10}=h-2\\cdot10,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。"
+      "explanation": "思路：消元后的缺项决定交点重心。\n将 $x=y^{2}/(4\\cdot 10)$ 代入圆方程 $(x-h)^{2}+(y-k)^{2}=R^{2}$，得到没有三次项的四次方程，故 $\\sum y=0$。其二次项系数为 $16\\cdot 10^{2}-8\\cdot 10h$，故 $\\sum y^{2}=16\\cdot 10h-32\\cdot 10^{2}$。于是 $\\sum x=4h-8\\cdot 10$，除以 $4$ 得重心 $(h-2\\cdot 10,0)$。半径与圆心纵向偏移都消失，关键是找根的对称和。四个不同实交点保证根系完整。\n\n关键推导\n$$\n\\begin{aligned}(x-h)^2+(y-k)^2&=R^2,\\quad x=\\frac{y^2}{4\\cdot10},\\\\y^4+(16\\cdot10^2-8\\cdot10h)y^2-32\\cdot10^2ky&+16\\cdot10^2(h^2+k^2-R^2)=0,\\\\\\sum y_i&=0,\\quad\\sum y_i^2=16\\cdot10h-32\\cdot10^2,\\\\\\overline x&=\\frac1{4}\\frac{\\sum y_i^2}{4\\cdot10}=h-2\\cdot10,\\quad\\overline y=0.\\end{aligned}\n$$\n消元后没有三次项，故纵坐标和为零。利用二次系数求平方和，再换回横坐标，完全不必求四个交点的具体根式。",
+      "diagram": {
+        "src": "assets/geometry/M1960.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1961",
@@ -3541,7 +3641,12 @@
         "x^2+y^2=4"
       ],
       "answer": 0,
-      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=2$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{1}{2},0)&\\Longrightarrow x_T=2,\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。"
+      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=2$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{1}{2},0)&\\Longrightarrow x_T=2,\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。",
+      "diagram": {
+        "src": "assets/geometry/M1961.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1962",
@@ -3563,7 +3668,12 @@
         "x=3"
       ],
       "answer": 3,
-      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=3$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{1}{3},0)&\\Longrightarrow x_T=3,\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。"
+      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=3$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{1}{3},0)&\\Longrightarrow x_T=3,\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。",
+      "diagram": {
+        "src": "assets/geometry/M1962.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1963",
@@ -3585,7 +3695,12 @@
         "x=\\frac{2}{3}"
       ],
       "answer": 2,
-      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=\\frac{3}{2}$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{2}{3},0)&\\Longrightarrow x_T=\\frac{3}{2},\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。"
+      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=\\frac{3}{2}$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{2}{3},0)&\\Longrightarrow x_T=\\frac{3}{2},\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。",
+      "diagram": {
+        "src": "assets/geometry/M1963.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1964",
@@ -3607,7 +3722,12 @@
         "y=4"
       ],
       "answer": 1,
-      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=4$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{1}{4},0)&\\Longrightarrow x_T=4,\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。"
+      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=4$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{1}{4},0)&\\Longrightarrow x_T=4,\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。",
+      "diagram": {
+        "src": "assets/geometry/M1964.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1965",
@@ -3629,7 +3749,12 @@
         "x^2+y^2=\\frac{16}{9}"
       ],
       "answer": 0,
-      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=\\frac{4}{3}$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{3}{4},0)&\\Longrightarrow x_T=\\frac{4}{3},\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。"
+      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=\\frac{4}{3}$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{3}{4},0)&\\Longrightarrow x_T=\\frac{4}{3},\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。",
+      "diagram": {
+        "src": "assets/geometry/M1965.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1966",
@@ -3651,7 +3776,12 @@
         "x=5"
       ],
       "answer": 3,
-      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=5$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{1}{5},0)&\\Longrightarrow x_T=5,\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。"
+      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=5$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{1}{5},0)&\\Longrightarrow x_T=5,\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。",
+      "diagram": {
+        "src": "assets/geometry/M1966.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1967",
@@ -3673,7 +3803,12 @@
         "x=\\frac{2}{5}"
       ],
       "answer": 2,
-      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=\\frac{5}{2}$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{2}{5},0)&\\Longrightarrow x_T=\\frac{5}{2},\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。"
+      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=\\frac{5}{2}$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{2}{5},0)&\\Longrightarrow x_T=\\frac{5}{2},\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。",
+      "diagram": {
+        "src": "assets/geometry/M1967.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1968",
@@ -3695,7 +3830,12 @@
         "y=\\frac{5}{3}"
       ],
       "answer": 1,
-      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=\\frac{5}{3}$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{3}{5},0)&\\Longrightarrow x_T=\\frac{5}{3},\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。"
+      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=\\frac{5}{3}$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{3}{5},0)&\\Longrightarrow x_T=\\frac{5}{3},\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。",
+      "diagram": {
+        "src": "assets/geometry/M1968.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1969",
@@ -3717,7 +3857,12 @@
         "x^2+y^2=\\frac{25}{16}"
       ],
       "answer": 0,
-      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=\\frac{5}{4}$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{4}{5},0)&\\Longrightarrow x_T=\\frac{5}{4},\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。"
+      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=\\frac{5}{4}$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{4}{5},0)&\\Longrightarrow x_T=\\frac{5}{4},\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。",
+      "diagram": {
+        "src": "assets/geometry/M1969.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1970",
@@ -3739,7 +3884,12 @@
         "x=6"
       ],
       "answer": 3,
-      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=6$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{1}{6},0)&\\Longrightarrow x_T=6,\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。"
+      "explanation": "思路：由两条切线读出极线并验证充分性。\n单位圆在 $A$、$B$ 处切线满足 $A\\cdot T=B\\cdot T=1$。$P$ 在线段 $AB$ 上，故 $P\\cdot T=1$，即 $x_T=6$。反过来，这条直线上任意点都在圆外（横坐标大于 $1$），其两切点满足 $A\\cdot T=B\\cdot T=1$，接触弦就在直线 $X\\cdot T=1$ 上，而 $P$ 也在此直线上，所以弦经过 $P$。必要条件与可达性一起给出整条轨迹，不能只写出一个直线方程就结束。\n\n关键推导\n$$\n\\begin{aligned}|A|=|B|=1:\\quad A\\cdot T&=B\\cdot T=1,\\\\P=\\lambda A+(1-\\lambda)B&\\Longrightarrow P\\cdot T=1,\\\\P=(\\frac{1}{6},0)&\\Longrightarrow x_T=6,\\\\AB&=\\{X:X\\cdot T=1\\}.\\end{aligned}\n$$\n反向验证：轨迹直线上每一点横坐标都大于 $1$，因而在圆外，可作两条不同切线；其接触弦满足最后一行，确实经过 $P$，轨迹无遗漏。",
+      "diagram": {
+        "src": "assets/geometry/M1970.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1971",

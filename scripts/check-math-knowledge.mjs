@@ -7,7 +7,7 @@ const questions=manifest.batches.flatMap(n=>JSON.parse(fs.readFileSync(new URL(`
 const roots=knowledge.build(questions,manifest.topics),nodes=[];
 function visit(node){nodes.push(node);if(node.children){assert.deepEqual(node.ids,node.children.flatMap(child=>child.ids));node.children.forEach(visit);}}
 roots.forEach(visit);
-assert.equal(roots.length,8);assert.equal(nodes.filter(node=>node.kind==='topic').length,30);assert.equal(nodes.filter(node=>node.kind==='family').length,240);
+assert.equal(roots.length,8);assert.equal(nodes.filter(node=>node.kind==='topic').length,30);assert.equal(nodes.filter(node=>node.kind==='family').length,new Set(questions.map(q=>q.family)).size);
 const leaves=nodes.filter(node=>node.kind==='question');assert.equal(leaves.length,questions.length);assert.equal(new Set(leaves.map(node=>node.id)).size,questions.length);assert.equal(new Set(nodes.map(node=>node.id)).size,nodes.length);
 for(const family of nodes.filter(node=>node.kind==='family')){assert.ok(family.title&&!family.title.includes('easy-')&&!family.title.includes('hard-'));assert.ok(family.children.every(child=>child.question.family===family.id.slice(7)));}
 const config=engine.defaults(questions),ids=questions.filter(q=>q.topic==='sets'&&q.difficulty==='easy').slice(0,3).map(q=>q.id);
@@ -21,4 +21,4 @@ assert.equal(engine.pool(questions,{...selected,topics:['logic']}).length,0);
 const tampered=JSON.parse(JSON.stringify(paper));tampered.config.questionIds=ids.slice(1);assert.equal(engine.restore(tampered,questions),null);
 const future={...questions[0],id:'future',topic:'future',topicName:'新增模块',family:'future'};
 assert.equal(knowledge.build([...questions,future],[...manifest.topics,{id:'future',name:'新增模块'}]).at(-1).children[0].ids[0],'future');
-console.log('PASS: 8 knowledge groups, 30 modules, 240 named families, all 2400 question leaves exactly once; question-level pools, intersection, saved papers and invalid selections.');
+console.log('PASS: 8 knowledge groups, 30 modules, 364 named families, all 3640 question leaves exactly once; question-level pools, intersection, saved papers and invalid selections.');

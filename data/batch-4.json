@@ -1219,7 +1219,12 @@
         "5"
       ],
       "answer": 0,
-      "explanation": "斜率为纵坐标差除以横坐标差，即 $(5-1)/2=2$。\n\n关键推导\n$$\nk=\\frac{(5)-1}{2-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。"
+      "explanation": "斜率为纵坐标差除以横坐标差，即 $(5-1)/2=2$。\n\n关键推导\n$$\nk=\\frac{(5)-1}{2-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。",
+      "diagram": {
+        "src": "assets/geometry/M0961.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0962",
@@ -1239,7 +1244,12 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "斜率为纵坐标差除以横坐标差，即 $(7-1)/3=2$。\n\n关键推导\n$$\nk=\\frac{(7)-1}{3-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。"
+      "explanation": "斜率为纵坐标差除以横坐标差，即 $(7-1)/3=2$。\n\n关键推导\n$$\nk=\\frac{(7)-1}{3-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。",
+      "diagram": {
+        "src": "assets/geometry/M0962.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0963",
@@ -1259,7 +1269,12 @@
         "4"
       ],
       "answer": 2,
-      "explanation": "斜率为纵坐标差除以横坐标差，即 $(9-1)/4=2$。\n\n关键推导\n$$\nk=\\frac{(9)-1}{4-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。"
+      "explanation": "斜率为纵坐标差除以横坐标差，即 $(9-1)/4=2$。\n\n关键推导\n$$\nk=\\frac{(9)-1}{4-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。",
+      "diagram": {
+        "src": "assets/geometry/M0963.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0964",
@@ -1279,7 +1294,12 @@
         "\\frac{1}{2}"
       ],
       "answer": 1,
-      "explanation": "斜率为纵坐标差除以横坐标差，即 $(11-1)/5=2$。\n\n关键推导\n$$\nk=\\frac{(11)-1}{5-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。"
+      "explanation": "斜率为纵坐标差除以横坐标差，即 $(11-1)/5=2$。\n\n关键推导\n$$\nk=\\frac{(11)-1}{5-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。",
+      "diagram": {
+        "src": "assets/geometry/M0964.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0965",
@@ -1299,7 +1319,12 @@
         "12"
       ],
       "answer": 0,
-      "explanation": "斜率为纵坐标差除以横坐标差，即 $(13-1)/6=2$。\n\n关键推导\n$$\nk=\\frac{(13)-1}{6-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。"
+      "explanation": "斜率为纵坐标差除以横坐标差，即 $(13-1)/6=2$。\n\n关键推导\n$$\nk=\\frac{(13)-1}{6-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。",
+      "diagram": {
+        "src": "assets/geometry/M0965.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0966",
@@ -1319,7 +1344,12 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "斜率为纵坐标差除以横坐标差，即 $(15-1)/7=2$。\n\n关键推导\n$$\nk=\\frac{(15)-1}{7-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。"
+      "explanation": "斜率为纵坐标差除以横坐标差，即 $(15-1)/7=2$。\n\n关键推导\n$$\nk=\\frac{(15)-1}{7-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。",
+      "diagram": {
+        "src": "assets/geometry/M0966.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0967",
@@ -1339,7 +1369,12 @@
         "8"
       ],
       "answer": 2,
-      "explanation": "斜率为纵坐标差除以横坐标差，即 $(17-1)/8=2$。\n\n关键推导\n$$\nk=\\frac{(17)-1}{8-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。"
+      "explanation": "斜率为纵坐标差除以横坐标差，即 $(17-1)/8=2$。\n\n关键推导\n$$\nk=\\frac{(17)-1}{8-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。",
+      "diagram": {
+        "src": "assets/geometry/M0967.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0968",
@@ -1359,7 +1394,12 @@
         "\\frac{1}{2}"
       ],
       "answer": 1,
-      "explanation": "斜率为纵坐标差除以横坐标差，即 $(19-1)/9=2$。\n\n关键推导\n$$\nk=\\frac{(19)-1}{9-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。"
+      "explanation": "斜率为纵坐标差除以横坐标差，即 $(19-1)/9=2$。\n\n关键推导\n$$\nk=\\frac{(19)-1}{9-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。",
+      "diagram": {
+        "src": "assets/geometry/M0968.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0969",
@@ -1379,7 +1419,12 @@
         "20"
       ],
       "answer": 0,
-      "explanation": "斜率为纵坐标差除以横坐标差，即 $(21-1)/10=2$。\n\n关键推导\n$$\nk=\\frac{(21)-1}{10-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。"
+      "explanation": "斜率为纵坐标差除以横坐标差，即 $(21-1)/10=2$。\n\n关键推导\n$$\nk=\\frac{(21)-1}{10-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。",
+      "diagram": {
+        "src": "assets/geometry/M0969.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0970",
@@ -1399,7 +1444,12 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "斜率为纵坐标差除以横坐标差，即 $(23-1)/11=2$。\n\n关键推导\n$$\nk=\\frac{(23)-1}{11-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。"
+      "explanation": "斜率为纵坐标差除以横坐标差，即 $(23-1)/11=2$。\n\n关键推导\n$$\nk=\\frac{(23)-1}{11-0}=2\n$$\n两横坐标不同，斜率存在；先按同一顺序作纵、横坐标差。",
+      "diagram": {
+        "src": "assets/geometry/M0970.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0971",
@@ -1419,7 +1469,12 @@
         "3"
       ],
       "answer": 3,
-      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。"
+      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。",
+      "diagram": {
+        "src": "assets/geometry/M0971.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0972",
@@ -1439,7 +1494,12 @@
         "9"
       ],
       "answer": 2,
-      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。"
+      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。",
+      "diagram": {
+        "src": "assets/geometry/M0972.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0973",
@@ -1459,7 +1519,12 @@
         "4"
       ],
       "answer": 1,
-      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。"
+      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。",
+      "diagram": {
+        "src": "assets/geometry/M0973.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0974",
@@ -1479,7 +1544,12 @@
         "6"
       ],
       "answer": 0,
-      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。"
+      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。",
+      "diagram": {
+        "src": "assets/geometry/M0974.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0975",
@@ -1499,7 +1569,12 @@
         "3"
       ],
       "answer": 3,
-      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。"
+      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。",
+      "diagram": {
+        "src": "assets/geometry/M0975.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0976",
@@ -1519,7 +1594,12 @@
         "9"
       ],
       "answer": 2,
-      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。"
+      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。",
+      "diagram": {
+        "src": "assets/geometry/M0976.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0977",
@@ -1539,7 +1619,12 @@
         "8"
       ],
       "answer": 1,
-      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。"
+      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。",
+      "diagram": {
+        "src": "assets/geometry/M0977.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0978",
@@ -1559,7 +1644,12 @@
         "7"
       ],
       "answer": 0,
-      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。"
+      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。",
+      "diagram": {
+        "src": "assets/geometry/M0978.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0979",
@@ -1579,7 +1669,12 @@
         "3"
       ],
       "answer": 3,
-      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。"
+      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。",
+      "diagram": {
+        "src": "assets/geometry/M0979.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0980",
@@ -1599,7 +1694,12 @@
         "9"
       ],
       "answer": 2,
-      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。"
+      "explanation": "标准方程右侧为半径的平方，$r^{2}=9$，因此 $r=3$。\n\n关键推导\n$$\nr^2=9,\\quad r>0\\Longrightarrow r=3\n$$\n标准式圆心的平移不影响半径，右端常数是半径平方。",
+      "diagram": {
+        "src": "assets/geometry/M0980.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0981",
@@ -1619,7 +1719,12 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "点到直线距离 $d=|3\\times 2+4|/\\sqrt{3^{2}+4^{2}}=\\frac{10}{5}=2$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot2+4\\cdot0+4|}{\\sqrt{3^2+4^2}}=\\frac{10}5=2\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。"
+      "explanation": "点到直线距离 $d=|3\\times 2+4|/\\sqrt{3^{2}+4^{2}}=\\frac{10}{5}=2$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot2+4\\cdot0+4|}{\\sqrt{3^2+4^2}}=\\frac{10}5=2\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。",
+      "diagram": {
+        "src": "assets/geometry/M0981.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0982",
@@ -1639,7 +1744,12 @@
         "15"
       ],
       "answer": 2,
-      "explanation": "点到直线距离 $d=|3\\times 3+6|/\\sqrt{3^{2}+4^{2}}=\\frac{15}{5}=3$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot3+4\\cdot0+6|}{\\sqrt{3^2+4^2}}=\\frac{15}5=3\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。"
+      "explanation": "点到直线距离 $d=|3\\times 3+6|/\\sqrt{3^{2}+4^{2}}=\\frac{15}{5}=3$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot3+4\\cdot0+6|}{\\sqrt{3^2+4^2}}=\\frac{15}5=3\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。",
+      "diagram": {
+        "src": "assets/geometry/M0982.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0983",
@@ -1659,7 +1769,12 @@
         "\\frac{4}{5}"
       ],
       "answer": 1,
-      "explanation": "点到直线距离 $d=|3\\times 4+8|/\\sqrt{3^{2}+4^{2}}=\\frac{20}{5}=4$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot4+4\\cdot0+8|}{\\sqrt{3^2+4^2}}=\\frac{20}5=4\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。"
+      "explanation": "点到直线距离 $d=|3\\times 4+8|/\\sqrt{3^{2}+4^{2}}=\\frac{20}{5}=4$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot4+4\\cdot0+8|}{\\sqrt{3^2+4^2}}=\\frac{20}5=4\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。",
+      "diagram": {
+        "src": "assets/geometry/M0983.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0984",
@@ -1679,7 +1794,12 @@
         "10"
       ],
       "answer": 0,
-      "explanation": "点到直线距离 $d=|3\\times 5+10|/\\sqrt{3^{2}+4^{2}}=\\frac{25}{5}=5$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot5+4\\cdot0+10|}{\\sqrt{3^2+4^2}}=\\frac{25}5=5\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。"
+      "explanation": "点到直线距离 $d=|3\\times 5+10|/\\sqrt{3^{2}+4^{2}}=\\frac{25}{5}=5$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot5+4\\cdot0+10|}{\\sqrt{3^2+4^2}}=\\frac{25}5=5\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。",
+      "diagram": {
+        "src": "assets/geometry/M0984.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0985",
@@ -1699,7 +1819,12 @@
         "6"
       ],
       "answer": 3,
-      "explanation": "点到直线距离 $d=|3\\times 6+12|/\\sqrt{3^{2}+4^{2}}=\\frac{30}{5}=6$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot6+4\\cdot0+12|}{\\sqrt{3^2+4^2}}=\\frac{30}5=6\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。"
+      "explanation": "点到直线距离 $d=|3\\times 6+12|/\\sqrt{3^{2}+4^{2}}=\\frac{30}{5}=6$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot6+4\\cdot0+12|}{\\sqrt{3^2+4^2}}=\\frac{30}5=6\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。",
+      "diagram": {
+        "src": "assets/geometry/M0985.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0986",
@@ -1719,7 +1844,12 @@
         "35"
       ],
       "answer": 2,
-      "explanation": "点到直线距离 $d=|3\\times 7+14|/\\sqrt{3^{2}+4^{2}}=\\frac{35}{5}=7$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot7+4\\cdot0+14|}{\\sqrt{3^2+4^2}}=\\frac{35}5=7\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。"
+      "explanation": "点到直线距离 $d=|3\\times 7+14|/\\sqrt{3^{2}+4^{2}}=\\frac{35}{5}=7$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot7+4\\cdot0+14|}{\\sqrt{3^2+4^2}}=\\frac{35}5=7\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。",
+      "diagram": {
+        "src": "assets/geometry/M0986.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0987",
@@ -1739,7 +1869,12 @@
         "\\frac{8}{5}"
       ],
       "answer": 1,
-      "explanation": "点到直线距离 $d=|3\\times 8+16|/\\sqrt{3^{2}+4^{2}}=\\frac{40}{5}=8$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot8+4\\cdot0+16|}{\\sqrt{3^2+4^2}}=\\frac{40}5=8\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。"
+      "explanation": "点到直线距离 $d=|3\\times 8+16|/\\sqrt{3^{2}+4^{2}}=\\frac{40}{5}=8$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot8+4\\cdot0+16|}{\\sqrt{3^2+4^2}}=\\frac{40}5=8\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。",
+      "diagram": {
+        "src": "assets/geometry/M0987.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0988",
@@ -1759,7 +1894,12 @@
         "18"
       ],
       "answer": 0,
-      "explanation": "点到直线距离 $d=|3\\times 9+18|/\\sqrt{3^{2}+4^{2}}=\\frac{45}{5}=9$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot9+4\\cdot0+18|}{\\sqrt{3^2+4^2}}=\\frac{45}5=9\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。"
+      "explanation": "点到直线距离 $d=|3\\times 9+18|/\\sqrt{3^{2}+4^{2}}=\\frac{45}{5}=9$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot9+4\\cdot0+18|}{\\sqrt{3^2+4^2}}=\\frac{45}5=9\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。",
+      "diagram": {
+        "src": "assets/geometry/M0988.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0989",
@@ -1779,7 +1919,12 @@
         "10"
       ],
       "answer": 3,
-      "explanation": "点到直线距离 $d=|3\\times 10+20|/\\sqrt{3^{2}+4^{2}}=\\frac{50}{5}=10$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot10+4\\cdot0+20|}{\\sqrt{3^2+4^2}}=\\frac{50}5=10\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。"
+      "explanation": "点到直线距离 $d=|3\\times 10+20|/\\sqrt{3^{2}+4^{2}}=\\frac{50}{5}=10$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot10+4\\cdot0+20|}{\\sqrt{3^2+4^2}}=\\frac{50}5=10\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。",
+      "diagram": {
+        "src": "assets/geometry/M0989.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0990",
@@ -1799,7 +1944,12 @@
         "55"
       ],
       "answer": 2,
-      "explanation": "点到直线距离 $d=|3\\times 11+22|/\\sqrt{3^{2}+4^{2}}=\\frac{55}{5}=11$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot11+4\\cdot0+22|}{\\sqrt{3^2+4^2}}=\\frac{55}5=11\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。"
+      "explanation": "点到直线距离 $d=|3\\times 11+22|/\\sqrt{3^{2}+4^{2}}=\\frac{55}{5}=11$。\n\n关键推导\n$$\nd=\\frac{|3\\cdot11+4\\cdot0+22|}{\\sqrt{3^2+4^2}}=\\frac{55}5=11\n$$\n绝对值保证距离非负，分母使用直线法向量的模长。",
+      "diagram": {
+        "src": "assets/geometry/M0990.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0991",
@@ -1819,7 +1969,12 @@
         "3"
       ],
       "answer": 2,
-      "explanation": "代入 $y=2$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=2,\\quad x^2+y^2=13\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。"
+      "explanation": "代入 $y=2$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=2,\\quad x^2+y^2=13\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。",
+      "diagram": {
+        "src": "assets/geometry/M0991.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0992",
@@ -1839,7 +1994,12 @@
         "12"
       ],
       "answer": 1,
-      "explanation": "代入 $y=3$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=3,\\quad x^2+y^2=18\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。"
+      "explanation": "代入 $y=3$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=3,\\quad x^2+y^2=18\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。",
+      "diagram": {
+        "src": "assets/geometry/M0992.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0993",
@@ -1859,7 +2019,12 @@
         "8"
       ],
       "answer": 0,
-      "explanation": "代入 $y=4$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=4,\\quad x^2+y^2=25\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。"
+      "explanation": "代入 $y=4$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=4,\\quad x^2+y^2=25\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。",
+      "diagram": {
+        "src": "assets/geometry/M0993.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0994",
@@ -1879,7 +2044,12 @@
         "6"
       ],
       "answer": 3,
-      "explanation": "代入 $y=5$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=5,\\quad x^2+y^2=34\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。"
+      "explanation": "代入 $y=5$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=5,\\quad x^2+y^2=34\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。",
+      "diagram": {
+        "src": "assets/geometry/M0994.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0995",
@@ -1899,7 +2069,12 @@
         "3"
       ],
       "answer": 2,
-      "explanation": "代入 $y=6$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=6,\\quad x^2+y^2=45\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。"
+      "explanation": "代入 $y=6$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=6,\\quad x^2+y^2=45\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。",
+      "diagram": {
+        "src": "assets/geometry/M0995.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0996",
@@ -1919,7 +2094,12 @@
         "12"
       ],
       "answer": 1,
-      "explanation": "代入 $y=7$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=7,\\quad x^2+y^2=58\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。"
+      "explanation": "代入 $y=7$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=7,\\quad x^2+y^2=58\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。",
+      "diagram": {
+        "src": "assets/geometry/M0996.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0997",
@@ -1939,7 +2119,12 @@
         "16"
       ],
       "answer": 0,
-      "explanation": "代入 $y=8$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=8,\\quad x^2+y^2=73\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。"
+      "explanation": "代入 $y=8$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=8,\\quad x^2+y^2=73\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。",
+      "diagram": {
+        "src": "assets/geometry/M0997.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0998",
@@ -1959,7 +2144,12 @@
         "6"
       ],
       "answer": 3,
-      "explanation": "代入 $y=9$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=9,\\quad x^2+y^2=90\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。"
+      "explanation": "代入 $y=9$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=9,\\quad x^2+y^2=90\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。",
+      "diagram": {
+        "src": "assets/geometry/M0998.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0999",
@@ -1979,7 +2169,12 @@
         "3"
       ],
       "answer": 2,
-      "explanation": "代入 $y=10$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=10,\\quad x^2+y^2=109\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。"
+      "explanation": "代入 $y=10$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=10,\\quad x^2+y^2=109\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。",
+      "diagram": {
+        "src": "assets/geometry/M0999.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1000",
@@ -1999,7 +2194,12 @@
         "12"
       ],
       "answer": 1,
-      "explanation": "代入 $y=11$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=11,\\quad x^2+y^2=130\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。"
+      "explanation": "代入 $y=11$ 得 $x^{2}=9$，两个交点横坐标 $\\pm 3$，弦长为 $6$。\n\n关键推导\n$$\ny=11,\\quad x^2+y^2=130\\Longrightarrow x=\\pm3,\\quad |AB|=3-(-3)=6\n$$\n弦水平，两端横坐标差即为长度；也可由半径与圆心到直线距离组成的直角三角形求半弦。",
+      "diagram": {
+        "src": "assets/geometry/M1000.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1001",
@@ -2019,7 +2219,12 @@
         "24"
       ],
       "answer": 2,
-      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=16-4=12$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{16-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=40-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $40$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=12,\\\\AB^2&=4(R^2-d^2)=64-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=40-4d^2\\le40.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。"
+      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=16-4=12$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{16-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=40-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $40$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=12,\\\\AB^2&=4(R^2-d^2)=64-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=40-4d^2\\le40.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。",
+      "diagram": {
+        "src": "assets/geometry/M1001.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1002",
@@ -2039,7 +2244,12 @@
         "72"
       ],
       "answer": 1,
-      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=36-9=27$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{36-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=90-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $90$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=27,\\\\AB^2&=4(R^2-d^2)=144-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=90-4d^2\\le90.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。"
+      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=36-9=27$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{36-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=90-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $90$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=27,\\\\AB^2&=4(R^2-d^2)=144-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=90-4d^2\\le90.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。",
+      "diagram": {
+        "src": "assets/geometry/M1002.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1003",
@@ -2059,7 +2269,12 @@
         "256"
       ],
       "answer": 0,
-      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=64-16=48$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{64-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=160-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $160$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=48,\\\\AB^2&=4(R^2-d^2)=256-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=160-4d^2\\le160.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。"
+      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=64-16=48$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{64-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=160-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $160$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=48,\\\\AB^2&=4(R^2-d^2)=256-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=160-4d^2\\le160.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。",
+      "diagram": {
+        "src": "assets/geometry/M1003.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1004",
@@ -2079,7 +2294,12 @@
         "250"
       ],
       "answer": 3,
-      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=100-25=75$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{100-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=250-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $250$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=75,\\\\AB^2&=4(R^2-d^2)=400-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=250-4d^2\\le250.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。"
+      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=100-25=75$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{100-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=250-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $250$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=75,\\\\AB^2&=4(R^2-d^2)=400-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=250-4d^2\\le250.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。",
+      "diagram": {
+        "src": "assets/geometry/M1004.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1005",
@@ -2099,7 +2319,12 @@
         "216"
       ],
       "answer": 2,
-      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=144-36=108$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{144-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=360-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $360$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=108,\\\\AB^2&=4(R^2-d^2)=576-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=360-4d^2\\le360.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。"
+      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=144-36=108$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{144-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=360-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $360$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=108,\\\\AB^2&=4(R^2-d^2)=576-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=360-4d^2\\le360.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。",
+      "diagram": {
+        "src": "assets/geometry/M1005.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1006",
@@ -2119,7 +2344,12 @@
         "392"
       ],
       "answer": 1,
-      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=196-49=147$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{196-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=490-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $490$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=147,\\\\AB^2&=4(R^2-d^2)=784-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=490-4d^2\\le490.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。"
+      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=196-49=147$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{196-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=490-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $490$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=147,\\\\AB^2&=4(R^2-d^2)=784-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=490-4d^2\\le490.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。",
+      "diagram": {
+        "src": "assets/geometry/M1006.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1007",
@@ -2139,7 +2369,12 @@
         "1024"
       ],
       "answer": 0,
-      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=256-64=192$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{256-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=640-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $640$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=192,\\\\AB^2&=4(R^2-d^2)=1024-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=640-4d^2\\le640.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。"
+      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=256-64=192$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{256-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=640-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $640$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=192,\\\\AB^2&=4(R^2-d^2)=1024-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=640-4d^2\\le640.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。",
+      "diagram": {
+        "src": "assets/geometry/M1007.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1008",
@@ -2159,7 +2394,12 @@
         "810"
       ],
       "answer": 3,
-      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=324-81=243$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{324-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=810-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $810$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=243,\\\\AB^2&=4(R^2-d^2)=1296-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=810-4d^2\\le810.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。"
+      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=324-81=243$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{324-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=810-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $810$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=243,\\\\AB^2&=4(R^2-d^2)=1296-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=810-4d^2\\le810.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。",
+      "diagram": {
+        "src": "assets/geometry/M1008.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1009",
@@ -2179,7 +2419,12 @@
         "600"
       ],
       "answer": 2,
-      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=400-100=300$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{400-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=1000-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $1000$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=300,\\\\AB^2&=4(R^2-d^2)=1600-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=1000-4d^2\\le1000.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。"
+      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=400-100=300$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{400-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=1000-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $1000$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=300,\\\\AB^2&=4(R^2-d^2)=1600-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=1000-4d^2\\le1000.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。",
+      "diagram": {
+        "src": "assets/geometry/M1009.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1010",
@@ -2199,7 +2444,12 @@
         "968"
       ],
       "answer": 1,
-      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=484-121=363$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{484-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=1210-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $1210$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=363,\\\\AB^2&=4(R^2-d^2)=1936-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=1210-4d^2\\le1210.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。"
+      "explanation": "点 $P$ 在圆内，由点的幂 $PA\\cdot PB=484-121=363$。设圆心到直线距离为 $d$，弦长 $AB=2\\sqrt{484-d^{2}}$。$P$ 在弦内，故 $PA^{2}+PB^{2}=AB^{2}-2PA\\cdot PB=1210-4d^{2}$。当直线经过圆心时 $d=0$ 可达，最大值为 $1210$。\n\n关键推导\n$$\n\\begin{aligned}PA\\cdot PB&=R^2-OP^2=363,\\\\AB^2&=4(R^2-d^2)=1936-4d^2,\\\\PA^2+PB^2&=(PA+PB)^2-2PA\\cdot PB\\\\&=1210-4d^2\\le1210.\\end{aligned}\n$$\n这里 $PA$、$PB$ 都表示非负长度，$P$ 在弦内部，故 $PA+PB=AB$。直线经过圆心时 $d=0$，可达到最大值。",
+      "diagram": {
+        "src": "assets/geometry/M1010.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1011",
@@ -2219,7 +2469,12 @@
         "3"
       ],
       "answer": 1,
-      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $4x=x^{2}+y^{2}=4$，两切点均在 $x=1$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $1$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\4x&=x^2+y^2=4,\\\\AB:&\\quad x=1,\\\\d(O,AB)&=1.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。"
+      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $4x=x^{2}+y^{2}=4$，两切点均在 $x=1$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $1$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\4x&=x^2+y^2=4,\\\\AB:&\\quad x=1,\\\\d(O,AB)&=1.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。",
+      "diagram": {
+        "src": "assets/geometry/M1011.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1012",
@@ -2239,7 +2494,12 @@
         "\\frac{3}{4}"
       ],
       "answer": 0,
-      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $6x=x^{2}+y^{2}=9$，两切点均在 $x=\\frac{3}{2}$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $\\frac{3}{2}$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\6x&=x^2+y^2=9,\\\\AB:&\\quad x=\\frac{3}{2},\\\\d(O,AB)&=\\frac{3}{2}.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。"
+      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $6x=x^{2}+y^{2}=9$，两切点均在 $x=\\frac{3}{2}$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $\\frac{3}{2}$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\6x&=x^2+y^2=9,\\\\AB:&\\quad x=\\frac{3}{2},\\\\d(O,AB)&=\\frac{3}{2}.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。",
+      "diagram": {
+        "src": "assets/geometry/M1012.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1013",
@@ -2259,7 +2519,12 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $8x=x^{2}+y^{2}=16$，两切点均在 $x=2$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $2$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\8x&=x^2+y^2=16,\\\\AB:&\\quad x=2,\\\\d(O,AB)&=2.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。"
+      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $8x=x^{2}+y^{2}=16$，两切点均在 $x=2$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $2$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\8x&=x^2+y^2=16,\\\\AB:&\\quad x=2,\\\\d(O,AB)&=2.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。",
+      "diagram": {
+        "src": "assets/geometry/M1013.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1014",
@@ -2279,7 +2544,12 @@
         "5"
       ],
       "answer": 2,
-      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $10x=x^{2}+y^{2}=25$，两切点均在 $x=\\frac{5}{2}$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $\\frac{5}{2}$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\10x&=x^2+y^2=25,\\\\AB:&\\quad x=\\frac{5}{2},\\\\d(O,AB)&=\\frac{5}{2}.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。"
+      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $10x=x^{2}+y^{2}=25$，两切点均在 $x=\\frac{5}{2}$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $\\frac{5}{2}$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\10x&=x^2+y^2=25,\\\\AB:&\\quad x=\\frac{5}{2},\\\\d(O,AB)&=\\frac{5}{2}.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。",
+      "diagram": {
+        "src": "assets/geometry/M1014.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1015",
@@ -2299,7 +2569,12 @@
         "9"
       ],
       "answer": 1,
-      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $12x=x^{2}+y^{2}=36$，两切点均在 $x=3$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $3$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\12x&=x^2+y^2=36,\\\\AB:&\\quad x=3,\\\\d(O,AB)&=3.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。"
+      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $12x=x^{2}+y^{2}=36$，两切点均在 $x=3$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $3$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\12x&=x^2+y^2=36,\\\\AB:&\\quad x=3,\\\\d(O,AB)&=3.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。",
+      "diagram": {
+        "src": "assets/geometry/M1015.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1016",
@@ -2319,7 +2594,12 @@
         "\\frac{7}{4}"
       ],
       "answer": 0,
-      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $14x=x^{2}+y^{2}=49$，两切点均在 $x=\\frac{7}{2}$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $\\frac{7}{2}$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\14x&=x^2+y^2=49,\\\\AB:&\\quad x=\\frac{7}{2},\\\\d(O,AB)&=\\frac{7}{2}.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。"
+      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $14x=x^{2}+y^{2}=49$，两切点均在 $x=\\frac{7}{2}$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $\\frac{7}{2}$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\14x&=x^2+y^2=49,\\\\AB:&\\quad x=\\frac{7}{2},\\\\d(O,AB)&=\\frac{7}{2}.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。",
+      "diagram": {
+        "src": "assets/geometry/M1016.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1017",
@@ -2339,7 +2619,12 @@
         "4"
       ],
       "answer": 3,
-      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $16x=x^{2}+y^{2}=64$，两切点均在 $x=4$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $4$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\16x&=x^2+y^2=64,\\\\AB:&\\quad x=4,\\\\d(O,AB)&=4.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。"
+      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $16x=x^{2}+y^{2}=64$，两切点均在 $x=4$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $4$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\16x&=x^2+y^2=64,\\\\AB:&\\quad x=4,\\\\d(O,AB)&=4.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。",
+      "diagram": {
+        "src": "assets/geometry/M1017.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1018",
@@ -2359,7 +2644,12 @@
         "9"
       ],
       "answer": 2,
-      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $18x=x^{2}+y^{2}=81$，两切点均在 $x=\\frac{9}{2}$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $\\frac{9}{2}$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\18x&=x^2+y^2=81,\\\\AB:&\\quad x=\\frac{9}{2},\\\\d(O,AB)&=\\frac{9}{2}.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。"
+      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $18x=x^{2}+y^{2}=81$，两切点均在 $x=\\frac{9}{2}$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $\\frac{9}{2}$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\18x&=x^2+y^2=81,\\\\AB:&\\quad x=\\frac{9}{2},\\\\d(O,AB)&=\\frac{9}{2}.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。",
+      "diagram": {
+        "src": "assets/geometry/M1018.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1019",
@@ -2379,7 +2669,12 @@
         "15"
       ],
       "answer": 1,
-      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $20x=x^{2}+y^{2}=100$，两切点均在 $x=5$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $5$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\20x&=x^2+y^2=100,\\\\AB:&\\quad x=5,\\\\d(O,AB)&=5.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。"
+      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $20x=x^{2}+y^{2}=100$，两切点均在 $x=5$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $5$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\20x&=x^2+y^2=100,\\\\AB:&\\quad x=5,\\\\d(O,AB)&=5.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。",
+      "diagram": {
+        "src": "assets/geometry/M1019.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1020",
@@ -2399,7 +2694,12 @@
         "\\frac{11}{4}"
       ],
       "answer": 0,
-      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $22x=x^{2}+y^{2}=121$，两切点均在 $x=\\frac{11}{2}$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $\\frac{11}{2}$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\22x&=x^2+y^2=121,\\\\AB:&\\quad x=\\frac{11}{2},\\\\d(O,AB)&=\\frac{11}{2}.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。"
+      "explanation": "设切点 $T=(x,y)$，$OT\\perp PT$ 给 $T\\cdot (P-T)=0$，因此 $22x=x^{2}+y^{2}=121$，两切点均在 $x=\\frac{11}{2}$ 上。弦 $AB$ 即该直线，$O$ 到弦的距离为 $\\frac{11}{2}$。\n\n关键推导\n$$\n\\begin{aligned}T=(x,y):\\quad OT\\perp PT&\\Longrightarrow T\\cdot(P-T)=0,\\\\22x&=x^2+y^2=121,\\\\AB:&\\quad x=\\frac{11}{2},\\\\d(O,AB)&=\\frac{11}{2}.\\end{aligned}\n$$\n两切点都满足同一个线性方程，因此接触弦就是该直线；外点到圆心距离为半径两倍，确实存在两条切线。",
+      "diagram": {
+        "src": "assets/geometry/M1020.svg",
+        "alt": "直线、圆与位置关系示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1021",
@@ -2419,7 +2719,12 @@
         "16"
       ],
       "answer": 0,
-      "explanation": "长半轴为 $\\sqrt{16}=4$，长轴长为其两倍 $8$。\n\n关键推导\n$$\nA^2=16\\Longrightarrow 2A=8\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "长半轴为 $\\sqrt{16}=4$，长轴长为其两倍 $8$。\n\n关键推导\n$$\nA^2=16\\Longrightarrow 2A=8\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1021.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1022",
@@ -2439,7 +2744,12 @@
         "12"
       ],
       "answer": 3,
-      "explanation": "长半轴为 $\\sqrt{36}=6$，长轴长为其两倍 $12$。\n\n关键推导\n$$\nA^2=36\\Longrightarrow 2A=12\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "长半轴为 $\\sqrt{36}=6$，长轴长为其两倍 $12$。\n\n关键推导\n$$\nA^2=36\\Longrightarrow 2A=12\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1022.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1023",
@@ -2459,7 +2769,12 @@
         "8"
       ],
       "answer": 2,
-      "explanation": "长半轴为 $\\sqrt{64}=8$，长轴长为其两倍 $16$。\n\n关键推导\n$$\nA^2=64\\Longrightarrow 2A=16\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "长半轴为 $\\sqrt{64}=8$，长轴长为其两倍 $16$。\n\n关键推导\n$$\nA^2=64\\Longrightarrow 2A=16\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1023.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1024",
@@ -2479,7 +2794,12 @@
         "5"
       ],
       "answer": 1,
-      "explanation": "长半轴为 $\\sqrt{100}=10$，长轴长为其两倍 $20$。\n\n关键推导\n$$\nA^2=100\\Longrightarrow 2A=20\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "长半轴为 $\\sqrt{100}=10$，长轴长为其两倍 $20$。\n\n关键推导\n$$\nA^2=100\\Longrightarrow 2A=20\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1024.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1025",
@@ -2499,7 +2819,12 @@
         "48"
       ],
       "answer": 0,
-      "explanation": "长半轴为 $\\sqrt{144}=12$，长轴长为其两倍 $24$。\n\n关键推导\n$$\nA^2=144\\Longrightarrow 2A=24\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "长半轴为 $\\sqrt{144}=12$，长轴长为其两倍 $24$。\n\n关键推导\n$$\nA^2=144\\Longrightarrow 2A=24\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1025.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1026",
@@ -2519,7 +2844,12 @@
         "28"
       ],
       "answer": 3,
-      "explanation": "长半轴为 $\\sqrt{196}=14$，长轴长为其两倍 $28$。\n\n关键推导\n$$\nA^2=196\\Longrightarrow 2A=28\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "长半轴为 $\\sqrt{196}=14$，长轴长为其两倍 $28$。\n\n关键推导\n$$\nA^2=196\\Longrightarrow 2A=28\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1026.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1027",
@@ -2539,7 +2869,12 @@
         "16"
       ],
       "answer": 2,
-      "explanation": "长半轴为 $\\sqrt{256}=16$，长轴长为其两倍 $32$。\n\n关键推导\n$$\nA^2=256\\Longrightarrow 2A=32\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "长半轴为 $\\sqrt{256}=16$，长轴长为其两倍 $32$。\n\n关键推导\n$$\nA^2=256\\Longrightarrow 2A=32\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1027.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1028",
@@ -2559,7 +2894,12 @@
         "9"
       ],
       "answer": 1,
-      "explanation": "长半轴为 $\\sqrt{324}=18$，长轴长为其两倍 $36$。\n\n关键推导\n$$\nA^2=324\\Longrightarrow 2A=36\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "长半轴为 $\\sqrt{324}=18$，长轴长为其两倍 $36$。\n\n关键推导\n$$\nA^2=324\\Longrightarrow 2A=36\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1028.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1029",
@@ -2579,7 +2919,12 @@
         "80"
       ],
       "answer": 0,
-      "explanation": "长半轴为 $\\sqrt{400}=20$，长轴长为其两倍 $40$。\n\n关键推导\n$$\nA^2=400\\Longrightarrow 2A=40\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "长半轴为 $\\sqrt{400}=20$，长轴长为其两倍 $40$。\n\n关键推导\n$$\nA^2=400\\Longrightarrow 2A=40\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1029.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1030",
@@ -2599,7 +2944,12 @@
         "44"
       ],
       "answer": 3,
-      "explanation": "长半轴为 $\\sqrt{484}=22$，长轴长为其两倍 $44$。\n\n关键推导\n$$\nA^2=484\\Longrightarrow 2A=44\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "长半轴为 $\\sqrt{484}=22$，长轴长为其两倍 $44$。\n\n关键推导\n$$\nA^2=484\\Longrightarrow 2A=44\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1030.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1031",
@@ -2619,7 +2969,12 @@
         "4"
       ],
       "answer": 3,
-      "explanation": "$a_{0}^{2}=5$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=4$，焦距为 $2c=4$。\n\n关键推导\n$$\nc^2=A^2-B^2=5-1=4,\\quad |F_1F_2|=2c=4\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "$a_{0}^{2}=5$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=4$，焦距为 $2c=4$。\n\n关键推导\n$$\nc^2=A^2-B^2=5-1=4,\\quad |F_1F_2|=2c=4\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1031.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1032",
@@ -2639,7 +2994,12 @@
         "3"
       ],
       "answer": 2,
-      "explanation": "$a_{0}^{2}=10$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=9$，焦距为 $2c=6$。\n\n关键推导\n$$\nc^2=A^2-B^2=10-1=9,\\quad |F_1F_2|=2c=6\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "$a_{0}^{2}=10$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=9$，焦距为 $2c=6$。\n\n关键推导\n$$\nc^2=A^2-B^2=10-1=9,\\quad |F_1F_2|=2c=6\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1032.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1033",
@@ -2659,7 +3019,12 @@
         "16"
       ],
       "answer": 1,
-      "explanation": "$a_{0}^{2}=17$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=16$，焦距为 $2c=8$。\n\n关键推导\n$$\nc^2=A^2-B^2=17-1=16,\\quad |F_1F_2|=2c=8\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "$a_{0}^{2}=17$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=16$，焦距为 $2c=8$。\n\n关键推导\n$$\nc^2=A^2-B^2=17-1=16,\\quad |F_1F_2|=2c=8\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1033.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1034",
@@ -2679,7 +3044,12 @@
         "52"
       ],
       "answer": 0,
-      "explanation": "$a_{0}^{2}=26$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=25$，焦距为 $2c=10$。\n\n关键推导\n$$\nc^2=A^2-B^2=26-1=25,\\quad |F_1F_2|=2c=10\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "$a_{0}^{2}=26$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=25$，焦距为 $2c=10$。\n\n关键推导\n$$\nc^2=A^2-B^2=26-1=25,\\quad |F_1F_2|=2c=10\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1034.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1035",
@@ -2699,7 +3069,12 @@
         "12"
       ],
       "answer": 3,
-      "explanation": "$a_{0}^{2}=37$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=36$，焦距为 $2c=12$。\n\n关键推导\n$$\nc^2=A^2-B^2=37-1=36,\\quad |F_1F_2|=2c=12\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "$a_{0}^{2}=37$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=36$，焦距为 $2c=12$。\n\n关键推导\n$$\nc^2=A^2-B^2=37-1=36,\\quad |F_1F_2|=2c=12\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1035.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1036",
@@ -2719,7 +3094,12 @@
         "7"
       ],
       "answer": 2,
-      "explanation": "$a_{0}^{2}=50$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=49$，焦距为 $2c=14$。\n\n关键推导\n$$\nc^2=A^2-B^2=50-1=49,\\quad |F_1F_2|=2c=14\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "$a_{0}^{2}=50$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=49$，焦距为 $2c=14$。\n\n关键推导\n$$\nc^2=A^2-B^2=50-1=49,\\quad |F_1F_2|=2c=14\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1036.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1037",
@@ -2739,7 +3119,12 @@
         "64"
       ],
       "answer": 1,
-      "explanation": "$a_{0}^{2}=65$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=64$，焦距为 $2c=16$。\n\n关键推导\n$$\nc^2=A^2-B^2=65-1=64,\\quad |F_1F_2|=2c=16\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "$a_{0}^{2}=65$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=64$，焦距为 $2c=16$。\n\n关键推导\n$$\nc^2=A^2-B^2=65-1=64,\\quad |F_1F_2|=2c=16\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1037.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1038",
@@ -2759,7 +3144,12 @@
         "164"
       ],
       "answer": 0,
-      "explanation": "$a_{0}^{2}=82$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=81$，焦距为 $2c=18$。\n\n关键推导\n$$\nc^2=A^2-B^2=82-1=81,\\quad |F_1F_2|=2c=18\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "$a_{0}^{2}=82$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=81$，焦距为 $2c=18$。\n\n关键推导\n$$\nc^2=A^2-B^2=82-1=81,\\quad |F_1F_2|=2c=18\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1038.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1039",
@@ -2779,7 +3169,12 @@
         "20"
       ],
       "answer": 3,
-      "explanation": "$a_{0}^{2}=101$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=100$，焦距为 $2c=20$。\n\n关键推导\n$$\nc^2=A^2-B^2=101-1=100,\\quad |F_1F_2|=2c=20\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "$a_{0}^{2}=101$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=100$，焦距为 $2c=20$。\n\n关键推导\n$$\nc^2=A^2-B^2=101-1=100,\\quad |F_1F_2|=2c=20\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1039.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1040",
@@ -2799,7 +3194,12 @@
         "11"
       ],
       "answer": 2,
-      "explanation": "$a_{0}^{2}=122$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=121$，焦距为 $2c=22$。\n\n关键推导\n$$\nc^2=A^2-B^2=122-1=121,\\quad |F_1F_2|=2c=22\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。"
+      "explanation": "$a_{0}^{2}=122$、$b^{2}=1$，$c^{2}=a_{0}^{2}-b^{2}=121$，焦距为 $2c=22$。\n\n关键推导\n$$\nc^2=A^2-B^2=122-1=121,\\quad |F_1F_2|=2c=22\n$$\n$A$、$B$ 分别记长、短半轴，焦距是两焦点距离 $2c$，不是 $c$。",
+      "diagram": {
+        "src": "assets/geometry/M1040.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1041",
@@ -2819,7 +3219,12 @@
         "\\frac{1}{2}"
       ],
       "answer": 3,
-      "explanation": "$c^{2}=16-12=4$，所以 $e=c/a_{0}=\\frac{2}{4}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=16-12=4,\\quad e=\\frac cA=\\frac{2}{4}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。"
+      "explanation": "$c^{2}=16-12=4$，所以 $e=c/a_{0}=\\frac{2}{4}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=16-12=4,\\quad e=\\frac cA=\\frac{2}{4}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。",
+      "diagram": {
+        "src": "assets/geometry/M1041.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1042",
@@ -2839,7 +3244,12 @@
         "\\frac{3}{4}"
       ],
       "answer": 2,
-      "explanation": "$c^{2}=36-27=9$，所以 $e=c/a_{0}=\\frac{3}{6}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=36-27=9,\\quad e=\\frac cA=\\frac{3}{6}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。"
+      "explanation": "$c^{2}=36-27=9$，所以 $e=c/a_{0}=\\frac{3}{6}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=36-27=9,\\quad e=\\frac cA=\\frac{3}{6}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。",
+      "diagram": {
+        "src": "assets/geometry/M1042.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1043",
@@ -2859,7 +3269,12 @@
         "\\frac{1}{4}"
       ],
       "answer": 1,
-      "explanation": "$c^{2}=64-48=16$，所以 $e=c/a_{0}=\\frac{4}{8}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=64-48=16,\\quad e=\\frac cA=\\frac{4}{8}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。"
+      "explanation": "$c^{2}=64-48=16$，所以 $e=c/a_{0}=\\frac{4}{8}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=64-48=16,\\quad e=\\frac cA=\\frac{4}{8}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。",
+      "diagram": {
+        "src": "assets/geometry/M1043.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1044",
@@ -2879,7 +3294,12 @@
         "\\frac{\\sqrt3}{2}"
       ],
       "answer": 0,
-      "explanation": "$c^{2}=100-75=25$，所以 $e=c/a_{0}=\\frac{5}{10}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=100-75=25,\\quad e=\\frac cA=\\frac{5}{10}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。"
+      "explanation": "$c^{2}=100-75=25$，所以 $e=c/a_{0}=\\frac{5}{10}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=100-75=25,\\quad e=\\frac cA=\\frac{5}{10}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。",
+      "diagram": {
+        "src": "assets/geometry/M1044.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1045",
@@ -2899,7 +3319,12 @@
         "\\frac{1}{2}"
       ],
       "answer": 3,
-      "explanation": "$c^{2}=144-108=36$，所以 $e=c/a_{0}=\\frac{6}{12}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=144-108=36,\\quad e=\\frac cA=\\frac{6}{12}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。"
+      "explanation": "$c^{2}=144-108=36$，所以 $e=c/a_{0}=\\frac{6}{12}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=144-108=36,\\quad e=\\frac cA=\\frac{6}{12}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。",
+      "diagram": {
+        "src": "assets/geometry/M1045.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1046",
@@ -2919,7 +3344,12 @@
         "\\frac{3}{4}"
       ],
       "answer": 2,
-      "explanation": "$c^{2}=196-147=49$，所以 $e=c/a_{0}=\\frac{7}{14}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=196-147=49,\\quad e=\\frac cA=\\frac{7}{14}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。"
+      "explanation": "$c^{2}=196-147=49$，所以 $e=c/a_{0}=\\frac{7}{14}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=196-147=49,\\quad e=\\frac cA=\\frac{7}{14}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。",
+      "diagram": {
+        "src": "assets/geometry/M1046.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1047",
@@ -2939,7 +3369,12 @@
         "\\frac{1}{4}"
       ],
       "answer": 1,
-      "explanation": "$c^{2}=256-192=64$，所以 $e=c/a_{0}=\\frac{8}{16}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=256-192=64,\\quad e=\\frac cA=\\frac{8}{16}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。"
+      "explanation": "$c^{2}=256-192=64$，所以 $e=c/a_{0}=\\frac{8}{16}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=256-192=64,\\quad e=\\frac cA=\\frac{8}{16}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。",
+      "diagram": {
+        "src": "assets/geometry/M1047.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1048",
@@ -2959,7 +3394,12 @@
         "\\frac{\\sqrt3}{2}"
       ],
       "answer": 0,
-      "explanation": "$c^{2}=324-243=81$，所以 $e=c/a_{0}=\\frac{9}{18}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=324-243=81,\\quad e=\\frac cA=\\frac{9}{18}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。"
+      "explanation": "$c^{2}=324-243=81$，所以 $e=c/a_{0}=\\frac{9}{18}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=324-243=81,\\quad e=\\frac cA=\\frac{9}{18}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。",
+      "diagram": {
+        "src": "assets/geometry/M1048.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1049",
@@ -2979,7 +3419,12 @@
         "\\frac{1}{2}"
       ],
       "answer": 3,
-      "explanation": "$c^{2}=400-300=100$，所以 $e=c/a_{0}=\\frac{10}{20}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=400-300=100,\\quad e=\\frac cA=\\frac{10}{20}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。"
+      "explanation": "$c^{2}=400-300=100$，所以 $e=c/a_{0}=\\frac{10}{20}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=400-300=100,\\quad e=\\frac cA=\\frac{10}{20}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。",
+      "diagram": {
+        "src": "assets/geometry/M1049.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1050",
@@ -2999,7 +3444,12 @@
         "\\frac{3}{4}"
       ],
       "answer": 2,
-      "explanation": "$c^{2}=484-363=121$，所以 $e=c/a_{0}=\\frac{11}{22}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=484-363=121,\\quad e=\\frac cA=\\frac{11}{22}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。"
+      "explanation": "$c^{2}=484-363=121$，所以 $e=c/a_{0}=\\frac{11}{22}=\\frac{1}{2}$。\n\n关键推导\n$$\nc^2=484-363=121,\\quad e=\\frac cA=\\frac{11}{22}=\\frac12\n$$\n椭圆的 $c^{2}=A^{2}-B^{2}$，与双曲线的加号不同；离心率应在 $(0,1)$ 内。",
+      "diagram": {
+        "src": "assets/geometry/M1050.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1051",
@@ -3019,7 +3469,12 @@
         "4"
       ],
       "answer": 2,
-      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{5}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{5}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。"
+      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{5}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{5}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。",
+      "diagram": {
+        "src": "assets/geometry/M1051.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1052",
@@ -3039,7 +3494,12 @@
         "\\sqrt{10}"
       ],
       "answer": 1,
-      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{10}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{10}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。"
+      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{10}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{10}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。",
+      "diagram": {
+        "src": "assets/geometry/M1052.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1053",
@@ -3059,7 +3519,12 @@
         "10"
       ],
       "answer": 0,
-      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{17}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{17}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。"
+      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{17}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{17}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。",
+      "diagram": {
+        "src": "assets/geometry/M1053.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1054",
@@ -3079,7 +3544,12 @@
         "2\\sqrt{26}"
       ],
       "answer": 3,
-      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{26}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{26}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。"
+      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{26}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{26}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。",
+      "diagram": {
+        "src": "assets/geometry/M1054.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1055",
@@ -3099,7 +3569,12 @@
         "12"
       ],
       "answer": 2,
-      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{37}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{37}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。"
+      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{37}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{37}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。",
+      "diagram": {
+        "src": "assets/geometry/M1055.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1056",
@@ -3119,7 +3594,12 @@
         "\\sqrt{50}"
       ],
       "answer": 1,
-      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{50}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{50}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。"
+      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{50}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{50}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。",
+      "diagram": {
+        "src": "assets/geometry/M1056.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1057",
@@ -3139,7 +3619,12 @@
         "18"
       ],
       "answer": 0,
-      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{65}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{65}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。"
+      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{65}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{65}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。",
+      "diagram": {
+        "src": "assets/geometry/M1057.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1058",
@@ -3159,7 +3644,12 @@
         "2\\sqrt{82}"
       ],
       "answer": 3,
-      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{82}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{82}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。"
+      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{82}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{82}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。",
+      "diagram": {
+        "src": "assets/geometry/M1058.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1059",
@@ -3179,7 +3669,12 @@
         "20"
       ],
       "answer": 2,
-      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{101}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{101}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。"
+      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{101}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{101}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。",
+      "diagram": {
+        "src": "assets/geometry/M1059.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1060",
@@ -3199,7 +3694,12 @@
         "\\sqrt{122}"
       ],
       "answer": 1,
-      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{122}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{122}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。"
+      "explanation": "椭圆的定义给距离和恒等于长轴长 $2a_{0}=2\\sqrt{122}$。\n\n关键推导\n$$\nPF_1+PF_2=2A=2\\sqrt{122}\n$$\n椭圆的距离和恒定是定义，圆锥曲线上任一点都满足，不需要知道 $P$ 的坐标。",
+      "diagram": {
+        "src": "assets/geometry/M1060.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1061",
@@ -3219,7 +3719,12 @@
         "2"
       ],
       "answer": 2,
-      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{5}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=16$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(5)(3)/4$、纵坐标平方为 $\\frac{1}{4}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{5},\\\\r_1^2+r_2^2&=|F_1F_2|^2=16,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。"
+      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{5}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=16$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(5)(3)/4$、纵坐标平方为 $\\frac{1}{4}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{5},\\\\r_1^2+r_2^2&=|F_1F_2|^2=16,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。",
+      "diagram": {
+        "src": "assets/geometry/M1061.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1062",
@@ -3239,7 +3744,12 @@
         "3"
       ],
       "answer": 1,
-      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{10}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=36$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(10)(8)/9$、纵坐标平方为 $\\frac{1}{9}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{10},\\\\r_1^2+r_2^2&=|F_1F_2|^2=36,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。"
+      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{10}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=36$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(10)(8)/9$、纵坐标平方为 $\\frac{1}{9}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{10},\\\\r_1^2+r_2^2&=|F_1F_2|^2=36,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。",
+      "diagram": {
+        "src": "assets/geometry/M1062.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1063",
@@ -3259,7 +3769,12 @@
         "16"
       ],
       "answer": 0,
-      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{17}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=64$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(17)(15)/16$、纵坐标平方为 $\\frac{1}{16}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{17},\\\\r_1^2+r_2^2&=|F_1F_2|^2=64,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。"
+      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{17}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=64$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(17)(15)/16$、纵坐标平方为 $\\frac{1}{16}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{17},\\\\r_1^2+r_2^2&=|F_1F_2|^2=64,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。",
+      "diagram": {
+        "src": "assets/geometry/M1063.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1064",
@@ -3279,7 +3794,12 @@
         "1"
       ],
       "answer": 3,
-      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{26}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=100$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(26)(24)/25$、纵坐标平方为 $\\frac{1}{25}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{26},\\\\r_1^2+r_2^2&=|F_1F_2|^2=100,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。"
+      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{26}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=100$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(26)(24)/25$、纵坐标平方为 $\\frac{1}{25}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{26},\\\\r_1^2+r_2^2&=|F_1F_2|^2=100,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。",
+      "diagram": {
+        "src": "assets/geometry/M1064.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1065",
@@ -3299,7 +3819,12 @@
         "2"
       ],
       "answer": 2,
-      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{37}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=144$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(37)(35)/36$、纵坐标平方为 $\\frac{1}{36}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{37},\\\\r_1^2+r_2^2&=|F_1F_2|^2=144,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。"
+      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{37}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=144$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(37)(35)/36$、纵坐标平方为 $\\frac{1}{36}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{37},\\\\r_1^2+r_2^2&=|F_1F_2|^2=144,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。",
+      "diagram": {
+        "src": "assets/geometry/M1065.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1066",
@@ -3319,7 +3844,12 @@
         "7"
       ],
       "answer": 1,
-      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{50}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=196$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(50)(48)/49$、纵坐标平方为 $\\frac{1}{49}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{50},\\\\r_1^2+r_2^2&=|F_1F_2|^2=196,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。"
+      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{50}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=196$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(50)(48)/49$、纵坐标平方为 $\\frac{1}{49}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{50},\\\\r_1^2+r_2^2&=|F_1F_2|^2=196,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。",
+      "diagram": {
+        "src": "assets/geometry/M1066.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1067",
@@ -3339,7 +3869,12 @@
         "64"
       ],
       "answer": 0,
-      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{65}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=256$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(65)(63)/64$、纵坐标平方为 $\\frac{1}{64}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{65},\\\\r_1^2+r_2^2&=|F_1F_2|^2=256,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。"
+      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{65}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=256$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(65)(63)/64$、纵坐标平方为 $\\frac{1}{64}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{65},\\\\r_1^2+r_2^2&=|F_1F_2|^2=256,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。",
+      "diagram": {
+        "src": "assets/geometry/M1067.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1068",
@@ -3359,7 +3894,12 @@
         "1"
       ],
       "answer": 3,
-      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{82}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=324$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(82)(80)/81$、纵坐标平方为 $\\frac{1}{81}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{82},\\\\r_1^2+r_2^2&=|F_1F_2|^2=324,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。"
+      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{82}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=324$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(82)(80)/81$、纵坐标平方为 $\\frac{1}{81}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{82},\\\\r_1^2+r_2^2&=|F_1F_2|^2=324,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。",
+      "diagram": {
+        "src": "assets/geometry/M1068.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1069",
@@ -3379,7 +3919,12 @@
         "2"
       ],
       "answer": 2,
-      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{101}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=400$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(101)(99)/100$、纵坐标平方为 $\\frac{1}{100}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{101},\\\\r_1^2+r_2^2&=|F_1F_2|^2=400,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。"
+      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{101}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=400$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(101)(99)/100$、纵坐标平方为 $\\frac{1}{100}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{101},\\\\r_1^2+r_2^2&=|F_1F_2|^2=400,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。",
+      "diagram": {
+        "src": "assets/geometry/M1069.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1070",
@@ -3399,7 +3944,12 @@
         "11"
       ],
       "answer": 1,
-      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{122}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=484$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(122)(120)/121$、纵坐标平方为 $\\frac{1}{121}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{122},\\\\r_1^2+r_2^2&=|F_1F_2|^2=484,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。"
+      "explanation": "设 $r_{1}=PF_{1},r_{2}=PF_{2}$。定义给 $r_{1}+r_{2}=2\\sqrt{122}$，直角条件给 $r_{1}^{2}+r_{2}^{2}=F_{1}F_{2}^{2}=484$，相减得 $2r_{1}r_{2}=4$，故面积 $r_{1}r_{2}/2=1$。存在性：令 $P$ 横坐标平方为 $(122)(120)/121$、纵坐标平方为 $\\frac{1}{121}$，可同时满足椭圆和直角条件，故并非空设。\n\n关键推导\n$$\n\\begin{aligned}r_1+r_2&=2\\sqrt{122},\\\\r_1^2+r_2^2&=|F_1F_2|^2=484,\\\\2r_1r_2&=(r_1+r_2)^2-(r_1^2+r_2^2)=4,\\\\S&=\\frac12r_1r_2\\sin90^\\circ=1.\\end{aligned}\n$$\n可取 $y^{2}=1/a^{2}$、$x^{2}=(a^{2}+1)(a^{2}-1)/a^{2}$，验证椭圆和直角条件同时成立，且 $y\\ne 0$。因此面积结论并非建立在不存在的点上。",
+      "diagram": {
+        "src": "assets/geometry/M1070.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1071",
@@ -3419,7 +3969,12 @@
         "\\frac2{\\sqrt{5}}"
       ],
       "answer": 1,
-      "explanation": "记长半轴 $A_{0}=\\sqrt{5}$，$e=2/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{5},\\quad e=\\frac{2}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{5}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。"
+      "explanation": "记长半轴 $A_{0}=\\sqrt{5}$，$e=2/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{5},\\quad e=\\frac{2}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{5}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。",
+      "diagram": {
+        "src": "assets/geometry/M1071.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1072",
@@ -3439,7 +3994,12 @@
         "\\sqrt{10}"
       ],
       "answer": 0,
-      "explanation": "记长半轴 $A_{0}=\\sqrt{10}$，$e=3/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{10},\\quad e=\\frac{3}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{10}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。"
+      "explanation": "记长半轴 $A_{0}=\\sqrt{10}$，$e=3/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{10},\\quad e=\\frac{3}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{10}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。",
+      "diagram": {
+        "src": "assets/geometry/M1072.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1073",
@@ -3459,7 +4019,12 @@
         "2\\sqrt{17}"
       ],
       "answer": 3,
-      "explanation": "记长半轴 $A_{0}=\\sqrt{17}$，$e=4/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{17},\\quad e=\\frac{4}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{17}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。"
+      "explanation": "记长半轴 $A_{0}=\\sqrt{17}$，$e=4/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{17},\\quad e=\\frac{4}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{17}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。",
+      "diagram": {
+        "src": "assets/geometry/M1073.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1074",
@@ -3479,7 +4044,12 @@
         "10"
       ],
       "answer": 2,
-      "explanation": "记长半轴 $A_{0}=\\sqrt{26}$，$e=5/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{26},\\quad e=\\frac{5}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{26}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。"
+      "explanation": "记长半轴 $A_{0}=\\sqrt{26}$，$e=5/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{26},\\quad e=\\frac{5}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{26}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。",
+      "diagram": {
+        "src": "assets/geometry/M1074.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1075",
@@ -3499,7 +4069,12 @@
         "\\frac2{\\sqrt{37}}"
       ],
       "answer": 1,
-      "explanation": "记长半轴 $A_{0}=\\sqrt{37}$，$e=6/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{37},\\quad e=\\frac{6}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{37}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。"
+      "explanation": "记长半轴 $A_{0}=\\sqrt{37}$，$e=6/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{37},\\quad e=\\frac{6}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{37}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。",
+      "diagram": {
+        "src": "assets/geometry/M1075.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1076",
@@ -3519,7 +4094,12 @@
         "\\sqrt{50}"
       ],
       "answer": 0,
-      "explanation": "记长半轴 $A_{0}=\\sqrt{50}$，$e=7/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{50},\\quad e=\\frac{7}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{50}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。"
+      "explanation": "记长半轴 $A_{0}=\\sqrt{50}$，$e=7/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{50},\\quad e=\\frac{7}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{50}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。",
+      "diagram": {
+        "src": "assets/geometry/M1076.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1077",
@@ -3539,7 +4119,12 @@
         "2\\sqrt{65}"
       ],
       "answer": 3,
-      "explanation": "记长半轴 $A_{0}=\\sqrt{65}$，$e=8/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{65},\\quad e=\\frac{8}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{65}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。"
+      "explanation": "记长半轴 $A_{0}=\\sqrt{65}$，$e=8/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{65},\\quad e=\\frac{8}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{65}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。",
+      "diagram": {
+        "src": "assets/geometry/M1077.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1078",
@@ -3559,7 +4144,12 @@
         "18"
       ],
       "answer": 2,
-      "explanation": "记长半轴 $A_{0}=\\sqrt{82}$，$e=9/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{82},\\quad e=\\frac{9}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{82}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。"
+      "explanation": "记长半轴 $A_{0}=\\sqrt{82}$，$e=9/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{82},\\quad e=\\frac{9}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{82}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。",
+      "diagram": {
+        "src": "assets/geometry/M1078.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1079",
@@ -3579,7 +4169,12 @@
         "\\frac2{\\sqrt{101}}"
       ],
       "answer": 1,
-      "explanation": "记长半轴 $A_{0}=\\sqrt{101}$，$e=10/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{101},\\quad e=\\frac{10}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{101}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。"
+      "explanation": "记长半轴 $A_{0}=\\sqrt{101}$，$e=10/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{101},\\quad e=\\frac{10}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{101}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。",
+      "diagram": {
+        "src": "assets/geometry/M1079.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1080",
@@ -3599,7 +4194,12 @@
         "\\sqrt{122}"
       ],
       "answer": 0,
-      "explanation": "记长半轴 $A_{0}=\\sqrt{122}$，$e=11/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{122},\\quad e=\\frac{11}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{122}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。"
+      "explanation": "记长半轴 $A_{0}=\\sqrt{122}$，$e=11/A_{0}$，$p=b^{2}/A_{0}=1/A_{0}$。以焦点为极点，反向的两条射线满足 $1/FA=(1-e \\cos \\theta )/p$、$1/FB=(1+e \\cos \\theta )/p$，相加得 $2/p=2A_{0}$。也可将参数直线代入椭圆，利用二次方程根的和、积得到同一结论。\n\n关键推导\n$$\n\\begin{aligned}A&=\\sqrt{122},\\quad e=\\frac{11}A,\\quad p=\\frac1A,\\\\\\frac1{FA}&=\\frac{1-e\\cos\\theta}{p},\\quad\\frac1{FB}=\\frac{1+e\\cos\\theta}{p},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac2p=2\\sqrt{122}.\\end{aligned}\n$$\n两交点从焦点看位于相反射线上，角度余弦互为相反数，故方向项相消。焦点在椭圆内，正的焦半径都存在。",
+      "diagram": {
+        "src": "assets/geometry/M1080.svg",
+        "alt": "椭圆与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1081",
@@ -3619,7 +4219,12 @@
         "7"
       ],
       "answer": 0,
-      "explanation": "实半轴 $a_{0}=2$，实轴长 $2a_{0}=4$。\n\n关键推导\n$$\nA=\\sqrt{4}=2\\Longrightarrow\\text{实轴长}=2A=4\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。"
+      "explanation": "实半轴 $a_{0}=2$，实轴长 $2a_{0}=4$。\n\n关键推导\n$$\nA=\\sqrt{4}=2\\Longrightarrow\\text{实轴长}=2A=4\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。",
+      "diagram": {
+        "src": "assets/geometry/M1081.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1082",
@@ -3639,7 +4244,12 @@
         "6"
       ],
       "answer": 3,
-      "explanation": "实半轴 $a_{0}=3$，实轴长 $2a_{0}=6$。\n\n关键推导\n$$\nA=\\sqrt{9}=3\\Longrightarrow\\text{实轴长}=2A=6\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。"
+      "explanation": "实半轴 $a_{0}=3$，实轴长 $2a_{0}=6$。\n\n关键推导\n$$\nA=\\sqrt{9}=3\\Longrightarrow\\text{实轴长}=2A=6\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。",
+      "diagram": {
+        "src": "assets/geometry/M1082.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1083",
@@ -3659,7 +4269,12 @@
         "4"
       ],
       "answer": 2,
-      "explanation": "实半轴 $a_{0}=4$，实轴长 $2a_{0}=8$。\n\n关键推导\n$$\nA=\\sqrt{16}=4\\Longrightarrow\\text{实轴长}=2A=8\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。"
+      "explanation": "实半轴 $a_{0}=4$，实轴长 $2a_{0}=8$。\n\n关键推导\n$$\nA=\\sqrt{16}=4\\Longrightarrow\\text{实轴长}=2A=8\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。",
+      "diagram": {
+        "src": "assets/geometry/M1083.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1084",
@@ -3679,7 +4294,12 @@
         "25"
       ],
       "answer": 1,
-      "explanation": "实半轴 $a_{0}=5$，实轴长 $2a_{0}=10$。\n\n关键推导\n$$\nA=\\sqrt{25}=5\\Longrightarrow\\text{实轴长}=2A=10\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。"
+      "explanation": "实半轴 $a_{0}=5$，实轴长 $2a_{0}=10$。\n\n关键推导\n$$\nA=\\sqrt{25}=5\\Longrightarrow\\text{实轴长}=2A=10\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。",
+      "diagram": {
+        "src": "assets/geometry/M1084.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1085",
@@ -3699,7 +4319,12 @@
         "24"
       ],
       "answer": 0,
-      "explanation": "实半轴 $a_{0}=6$，实轴长 $2a_{0}=12$。\n\n关键推导\n$$\nA=\\sqrt{36}=6\\Longrightarrow\\text{实轴长}=2A=12\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。"
+      "explanation": "实半轴 $a_{0}=6$，实轴长 $2a_{0}=12$。\n\n关键推导\n$$\nA=\\sqrt{36}=6\\Longrightarrow\\text{实轴长}=2A=12\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。",
+      "diagram": {
+        "src": "assets/geometry/M1085.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1086",
@@ -3719,7 +4344,12 @@
         "14"
       ],
       "answer": 3,
-      "explanation": "实半轴 $a_{0}=7$，实轴长 $2a_{0}=14$。\n\n关键推导\n$$\nA=\\sqrt{49}=7\\Longrightarrow\\text{实轴长}=2A=14\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。"
+      "explanation": "实半轴 $a_{0}=7$，实轴长 $2a_{0}=14$。\n\n关键推导\n$$\nA=\\sqrt{49}=7\\Longrightarrow\\text{实轴长}=2A=14\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。",
+      "diagram": {
+        "src": "assets/geometry/M1086.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1087",
@@ -3739,7 +4369,12 @@
         "8"
       ],
       "answer": 2,
-      "explanation": "实半轴 $a_{0}=8$，实轴长 $2a_{0}=16$。\n\n关键推导\n$$\nA=\\sqrt{64}=8\\Longrightarrow\\text{实轴长}=2A=16\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。"
+      "explanation": "实半轴 $a_{0}=8$，实轴长 $2a_{0}=16$。\n\n关键推导\n$$\nA=\\sqrt{64}=8\\Longrightarrow\\text{实轴长}=2A=16\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。",
+      "diagram": {
+        "src": "assets/geometry/M1087.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1088",
@@ -3759,7 +4394,12 @@
         "81"
       ],
       "answer": 1,
-      "explanation": "实半轴 $a_{0}=9$，实轴长 $2a_{0}=18$。\n\n关键推导\n$$\nA=\\sqrt{81}=9\\Longrightarrow\\text{实轴长}=2A=18\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。"
+      "explanation": "实半轴 $a_{0}=9$，实轴长 $2a_{0}=18$。\n\n关键推导\n$$\nA=\\sqrt{81}=9\\Longrightarrow\\text{实轴长}=2A=18\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。",
+      "diagram": {
+        "src": "assets/geometry/M1088.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1089",
@@ -3779,7 +4419,12 @@
         "40"
       ],
       "answer": 0,
-      "explanation": "实半轴 $a_{0}=10$，实轴长 $2a_{0}=20$。\n\n关键推导\n$$\nA=\\sqrt{100}=10\\Longrightarrow\\text{实轴长}=2A=20\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。"
+      "explanation": "实半轴 $a_{0}=10$，实轴长 $2a_{0}=20$。\n\n关键推导\n$$\nA=\\sqrt{100}=10\\Longrightarrow\\text{实轴长}=2A=20\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。",
+      "diagram": {
+        "src": "assets/geometry/M1089.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1090",
@@ -3799,7 +4444,12 @@
         "22"
       ],
       "answer": 3,
-      "explanation": "实半轴 $a_{0}=11$，实轴长 $2a_{0}=22$。\n\n关键推导\n$$\nA=\\sqrt{121}=11\\Longrightarrow\\text{实轴长}=2A=22\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。"
+      "explanation": "实半轴 $a_{0}=11$，实轴长 $2a_{0}=22$。\n\n关键推导\n$$\nA=\\sqrt{121}=11\\Longrightarrow\\text{实轴长}=2A=22\n$$\n正项在 $x^{2}$ 前，实轴沿 $x$ 轴；标准式分母给的是实半轴平方。",
+      "diagram": {
+        "src": "assets/geometry/M1090.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1091",
@@ -3819,7 +4469,12 @@
         "y=\\pm2x"
       ],
       "answer": 3,
-      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=4$、$a_{0}=2$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{4}{2}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。"
+      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=4$、$a_{0}=2$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{4}{2}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。",
+      "diagram": {
+        "src": "assets/geometry/M1091.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1092",
@@ -3839,7 +4494,12 @@
         "y=\\pm\\frac13x"
       ],
       "answer": 2,
-      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=6$、$a_{0}=3$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{6}{3}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。"
+      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=6$、$a_{0}=3$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{6}{3}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。",
+      "diagram": {
+        "src": "assets/geometry/M1092.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1093",
@@ -3859,7 +4519,12 @@
         "y=\\pm3x"
       ],
       "answer": 1,
-      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=8$、$a_{0}=4$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{8}{4}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。"
+      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=8$、$a_{0}=4$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{8}{4}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。",
+      "diagram": {
+        "src": "assets/geometry/M1093.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1094",
@@ -3879,7 +4544,12 @@
         "y=\\pm x"
       ],
       "answer": 0,
-      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=10$、$a_{0}=5$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{10}{5}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。"
+      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=10$、$a_{0}=5$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{10}{5}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。",
+      "diagram": {
+        "src": "assets/geometry/M1094.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1095",
@@ -3899,7 +4569,12 @@
         "y=\\pm2x"
       ],
       "answer": 3,
-      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=12$、$a_{0}=6$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{12}{6}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。"
+      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=12$、$a_{0}=6$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{12}{6}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。",
+      "diagram": {
+        "src": "assets/geometry/M1095.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1096",
@@ -3919,7 +4594,12 @@
         "y=\\pm\\frac13x"
       ],
       "answer": 2,
-      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=14$、$a_{0}=7$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{14}{7}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。"
+      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=14$、$a_{0}=7$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{14}{7}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。",
+      "diagram": {
+        "src": "assets/geometry/M1096.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1097",
@@ -3939,7 +4619,12 @@
         "y=\\pm3x"
       ],
       "answer": 1,
-      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=16$、$a_{0}=8$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{16}{8}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。"
+      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=16$、$a_{0}=8$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{16}{8}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。",
+      "diagram": {
+        "src": "assets/geometry/M1097.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1098",
@@ -3959,7 +4644,12 @@
         "y=\\pm x"
       ],
       "answer": 0,
-      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=18$、$a_{0}=9$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{18}{9}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。"
+      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=18$、$a_{0}=9$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{18}{9}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。",
+      "diagram": {
+        "src": "assets/geometry/M1098.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1099",
@@ -3979,7 +4669,12 @@
         "y=\\pm2x"
       ],
       "answer": 3,
-      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=20$、$a_{0}=10$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{20}{10}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。"
+      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=20$、$a_{0}=10$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{20}{10}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。",
+      "diagram": {
+        "src": "assets/geometry/M1099.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1100",
@@ -3999,7 +4694,12 @@
         "y=\\pm\\frac13x"
       ],
       "answer": 2,
-      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=22$、$a_{0}=11$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{22}{11}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。"
+      "explanation": "标准式渐近线为 $y=\\pm (b/a_{0})x$，此处 $b=22$、$a_{0}=11$，斜率为 $\\pm 2$。\n\n关键推导\n$$\ny=\\pm\\frac BAx=\\pm\\frac{22}{11}x=\\pm2x\n$$\n渐近线由齐次部分 $x^{2}/A^{2}-y^{2}/B^{2}=0$ 得到；斜率为 $B/A$，不是 $A/B$。",
+      "diagram": {
+        "src": "assets/geometry/M1100.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1101",
@@ -4019,7 +4719,12 @@
         "4"
       ],
       "answer": 3,
-      "explanation": "$c^{2}=1+(3)=4$，因此焦距 $2c=4$。\n\n关键推导\n$$\nc^2=1+(3)=4,\\quad |F_1F_2|=2c=4\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=1+(3)=4$，因此焦距 $2c=4$。\n\n关键推导\n$$\nc^2=1+(3)=4,\\quad |F_1F_2|=2c=4\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1101.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1102",
@@ -4039,7 +4744,12 @@
         "3"
       ],
       "answer": 2,
-      "explanation": "$c^{2}=1+(8)=9$，因此焦距 $2c=6$。\n\n关键推导\n$$\nc^2=1+(8)=9,\\quad |F_1F_2|=2c=6\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=1+(8)=9$，因此焦距 $2c=6$。\n\n关键推导\n$$\nc^2=1+(8)=9,\\quad |F_1F_2|=2c=6\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1102.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1103",
@@ -4059,7 +4769,12 @@
         "16"
       ],
       "answer": 1,
-      "explanation": "$c^{2}=1+(15)=16$，因此焦距 $2c=8$。\n\n关键推导\n$$\nc^2=1+(15)=16,\\quad |F_1F_2|=2c=8\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=1+(15)=16$，因此焦距 $2c=8$。\n\n关键推导\n$$\nc^2=1+(15)=16,\\quad |F_1F_2|=2c=8\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1103.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1104",
@@ -4079,7 +4794,12 @@
         "48"
       ],
       "answer": 0,
-      "explanation": "$c^{2}=1+(24)=25$，因此焦距 $2c=10$。\n\n关键推导\n$$\nc^2=1+(24)=25,\\quad |F_1F_2|=2c=10\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=1+(24)=25$，因此焦距 $2c=10$。\n\n关键推导\n$$\nc^2=1+(24)=25,\\quad |F_1F_2|=2c=10\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1104.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1105",
@@ -4099,7 +4819,12 @@
         "12"
       ],
       "answer": 3,
-      "explanation": "$c^{2}=1+(35)=36$，因此焦距 $2c=12$。\n\n关键推导\n$$\nc^2=1+(35)=36,\\quad |F_1F_2|=2c=12\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=1+(35)=36$，因此焦距 $2c=12$。\n\n关键推导\n$$\nc^2=1+(35)=36,\\quad |F_1F_2|=2c=12\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1105.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1106",
@@ -4119,7 +4844,12 @@
         "7"
       ],
       "answer": 2,
-      "explanation": "$c^{2}=1+(48)=49$，因此焦距 $2c=14$。\n\n关键推导\n$$\nc^2=1+(48)=49,\\quad |F_1F_2|=2c=14\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=1+(48)=49$，因此焦距 $2c=14$。\n\n关键推导\n$$\nc^2=1+(48)=49,\\quad |F_1F_2|=2c=14\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1106.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1107",
@@ -4139,7 +4869,12 @@
         "64"
       ],
       "answer": 1,
-      "explanation": "$c^{2}=1+(63)=64$，因此焦距 $2c=16$。\n\n关键推导\n$$\nc^2=1+(63)=64,\\quad |F_1F_2|=2c=16\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=1+(63)=64$，因此焦距 $2c=16$。\n\n关键推导\n$$\nc^2=1+(63)=64,\\quad |F_1F_2|=2c=16\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1107.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1108",
@@ -4159,7 +4894,12 @@
         "160"
       ],
       "answer": 0,
-      "explanation": "$c^{2}=1+(80)=81$，因此焦距 $2c=18$。\n\n关键推导\n$$\nc^2=1+(80)=81,\\quad |F_1F_2|=2c=18\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=1+(80)=81$，因此焦距 $2c=18$。\n\n关键推导\n$$\nc^2=1+(80)=81,\\quad |F_1F_2|=2c=18\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1108.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1109",
@@ -4179,7 +4919,12 @@
         "20"
       ],
       "answer": 3,
-      "explanation": "$c^{2}=1+(99)=100$，因此焦距 $2c=20$。\n\n关键推导\n$$\nc^2=1+(99)=100,\\quad |F_1F_2|=2c=20\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=1+(99)=100$，因此焦距 $2c=20$。\n\n关键推导\n$$\nc^2=1+(99)=100,\\quad |F_1F_2|=2c=20\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1109.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1110",
@@ -4199,7 +4944,12 @@
         "11"
       ],
       "answer": 2,
-      "explanation": "$c^{2}=1+(120)=121$，因此焦距 $2c=22$。\n\n关键推导\n$$\nc^2=1+(120)=121,\\quad |F_1F_2|=2c=22\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=1+(120)=121$，因此焦距 $2c=22$。\n\n关键推导\n$$\nc^2=1+(120)=121,\\quad |F_1F_2|=2c=22\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1110.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1111",
@@ -4219,7 +4969,12 @@
         "\\frac{1}{2}"
       ],
       "answer": 2,
-      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=16$，$c=4$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=16,\\quad e=\\frac cA=\\frac{4}{2}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=16$，$c=4$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=16,\\quad e=\\frac cA=\\frac{4}{2}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1111.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1112",
@@ -4239,7 +4994,12 @@
         "\\sqrt3"
       ],
       "answer": 1,
-      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=36$，$c=6$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=36,\\quad e=\\frac cA=\\frac{6}{3}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=36$，$c=6$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=36,\\quad e=\\frac cA=\\frac{6}{3}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1112.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1113",
@@ -4259,7 +5019,12 @@
         "4"
       ],
       "answer": 0,
-      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=64$，$c=8$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=64,\\quad e=\\frac cA=\\frac{8}{4}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=64$，$c=8$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=64,\\quad e=\\frac cA=\\frac{8}{4}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1113.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1114",
@@ -4279,7 +5044,12 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=100$，$c=10$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=100,\\quad e=\\frac cA=\\frac{10}{5}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=100$，$c=10$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=100,\\quad e=\\frac cA=\\frac{10}{5}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1114.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1115",
@@ -4299,7 +5069,12 @@
         "\\frac{1}{2}"
       ],
       "answer": 2,
-      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=144$，$c=12$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=144,\\quad e=\\frac cA=\\frac{12}{6}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=144$，$c=12$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=144,\\quad e=\\frac cA=\\frac{12}{6}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1115.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1116",
@@ -4319,7 +5094,12 @@
         "\\sqrt3"
       ],
       "answer": 1,
-      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=196$，$c=14$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=196,\\quad e=\\frac cA=\\frac{14}{7}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=196$，$c=14$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=196,\\quad e=\\frac cA=\\frac{14}{7}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1116.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1117",
@@ -4339,7 +5119,12 @@
         "4"
       ],
       "answer": 0,
-      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=256$，$c=16$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=256,\\quad e=\\frac cA=\\frac{16}{8}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=256$，$c=16$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=256,\\quad e=\\frac cA=\\frac{16}{8}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1117.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1118",
@@ -4359,7 +5144,12 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=324$，$c=18$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=324,\\quad e=\\frac cA=\\frac{18}{9}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=324$，$c=18$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=324,\\quad e=\\frac cA=\\frac{18}{9}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1118.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1119",
@@ -4379,7 +5169,12 @@
         "\\frac{1}{2}"
       ],
       "answer": 2,
-      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=400$，$c=20$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=400,\\quad e=\\frac cA=\\frac{20}{10}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=400$，$c=20$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=400,\\quad e=\\frac cA=\\frac{20}{10}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1119.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1120",
@@ -4399,7 +5194,12 @@
         "\\sqrt3"
       ],
       "answer": 1,
-      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=484$，$c=22$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=484,\\quad e=\\frac cA=\\frac{22}{11}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。"
+      "explanation": "$c^{2}=a_{0}^{2}+b^{2}=484$，$c=22$，$e=c/a_{0}=2$。\n\n关键推导\n$$\nc^2=A^2+B^2=484,\\quad e=\\frac cA=\\frac{22}{11}=2\n$$\n双曲线用 $c^{2}=A^{2}+B^{2}$，其离心率大于 $1$；焦距依然是 $2c$。",
+      "diagram": {
+        "src": "assets/geometry/M1120.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1121",
@@ -4419,7 +5219,12 @@
         "1"
       ],
       "answer": 2,
-      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=4$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=20$，减去 $(r_{1}-r_{2})^{2}=16$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=4,\\\\r_1^2+r_2^2&=4c^2=20,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。"
+      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=4$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=20$，减去 $(r_{1}-r_{2})^{2}=16$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=4,\\\\r_1^2+r_2^2&=4c^2=20,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。",
+      "diagram": {
+        "src": "assets/geometry/M1121.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1122",
@@ -4439,7 +5244,12 @@
         "5"
       ],
       "answer": 1,
-      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=6$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=40$，减去 $(r_{1}-r_{2})^{2}=36$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=6,\\\\r_1^2+r_2^2&=4c^2=40,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。"
+      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=6$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=40$，减去 $(r_{1}-r_{2})^{2}=36$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=6,\\\\r_1^2+r_2^2&=4c^2=40,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。",
+      "diagram": {
+        "src": "assets/geometry/M1122.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1123",
@@ -4459,7 +5269,12 @@
         "8"
       ],
       "answer": 0,
-      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=8$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=68$，减去 $(r_{1}-r_{2})^{2}=64$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=8,\\\\r_1^2+r_2^2&=4c^2=68,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。"
+      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=8$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=68$，减去 $(r_{1}-r_{2})^{2}=64$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=8,\\\\r_1^2+r_2^2&=4c^2=68,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。",
+      "diagram": {
+        "src": "assets/geometry/M1123.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1124",
@@ -4479,7 +5294,12 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=10$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=104$，减去 $(r_{1}-r_{2})^{2}=100$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=10,\\\\r_1^2+r_2^2&=4c^2=104,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。"
+      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=10$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=104$，减去 $(r_{1}-r_{2})^{2}=100$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=10,\\\\r_1^2+r_2^2&=4c^2=104,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。",
+      "diagram": {
+        "src": "assets/geometry/M1124.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1125",
@@ -4499,7 +5319,12 @@
         "1"
       ],
       "answer": 2,
-      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=12$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=148$，减去 $(r_{1}-r_{2})^{2}=144$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=12,\\\\r_1^2+r_2^2&=4c^2=148,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。"
+      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=12$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=148$，减去 $(r_{1}-r_{2})^{2}=144$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=12,\\\\r_1^2+r_2^2&=4c^2=148,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。",
+      "diagram": {
+        "src": "assets/geometry/M1125.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1126",
@@ -4519,7 +5344,12 @@
         "9"
       ],
       "answer": 1,
-      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=14$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=200$，减去 $(r_{1}-r_{2})^{2}=196$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=14,\\\\r_1^2+r_2^2&=4c^2=200,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。"
+      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=14$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=200$，减去 $(r_{1}-r_{2})^{2}=196$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=14,\\\\r_1^2+r_2^2&=4c^2=200,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。",
+      "diagram": {
+        "src": "assets/geometry/M1126.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1127",
@@ -4539,7 +5369,12 @@
         "16"
       ],
       "answer": 0,
-      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=16$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=260$，减去 $(r_{1}-r_{2})^{2}=256$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=16,\\\\r_1^2+r_2^2&=4c^2=260,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。"
+      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=16$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=260$，减去 $(r_{1}-r_{2})^{2}=256$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=16,\\\\r_1^2+r_2^2&=4c^2=260,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。",
+      "diagram": {
+        "src": "assets/geometry/M1127.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1128",
@@ -4559,7 +5394,12 @@
         "2"
       ],
       "answer": 3,
-      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=18$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=328$，减去 $(r_{1}-r_{2})^{2}=324$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=18,\\\\r_1^2+r_2^2&=4c^2=328,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。"
+      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=18$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=328$，减去 $(r_{1}-r_{2})^{2}=324$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=18,\\\\r_1^2+r_2^2&=4c^2=328,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。",
+      "diagram": {
+        "src": "assets/geometry/M1128.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1129",
@@ -4579,7 +5419,12 @@
         "1"
       ],
       "answer": 2,
-      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=20$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=404$，减去 $(r_{1}-r_{2})^{2}=400$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=20,\\\\r_1^2+r_2^2&=4c^2=404,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。"
+      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=20$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=404$，减去 $(r_{1}-r_{2})^{2}=400$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=20,\\\\r_1^2+r_2^2&=4c^2=404,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。",
+      "diagram": {
+        "src": "assets/geometry/M1129.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1130",
@@ -4599,7 +5444,12 @@
         "13"
       ],
       "answer": 1,
-      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=22$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=488$，减去 $(r_{1}-r_{2})^{2}=484$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=22,\\\\r_1^2+r_2^2&=4c^2=488,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。"
+      "explanation": "令 $r_{1}\\ge r_{2}$，双曲线定义给 $r_{1}-r_{2}=22$。直角条件给 $r_{1}^{2}+r_{2}^{2}=4c^{2}=488$，减去 $(r_{1}-r_{2})^{2}=484$，得到 $2r_{1}r_{2}=4$，所以乘积为 $2$。此时 $r_{1},r_{2}>0$ 且满足三角形条件，确有相应点。\n\n关键推导\n$$\n\\begin{aligned}r_1-r_2&=2A=22,\\\\r_1^2+r_2^2&=4c^2=488,\\\\2r_1r_2&=r_1^2+r_2^2-(r_1-r_2)^2=4,\\\\r_1r_2&=2.\\end{aligned}\n$$\n取 $x^{2}=a^{2}(a^{2}+2)/(a^{2}+1)$、$y^{2}=1/(a^{2}+1)$，既在右支又满足直角条件，说明所设几何配置确实可行。",
+      "diagram": {
+        "src": "assets/geometry/M1130.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1131",
@@ -4619,7 +5469,12 @@
         "\\frac{5}{4}"
       ],
       "answer": 1,
-      "explanation": "渐近线为 $y=\\pm 2x$。距离乘积等于 $|(y-2x)(y+2x)|/(4+1)=|y^{2}-4x^{2}|/5$。由双曲线方程 $y^{2}-4x^{2}=-4$，得到定值 $\\frac{4}{5}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-2x|\\,|y+2x|}{5}\\\\&=\\frac{|y^2-4x^2|}{5}\\\\&=\\frac{4}{5}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。"
+      "explanation": "渐近线为 $y=\\pm 2x$。距离乘积等于 $|(y-2x)(y+2x)|/(4+1)=|y^{2}-4x^{2}|/5$。由双曲线方程 $y^{2}-4x^{2}=-4$，得到定值 $\\frac{4}{5}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-2x|\\,|y+2x|}{5}\\\\&=\\frac{|y^2-4x^2|}{5}\\\\&=\\frac{4}{5}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。",
+      "diagram": {
+        "src": "assets/geometry/M1131.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1132",
@@ -4639,7 +5494,12 @@
         "9"
       ],
       "answer": 0,
-      "explanation": "渐近线为 $y=\\pm 3x$。距离乘积等于 $|(y-3x)(y+3x)|/(9+1)=|y^{2}-9x^{2}|/10$。由双曲线方程 $y^{2}-9x^{2}=-9$，得到定值 $\\frac{9}{10}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-3x|\\,|y+3x|}{10}\\\\&=\\frac{|y^2-9x^2|}{10}\\\\&=\\frac{9}{10}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。"
+      "explanation": "渐近线为 $y=\\pm 3x$。距离乘积等于 $|(y-3x)(y+3x)|/(9+1)=|y^{2}-9x^{2}|/10$。由双曲线方程 $y^{2}-9x^{2}=-9$，得到定值 $\\frac{9}{10}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-3x|\\,|y+3x|}{10}\\\\&=\\frac{|y^2-9x^2|}{10}\\\\&=\\frac{9}{10}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。",
+      "diagram": {
+        "src": "assets/geometry/M1132.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1133",
@@ -4659,7 +5519,12 @@
         "\\frac{16}{17}"
       ],
       "answer": 3,
-      "explanation": "渐近线为 $y=\\pm 4x$。距离乘积等于 $|(y-4x)(y+4x)|/(16+1)=|y^{2}-16x^{2}|/17$。由双曲线方程 $y^{2}-16x^{2}=-16$，得到定值 $\\frac{16}{17}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-4x|\\,|y+4x|}{17}\\\\&=\\frac{|y^2-16x^2|}{17}\\\\&=\\frac{16}{17}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。"
+      "explanation": "渐近线为 $y=\\pm 4x$。距离乘积等于 $|(y-4x)(y+4x)|/(16+1)=|y^{2}-16x^{2}|/17$。由双曲线方程 $y^{2}-16x^{2}=-16$，得到定值 $\\frac{16}{17}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-4x|\\,|y+4x|}{17}\\\\&=\\frac{|y^2-16x^2|}{17}\\\\&=\\frac{16}{17}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。",
+      "diagram": {
+        "src": "assets/geometry/M1133.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1134",
@@ -4679,7 +5544,12 @@
         "\\frac{5}{26}"
       ],
       "answer": 2,
-      "explanation": "渐近线为 $y=\\pm 5x$。距离乘积等于 $|(y-5x)(y+5x)|/(25+1)=|y^{2}-25x^{2}|/26$。由双曲线方程 $y^{2}-25x^{2}=-25$，得到定值 $\\frac{25}{26}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-5x|\\,|y+5x|}{26}\\\\&=\\frac{|y^2-25x^2|}{26}\\\\&=\\frac{25}{26}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。"
+      "explanation": "渐近线为 $y=\\pm 5x$。距离乘积等于 $|(y-5x)(y+5x)|/(25+1)=|y^{2}-25x^{2}|/26$。由双曲线方程 $y^{2}-25x^{2}=-25$，得到定值 $\\frac{25}{26}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-5x|\\,|y+5x|}{26}\\\\&=\\frac{|y^2-25x^2|}{26}\\\\&=\\frac{25}{26}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。",
+      "diagram": {
+        "src": "assets/geometry/M1134.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1135",
@@ -4699,7 +5569,12 @@
         "\\frac{37}{36}"
       ],
       "answer": 1,
-      "explanation": "渐近线为 $y=\\pm 6x$。距离乘积等于 $|(y-6x)(y+6x)|/(36+1)=|y^{2}-36x^{2}|/37$。由双曲线方程 $y^{2}-36x^{2}=-36$，得到定值 $\\frac{36}{37}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-6x|\\,|y+6x|}{37}\\\\&=\\frac{|y^2-36x^2|}{37}\\\\&=\\frac{36}{37}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。"
+      "explanation": "渐近线为 $y=\\pm 6x$。距离乘积等于 $|(y-6x)(y+6x)|/(36+1)=|y^{2}-36x^{2}|/37$。由双曲线方程 $y^{2}-36x^{2}=-36$，得到定值 $\\frac{36}{37}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-6x|\\,|y+6x|}{37}\\\\&=\\frac{|y^2-36x^2|}{37}\\\\&=\\frac{36}{37}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。",
+      "diagram": {
+        "src": "assets/geometry/M1135.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1136",
@@ -4719,7 +5594,12 @@
         "49"
       ],
       "answer": 0,
-      "explanation": "渐近线为 $y=\\pm 7x$。距离乘积等于 $|(y-7x)(y+7x)|/(49+1)=|y^{2}-49x^{2}|/50$。由双曲线方程 $y^{2}-49x^{2}=-49$，得到定值 $\\frac{49}{50}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-7x|\\,|y+7x|}{50}\\\\&=\\frac{|y^2-49x^2|}{50}\\\\&=\\frac{49}{50}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。"
+      "explanation": "渐近线为 $y=\\pm 7x$。距离乘积等于 $|(y-7x)(y+7x)|/(49+1)=|y^{2}-49x^{2}|/50$。由双曲线方程 $y^{2}-49x^{2}=-49$，得到定值 $\\frac{49}{50}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-7x|\\,|y+7x|}{50}\\\\&=\\frac{|y^2-49x^2|}{50}\\\\&=\\frac{49}{50}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。",
+      "diagram": {
+        "src": "assets/geometry/M1136.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1137",
@@ -4739,7 +5619,12 @@
         "\\frac{64}{65}"
       ],
       "answer": 3,
-      "explanation": "渐近线为 $y=\\pm 8x$。距离乘积等于 $|(y-8x)(y+8x)|/(64+1)=|y^{2}-64x^{2}|/65$。由双曲线方程 $y^{2}-64x^{2}=-64$，得到定值 $\\frac{64}{65}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-8x|\\,|y+8x|}{65}\\\\&=\\frac{|y^2-64x^2|}{65}\\\\&=\\frac{64}{65}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。"
+      "explanation": "渐近线为 $y=\\pm 8x$。距离乘积等于 $|(y-8x)(y+8x)|/(64+1)=|y^{2}-64x^{2}|/65$。由双曲线方程 $y^{2}-64x^{2}=-64$，得到定值 $\\frac{64}{65}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-8x|\\,|y+8x|}{65}\\\\&=\\frac{|y^2-64x^2|}{65}\\\\&=\\frac{64}{65}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。",
+      "diagram": {
+        "src": "assets/geometry/M1137.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1138",
@@ -4759,7 +5644,12 @@
         "\\frac{9}{82}"
       ],
       "answer": 2,
-      "explanation": "渐近线为 $y=\\pm 9x$。距离乘积等于 $|(y-9x)(y+9x)|/(81+1)=|y^{2}-81x^{2}|/82$。由双曲线方程 $y^{2}-81x^{2}=-81$，得到定值 $\\frac{81}{82}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-9x|\\,|y+9x|}{82}\\\\&=\\frac{|y^2-81x^2|}{82}\\\\&=\\frac{81}{82}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。"
+      "explanation": "渐近线为 $y=\\pm 9x$。距离乘积等于 $|(y-9x)(y+9x)|/(81+1)=|y^{2}-81x^{2}|/82$。由双曲线方程 $y^{2}-81x^{2}=-81$，得到定值 $\\frac{81}{82}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-9x|\\,|y+9x|}{82}\\\\&=\\frac{|y^2-81x^2|}{82}\\\\&=\\frac{81}{82}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。",
+      "diagram": {
+        "src": "assets/geometry/M1138.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1139",
@@ -4779,7 +5669,12 @@
         "\\frac{101}{100}"
       ],
       "answer": 1,
-      "explanation": "渐近线为 $y=\\pm 10x$。距离乘积等于 $|(y-10x)(y+10x)|/(100+1)=|y^{2}-100x^{2}|/101$。由双曲线方程 $y^{2}-100x^{2}=-100$，得到定值 $\\frac{100}{101}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-10x|\\,|y+10x|}{101}\\\\&=\\frac{|y^2-100x^2|}{101}\\\\&=\\frac{100}{101}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。"
+      "explanation": "渐近线为 $y=\\pm 10x$。距离乘积等于 $|(y-10x)(y+10x)|/(100+1)=|y^{2}-100x^{2}|/101$。由双曲线方程 $y^{2}-100x^{2}=-100$，得到定值 $\\frac{100}{101}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-10x|\\,|y+10x|}{101}\\\\&=\\frac{|y^2-100x^2|}{101}\\\\&=\\frac{100}{101}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。",
+      "diagram": {
+        "src": "assets/geometry/M1139.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1140",
@@ -4799,7 +5694,12 @@
         "121"
       ],
       "answer": 0,
-      "explanation": "渐近线为 $y=\\pm 11x$。距离乘积等于 $|(y-11x)(y+11x)|/(121+1)=|y^{2}-121x^{2}|/122$。由双曲线方程 $y^{2}-121x^{2}=-121$，得到定值 $\\frac{121}{122}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-11x|\\,|y+11x|}{122}\\\\&=\\frac{|y^2-121x^2|}{122}\\\\&=\\frac{121}{122}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。"
+      "explanation": "渐近线为 $y=\\pm 11x$。距离乘积等于 $|(y-11x)(y+11x)|/(121+1)=|y^{2}-121x^{2}|/122$。由双曲线方程 $y^{2}-121x^{2}=-121$，得到定值 $\\frac{121}{122}$。\n\n关键推导\n$$\n\\begin{aligned}d_1d_2&=\\frac{|y-11x|\\,|y+11x|}{122}\\\\&=\\frac{|y^2-121x^2|}{122}\\\\&=\\frac{121}{122}.\\end{aligned}\n$$\n两条直线的法向量模都相同，所以距离乘积的分母可合并；曲线方程使分子成为定值，绝对值不可漏。",
+      "diagram": {
+        "src": "assets/geometry/M1140.svg",
+        "alt": "双曲线与渐近线示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1141",
@@ -4819,7 +5719,12 @@
         "(-2,0)"
       ],
       "answer": 0,
-      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(2,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=2\\Longrightarrow F=(2,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(2,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=2\\Longrightarrow F=(2,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1141.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1142",
@@ -4839,7 +5744,12 @@
         "(3,0)"
       ],
       "answer": 3,
-      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(3,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=3\\Longrightarrow F=(3,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(3,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=3\\Longrightarrow F=(3,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1142.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1143",
@@ -4859,7 +5769,12 @@
         "(8,0)"
       ],
       "answer": 2,
-      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(4,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=4\\Longrightarrow F=(4,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(4,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=4\\Longrightarrow F=(4,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1143.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1144",
@@ -4879,7 +5794,12 @@
         "(0,5)"
       ],
       "answer": 1,
-      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(5,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=5\\Longrightarrow F=(5,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(5,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=5\\Longrightarrow F=(5,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1144.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1145",
@@ -4899,7 +5819,12 @@
         "(-6,0)"
       ],
       "answer": 0,
-      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(6,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=6\\Longrightarrow F=(6,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(6,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=6\\Longrightarrow F=(6,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1145.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1146",
@@ -4919,7 +5844,12 @@
         "(7,0)"
       ],
       "answer": 3,
-      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(7,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=7\\Longrightarrow F=(7,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(7,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=7\\Longrightarrow F=(7,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1146.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1147",
@@ -4939,7 +5869,12 @@
         "(16,0)"
       ],
       "answer": 2,
-      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(8,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=8\\Longrightarrow F=(8,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(8,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=8\\Longrightarrow F=(8,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1147.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1148",
@@ -4959,7 +5894,12 @@
         "(0,9)"
       ],
       "answer": 1,
-      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(9,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=9\\Longrightarrow F=(9,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(9,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=9\\Longrightarrow F=(9,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1148.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1149",
@@ -4979,7 +5919,12 @@
         "(-10,0)"
       ],
       "answer": 0,
-      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(10,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=10\\Longrightarrow F=(10,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(10,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=10\\Longrightarrow F=(10,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1149.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1150",
@@ -4999,7 +5944,12 @@
         "(11,0)"
       ],
       "answer": 3,
-      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(11,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=11\\Longrightarrow F=(11,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "标准式 $y^{2}=4fx$ 的焦点为 $(f,0)$，因此是 $(11,0)$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=11\\Longrightarrow F=(11,0)\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1150.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1151",
@@ -5019,7 +5969,12 @@
         "x=-2"
       ],
       "answer": 3,
-      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=2$，准线为 $x=-f=-2$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=2\\Longrightarrow\\text{准线}:x=-2\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=2$，准线为 $x=-f=-2$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=2\\Longrightarrow\\text{准线}:x=-2\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1151.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1152",
@@ -5039,7 +5994,12 @@
         "x=3"
       ],
       "answer": 2,
-      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=3$，准线为 $x=-f=-3$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=3\\Longrightarrow\\text{准线}:x=-3\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=3$，准线为 $x=-f=-3$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=3\\Longrightarrow\\text{准线}:x=-3\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1152.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1153",
@@ -5059,7 +6019,12 @@
         "x=-8"
       ],
       "answer": 1,
-      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=4$，准线为 $x=-f=-4$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=4\\Longrightarrow\\text{准线}:x=-4\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=4$，准线为 $x=-f=-4$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=4\\Longrightarrow\\text{准线}:x=-4\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1153.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1154",
@@ -5079,7 +6044,12 @@
         "y=-5"
       ],
       "answer": 0,
-      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=5$，准线为 $x=-f=-5$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=5\\Longrightarrow\\text{准线}:x=-5\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=5$，准线为 $x=-f=-5$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=5\\Longrightarrow\\text{准线}:x=-5\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1154.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1155",
@@ -5099,7 +6069,12 @@
         "x=-6"
       ],
       "answer": 3,
-      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=6$，准线为 $x=-f=-6$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=6\\Longrightarrow\\text{准线}:x=-6\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=6$，准线为 $x=-f=-6$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=6\\Longrightarrow\\text{准线}:x=-6\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1155.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1156",
@@ -5119,7 +6094,12 @@
         "x=7"
       ],
       "answer": 2,
-      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=7$，准线为 $x=-f=-7$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=7\\Longrightarrow\\text{准线}:x=-7\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=7$，准线为 $x=-f=-7$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=7\\Longrightarrow\\text{准线}:x=-7\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1156.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1157",
@@ -5139,7 +6119,12 @@
         "x=-16"
       ],
       "answer": 1,
-      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=8$，准线为 $x=-f=-8$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=8\\Longrightarrow\\text{准线}:x=-8\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=8$，准线为 $x=-f=-8$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=8\\Longrightarrow\\text{准线}:x=-8\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1157.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1158",
@@ -5159,7 +6144,12 @@
         "y=-9"
       ],
       "answer": 0,
-      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=9$，准线为 $x=-f=-9$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=9\\Longrightarrow\\text{准线}:x=-9\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=9$，准线为 $x=-f=-9$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=9\\Longrightarrow\\text{准线}:x=-9\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1158.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1159",
@@ -5179,7 +6169,12 @@
         "x=-10"
       ],
       "answer": 3,
-      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=10$，准线为 $x=-f=-10$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=10\\Longrightarrow\\text{准线}:x=-10\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=10$，准线为 $x=-f=-10$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=10\\Longrightarrow\\text{准线}:x=-10\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1159.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1160",
@@ -5199,7 +6194,12 @@
         "x=11"
       ],
       "answer": 2,
-      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=11$，准线为 $x=-f=-11$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=11\\Longrightarrow\\text{准线}:x=-11\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。"
+      "explanation": "与 $y^{2}=4fx$ 比较，焦距 $f=11$，准线为 $x=-f=-11$。\n\n关键推导\n$$\ny^2=4fx,\\quad f=11\\Longrightarrow\\text{准线}:x=-11\n$$\n用焦点横坐标 $f$ 统一记号：焦点 $(f,0)$、准线 $x=-f$，二者到顶点的距离相同。",
+      "diagram": {
+        "src": "assets/geometry/M1160.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1161",
@@ -5219,7 +6219,12 @@
         "y=x+2"
       ],
       "answer": 3,
-      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $4y=4(x+2)$，即 $y=x+2$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 4y=4(x+2)\\Longrightarrow y=x+2\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。"
+      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $4y=4(x+2)$，即 $y=x+2$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 4y=4(x+2)\\Longrightarrow y=x+2\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。",
+      "diagram": {
+        "src": "assets/geometry/M1161.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1162",
@@ -5239,7 +6244,12 @@
         "y=2x+3"
       ],
       "answer": 2,
-      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $6y=6(x+3)$，即 $y=x+3$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 6y=6(x+3)\\Longrightarrow y=x+3\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。"
+      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $6y=6(x+3)$，即 $y=x+3$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 6y=6(x+3)\\Longrightarrow y=x+3\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。",
+      "diagram": {
+        "src": "assets/geometry/M1162.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1163",
@@ -5259,7 +6269,12 @@
         "y=x-4"
       ],
       "answer": 1,
-      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $8y=8(x+4)$，即 $y=x+4$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 8y=8(x+4)\\Longrightarrow y=x+4\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。"
+      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $8y=8(x+4)$，即 $y=x+4$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 8y=8(x+4)\\Longrightarrow y=x+4\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。",
+      "diagram": {
+        "src": "assets/geometry/M1163.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1164",
@@ -5279,7 +6294,12 @@
         "y=-x+5"
       ],
       "answer": 0,
-      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $10y=10(x+5)$，即 $y=x+5$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 10y=10(x+5)\\Longrightarrow y=x+5\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。"
+      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $10y=10(x+5)$，即 $y=x+5$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 10y=10(x+5)\\Longrightarrow y=x+5\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。",
+      "diagram": {
+        "src": "assets/geometry/M1164.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1165",
@@ -5299,7 +6319,12 @@
         "y=x+6"
       ],
       "answer": 3,
-      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $12y=12(x+6)$，即 $y=x+6$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 12y=12(x+6)\\Longrightarrow y=x+6\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。"
+      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $12y=12(x+6)$，即 $y=x+6$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 12y=12(x+6)\\Longrightarrow y=x+6\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。",
+      "diagram": {
+        "src": "assets/geometry/M1165.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1166",
@@ -5319,7 +6344,12 @@
         "y=2x+7"
       ],
       "answer": 2,
-      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $14y=14(x+7)$，即 $y=x+7$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 14y=14(x+7)\\Longrightarrow y=x+7\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。"
+      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $14y=14(x+7)$，即 $y=x+7$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 14y=14(x+7)\\Longrightarrow y=x+7\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。",
+      "diagram": {
+        "src": "assets/geometry/M1166.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1167",
@@ -5339,7 +6369,12 @@
         "y=x-8"
       ],
       "answer": 1,
-      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $16y=16(x+8)$，即 $y=x+8$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 16y=16(x+8)\\Longrightarrow y=x+8\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。"
+      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $16y=16(x+8)$，即 $y=x+8$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 16y=16(x+8)\\Longrightarrow y=x+8\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。",
+      "diagram": {
+        "src": "assets/geometry/M1167.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1168",
@@ -5359,7 +6394,12 @@
         "y=-x+9"
       ],
       "answer": 0,
-      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $18y=18(x+9)$，即 $y=x+9$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 18y=18(x+9)\\Longrightarrow y=x+9\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。"
+      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $18y=18(x+9)$，即 $y=x+9$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 18y=18(x+9)\\Longrightarrow y=x+9\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。",
+      "diagram": {
+        "src": "assets/geometry/M1168.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1169",
@@ -5379,7 +6419,12 @@
         "y=x+10"
       ],
       "answer": 3,
-      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $20y=20(x+10)$，即 $y=x+10$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 20y=20(x+10)\\Longrightarrow y=x+10\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。"
+      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $20y=20(x+10)$，即 $y=x+10$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 20y=20(x+10)\\Longrightarrow y=x+10\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。",
+      "diagram": {
+        "src": "assets/geometry/M1169.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1170",
@@ -5399,7 +6444,12 @@
         "y=2x+11"
       ],
       "answer": 2,
-      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $22y=22(x+11)$，即 $y=x+11$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 22y=22(x+11)\\Longrightarrow y=x+11\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。"
+      "explanation": "抛物线切线公式 $y_{0}y=2f(x+x_{0})$。代入得 $22y=22(x+11)$，即 $y=x+11$。\n\n关键推导\n$$\ny_0y=2f(x+x_0)\\Longrightarrow 22y=22(x+11)\\Longrightarrow y=x+11\n$$\n切点满足曲线方程。也可隐式求导 $2yy'=4f$，在给定点得到斜率 $1$。",
+      "diagram": {
+        "src": "assets/geometry/M1170.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1171",
@@ -5419,7 +6469,12 @@
         "3"
       ],
       "answer": 2,
-      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-2$ 的距离，即 $(3)+2=5$。\n\n关键推导\n$$\nPF=d(P,\\{x=-2\\})=x_P+2=3+2=5\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。"
+      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-2$ 的距离，即 $(3)+2=5$。\n\n关键推导\n$$\nPF=d(P,\\{x=-2\\})=x_P+2=3+2=5\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。",
+      "diagram": {
+        "src": "assets/geometry/M1171.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1172",
@@ -5439,7 +6494,12 @@
         "1"
       ],
       "answer": 1,
-      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-3$ 的距离，即 $(4)+3=7$。\n\n关键推导\n$$\nPF=d(P,\\{x=-3\\})=x_P+3=4+3=7\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。"
+      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-3$ 的距离，即 $(4)+3=7$。\n\n关键推导\n$$\nPF=d(P,\\{x=-3\\})=x_P+3=4+3=7\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。",
+      "diagram": {
+        "src": "assets/geometry/M1172.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1173",
@@ -5459,7 +6519,12 @@
         "8"
       ],
       "answer": 0,
-      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-4$ 的距离，即 $(5)+4=9$。\n\n关键推导\n$$\nPF=d(P,\\{x=-4\\})=x_P+4=5+4=9\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。"
+      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-4$ 的距离，即 $(5)+4=9$。\n\n关键推导\n$$\nPF=d(P,\\{x=-4\\})=x_P+4=5+4=9\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。",
+      "diagram": {
+        "src": "assets/geometry/M1173.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1174",
@@ -5479,7 +6544,12 @@
         "11"
       ],
       "answer": 3,
-      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-5$ 的距离，即 $(6)+5=11$。\n\n关键推导\n$$\nPF=d(P,\\{x=-5\\})=x_P+5=6+5=11\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。"
+      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-5$ 的距离，即 $(6)+5=11$。\n\n关键推导\n$$\nPF=d(P,\\{x=-5\\})=x_P+5=6+5=11\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。",
+      "diagram": {
+        "src": "assets/geometry/M1174.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1175",
@@ -5499,7 +6569,12 @@
         "7"
       ],
       "answer": 2,
-      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-6$ 的距离，即 $(7)+6=13$。\n\n关键推导\n$$\nPF=d(P,\\{x=-6\\})=x_P+6=7+6=13\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。"
+      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-6$ 的距离，即 $(7)+6=13$。\n\n关键推导\n$$\nPF=d(P,\\{x=-6\\})=x_P+6=7+6=13\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。",
+      "diagram": {
+        "src": "assets/geometry/M1175.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1176",
@@ -5519,7 +6594,12 @@
         "1"
       ],
       "answer": 1,
-      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-7$ 的距离，即 $(8)+7=15$。\n\n关键推导\n$$\nPF=d(P,\\{x=-7\\})=x_P+7=8+7=15\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。"
+      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-7$ 的距离，即 $(8)+7=15$。\n\n关键推导\n$$\nPF=d(P,\\{x=-7\\})=x_P+7=8+7=15\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。",
+      "diagram": {
+        "src": "assets/geometry/M1176.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1177",
@@ -5539,7 +6619,12 @@
         "16"
       ],
       "answer": 0,
-      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-8$ 的距离，即 $(9)+8=17$。\n\n关键推导\n$$\nPF=d(P,\\{x=-8\\})=x_P+8=9+8=17\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。"
+      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-8$ 的距离，即 $(9)+8=17$。\n\n关键推导\n$$\nPF=d(P,\\{x=-8\\})=x_P+8=9+8=17\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。",
+      "diagram": {
+        "src": "assets/geometry/M1177.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1178",
@@ -5559,7 +6644,12 @@
         "19"
       ],
       "answer": 3,
-      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-9$ 的距离，即 $(10)+9=19$。\n\n关键推导\n$$\nPF=d(P,\\{x=-9\\})=x_P+9=10+9=19\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。"
+      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-9$ 的距离，即 $(10)+9=19$。\n\n关键推导\n$$\nPF=d(P,\\{x=-9\\})=x_P+9=10+9=19\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。",
+      "diagram": {
+        "src": "assets/geometry/M1178.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1179",
@@ -5579,7 +6669,12 @@
         "11"
       ],
       "answer": 2,
-      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-10$ 的距离，即 $(11)+10=21$。\n\n关键推导\n$$\nPF=d(P,\\{x=-10\\})=x_P+10=11+10=21\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。"
+      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-10$ 的距离，即 $(11)+10=21$。\n\n关键推导\n$$\nPF=d(P,\\{x=-10\\})=x_P+10=11+10=21\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。",
+      "diagram": {
+        "src": "assets/geometry/M1179.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1180",
@@ -5599,7 +6694,12 @@
         "1"
       ],
       "answer": 1,
-      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-11$ 的距离，即 $(12)+11=23$。\n\n关键推导\n$$\nPF=d(P,\\{x=-11\\})=x_P+11=12+11=23\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。"
+      "explanation": "由抛物线定义，到焦点的距离等于到准线 $x=-11$ 的距离，即 $(12)+11=23$。\n\n关键推导\n$$\nPF=d(P,\\{x=-11\\})=x_P+11=12+11=23\n$$\n抛物线上点到焦点的距离等于到准线的距离，不需要先算纵坐标再开根。",
+      "diagram": {
+        "src": "assets/geometry/M1180.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1181",
@@ -5619,7 +6719,12 @@
         "-1"
       ],
       "answer": 2,
-      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/8$，得到 $ky^{2}-8y+32=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=32/k$、$y_{1}+y_{2}=8/k$。数量积为 $(\\frac{y_1^2}{8}-2)(\\frac{y_2^2}{8}-2)+y_1y_2$，代入根的和、积，化简为 $4(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $1600>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-8y+32&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{8}k,\\quad p=y_1y_2=\\frac{32}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{64}-\\frac{s^2-2p}{4}+4+p\\\\&=4\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。"
+      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/8$，得到 $ky^{2}-8y+32=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=32/k$、$y_{1}+y_{2}=8/k$。数量积为 $(\\frac{y_1^2}{8}-2)(\\frac{y_2^2}{8}-2)+y_1y_2$，代入根的和、积，化简为 $4(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $1600>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-8y+32&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{8}k,\\quad p=y_1y_2=\\frac{32}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{64}-\\frac{s^2-2p}{4}+4+p\\\\&=4\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。",
+      "diagram": {
+        "src": "assets/geometry/M1181.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1182",
@@ -5639,7 +6744,12 @@
         "0"
       ],
       "answer": 1,
-      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/12$，得到 $ky^{2}-12y+72=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=72/k$、$y_{1}+y_{2}=12/k$。数量积为 $(\\frac{y_1^2}{12}-3)(\\frac{y_2^2}{12}-3)+y_1y_2$，代入根的和、积，化简为 $9(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $3600>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-12y+72&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{12}k,\\quad p=y_1y_2=\\frac{72}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{144}-\\frac{s^2-2p}{4}+9+p\\\\&=9\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。"
+      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/12$，得到 $ky^{2}-12y+72=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=72/k$、$y_{1}+y_{2}=12/k$。数量积为 $(\\frac{y_1^2}{12}-3)(\\frac{y_2^2}{12}-3)+y_1y_2$，代入根的和、积，化简为 $9(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $3600>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-12y+72&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{12}k,\\quad p=y_1y_2=\\frac{72}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{144}-\\frac{s^2-2p}{4}+9+p\\\\&=9\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。",
+      "diagram": {
+        "src": "assets/geometry/M1182.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1183",
@@ -5659,7 +6769,12 @@
         "-2"
       ],
       "answer": 0,
-      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/16$，得到 $ky^{2}-16y+128=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=128/k$、$y_{1}+y_{2}=16/k$。数量积为 $(\\frac{y_1^2}{16}-4)(\\frac{y_2^2}{16}-4)+y_1y_2$，代入根的和、积，化简为 $16(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $6400>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-16y+128&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{16}k,\\quad p=y_1y_2=\\frac{128}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{256}-\\frac{s^2-2p}{4}+16+p\\\\&=16\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。"
+      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/16$，得到 $ky^{2}-16y+128=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=128/k$、$y_{1}+y_{2}=16/k$。数量积为 $(\\frac{y_1^2}{16}-4)(\\frac{y_2^2}{16}-4)+y_1y_2$，代入根的和、积，化简为 $16(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $6400>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-16y+128&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{16}k,\\quad p=y_1y_2=\\frac{128}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{256}-\\frac{s^2-2p}{4}+16+p\\\\&=16\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。",
+      "diagram": {
+        "src": "assets/geometry/M1183.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1184",
@@ -5679,7 +6794,12 @@
         "-12"
       ],
       "answer": 3,
-      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/20$，得到 $ky^{2}-20y+200=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=200/k$、$y_{1}+y_{2}=20/k$。数量积为 $(\\frac{y_1^2}{20}-5)(\\frac{y_2^2}{20}-5)+y_1y_2$，代入根的和、积，化简为 $25(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $10000>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-20y+200&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{20}k,\\quad p=y_1y_2=\\frac{200}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{400}-\\frac{s^2-2p}{4}+25+p\\\\&=25\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。"
+      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/20$，得到 $ky^{2}-20y+200=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=200/k$、$y_{1}+y_{2}=20/k$。数量积为 $(\\frac{y_1^2}{20}-5)(\\frac{y_2^2}{20}-5)+y_1y_2$，代入根的和、积，化简为 $25(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $10000>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-20y+200&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{20}k,\\quad p=y_1y_2=\\frac{200}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{400}-\\frac{s^2-2p}{4}+25+p\\\\&=25\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。",
+      "diagram": {
+        "src": "assets/geometry/M1184.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1185",
@@ -5699,7 +6819,12 @@
         "-1"
       ],
       "answer": 2,
-      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/24$，得到 $ky^{2}-24y+288=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=288/k$、$y_{1}+y_{2}=24/k$。数量积为 $(\\frac{y_1^2}{24}-6)(\\frac{y_2^2}{24}-6)+y_1y_2$，代入根的和、积，化简为 $36(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $14400>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-24y+288&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{24}k,\\quad p=y_1y_2=\\frac{288}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{576}-\\frac{s^2-2p}{4}+36+p\\\\&=36\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。"
+      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/24$，得到 $ky^{2}-24y+288=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=288/k$、$y_{1}+y_{2}=24/k$。数量积为 $(\\frac{y_1^2}{24}-6)(\\frac{y_2^2}{24}-6)+y_1y_2$，代入根的和、积，化简为 $36(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $14400>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-24y+288&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{24}k,\\quad p=y_1y_2=\\frac{288}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{576}-\\frac{s^2-2p}{4}+36+p\\\\&=36\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。",
+      "diagram": {
+        "src": "assets/geometry/M1185.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1186",
@@ -5719,7 +6844,12 @@
         "0"
       ],
       "answer": 1,
-      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/28$，得到 $ky^{2}-28y+392=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=392/k$、$y_{1}+y_{2}=28/k$。数量积为 $(\\frac{y_1^2}{28}-7)(\\frac{y_2^2}{28}-7)+y_1y_2$，代入根的和、积，化简为 $49(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $19600>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-28y+392&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{28}k,\\quad p=y_1y_2=\\frac{392}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{784}-\\frac{s^2-2p}{4}+49+p\\\\&=49\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。"
+      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/28$，得到 $ky^{2}-28y+392=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=392/k$、$y_{1}+y_{2}=28/k$。数量积为 $(\\frac{y_1^2}{28}-7)(\\frac{y_2^2}{28}-7)+y_1y_2$，代入根的和、积，化简为 $49(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $19600>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-28y+392&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{28}k,\\quad p=y_1y_2=\\frac{392}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{784}-\\frac{s^2-2p}{4}+49+p\\\\&=49\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。",
+      "diagram": {
+        "src": "assets/geometry/M1186.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1187",
@@ -5739,7 +6869,12 @@
         "-2"
       ],
       "answer": 0,
-      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/32$，得到 $ky^{2}-32y+512=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=512/k$、$y_{1}+y_{2}=32/k$。数量积为 $(\\frac{y_1^2}{32}-8)(\\frac{y_2^2}{32}-8)+y_1y_2$，代入根的和、积，化简为 $64(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $25600>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-32y+512&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{32}k,\\quad p=y_1y_2=\\frac{512}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{1024}-\\frac{s^2-2p}{4}+64+p\\\\&=64\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。"
+      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/32$，得到 $ky^{2}-32y+512=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=512/k$、$y_{1}+y_{2}=32/k$。数量积为 $(\\frac{y_1^2}{32}-8)(\\frac{y_2^2}{32}-8)+y_1y_2$，代入根的和、积，化简为 $64(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $25600>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-32y+512&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{32}k,\\quad p=y_1y_2=\\frac{512}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{1024}-\\frac{s^2-2p}{4}+64+p\\\\&=64\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。",
+      "diagram": {
+        "src": "assets/geometry/M1187.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1188",
@@ -5759,7 +6894,12 @@
         "-12"
       ],
       "answer": 3,
-      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/36$，得到 $ky^{2}-36y+648=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=648/k$、$y_{1}+y_{2}=36/k$。数量积为 $(\\frac{y_1^2}{36}-9)(\\frac{y_2^2}{36}-9)+y_1y_2$，代入根的和、积，化简为 $81(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $32400>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-36y+648&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{36}k,\\quad p=y_1y_2=\\frac{648}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{1296}-\\frac{s^2-2p}{4}+81+p\\\\&=81\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。"
+      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/36$，得到 $ky^{2}-36y+648=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=648/k$、$y_{1}+y_{2}=36/k$。数量积为 $(\\frac{y_1^2}{36}-9)(\\frac{y_2^2}{36}-9)+y_1y_2$，代入根的和、积，化简为 $81(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $32400>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-36y+648&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{36}k,\\quad p=y_1y_2=\\frac{648}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{1296}-\\frac{s^2-2p}{4}+81+p\\\\&=81\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。",
+      "diagram": {
+        "src": "assets/geometry/M1188.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1189",
@@ -5779,7 +6919,12 @@
         "-1"
       ],
       "answer": 2,
-      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/40$，得到 $ky^{2}-40y+800=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=800/k$、$y_{1}+y_{2}=40/k$。数量积为 $(\\frac{y_1^2}{40}-10)(\\frac{y_2^2}{40}-10)+y_1y_2$，代入根的和、积，化简为 $100(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $40000>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-40y+800&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{40}k,\\quad p=y_1y_2=\\frac{800}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{1600}-\\frac{s^2-2p}{4}+100+p\\\\&=100\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。"
+      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/40$，得到 $ky^{2}-40y+800=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=800/k$、$y_{1}+y_{2}=40/k$。数量积为 $(\\frac{y_1^2}{40}-10)(\\frac{y_2^2}{40}-10)+y_1y_2$，代入根的和、积，化简为 $100(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $40000>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-40y+800&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{40}k,\\quad p=y_1y_2=\\frac{800}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{1600}-\\frac{s^2-2p}{4}+100+p\\\\&=100\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。",
+      "diagram": {
+        "src": "assets/geometry/M1189.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1190",
@@ -5799,7 +6944,12 @@
         "0"
       ],
       "answer": 1,
-      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/44$，得到 $ky^{2}-44y+968=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=968/k$、$y_{1}+y_{2}=44/k$。数量积为 $(\\frac{y_1^2}{44}-11)(\\frac{y_2^2}{44}-11)+y_1y_2$，代入根的和、积，化简为 $121(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $48400>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-44y+968&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{44}k,\\quad p=y_1y_2=\\frac{968}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{1936}-\\frac{s^2-2p}{4}+121+p\\\\&=121\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。"
+      "explanation": "$k=0$ 时只有一个交点，排除。以 $y$ 为参数代入 $x=y^{2}/44$，得到 $ky^{2}-44y+968=0$。设两根 $y_{1},y_{2}$，由韦达得 $y_{1}y_{2}=968/k$、$y_{1}+y_{2}=44/k$。数量积为 $(\\frac{y_1^2}{44}-11)(\\frac{y_2^2}{44}-11)+y_1y_2$，代入根的和、积，化简为 $121(1+12/k)$。垂直要求 $k=-12$，此时判别式为 $48400>0$，满足两个不同交点。\n\n关键推导\n$$\n\\begin{aligned}ky^2-44y+968&=0\\quad(k\\ne0),\\\\s=y_1+y_2&=\\frac{44}k,\\quad p=y_1y_2=\\frac{968}k,\\\\\\overrightarrow{FA}\\cdot\\overrightarrow{FB}&=\\frac{p^2}{1936}-\\frac{s^2-2p}{4}+121+p\\\\&=121\\left(1+\\frac{12}k\\right)=0\\\\&\\Longrightarrow k=-12.\\end{aligned}\n$$\n$k=0$ 只有一个交点，先排除。$k=-12$ 时原二次方程判别式为 $400a^{2}>0$，确有两个不同交点，所得参数满足题意。",
+      "diagram": {
+        "src": "assets/geometry/M1190.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1191",
@@ -5819,7 +6969,12 @@
         "\\frac{16}{3}"
       ],
       "answer": 1,
-      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{2}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{2}$，得 $t=\\frac{8}{3}$。$F$ 在弦内，$AB=4t=\\frac{32}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{2},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{2}\\\\&\\Longrightarrow t=\\frac{8}{3},\\quad AB=4t=\\frac{32}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。"
+      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{2}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{2}$，得 $t=\\frac{8}{3}$。$F$ 在弦内，$AB=4t=\\frac{32}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{2},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{2}\\\\&\\Longrightarrow t=\\frac{8}{3},\\quad AB=4t=\\frac{32}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。",
+      "diagram": {
+        "src": "assets/geometry/M1191.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1192",
@@ -5839,7 +6994,12 @@
         "24"
       ],
       "answer": 0,
-      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{3}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{3}$，得 $t=4$。$F$ 在弦内，$AB=4t=16$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{3},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{3}\\\\&\\Longrightarrow t=4,\\quad AB=4t=16.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。"
+      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{3}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{3}$，得 $t=4$。$F$ 在弦内，$AB=4t=16$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{3},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{3}\\\\&\\Longrightarrow t=4,\\quad AB=4t=16.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。",
+      "diagram": {
+        "src": "assets/geometry/M1192.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1193",
@@ -5859,7 +7019,12 @@
         "\\frac{64}{3}"
       ],
       "answer": 3,
-      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{4}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{4}$，得 $t=\\frac{16}{3}$。$F$ 在弦内，$AB=4t=\\frac{64}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{4},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{4}\\\\&\\Longrightarrow t=\\frac{16}{3},\\quad AB=4t=\\frac{64}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。"
+      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{4}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{4}$，得 $t=\\frac{16}{3}$。$F$ 在弦内，$AB=4t=\\frac{64}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{4},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{4}\\\\&\\Longrightarrow t=\\frac{16}{3},\\quad AB=4t=\\frac{64}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。",
+      "diagram": {
+        "src": "assets/geometry/M1193.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1194",
@@ -5879,7 +7044,12 @@
         "20"
       ],
       "answer": 2,
-      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{5}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{5}$，得 $t=\\frac{20}{3}$。$F$ 在弦内，$AB=4t=\\frac{80}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{5},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{5}\\\\&\\Longrightarrow t=\\frac{20}{3},\\quad AB=4t=\\frac{80}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。"
+      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{5}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{5}$，得 $t=\\frac{20}{3}$。$F$ 在弦内，$AB=4t=\\frac{80}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{5},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{5}\\\\&\\Longrightarrow t=\\frac{20}{3},\\quad AB=4t=\\frac{80}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。",
+      "diagram": {
+        "src": "assets/geometry/M1194.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1195",
@@ -5899,7 +7069,12 @@
         "16"
       ],
       "answer": 1,
-      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{6}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{6}$，得 $t=8$。$F$ 在弦内，$AB=4t=32$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{6},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{6}\\\\&\\Longrightarrow t=8,\\quad AB=4t=32.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。"
+      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{6}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{6}$，得 $t=8$。$F$ 在弦内，$AB=4t=32$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{6},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{6}\\\\&\\Longrightarrow t=8,\\quad AB=4t=32.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。",
+      "diagram": {
+        "src": "assets/geometry/M1195.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1196",
@@ -5919,7 +7094,12 @@
         "56"
       ],
       "answer": 0,
-      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{7}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{7}$，得 $t=\\frac{28}{3}$。$F$ 在弦内，$AB=4t=\\frac{112}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{7},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{7}\\\\&\\Longrightarrow t=\\frac{28}{3},\\quad AB=4t=\\frac{112}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。"
+      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{7}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{7}$，得 $t=\\frac{28}{3}$。$F$ 在弦内，$AB=4t=\\frac{112}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{7},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{7}\\\\&\\Longrightarrow t=\\frac{28}{3},\\quad AB=4t=\\frac{112}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。",
+      "diagram": {
+        "src": "assets/geometry/M1196.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1197",
@@ -5939,7 +7119,12 @@
         "\\frac{128}{3}"
       ],
       "answer": 3,
-      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{8}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{8}$，得 $t=\\frac{32}{3}$。$F$ 在弦内，$AB=4t=\\frac{128}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{8},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{8}\\\\&\\Longrightarrow t=\\frac{32}{3},\\quad AB=4t=\\frac{128}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。"
+      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{8}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{8}$，得 $t=\\frac{32}{3}$。$F$ 在弦内，$AB=4t=\\frac{128}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{8},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{8}\\\\&\\Longrightarrow t=\\frac{32}{3},\\quad AB=4t=\\frac{128}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。",
+      "diagram": {
+        "src": "assets/geometry/M1197.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1198",
@@ -5959,7 +7144,12 @@
         "36"
       ],
       "answer": 2,
-      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{9}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{9}$，得 $t=12$。$F$ 在弦内，$AB=4t=48$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{9},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{9}\\\\&\\Longrightarrow t=12,\\quad AB=4t=48.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。"
+      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{9}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{9}$，得 $t=12$。$F$ 在弦内，$AB=4t=48$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{9},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{9}\\\\&\\Longrightarrow t=12,\\quad AB=4t=48.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。",
+      "diagram": {
+        "src": "assets/geometry/M1198.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1199",
@@ -5979,7 +7169,12 @@
         "\\frac{80}{3}"
       ],
       "answer": 1,
-      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{10}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{10}$，得 $t=\\frac{40}{3}$。$F$ 在弦内，$AB=4t=\\frac{160}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{10},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{10}\\\\&\\Longrightarrow t=\\frac{40}{3},\\quad AB=4t=\\frac{160}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。"
+      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{10}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{10}$，得 $t=\\frac{40}{3}$。$F$ 在弦内，$AB=4t=\\frac{160}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{10},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{10}\\\\&\\Longrightarrow t=\\frac{40}{3},\\quad AB=4t=\\frac{160}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。",
+      "diagram": {
+        "src": "assets/geometry/M1199.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M1200",
@@ -5999,7 +7194,12 @@
         "88"
       ],
       "answer": 0,
-      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{11}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{11}$，得 $t=\\frac{44}{3}$。$F$ 在弦内，$AB=4t=\\frac{176}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{11},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{11}\\\\&\\Longrightarrow t=\\frac{44}{3},\\quad AB=4t=\\frac{176}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。"
+      "explanation": "焦点弦的倒数和恒为 $1/f=\\frac{1}{11}$。可由射线焦半径 $f/(\\sin ^{2}(\\theta /2))$ 与反向射线公式推出。令 $FB=t$、$FA=3t$，则 $1/(3t)+1/t=\\frac{1}{11}$，得 $t=\\frac{44}{3}$。$F$ 在弦内，$AB=4t=\\frac{176}{3}$。\n\n关键推导\n$$\n\\begin{aligned}FA&=\\frac{2f}{1-\\cos\\theta},\\quad FB=\\frac{2f}{1+\\cos\\theta},\\\\\\frac1{FA}+\\frac1{FB}&=\\frac1f=\\frac1{11},\\\\FA=3t,\\ FB=t:&\\quad\\frac1{3t}+\\frac1t=\\frac1{11}\\\\&\\Longrightarrow t=\\frac{44}{3},\\quad AB=4t=\\frac{176}{3}.\\end{aligned}\n$$\n焦半径公式可从 $x=f+r \\cos \\theta $、$y=r \\sin \\theta $ 代入曲线推得。两点位于焦点两侧，弦长才是两焦半径之和；水平射线无第二交点，不属于本题配置。",
+      "diagram": {
+        "src": "assets/geometry/M1200.svg",
+        "alt": "抛物线、准线与焦点弦示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     }
   ]
 }

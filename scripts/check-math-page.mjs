@@ -3,7 +3,7 @@ const root=fileURLToPath(new URL('..',import.meta.url));
 const profile=fs.mkdtempSync(path.join(os.tmpdir(),'dengduck-math-'));
 const chrome=process.env.CHROME_PATH||'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 if(!fs.existsSync(chrome))throw Error('Chrome not found. Set CHROME_PATH to your browser executable.');
-const browser=spawn(chrome,['--headless=new','--no-sandbox','--disable-extensions','--disable-gpu','--no-first-run','--remote-debugging-port=0','--user-data-dir='+profile,'about:blank'],{windowsHide:true,stdio:'ignore'});
+const browser=spawn(chrome,['--headless=new','--no-sandbox','--disable-extensions','--disable-gpu','--disable-ipc-flooding-protection','--no-first-run','--remote-debugging-port=0','--user-data-dir='+profile,'about:blank'],{windowsHide:true,stdio:'ignore'});
 const delay=ms=>new Promise(r=>setTimeout(r,ms));let ws,server;const errors=[],pending=new Map();let id=0;
 try{
  const file=path.join(profile,'DevToolsActivePort');for(let i=0;i<100&&!fs.existsSync(file);i++)await delay(100);
@@ -19,7 +19,7 @@ try{
  const url=pathToFileURL(path.join(root,'index.html')).href;
  await cdp('Page.navigate',{url});await until('document.querySelectorAll("#options input").length===4 && document.querySelector(".katex")');
  await run('localStorage.removeItem("dengduck-math-v1")');await reload();await until('document.querySelectorAll("#options input").length===4');
- const total=await run('window.MATH_MANIFEST.total');
+ const total=await run('window.MATH_MANIFEST.total'),levelTotals=await run('window.MATH_BATCHES.flatMap(b=>b.questions).reduce((counts,q)=>(counts[q.difficulty]=(counts[q.difficulty]||0)+1,counts),{})');
  assert.equal(await run('window.MATH_BATCHES.flatMap(b=>b.questions).length'),total);
  assert.equal(await run('document.querySelectorAll(".katex-error").length'),0);
  await run('document.querySelector("#star").click();const q=window.MATH_BATCHES[0].questions[0];document.querySelectorAll("#options input")[(q.answer+1)%4].click();document.querySelector("#submit").click()');
@@ -36,12 +36,17 @@ try{
  assert.equal(await run('document.querySelectorAll(".correct").length'),1);assert.equal(await run('document.querySelectorAll(".incorrect").length'),0);
  await run('document.querySelector("#difficulty").value="hard";document.querySelector("#difficulty").dispatchEvent(new Event("change"))');
  await until('location.hash==="#M0041"');
- assert.equal(await run('document.querySelector("#filterCount").textContent.split(" ")[0]'),String(600+(total>2300?50:0)));
+ assert.equal(await run('document.querySelector("#filterCount").textContent.split(" ")[0]'),String(levelTotals.hard));
  await run('document.querySelector("#pause").click()');const t=await run('document.querySelector("#timer").textContent');await delay(1100);assert.equal(await run('document.querySelector("#timer").textContent'),t);
  for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`overflow ${width}`);}
  await cdp('Emulation.setDeviceMetricsOverride',{width:320,height:900,deviceScaleFactor:1,mobile:true});
  const families=await run('window.MATH_BATCHES.flatMap(b=>b.questions).filter(q=>q.variant===1).map(q=>q.id)');
  for(const qid of families){await delay(70);await run(`location.hash='${qid}'`);await until(`document.querySelector('#questionMeta').textContent.startsWith('${qid}')`);await run(`{const q=window.MATH_BATCHES.flatMap(b=>b.questions).find(q=>q.id==='${qid}');document.querySelectorAll('#options input')[q.answer].click();document.querySelector('#submit').click();}`);assert.equal(await run('document.querySelectorAll(".correct").length'),1,qid);assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`long formula overflow ${qid}`);assert.equal(await run('document.querySelectorAll(".katex-error").length'),0,qid);assert.ok(await run('document.querySelectorAll("#explanation .katex-display").length>=1'),`missing display derivation ${qid}`);assert.equal(await unrenderedMath("#explanation"),false,`unrendered explanation formula ${qid}`);}
+ const svgQuestions=await run('window.MATH_BATCHES.flatMap(b=>b.questions).filter(q=>q.diagram).map(q=>({id:q.id,src:q.diagram.src}))');
+ assert.equal(svgQuestions.length,1010);
+ const svgMarkup=svgQuestions.map(q=>fs.readFileSync(path.join(root,q.src),'utf8'));
+ assert.equal(await run(`(${JSON.stringify(svgMarkup)}).filter(svg=>new DOMParser().parseFromString(svg,'image/svg+xml').querySelector('parsererror')).length`),0);
+ const svgResults=await run(`Promise.all((${JSON.stringify(svgQuestions)}).map(q=>new Promise(resolve=>{const img=new Image();img.onload=()=>resolve(img.naturalWidth>0);img.onerror=()=>resolve(false);img.src=q.src;})))`);assert.ok(svgResults.every(Boolean));
  const latexProbe=String.raw`行内 $x^2$ 与 \(\sqrt2\)。独立公式 $$\begin{aligned}u+v&=1\\u-v&=0\end{aligned}$$ 及 \[\frac12\]`;
  await run(`{const probe=document.createElement('div');probe.id='latexProbe';probe.textContent=${JSON.stringify(latexProbe)};document.body.append(probe);window.renderPracticeMath(probe);window.renderPracticeMath(probe);}`);
  assert.equal(await run('document.querySelectorAll("#latexProbe .katex").length'),4);assert.equal(await run('document.querySelectorAll("#latexProbe .katex-display").length'),2);assert.equal(await run('document.querySelectorAll("#latexProbe .katex-error").length'),0);await run('document.querySelector("#latexProbe").remove()');
@@ -54,13 +59,13 @@ try{
  assert.equal(errors.length,0,JSON.stringify(errors));assert.equal(await run('document.querySelectorAll(".katex-error").length'),0);
  await run('localStorage.setItem("dengduck-math-v1",JSON.stringify({answers:{M0001:null,M0002:{selected:99,submitted:true,elapsed:-1}},stars:["M0001","invalid"]}))');await reload();await until('document.querySelectorAll("#options input").length===4');
  await run('document.querySelector("#difficulty").value="hell";document.querySelector("#difficulty").dispatchEvent(new Event("change"))');
- assert.equal(await run('document.querySelector("#target").textContent'),'建议 10 分钟');assert.equal(await run('document.querySelector("#filterCount").textContent.split(" ")[0]'),String(500+(total>2300?50:0)));
+ assert.equal(await run('document.querySelector("#target").textContent'),'建议 10 分钟');assert.equal(await run('document.querySelector("#filterCount").textContent.split(" ")[0]'),String(levelTotals.hell));
  // A full offline paper: persisted partial answers, cancellation, grading,
  // read-only results, replacement, and another fully completed paper.
  await run('document.querySelector(".exam-entry a").click()');await until('!!window.MathExam && !!document.querySelector("#newExam")');
  await run('localStorage.removeItem("dengduck-math-exam-v1")');await reload();await until('!!document.querySelector("#newExam")');
  assert.equal(await run('document.querySelector("#examMode").value'),'custom');assert.ok(await run('[...document.querySelectorAll(".tag-options input")].every(input=>input.checked)'));
- assert.equal(await run('document.querySelectorAll("#levelTags input").length'),4);assert.equal(await run('document.querySelectorAll("#topicTags input[data-kind=topic]").length'),30);assert.equal(await run('document.querySelectorAll("#sourceTags input").length'),3);
+ assert.equal(await run('document.querySelectorAll("#levelTags input").length'),4);assert.equal(await run('document.querySelectorAll("#topicTags input[data-kind=topic]").length'),30);assert.equal(await run('document.querySelectorAll("#sourceTags input").length'),6);
  const chooseTopics=topics=>run(`document.querySelector('[data-group=topicTags][data-select=none]').click();document.querySelector('#expandTopics').click();for(const topic of ${JSON.stringify(topics)})document.querySelector('#topicTags input[data-kind=topic][value="'+topic+'"]').click();`);
  const setDifficultyCounts=values=>run(`for(const [level,count]of Object.entries(${JSON.stringify(values)})){const input=document.querySelector('#count-'+level);input.value=count;input.dispatchEvent(new Event('input'));}`);
  const difficultyCounts=()=>run('Object.fromEntries(["easy","medium","hard","hell"].map(level=>[level,Number(document.querySelector("#count-"+level).value)]))');
@@ -177,7 +182,7 @@ try{
  await reload();assert.equal(await run('document.querySelectorAll(".exam-question").length'),3);assert.equal(await run('document.querySelector("#topicTags input[value=sets]").indeterminate'),true);
  await expandKnowledgePath('topicTags');assert.equal(await run('document.querySelectorAll("#topicTags input[data-kind=question]:checked").length'),3);
  await run('document.querySelector("#topicTags [data-node-id=\\"family:sets-easy-1\\"] > summary input").click()');assert.equal(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-settings-v1")).questionIds.length'),10);
- await run('document.querySelector("#topicTags [data-node-id=\\"topic:sets\\"] > summary input").click()');assert.equal(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-settings-v1")).questionIds.length'),60);
+ await run('document.querySelector("#topicTags [data-node-id=\\"topic:sets\\"] > summary input").click()');assert.equal(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-settings-v1")).questionIds.length'),await run('window.MATH_BATCHES.flatMap(b=>b.questions).filter(q=>q.topic==="sets").length'));
  await run('document.querySelector("#topicTags [data-node-id=\\"group:foundations\\"] > summary input").click()');assert.equal(await run('document.querySelector("#topicTags input[value=sets]").checked'),true);
  await run('document.querySelector("#topicTags [data-node-id=\\"group:foundations\\"] > summary input").click()');assert.equal(await run('document.querySelector("#newExam").disabled'),true);
  await run('document.querySelector("[data-group=topicTags][data-select=all]").click()');assert.equal(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-settings-v1")).questionIds'),undefined);
@@ -221,8 +226,8 @@ try{
  await run('document.querySelector("#star").click()');assert.equal(await assertPracticeTree(),0);await run('document.querySelector("#star").click()');assert.equal(await assertPracticeTree(),1);
  await practiceFilter('easy','unanswered','M0003');assert.equal(await assertPracticeTree(),1);await run('document.querySelector("#knowledgeBrowser [data-question-id=M0003] a").click()');await until('document.querySelector("#questionMeta").textContent.startsWith("M0003")');assert.equal(await run('document.querySelector("#search").value'),'M0003');
  await run('{const q=window.MATH_BATCHES[0].questions[2];document.querySelectorAll("#options input")[q.answer].click();document.querySelector("#submit").click()}');assert.equal(await assertPracticeTree(),0);await run('document.querySelector("#retry").click()');assert.equal(await assertPracticeTree(),1);
- await practiceFilter('easy','unanswered');assert.equal(await assertPracticeTree(),598);await practiceFilter('hell','all');assert.equal(await assertPracticeTree(),550);assert.equal(await run('document.querySelector(\'#knowledgeBrowser [data-node-id="topic:sets"]\').parentElement.hidden'),true);
- await practiceFilter('all','all');assert.equal(await assertPracticeTree(),2400);assert.equal(await run('document.querySelector(\'#knowledgeBrowser [data-node-id="family:sets-easy-1"]\').open'),true);
+ await practiceFilter('easy','unanswered');assert.equal(await assertPracticeTree(),levelTotals.easy-2);await practiceFilter('hell','all');assert.equal(await assertPracticeTree(),levelTotals.hell);assert.equal(await run('document.querySelector(\'#knowledgeBrowser [data-node-id="topic:sets"]\').parentElement.hidden'),true);
+ await practiceFilter('all','all');assert.equal(await assertPracticeTree(),total);assert.equal(await run('document.querySelector(\'#knowledgeBrowser [data-node-id="family:sets-easy-1"]\').open'),true);
  for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`filtered tree overflow ${width}`);}
  // Type navigation skips variants, follows filters and lands on the first
  // matching question of the neighboring family in either direction.
@@ -240,6 +245,66 @@ try{
  await practiceFilter('easy','unanswered');await jumpTo('M0005');await navigate('nextFamily','M0012');assert.equal(await run('document.querySelector("#scope").value'),'unanswered');
  await practiceFilter('all','all');await jumpTo('M'+String(total).padStart(4,'0'));assert.equal(await run('document.querySelector("#nextFamily").disabled'),true);assert.equal(await run('document.querySelector("#next").disabled'),true);
  for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`type navigation overflow ${width}`);if(width===320){await run('document.querySelector(".question-navigation").scrollIntoView({block:"center"})');await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,'family-navigation-mobile.png'),Buffer.from(p.data,'base64')));}}
+ // Sourced questions: intersected source filters, reusable figures, attribution,
+ // all SVGs parsed and loaded offline, diagramless transitions, and exam grading.
+ await practiceFilter('all','all');
+ for(const [source,count] of [['foundation',1800],['thinking',500],['new',100],['dse',280],['macau',780],['gaokao',180]]){
+  await run(`document.querySelector('#source').value='${source}';document.querySelector('#source').dispatchEvent(new Event('change'))`);
+  assert.equal(await run('Number(document.querySelector("#filterCount").textContent.split(" ")[0])'),count);
+  const expected=await run(`window.MATH_BATCHES.flatMap(b=>b.questions).filter(q=>window.MathExam.source(q)==='${source}').map(q=>q.id)`);
+  assert.equal(await run(`document.querySelector('#knowledgeFilterCount').textContent`),`当前条件下 ${expected.length} 题`);
+ }
+ await run('document.querySelector("#source").value="macau";document.querySelector("#difficulty").value="hard";document.querySelector("#search").value="最短弦";document.querySelector("#source").dispatchEvent(new Event("change"))');
+ assert.equal(await run('Number(document.querySelector("#filterCount").textContent.split(" ")[0])'),10);
+ await run('document.querySelector("#source").value="all";document.querySelector("#source").dispatchEvent(new Event("change"))');await practiceFilter('all','all');
+ const geometryIds=await run('window.MATH_BATCHES.flatMap(b=>b.questions).filter(q=>q.diagram&&(q.variant===1||q.variant===10)).map(q=>q.id)');
+ for(const qid of geometryIds){
+  await jumpTo(qid);await until('document.querySelector("#answerForm .question-figure img")?.complete');
+  assert.equal(await run('document.querySelectorAll("#answerForm .question-figure img").length'),1);
+  assert.ok(await run('!document.querySelector("#answerForm .question-provenance a")||document.querySelector("#answerForm .question-provenance a").href.startsWith("https://")'));
+  for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`geometry overflow ${qid} at ${width}`);}
+ }
+ await jumpTo('M2531');await run('document.querySelector(".knowledge-browser").open=true;document.querySelector("#collapseKnowledge").click();');
+ // Reveal the leaf through the public mount API, as the application does.
+ await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions),host=document.createElement('div');host.id='geometryTreeProbe';host.className='paper';document.querySelector('main').append(host);const tree=window.MathKnowledge.mount(host,{questions:bank,topics:window.MATH_MANIFEST.topics});tree.filter(['M2531']);tree.reveal('M2531');}`);
+ await until('document.querySelector("#geometryTreeProbe [data-question-id=M2531] img")?.complete');assert.equal(await run('document.querySelectorAll("#geometryTreeProbe [data-question-id=M2531] .source-badge").length'),1);
+ await run('document.querySelector("#geometryTreeProbe").remove()');
+ for(const [qid,name,width] of [['M0710','legacy-incircle-mobile',390],['M1181','legacy-parabola-mobile',320],['M1251','legacy-planes-desktop',1280],['M3071','expansion-pyramid-mobile',390],['M3291','expansion-focus-mobile',320],['M3461','expansion-bisector-desktop',1280],['M2531','geometry-circle-mobile',390],['M2461','geometry-pyramid-desktop',1280],['M2631','geometry-cube-mobile',320]]){
+  await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});await jumpTo(qid);await until('document.querySelector("#answerForm .question-figure img")?.complete');await run('document.querySelector("#questionTitle").scrollIntoView({block:"start"})');await cdp('Page.captureScreenshot',{format:'png'}).then(p=>fs.writeFileSync(path.join(profile,name+'.png'),Buffer.from(p.data,'base64')));
+ }
+ await jumpTo('M2532');assert.ok(await run('document.querySelector("#answerForm .question-provenance").textContent.includes("数值变式")'));assert.ok(await run('document.querySelector("#answerForm .question-provenance").textContent.includes("M2531")'));
+ await jumpTo('M0001');assert.equal(await run('document.querySelectorAll("#answerForm .question-figure,#answerForm .question-provenance").length'),0);
+ const paperIds=['M0661','M1181','M1301','M3071','M3261','M3291','M3461','M3631'];
+ await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions),exam=window.MathExam.create(bank,Math.random,{...window.MathExam.defaults(bank),count:8,questionIds:${JSON.stringify(paperIds)}});localStorage.setItem('dengduck-math-exam-v1',JSON.stringify(exam));}`);
+ await cdp('Page.navigate',{url:await run("new URL('exam.html',location.href).href")});await until('document.querySelectorAll(".exam-question").length===8');
+ assert.equal(await run('document.querySelectorAll(".exam-question .question-figure").length'),8);assert.equal(await run('document.querySelectorAll(".exam-question .question-provenance").length'),5);
+ await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions);for(const card of document.querySelectorAll('.exam-question')){const q=bank.find(q=>card.id==='exam-q-'+q.id);card.querySelectorAll('input')[q.answer].click();}document.querySelector('#finishExam').click();document.querySelector('#acceptConfirm').click();}`);
+ assert.equal(await run('document.querySelector("#examResult h2").textContent'),'100 / 100 分');assert.equal(await run('document.querySelectorAll(".katex-error").length'),0);
+ for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`geometry exam overflow ${width}`);}
+ await reload();await until('document.querySelectorAll(".exam-feedback").length===8');assert.equal(await run('document.querySelectorAll(".exam-question .question-figure").length'),8);
+ // Rating-only changes preserve the concrete old paper and its answers even
+ // when its original hard-only exact quota now contains easy and hell items.
+ const oldRatingPaper=await run(`(() => {const bank=window.MATH_BATCHES.flatMap(b=>b.questions),previous=bank.map(q=>q.difficultyReview?{...q,difficulty:q.difficultyReview.previousLevel}:q),paper=window.MathExam.create(previous,()=>.37,{...window.MathExam.defaults(previous),count:2,levels:['hard'],questionIds:['M3181','M3241'],difficultyCounts:{easy:0,medium:0,hard:2,hell:0}});delete paper.difficultyRevision;paper.answers={M3181:bank.find(q=>q.id==='M3181').answer};paper.elapsed=12345;return paper;})()`);
+ const ratingSeed=await cdp('Page.addScriptToEvaluateOnNewDocument',{source:`localStorage.setItem('dengduck-math-exam-v1',${JSON.stringify(JSON.stringify(oldRatingPaper))});`});
+ await reload();await cdp('Page.removeScriptToEvaluateOnNewDocument',{identifier:ratingSeed.identifier});await until('document.querySelectorAll(".exam-question").length===2');
+ assert.equal(await run('document.querySelectorAll(".exam-question input:checked").length'),1);assert.equal(await run('document.querySelector("#examMessage").textContent.includes("难度已复评")'),true);
+ assert.ok(await run('document.querySelector("#paperSummary").textContent.includes("简单 1")&&document.querySelector("#paperSummary").textContent.includes("地狱 1")'));
+ assert.equal(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).elapsed'),12345);
+ await reload();await until('document.querySelectorAll(".exam-question").length===2');assert.equal(await run('document.querySelectorAll(".exam-question input:checked").length'),1);
+ await run(`{const bank=window.MATH_BATCHES.flatMap(b=>b.questions),saved={hellRevision:2,answers:{M3181:{selected:bank.find(q=>q.id==='M3181').answer,submitted:true,elapsed:2000}},stars:['M3181']};localStorage.setItem('dengduck-math-v1',JSON.stringify(saved));}`);
+ await cdp('Page.navigate',{url:await run("new URL('index.html#M3181',location.href).href")});await until('document.querySelector("#questionMeta").textContent.startsWith("M3181")');
+ assert.equal(await run('document.querySelector("#feedback").hidden'),false);assert.equal(await run('document.querySelector("#star").getAttribute("aria-pressed")'),'true');assert.equal(await run('document.querySelector("#target").textContent'),'建议 10 分钟');
+ await run('document.querySelector("#source").value="macau";document.querySelector("#difficulty").value="hell";document.querySelector("#difficulty").dispatchEvent(new Event("change"))');
+ assert.equal(await run('document.querySelector("#knowledgeFilterCount").textContent'),'当前条件下 20 题');assert.ok(await run('document.querySelector("#answerForm .difficulty-review").textContent.includes("零点")'));
+ await run('document.querySelector("#answerForm .difficulty-review").open=true;document.querySelector("#nextFamily").click()');await until('document.querySelector("#questionMeta").textContent.startsWith("M3211")');
+ assert.ok(await run('document.querySelector("#answerForm .difficulty-review").textContent.includes("圆锥")'));
+ await run('document.querySelector(".exam-entry a").click()');await until('document.querySelectorAll("#sourceTags input").length===6');
+ await run('for(const button of document.querySelectorAll("[data-select=all]"))button.click();document.querySelector("#examMode").value="custom";document.querySelector("#examMode").dispatchEvent(new Event("change"));for(const input of document.querySelectorAll("#sourceTags input"))input.checked=input.value==="macau";document.querySelector("#sourceTags input").dispatchEvent(new Event("change"))');
+ if(await run('document.querySelector("#lockRatio").checked'))await run('document.querySelector("#lockRatio").click()');
+ await setDifficultyCounts({easy:0,medium:0,hard:0,hell:20});await run('document.querySelector("#newExam").click();if(document.querySelector("#examConfirm").open)document.querySelector("#acceptConfirm").click()');await until('document.querySelectorAll(".exam-question").length===20');
+ assert.ok(await run('JSON.parse(localStorage.getItem("dengduck-math-exam-v1")).ids.every(id=>{const q=window.MATH_BATCHES.flatMap(b=>b.questions).find(q=>q.id===id);return q.exam==="macau"&&q.difficulty==="hell"})'));
+ assert.equal(await run('document.querySelector("#examTarget").textContent'),'建议 200 分钟');assert.equal(await run('document.querySelectorAll(".exam-question .difficulty-review").length'),20);
+ for(const width of [320,390,1280]){await cdp('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:width<500});await run('document.querySelector(".exam-question .difficulty-review").open=true');assert.ok(await run('document.documentElement.scrollWidth<=innerWidth+1'),`rating rationale overflow ${width}`);}
  assert.equal(errors.length,0,JSON.stringify(errors));
- console.log(`PASS: ${total} questions; ${families.length} families at 320px; exam grading, migration, exact difficulty quotas, ratio lock, four-level knowledge trees, parent/child selection, question-specific papers, settings restoration, filtered question/type navigation, offline and HTTP. Screenshots: ${profile}`);
+ console.log(`PASS: ${total} questions; ${families.length} families at 320px; exam grading, migration, quotas, ratio lock, knowledge trees, source filters, 1010 offline SVGs, difficulty review/migration, 20 sourced hell items, saved records, question/type navigation, offline and HTTP. Screenshots: ${profile}`);
 }finally{ws?.close();browser.kill();server?.close();}

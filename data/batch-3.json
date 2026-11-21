@@ -1219,7 +1219,12 @@
         "2"
       ],
       "answer": 1,
-      "explanation": "由勾股定理得斜边 $\\sqrt{(6)^{2}+(8)^{2}}=10$。\n\n关键推导\n$$\nc=\\sqrt{(6)^2+(8)^2}=5\\cdot2=10\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。"
+      "explanation": "由勾股定理得斜边 $\\sqrt{(6)^{2}+(8)^{2}}=10$。\n\n关键推导\n$$\nc=\\sqrt{(6)^2+(8)^2}=5\\cdot2=10\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。",
+      "diagram": {
+        "src": "assets/geometry/M0661.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0662",
@@ -1239,7 +1244,12 @@
         "75"
       ],
       "answer": 0,
-      "explanation": "由勾股定理得斜边 $\\sqrt{(9)^{2}+(12)^{2}}=15$。\n\n关键推导\n$$\nc=\\sqrt{(9)^2+(12)^2}=5\\cdot3=15\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。"
+      "explanation": "由勾股定理得斜边 $\\sqrt{(9)^{2}+(12)^{2}}=15$。\n\n关键推导\n$$\nc=\\sqrt{(9)^2+(12)^2}=5\\cdot3=15\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。",
+      "diagram": {
+        "src": "assets/geometry/M0662.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0663",
@@ -1259,7 +1269,12 @@
         "20"
       ],
       "answer": 3,
-      "explanation": "由勾股定理得斜边 $\\sqrt{(12)^{2}+(16)^{2}}=20$。\n\n关键推导\n$$\nc=\\sqrt{(12)^2+(16)^2}=5\\cdot4=20\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。"
+      "explanation": "由勾股定理得斜边 $\\sqrt{(12)^{2}+(16)^{2}}=20$。\n\n关键推导\n$$\nc=\\sqrt{(12)^2+(16)^2}=5\\cdot4=20\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。",
+      "diagram": {
+        "src": "assets/geometry/M0663.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0664",
@@ -1279,7 +1294,12 @@
         "35"
       ],
       "answer": 2,
-      "explanation": "由勾股定理得斜边 $\\sqrt{(15)^{2}+(20)^{2}}=25$。\n\n关键推导\n$$\nc=\\sqrt{(15)^2+(20)^2}=5\\cdot5=25\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。"
+      "explanation": "由勾股定理得斜边 $\\sqrt{(15)^{2}+(20)^{2}}=25$。\n\n关键推导\n$$\nc=\\sqrt{(15)^2+(20)^2}=5\\cdot5=25\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。",
+      "diagram": {
+        "src": "assets/geometry/M0664.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0665",
@@ -1299,7 +1319,12 @@
         "6"
       ],
       "answer": 1,
-      "explanation": "由勾股定理得斜边 $\\sqrt{(18)^{2}+(24)^{2}}=30$。\n\n关键推导\n$$\nc=\\sqrt{(18)^2+(24)^2}=5\\cdot6=30\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。"
+      "explanation": "由勾股定理得斜边 $\\sqrt{(18)^{2}+(24)^{2}}=30$。\n\n关键推导\n$$\nc=\\sqrt{(18)^2+(24)^2}=5\\cdot6=30\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。",
+      "diagram": {
+        "src": "assets/geometry/M0665.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0666",
@@ -1319,7 +1344,12 @@
         "175"
       ],
       "answer": 0,
-      "explanation": "由勾股定理得斜边 $\\sqrt{(21)^{2}+(28)^{2}}=35$。\n\n关键推导\n$$\nc=\\sqrt{(21)^2+(28)^2}=5\\cdot7=35\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。"
+      "explanation": "由勾股定理得斜边 $\\sqrt{(21)^{2}+(28)^{2}}=35$。\n\n关键推导\n$$\nc=\\sqrt{(21)^2+(28)^2}=5\\cdot7=35\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。",
+      "diagram": {
+        "src": "assets/geometry/M0666.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0667",
@@ -1339,7 +1369,12 @@
         "40"
       ],
       "answer": 3,
-      "explanation": "由勾股定理得斜边 $\\sqrt{(24)^{2}+(32)^{2}}=40$。\n\n关键推导\n$$\nc=\\sqrt{(24)^2+(32)^2}=5\\cdot8=40\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。"
+      "explanation": "由勾股定理得斜边 $\\sqrt{(24)^{2}+(32)^{2}}=40$。\n\n关键推导\n$$\nc=\\sqrt{(24)^2+(32)^2}=5\\cdot8=40\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。",
+      "diagram": {
+        "src": "assets/geometry/M0667.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0668",
@@ -1359,7 +1394,12 @@
         "63"
       ],
       "answer": 2,
-      "explanation": "由勾股定理得斜边 $\\sqrt{(27)^{2}+(36)^{2}}=45$。\n\n关键推导\n$$\nc=\\sqrt{(27)^2+(36)^2}=5\\cdot9=45\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。"
+      "explanation": "由勾股定理得斜边 $\\sqrt{(27)^{2}+(36)^{2}}=45$。\n\n关键推导\n$$\nc=\\sqrt{(27)^2+(36)^2}=5\\cdot9=45\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。",
+      "diagram": {
+        "src": "assets/geometry/M0668.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0669",
@@ -1379,7 +1419,12 @@
         "10"
       ],
       "answer": 1,
-      "explanation": "由勾股定理得斜边 $\\sqrt{(30)^{2}+(40)^{2}}=50$。\n\n关键推导\n$$\nc=\\sqrt{(30)^2+(40)^2}=5\\cdot10=50\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。"
+      "explanation": "由勾股定理得斜边 $\\sqrt{(30)^{2}+(40)^{2}}=50$。\n\n关键推导\n$$\nc=\\sqrt{(30)^2+(40)^2}=5\\cdot10=50\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。",
+      "diagram": {
+        "src": "assets/geometry/M0669.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0670",
@@ -1399,7 +1444,12 @@
         "275"
       ],
       "answer": 0,
-      "explanation": "由勾股定理得斜边 $\\sqrt{(33)^{2}+(44)^{2}}=55$。\n\n关键推导\n$$\nc=\\sqrt{(33)^2+(44)^2}=5\\cdot11=55\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。"
+      "explanation": "由勾股定理得斜边 $\\sqrt{(33)^{2}+(44)^{2}}=55$。\n\n关键推导\n$$\nc=\\sqrt{(33)^2+(44)^2}=5\\cdot11=55\n$$\n斜边对应直角，是三边中最大的一边，平方根取正值。",
+      "diagram": {
+        "src": "assets/geometry/M0670.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0671",
@@ -1419,7 +1469,12 @@
         "5"
       ],
       "answer": 0,
-      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=2$。\n\n关键推导\n$$\n2R=\\frac{2}{\\sin30^\\circ}=2\\cdot2\\Longrightarrow R=2\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。"
+      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=2$。\n\n关键推导\n$$\n2R=\\frac{2}{\\sin30^\\circ}=2\\cdot2\\Longrightarrow R=2\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。",
+      "diagram": {
+        "src": "assets/geometry/M0671.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0672",
@@ -1439,7 +1494,12 @@
         "3"
       ],
       "answer": 3,
-      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=3$。\n\n关键推导\n$$\n2R=\\frac{3}{\\sin30^\\circ}=2\\cdot3\\Longrightarrow R=3\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。"
+      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=3$。\n\n关键推导\n$$\n2R=\\frac{3}{\\sin30^\\circ}=2\\cdot3\\Longrightarrow R=3\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。",
+      "diagram": {
+        "src": "assets/geometry/M0672.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0673",
@@ -1459,7 +1519,12 @@
         "8"
       ],
       "answer": 2,
-      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=4$。\n\n关键推导\n$$\n2R=\\frac{4}{\\sin30^\\circ}=2\\cdot4\\Longrightarrow R=4\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。"
+      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=4$。\n\n关键推导\n$$\n2R=\\frac{4}{\\sin30^\\circ}=2\\cdot4\\Longrightarrow R=4\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。",
+      "diagram": {
+        "src": "assets/geometry/M0673.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0674",
@@ -1479,7 +1544,12 @@
         "\\frac{5}{2}"
       ],
       "answer": 1,
-      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=5$。\n\n关键推导\n$$\n2R=\\frac{5}{\\sin30^\\circ}=2\\cdot5\\Longrightarrow R=5\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。"
+      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=5$。\n\n关键推导\n$$\n2R=\\frac{5}{\\sin30^\\circ}=2\\cdot5\\Longrightarrow R=5\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。",
+      "diagram": {
+        "src": "assets/geometry/M0674.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0675",
@@ -1499,7 +1569,12 @@
         "36"
       ],
       "answer": 0,
-      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=6$。\n\n关键推导\n$$\n2R=\\frac{6}{\\sin30^\\circ}=2\\cdot6\\Longrightarrow R=6\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。"
+      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=6$。\n\n关键推导\n$$\n2R=\\frac{6}{\\sin30^\\circ}=2\\cdot6\\Longrightarrow R=6\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。",
+      "diagram": {
+        "src": "assets/geometry/M0675.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0676",
@@ -1519,7 +1594,12 @@
         "7"
       ],
       "answer": 3,
-      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=7$。\n\n关键推导\n$$\n2R=\\frac{7}{\\sin30^\\circ}=2\\cdot7\\Longrightarrow R=7\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。"
+      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=7$。\n\n关键推导\n$$\n2R=\\frac{7}{\\sin30^\\circ}=2\\cdot7\\Longrightarrow R=7\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。",
+      "diagram": {
+        "src": "assets/geometry/M0676.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0677",
@@ -1539,7 +1619,12 @@
         "16"
       ],
       "answer": 2,
-      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=8$。\n\n关键推导\n$$\n2R=\\frac{8}{\\sin30^\\circ}=2\\cdot8\\Longrightarrow R=8\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。"
+      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=8$。\n\n关键推导\n$$\n2R=\\frac{8}{\\sin30^\\circ}=2\\cdot8\\Longrightarrow R=8\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。",
+      "diagram": {
+        "src": "assets/geometry/M0677.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0678",
@@ -1559,7 +1644,12 @@
         "\\frac{9}{2}"
       ],
       "answer": 1,
-      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=9$。\n\n关键推导\n$$\n2R=\\frac{9}{\\sin30^\\circ}=2\\cdot9\\Longrightarrow R=9\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。"
+      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=9$。\n\n关键推导\n$$\n2R=\\frac{9}{\\sin30^\\circ}=2\\cdot9\\Longrightarrow R=9\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。",
+      "diagram": {
+        "src": "assets/geometry/M0678.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0679",
@@ -1579,7 +1669,12 @@
         "100"
       ],
       "answer": 0,
-      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=10$。\n\n关键推导\n$$\n2R=\\frac{10}{\\sin30^\\circ}=2\\cdot10\\Longrightarrow R=10\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。"
+      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=10$。\n\n关键推导\n$$\n2R=\\frac{10}{\\sin30^\\circ}=2\\cdot10\\Longrightarrow R=10\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。",
+      "diagram": {
+        "src": "assets/geometry/M0679.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0680",
@@ -1599,7 +1694,12 @@
         "11"
       ],
       "answer": 3,
-      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=11$。\n\n关键推导\n$$\n2R=\\frac{11}{\\sin30^\\circ}=2\\cdot11\\Longrightarrow R=11\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。"
+      "explanation": "正弦定理 $a/\\sin  A=2R$，$\\sin 30^{\\circ}=\\frac{1}{2}$，故 $R=a=11$。\n\n关键推导\n$$\n2R=\\frac{11}{\\sin30^\\circ}=2\\cdot11\\Longrightarrow R=11\n$$\n正弦定理给出的边长与正弦之比是直径，不是半径。",
+      "diagram": {
+        "src": "assets/geometry/M0680.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0681",
@@ -1619,7 +1719,12 @@
         "\\frac{1}{8}"
       ],
       "answer": 0,
-      "explanation": "余弦定理给 $\\cos  C=(4+4-9)/(2\\times 4)=-\\frac{1}{8}$。\n\n关键推导\n$$\n\\cos C=\\frac{2^2+2^2-3^2}{2\\cdot2\\cdot2}=-\\frac{1}{8}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。"
+      "explanation": "余弦定理给 $\\cos  C=(4+4-9)/(2\\times 4)=-\\frac{1}{8}$。\n\n关键推导\n$$\n\\cos C=\\frac{2^2+2^2-3^2}{2\\cdot2\\cdot2}=-\\frac{1}{8}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。",
+      "diagram": {
+        "src": "assets/geometry/M0681.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0682",
@@ -1639,7 +1744,12 @@
         "\\frac{1}{9}"
       ],
       "answer": 3,
-      "explanation": "余弦定理给 $\\cos  C=(9+9-16)/(2\\times 9)=\\frac{1}{9}$。\n\n关键推导\n$$\n\\cos C=\\frac{3^2+3^2-4^2}{2\\cdot3\\cdot3}=\\frac{1}{9}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。"
+      "explanation": "余弦定理给 $\\cos  C=(9+9-16)/(2\\times 9)=\\frac{1}{9}$。\n\n关键推导\n$$\n\\cos C=\\frac{3^2+3^2-4^2}{2\\cdot3\\cdot3}=\\frac{1}{9}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。",
+      "diagram": {
+        "src": "assets/geometry/M0682.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0683",
@@ -1659,7 +1769,12 @@
         "\\frac{25}{32}"
       ],
       "answer": 2,
-      "explanation": "余弦定理给 $\\cos  C=(16+16-25)/(2\\times 16)=\\frac{7}{32}$。\n\n关键推导\n$$\n\\cos C=\\frac{4^2+4^2-5^2}{2\\cdot4\\cdot4}=\\frac{7}{32}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。"
+      "explanation": "余弦定理给 $\\cos  C=(16+16-25)/(2\\times 16)=\\frac{7}{32}$。\n\n关键推导\n$$\n\\cos C=\\frac{4^2+4^2-5^2}{2\\cdot4\\cdot4}=\\frac{7}{32}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。",
+      "diagram": {
+        "src": "assets/geometry/M0683.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0684",
@@ -1679,7 +1794,12 @@
         "\\frac{11}{50}"
       ],
       "answer": 1,
-      "explanation": "余弦定理给 $\\cos  C=(25+25-36)/(2\\times 25)=\\frac{7}{25}$。\n\n关键推导\n$$\n\\cos C=\\frac{5^2+5^2-6^2}{2\\cdot5\\cdot5}=\\frac{7}{25}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。"
+      "explanation": "余弦定理给 $\\cos  C=(25+25-36)/(2\\times 25)=\\frac{7}{25}$。\n\n关键推导\n$$\n\\cos C=\\frac{5^2+5^2-6^2}{2\\cdot5\\cdot5}=\\frac{7}{25}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。",
+      "diagram": {
+        "src": "assets/geometry/M0684.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0685",
@@ -1699,7 +1819,12 @@
         "\\frac{25}{72}"
       ],
       "answer": 0,
-      "explanation": "余弦定理给 $\\cos  C=(36+36-49)/(2\\times 36)=\\frac{23}{72}$。\n\n关键推导\n$$\n\\cos C=\\frac{6^2+6^2-7^2}{2\\cdot6\\cdot6}=\\frac{23}{72}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。"
+      "explanation": "余弦定理给 $\\cos  C=(36+36-49)/(2\\times 36)=\\frac{23}{72}$。\n\n关键推导\n$$\n\\cos C=\\frac{6^2+6^2-7^2}{2\\cdot6\\cdot6}=\\frac{23}{72}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。",
+      "diagram": {
+        "src": "assets/geometry/M0685.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0686",
@@ -1719,7 +1844,12 @@
         "\\frac{17}{49}"
       ],
       "answer": 3,
-      "explanation": "余弦定理给 $\\cos  C=(49+49-64)/(2\\times 49)=\\frac{17}{49}$。\n\n关键推导\n$$\n\\cos C=\\frac{7^2+7^2-8^2}{2\\cdot7\\cdot7}=\\frac{17}{49}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。"
+      "explanation": "余弦定理给 $\\cos  C=(49+49-64)/(2\\times 49)=\\frac{17}{49}$。\n\n关键推导\n$$\n\\cos C=\\frac{7^2+7^2-8^2}{2\\cdot7\\cdot7}=\\frac{17}{49}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。",
+      "diagram": {
+        "src": "assets/geometry/M0686.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0687",
@@ -1739,7 +1869,12 @@
         "\\frac{81}{128}"
       ],
       "answer": 2,
-      "explanation": "余弦定理给 $\\cos  C=(64+64-81)/(2\\times 64)=\\frac{47}{128}$。\n\n关键推导\n$$\n\\cos C=\\frac{8^2+8^2-9^2}{2\\cdot8\\cdot8}=\\frac{47}{128}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。"
+      "explanation": "余弦定理给 $\\cos  C=(64+64-81)/(2\\times 64)=\\frac{47}{128}$。\n\n关键推导\n$$\n\\cos C=\\frac{8^2+8^2-9^2}{2\\cdot8\\cdot8}=\\frac{47}{128}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。",
+      "diagram": {
+        "src": "assets/geometry/M0687.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0688",
@@ -1759,7 +1894,12 @@
         "\\frac{19}{162}"
       ],
       "answer": 1,
-      "explanation": "余弦定理给 $\\cos  C=(81+81-100)/(2\\times 81)=\\frac{31}{81}$。\n\n关键推导\n$$\n\\cos C=\\frac{9^2+9^2-10^2}{2\\cdot9\\cdot9}=\\frac{31}{81}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。"
+      "explanation": "余弦定理给 $\\cos  C=(81+81-100)/(2\\times 81)=\\frac{31}{81}$。\n\n关键推导\n$$\n\\cos C=\\frac{9^2+9^2-10^2}{2\\cdot9\\cdot9}=\\frac{31}{81}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。",
+      "diagram": {
+        "src": "assets/geometry/M0688.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0689",
@@ -1779,7 +1919,12 @@
         "\\frac{81}{200}"
       ],
       "answer": 0,
-      "explanation": "余弦定理给 $\\cos  C=(100+100-121)/(2\\times 100)=\\frac{79}{200}$。\n\n关键推导\n$$\n\\cos C=\\frac{10^2+10^2-11^2}{2\\cdot10\\cdot10}=\\frac{79}{200}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。"
+      "explanation": "余弦定理给 $\\cos  C=(100+100-121)/(2\\times 100)=\\frac{79}{200}$。\n\n关键推导\n$$\n\\cos C=\\frac{10^2+10^2-11^2}{2\\cdot10\\cdot10}=\\frac{79}{200}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。",
+      "diagram": {
+        "src": "assets/geometry/M0689.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0690",
@@ -1799,7 +1944,12 @@
         "\\frac{49}{121}"
       ],
       "answer": 3,
-      "explanation": "余弦定理给 $\\cos  C=(121+121-144)/(2\\times 121)=\\frac{49}{121}$。\n\n关键推导\n$$\n\\cos C=\\frac{11^2+11^2-12^2}{2\\cdot11\\cdot11}=\\frac{49}{121}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。"
+      "explanation": "余弦定理给 $\\cos  C=(121+121-144)/(2\\times 121)=\\frac{49}{121}$。\n\n关键推导\n$$\n\\cos C=\\frac{11^2+11^2-12^2}{2\\cdot11\\cdot11}=\\frac{49}{121}\n$$\n最长边为 $a+1$，其对应角用余弦定理时，该边的平方放在减号后。",
+      "diagram": {
+        "src": "assets/geometry/M0690.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0691",
@@ -1819,7 +1969,12 @@
         "\\frac{3}{2}\\sqrt3"
       ],
       "answer": 3,
-      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $\\frac{3}{2}\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot2\\cdot3\\sin60^\\circ=\\frac{3}{2}\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。"
+      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $\\frac{3}{2}\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot2\\cdot3\\sin60^\\circ=\\frac{3}{2}\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。",
+      "diagram": {
+        "src": "assets/geometry/M0691.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0692",
@@ -1839,7 +1994,12 @@
         "6\\sqrt3"
       ],
       "answer": 2,
-      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $3\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot3\\cdot4\\sin60^\\circ=3\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。"
+      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $3\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot3\\cdot4\\sin60^\\circ=3\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。",
+      "diagram": {
+        "src": "assets/geometry/M0692.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0693",
@@ -1859,7 +2019,12 @@
         "10"
       ],
       "answer": 1,
-      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $5\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot4\\cdot5\\sin60^\\circ=5\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。"
+      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $5\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot4\\cdot5\\sin60^\\circ=5\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。",
+      "diagram": {
+        "src": "assets/geometry/M0693.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0694",
@@ -1879,7 +2044,12 @@
         "30\\sqrt3"
       ],
       "answer": 0,
-      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $\\frac{15}{2}\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot5\\cdot6\\sin60^\\circ=\\frac{15}{2}\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。"
+      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $\\frac{15}{2}\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot5\\cdot6\\sin60^\\circ=\\frac{15}{2}\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。",
+      "diagram": {
+        "src": "assets/geometry/M0694.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0695",
@@ -1899,7 +2069,12 @@
         "\\frac{21}{2}\\sqrt3"
       ],
       "answer": 3,
-      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $\\frac{21}{2}\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot6\\cdot7\\sin60^\\circ=\\frac{21}{2}\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。"
+      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $\\frac{21}{2}\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot6\\cdot7\\sin60^\\circ=\\frac{21}{2}\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。",
+      "diagram": {
+        "src": "assets/geometry/M0695.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0696",
@@ -1919,7 +2094,12 @@
         "28\\sqrt3"
       ],
       "answer": 2,
-      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $14\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot7\\cdot8\\sin60^\\circ=14\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。"
+      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $14\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot7\\cdot8\\sin60^\\circ=14\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。",
+      "diagram": {
+        "src": "assets/geometry/M0696.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0697",
@@ -1939,7 +2119,12 @@
         "36"
       ],
       "answer": 1,
-      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $18\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot8\\cdot9\\sin60^\\circ=18\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。"
+      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $18\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot8\\cdot9\\sin60^\\circ=18\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。",
+      "diagram": {
+        "src": "assets/geometry/M0697.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0698",
@@ -1959,7 +2144,12 @@
         "90\\sqrt3"
       ],
       "answer": 0,
-      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $\\frac{45}{2}\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot9\\cdot10\\sin60^\\circ=\\frac{45}{2}\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。"
+      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $\\frac{45}{2}\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot9\\cdot10\\sin60^\\circ=\\frac{45}{2}\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。",
+      "diagram": {
+        "src": "assets/geometry/M0698.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0699",
@@ -1979,7 +2169,12 @@
         "\\frac{55}{2}\\sqrt3"
       ],
       "answer": 3,
-      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $\\frac{55}{2}\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot10\\cdot11\\sin60^\\circ=\\frac{55}{2}\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。"
+      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $\\frac{55}{2}\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot10\\cdot11\\sin60^\\circ=\\frac{55}{2}\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。",
+      "diagram": {
+        "src": "assets/geometry/M0699.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0700",
@@ -1999,7 +2194,12 @@
         "66\\sqrt3"
       ],
       "answer": 2,
-      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $33\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot11\\cdot12\\sin60^\\circ=33\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。"
+      "explanation": "面积 $S=\\frac12 bc \\sin  A$，$\\sin 60^{\\circ}=\\sqrt{3}/2$，得到 $33\\sqrt{3}$。\n\n关键推导\n$$\nS=\\frac12\\cdot11\\cdot12\\sin60^\\circ=33\\sqrt3\n$$\n面积公式中使用两已知边的夹角，不是任意一个角。",
+      "diagram": {
+        "src": "assets/geometry/M0700.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0701",
@@ -2019,7 +2219,12 @@
         "\\frac{1}{3}\\sqrt3"
       ],
       "answer": 3,
-      "explanation": "令 $b=AC,c=AB$，$b+c=4$，记 $d=BC$。余弦定理得 $d^{2}=16-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(4+d)/2$。代入 $bc=(16-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(4-d)/6$。又 $bc\\le 4$，故 $d\\ge 2$。当 $b=c=2$ 时取等，最大半径为 $\\frac{1}{3}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=4,\\quad d^2=16-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(4+d)}=\\frac{\\sqrt3(4-d)}6,\\\\bc\\le4&\\Longrightarrow d\\ge2,\\\\r&\\le\\frac{1}{3}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。"
+      "explanation": "令 $b=AC,c=AB$，$b+c=4$，记 $d=BC$。余弦定理得 $d^{2}=16-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(4+d)/2$。代入 $bc=(16-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(4-d)/6$。又 $bc\\le 4$，故 $d\\ge 2$。当 $b=c=2$ 时取等，最大半径为 $\\frac{1}{3}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=4,\\quad d^2=16-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(4+d)}=\\frac{\\sqrt3(4-d)}6,\\\\bc\\le4&\\Longrightarrow d\\ge2,\\\\r&\\le\\frac{1}{3}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。",
+      "diagram": {
+        "src": "assets/geometry/M0701.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0702",
@@ -2039,7 +2244,12 @@
         "1\\sqrt3"
       ],
       "answer": 2,
-      "explanation": "令 $b=AC,c=AB$，$b+c=6$，记 $d=BC$。余弦定理得 $d^{2}=36-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(6+d)/2$。代入 $bc=(36-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(6-d)/6$。又 $bc\\le 9$，故 $d\\ge 3$。当 $b=c=3$ 时取等，最大半径为 $\\frac{1}{2}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=6,\\quad d^2=36-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(6+d)}=\\frac{\\sqrt3(6-d)}6,\\\\bc\\le9&\\Longrightarrow d\\ge3,\\\\r&\\le\\frac{1}{2}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。"
+      "explanation": "令 $b=AC,c=AB$，$b+c=6$，记 $d=BC$。余弦定理得 $d^{2}=36-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(6+d)/2$。代入 $bc=(36-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(6-d)/6$。又 $bc\\le 9$，故 $d\\ge 3$。当 $b=c=3$ 时取等，最大半径为 $\\frac{1}{2}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=6,\\quad d^2=36-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(6+d)}=\\frac{\\sqrt3(6-d)}6,\\\\bc\\le9&\\Longrightarrow d\\ge3,\\\\r&\\le\\frac{1}{2}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。",
+      "diagram": {
+        "src": "assets/geometry/M0702.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0703",
@@ -2059,7 +2269,12 @@
         "2\\sqrt3"
       ],
       "answer": 1,
-      "explanation": "令 $b=AC,c=AB$，$b+c=8$，记 $d=BC$。余弦定理得 $d^{2}=64-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(8+d)/2$。代入 $bc=(64-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(8-d)/6$。又 $bc\\le 16$，故 $d\\ge 4$。当 $b=c=4$ 时取等，最大半径为 $\\frac{2}{3}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=8,\\quad d^2=64-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(8+d)}=\\frac{\\sqrt3(8-d)}6,\\\\bc\\le16&\\Longrightarrow d\\ge4,\\\\r&\\le\\frac{2}{3}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。"
+      "explanation": "令 $b=AC,c=AB$，$b+c=8$，记 $d=BC$。余弦定理得 $d^{2}=64-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(8+d)/2$。代入 $bc=(64-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(8-d)/6$。又 $bc\\le 16$，故 $d\\ge 4$。当 $b=c=4$ 时取等，最大半径为 $\\frac{2}{3}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=8,\\quad d^2=64-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(8+d)}=\\frac{\\sqrt3(8-d)}6,\\\\bc\\le16&\\Longrightarrow d\\ge4,\\\\r&\\le\\frac{2}{3}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。",
+      "diagram": {
+        "src": "assets/geometry/M0703.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0704",
@@ -2079,7 +2294,12 @@
         "5\\sqrt3"
       ],
       "answer": 0,
-      "explanation": "令 $b=AC,c=AB$，$b+c=10$，记 $d=BC$。余弦定理得 $d^{2}=100-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(10+d)/2$。代入 $bc=(100-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(10-d)/6$。又 $bc\\le 25$，故 $d\\ge 5$。当 $b=c=5$ 时取等，最大半径为 $\\frac{5}{6}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=10,\\quad d^2=100-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(10+d)}=\\frac{\\sqrt3(10-d)}6,\\\\bc\\le25&\\Longrightarrow d\\ge5,\\\\r&\\le\\frac{5}{6}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。"
+      "explanation": "令 $b=AC,c=AB$，$b+c=10$，记 $d=BC$。余弦定理得 $d^{2}=100-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(10+d)/2$。代入 $bc=(100-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(10-d)/6$。又 $bc\\le 25$，故 $d\\ge 5$。当 $b=c=5$ 时取等，最大半径为 $\\frac{5}{6}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=10,\\quad d^2=100-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(10+d)}=\\frac{\\sqrt3(10-d)}6,\\\\bc\\le25&\\Longrightarrow d\\ge5,\\\\r&\\le\\frac{5}{6}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。",
+      "diagram": {
+        "src": "assets/geometry/M0704.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0705",
@@ -2099,7 +2319,12 @@
         "1\\sqrt3"
       ],
       "answer": 3,
-      "explanation": "令 $b=AC,c=AB$，$b+c=12$，记 $d=BC$。余弦定理得 $d^{2}=144-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(12+d)/2$。代入 $bc=(144-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(12-d)/6$。又 $bc\\le 36$，故 $d\\ge 6$。当 $b=c=6$ 时取等，最大半径为 $1\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=12,\\quad d^2=144-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(12+d)}=\\frac{\\sqrt3(12-d)}6,\\\\bc\\le36&\\Longrightarrow d\\ge6,\\\\r&\\le1\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。"
+      "explanation": "令 $b=AC,c=AB$，$b+c=12$，记 $d=BC$。余弦定理得 $d^{2}=144-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(12+d)/2$。代入 $bc=(144-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(12-d)/6$。又 $bc\\le 36$，故 $d\\ge 6$。当 $b=c=6$ 时取等，最大半径为 $1\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=12,\\quad d^2=144-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(12+d)}=\\frac{\\sqrt3(12-d)}6,\\\\bc\\le36&\\Longrightarrow d\\ge6,\\\\r&\\le1\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。",
+      "diagram": {
+        "src": "assets/geometry/M0705.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0706",
@@ -2119,7 +2344,12 @@
         "\\frac{7}{3}\\sqrt3"
       ],
       "answer": 2,
-      "explanation": "令 $b=AC,c=AB$，$b+c=14$，记 $d=BC$。余弦定理得 $d^{2}=196-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(14+d)/2$。代入 $bc=(196-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(14-d)/6$。又 $bc\\le 49$，故 $d\\ge 7$。当 $b=c=7$ 时取等，最大半径为 $\\frac{7}{6}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=14,\\quad d^2=196-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(14+d)}=\\frac{\\sqrt3(14-d)}6,\\\\bc\\le49&\\Longrightarrow d\\ge7,\\\\r&\\le\\frac{7}{6}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。"
+      "explanation": "令 $b=AC,c=AB$，$b+c=14$，记 $d=BC$。余弦定理得 $d^{2}=196-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(14+d)/2$。代入 $bc=(196-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(14-d)/6$。又 $bc\\le 49$，故 $d\\ge 7$。当 $b=c=7$ 时取等，最大半径为 $\\frac{7}{6}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=14,\\quad d^2=196-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(14+d)}=\\frac{\\sqrt3(14-d)}6,\\\\bc\\le49&\\Longrightarrow d\\ge7,\\\\r&\\le\\frac{7}{6}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。",
+      "diagram": {
+        "src": "assets/geometry/M0706.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0707",
@@ -2139,7 +2369,12 @@
         "4\\sqrt3"
       ],
       "answer": 1,
-      "explanation": "令 $b=AC,c=AB$，$b+c=16$，记 $d=BC$。余弦定理得 $d^{2}=256-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(16+d)/2$。代入 $bc=(256-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(16-d)/6$。又 $bc\\le 64$，故 $d\\ge 8$。当 $b=c=8$ 时取等，最大半径为 $\\frac{4}{3}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=16,\\quad d^2=256-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(16+d)}=\\frac{\\sqrt3(16-d)}6,\\\\bc\\le64&\\Longrightarrow d\\ge8,\\\\r&\\le\\frac{4}{3}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。"
+      "explanation": "令 $b=AC,c=AB$，$b+c=16$，记 $d=BC$。余弦定理得 $d^{2}=256-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(16+d)/2$。代入 $bc=(256-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(16-d)/6$。又 $bc\\le 64$，故 $d\\ge 8$。当 $b=c=8$ 时取等，最大半径为 $\\frac{4}{3}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=16,\\quad d^2=256-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(16+d)}=\\frac{\\sqrt3(16-d)}6,\\\\bc\\le64&\\Longrightarrow d\\ge8,\\\\r&\\le\\frac{4}{3}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。",
+      "diagram": {
+        "src": "assets/geometry/M0707.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0708",
@@ -2159,7 +2394,12 @@
         "9\\sqrt3"
       ],
       "answer": 0,
-      "explanation": "令 $b=AC,c=AB$，$b+c=18$，记 $d=BC$。余弦定理得 $d^{2}=324-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(18+d)/2$。代入 $bc=(324-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(18-d)/6$。又 $bc\\le 81$，故 $d\\ge 9$。当 $b=c=9$ 时取等，最大半径为 $\\frac{3}{2}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=18,\\quad d^2=324-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(18+d)}=\\frac{\\sqrt3(18-d)}6,\\\\bc\\le81&\\Longrightarrow d\\ge9,\\\\r&\\le\\frac{3}{2}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。"
+      "explanation": "令 $b=AC,c=AB$，$b+c=18$，记 $d=BC$。余弦定理得 $d^{2}=324-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(18+d)/2$。代入 $bc=(324-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(18-d)/6$。又 $bc\\le 81$，故 $d\\ge 9$。当 $b=c=9$ 时取等，最大半径为 $\\frac{3}{2}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=18,\\quad d^2=324-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(18+d)}=\\frac{\\sqrt3(18-d)}6,\\\\bc\\le81&\\Longrightarrow d\\ge9,\\\\r&\\le\\frac{3}{2}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。",
+      "diagram": {
+        "src": "assets/geometry/M0708.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0709",
@@ -2179,7 +2419,12 @@
         "\\frac{5}{3}\\sqrt3"
       ],
       "answer": 3,
-      "explanation": "令 $b=AC,c=AB$，$b+c=20$，记 $d=BC$。余弦定理得 $d^{2}=400-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(20+d)/2$。代入 $bc=(400-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(20-d)/6$。又 $bc\\le 100$，故 $d\\ge 10$。当 $b=c=10$ 时取等，最大半径为 $\\frac{5}{3}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=20,\\quad d^2=400-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(20+d)}=\\frac{\\sqrt3(20-d)}6,\\\\bc\\le100&\\Longrightarrow d\\ge10,\\\\r&\\le\\frac{5}{3}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。"
+      "explanation": "令 $b=AC,c=AB$，$b+c=20$，记 $d=BC$。余弦定理得 $d^{2}=400-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(20+d)/2$。代入 $bc=(400-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(20-d)/6$。又 $bc\\le 100$，故 $d\\ge 10$。当 $b=c=10$ 时取等，最大半径为 $\\frac{5}{3}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=20,\\quad d^2=400-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(20+d)}=\\frac{\\sqrt3(20-d)}6,\\\\bc\\le100&\\Longrightarrow d\\ge10,\\\\r&\\le\\frac{5}{3}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。",
+      "diagram": {
+        "src": "assets/geometry/M0709.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0710",
@@ -2199,7 +2444,12 @@
         "\\frac{11}{3}\\sqrt3"
       ],
       "answer": 2,
-      "explanation": "令 $b=AC,c=AB$，$b+c=22$，记 $d=BC$。余弦定理得 $d^{2}=484-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(22+d)/2$。代入 $bc=(484-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(22-d)/6$。又 $bc\\le 121$，故 $d\\ge 11$。当 $b=c=11$ 时取等，最大半径为 $\\frac{11}{6}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=22,\\quad d^2=484-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(22+d)}=\\frac{\\sqrt3(22-d)}6,\\\\bc\\le121&\\Longrightarrow d\\ge11,\\\\r&\\le\\frac{11}{6}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。"
+      "explanation": "令 $b=AC,c=AB$，$b+c=22$，记 $d=BC$。余弦定理得 $d^{2}=484-3bc$。面积 $S=\\sqrt{3} bc/4$，半周长 $p=(22+d)/2$。代入 $bc=(484-d^{2})/3$，化简 $r=S/p=\\sqrt{3}(22-d)/6$。又 $bc\\le 121$，故 $d\\ge 11$。当 $b=c=11$ 时取等，最大半径为 $\\frac{11}{6}\\sqrt3$。\n\n关键推导\n$$\n\\begin{aligned}b+c&=22,\\quad d^2=484-3bc,\\\\r=\\frac Sp&=\\frac{\\sqrt3\\,bc}{2(22+d)}=\\frac{\\sqrt3(22-d)}6,\\\\bc\\le121&\\Longrightarrow d\\ge11,\\\\r&\\le\\frac{11}{6}\\sqrt3.\\end{aligned}\n$$\n先用余弦定理把面积中的乘积换成 $d$，使半周长分母被约去；$b=c=a$ 时满足所有约束并取等。",
+      "diagram": {
+        "src": "assets/geometry/M0710.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0711",
@@ -2219,7 +2469,12 @@
         "6\\sqrt3"
       ],
       "answer": 2,
-      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=2\\sqrt{3}$，因此 $p\\ge 6\\sqrt{3}$。等边三角形可取等，周长最小 $12\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=2\\sqrt3,\\\\2p&\\ge12\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。"
+      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=2\\sqrt{3}$，因此 $p\\ge 6\\sqrt{3}$。等边三角形可取等，周长最小 $12\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=2\\sqrt3,\\\\2p&\\ge12\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。",
+      "diagram": {
+        "src": "assets/geometry/M0711.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0712",
@@ -2239,7 +2494,12 @@
         "12\\sqrt3"
       ],
       "answer": 1,
-      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=3\\sqrt{3}$，因此 $p\\ge 9\\sqrt{3}$。等边三角形可取等，周长最小 $18\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=3\\sqrt3,\\\\2p&\\ge18\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。"
+      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=3\\sqrt{3}$，因此 $p\\ge 9\\sqrt{3}$。等边三角形可取等，周长最小 $18\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=3\\sqrt3,\\\\2p&\\ge18\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。",
+      "diagram": {
+        "src": "assets/geometry/M0712.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0713",
@@ -2259,7 +2519,12 @@
         "48"
       ],
       "answer": 0,
-      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=4\\sqrt{3}$，因此 $p\\ge 12\\sqrt{3}$。等边三角形可取等，周长最小 $24\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=4\\sqrt3,\\\\2p&\\ge24\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。"
+      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=4\\sqrt{3}$，因此 $p\\ge 12\\sqrt{3}$。等边三角形可取等，周长最小 $24\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=4\\sqrt3,\\\\2p&\\ge24\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。",
+      "diagram": {
+        "src": "assets/geometry/M0713.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0714",
@@ -2279,7 +2544,12 @@
         "30\\sqrt3"
       ],
       "answer": 3,
-      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=5\\sqrt{3}$，因此 $p\\ge 15\\sqrt{3}$。等边三角形可取等，周长最小 $30\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=5\\sqrt3,\\\\2p&\\ge30\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。"
+      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=5\\sqrt{3}$，因此 $p\\ge 15\\sqrt{3}$。等边三角形可取等，周长最小 $30\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=5\\sqrt3,\\\\2p&\\ge30\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。",
+      "diagram": {
+        "src": "assets/geometry/M0714.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0715",
@@ -2299,7 +2569,12 @@
         "18\\sqrt3"
       ],
       "answer": 2,
-      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=6\\sqrt{3}$，因此 $p\\ge 18\\sqrt{3}$。等边三角形可取等，周长最小 $36\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=6\\sqrt3,\\\\2p&\\ge36\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。"
+      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=6\\sqrt{3}$，因此 $p\\ge 18\\sqrt{3}$。等边三角形可取等，周长最小 $36\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=6\\sqrt3,\\\\2p&\\ge36\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。",
+      "diagram": {
+        "src": "assets/geometry/M0715.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0716",
@@ -2319,7 +2594,12 @@
         "28\\sqrt3"
       ],
       "answer": 1,
-      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=7\\sqrt{3}$，因此 $p\\ge 21\\sqrt{3}$。等边三角形可取等，周长最小 $42\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=7\\sqrt3,\\\\2p&\\ge42\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。"
+      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=7\\sqrt{3}$，因此 $p\\ge 21\\sqrt{3}$。等边三角形可取等，周长最小 $42\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=7\\sqrt3,\\\\2p&\\ge42\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。",
+      "diagram": {
+        "src": "assets/geometry/M0716.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0717",
@@ -2339,7 +2619,12 @@
         "96"
       ],
       "answer": 0,
-      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=8\\sqrt{3}$，因此 $p\\ge 24\\sqrt{3}$。等边三角形可取等，周长最小 $48\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=8\\sqrt3,\\\\2p&\\ge48\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。"
+      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=8\\sqrt{3}$，因此 $p\\ge 24\\sqrt{3}$。等边三角形可取等，周长最小 $48\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=8\\sqrt3,\\\\2p&\\ge48\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。",
+      "diagram": {
+        "src": "assets/geometry/M0717.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0718",
@@ -2359,7 +2644,12 @@
         "54\\sqrt3"
       ],
       "answer": 3,
-      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=9\\sqrt{3}$，因此 $p\\ge 27\\sqrt{3}$。等边三角形可取等，周长最小 $54\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=9\\sqrt3,\\\\2p&\\ge54\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。"
+      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=9\\sqrt{3}$，因此 $p\\ge 27\\sqrt{3}$。等边三角形可取等，周长最小 $54\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=9\\sqrt3,\\\\2p&\\ge54\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。",
+      "diagram": {
+        "src": "assets/geometry/M0718.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0719",
@@ -2379,7 +2669,12 @@
         "30\\sqrt3"
       ],
       "answer": 2,
-      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=10\\sqrt{3}$，因此 $p\\ge 30\\sqrt{3}$。等边三角形可取等，周长最小 $60\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=10\\sqrt3,\\\\2p&\\ge60\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。"
+      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=10\\sqrt{3}$，因此 $p\\ge 30\\sqrt{3}$。等边三角形可取等，周长最小 $60\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=10\\sqrt3,\\\\2p&\\ge60\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。",
+      "diagram": {
+        "src": "assets/geometry/M0719.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0720",
@@ -2399,7 +2694,12 @@
         "44\\sqrt3"
       ],
       "answer": 1,
-      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=11\\sqrt{3}$，因此 $p\\ge 33\\sqrt{3}$。等边三角形可取等，周长最小 $66\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=11\\sqrt3,\\\\2p&\\ge66\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。"
+      "explanation": "记半周长为 $p$，$BC=a_{0}$，另两边为 $b,c$。固定 $A$ 时 $r=(p-a_{0})\\tan (A/2)$。由 $b+c\\ge 2\\sqrt{bc}$ 以及余弦定理，可得 $a_{0}\\ge (b+c)/2$（等号 $b=c$），从而 $p\\ge 3(p-a_{0})$。又 $p-a_{0}=r \\cot 30^{\\circ}=11\\sqrt{3}$，因此 $p\\ge 33\\sqrt{3}$。等边三角形可取等，周长最小 $66\\sqrt{3}$。\n\n关键推导\n$$\n\\begin{aligned}d^2-\\frac{(b+c)^2}{4}&=\\frac34(b-c)^2\\ge0,\\\\p=\\frac{b+c+d}{2}&\\ge3(p-d),\\\\p-d&=r\\cot\\frac A2=11\\sqrt3,\\\\2p&\\ge66\\sqrt3.\\end{aligned}\n$$\n其中 $d=BC$，$p$ 为半周长。等号要求 $b=c$；结合 $A=60^{\\circ}$ 就得到等边三角形，其内切圆半径可取给定值，因此下界可达。",
+      "diagram": {
+        "src": "assets/geometry/M0720.svg",
+        "alt": "正弦定理、余弦定理与解三角形示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0721",
@@ -2419,7 +2719,12 @@
         "(1,0)"
       ],
       "answer": 1,
-      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(2,2)+(1,2)=(3,4)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。"
+      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(2,2)+(1,2)=(3,4)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。",
+      "diagram": {
+        "src": "assets/geometry/M0721.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0722",
@@ -2439,7 +2744,12 @@
         "(5,4)"
       ],
       "answer": 0,
-      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(3,2)+(1,3)=(4,5)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。"
+      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(3,2)+(1,3)=(4,5)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。",
+      "diagram": {
+        "src": "assets/geometry/M0722.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0723",
@@ -2459,7 +2769,12 @@
         "(5,6)"
       ],
       "answer": 3,
-      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(4,2)+(1,4)=(5,6)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。"
+      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(4,2)+(1,4)=(5,6)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。",
+      "diagram": {
+        "src": "assets/geometry/M0723.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0724",
@@ -2479,7 +2794,12 @@
         "(5,10)"
       ],
       "answer": 2,
-      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(5,2)+(1,5)=(6,7)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。"
+      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(5,2)+(1,5)=(6,7)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。",
+      "diagram": {
+        "src": "assets/geometry/M0724.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0725",
@@ -2499,7 +2819,12 @@
         "(5,-4)"
       ],
       "answer": 1,
-      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(6,2)+(1,6)=(7,8)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。"
+      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(6,2)+(1,6)=(7,8)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。",
+      "diagram": {
+        "src": "assets/geometry/M0725.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0726",
@@ -2519,7 +2844,12 @@
         "(9,8)"
       ],
       "answer": 0,
-      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(7,2)+(1,7)=(8,9)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。"
+      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(7,2)+(1,7)=(8,9)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。",
+      "diagram": {
+        "src": "assets/geometry/M0726.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0727",
@@ -2539,7 +2869,12 @@
         "(9,10)"
       ],
       "answer": 3,
-      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(8,2)+(1,8)=(9,10)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。"
+      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(8,2)+(1,8)=(9,10)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。",
+      "diagram": {
+        "src": "assets/geometry/M0727.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0728",
@@ -2559,7 +2894,12 @@
         "(9,18)"
       ],
       "answer": 2,
-      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(9,2)+(1,9)=(10,11)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。"
+      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(9,2)+(1,9)=(10,11)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。",
+      "diagram": {
+        "src": "assets/geometry/M0728.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0729",
@@ -2579,7 +2919,12 @@
         "(9,-8)"
       ],
       "answer": 1,
-      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(10,2)+(1,10)=(11,12)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。"
+      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(10,2)+(1,10)=(11,12)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。",
+      "diagram": {
+        "src": "assets/geometry/M0729.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0730",
@@ -2599,7 +2944,12 @@
         "(13,12)"
       ],
       "answer": 0,
-      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(11,2)+(1,11)=(12,13)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。"
+      "explanation": "向量相加按对应坐标相加。\n\n关键推导\n$$\n(11,2)+(1,11)=(12,13)\n$$\n向量加法按对应坐标分别相加，不是把所有坐标加到一起。",
+      "diagram": {
+        "src": "assets/geometry/M0730.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0731",
@@ -2619,7 +2969,12 @@
         "7"
       ],
       "answer": 0,
-      "explanation": "按坐标计算数量积：$2\\times 1+1\\times 2=4$。\n\n关键推导\n$$\n(2,1)\\cdot(1,2)=2\\cdot1+1\\cdot2=4\n$$\n数量积结果是实数，按对应坐标相乘后求和。"
+      "explanation": "按坐标计算数量积：$2\\times 1+1\\times 2=4$。\n\n关键推导\n$$\n(2,1)\\cdot(1,2)=2\\cdot1+1\\cdot2=4\n$$\n数量积结果是实数，按对应坐标相乘后求和。",
+      "diagram": {
+        "src": "assets/geometry/M0731.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0732",
@@ -2639,7 +2994,12 @@
         "6"
       ],
       "answer": 3,
-      "explanation": "按坐标计算数量积：$3\\times 1+1\\times 3=6$。\n\n关键推导\n$$\n(3,1)\\cdot(1,3)=3\\cdot1+1\\cdot3=6\n$$\n数量积结果是实数，按对应坐标相乘后求和。"
+      "explanation": "按坐标计算数量积：$3\\times 1+1\\times 3=6$。\n\n关键推导\n$$\n(3,1)\\cdot(1,3)=3\\cdot1+1\\cdot3=6\n$$\n数量积结果是实数，按对应坐标相乘后求和。",
+      "diagram": {
+        "src": "assets/geometry/M0732.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0733",
@@ -2659,7 +3019,12 @@
         "17"
       ],
       "answer": 2,
-      "explanation": "按坐标计算数量积：$4\\times 1+1\\times 4=8$。\n\n关键推导\n$$\n(4,1)\\cdot(1,4)=4\\cdot1+1\\cdot4=8\n$$\n数量积结果是实数，按对应坐标相乘后求和。"
+      "explanation": "按坐标计算数量积：$4\\times 1+1\\times 4=8$。\n\n关键推导\n$$\n(4,1)\\cdot(1,4)=4\\cdot1+1\\cdot4=8\n$$\n数量积结果是实数，按对应坐标相乘后求和。",
+      "diagram": {
+        "src": "assets/geometry/M0733.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0734",
@@ -2679,7 +3044,12 @@
         "25"
       ],
       "answer": 1,
-      "explanation": "按坐标计算数量积：$5\\times 1+1\\times 5=10$。\n\n关键推导\n$$\n(5,1)\\cdot(1,5)=5\\cdot1+1\\cdot5=10\n$$\n数量积结果是实数，按对应坐标相乘后求和。"
+      "explanation": "按坐标计算数量积：$5\\times 1+1\\times 5=10$。\n\n关键推导\n$$\n(5,1)\\cdot(1,5)=5\\cdot1+1\\cdot5=10\n$$\n数量积结果是实数，按对应坐标相乘后求和。",
+      "diagram": {
+        "src": "assets/geometry/M0734.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0735",
@@ -2699,7 +3069,12 @@
         "0"
       ],
       "answer": 0,
-      "explanation": "按坐标计算数量积：$6\\times 1+1\\times 6=12$。\n\n关键推导\n$$\n(6,1)\\cdot(1,6)=6\\cdot1+1\\cdot6=12\n$$\n数量积结果是实数，按对应坐标相乘后求和。"
+      "explanation": "按坐标计算数量积：$6\\times 1+1\\times 6=12$。\n\n关键推导\n$$\n(6,1)\\cdot(1,6)=6\\cdot1+1\\cdot6=12\n$$\n数量积结果是实数，按对应坐标相乘后求和。",
+      "diagram": {
+        "src": "assets/geometry/M0735.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0736",
@@ -2719,7 +3094,12 @@
         "14"
       ],
       "answer": 3,
-      "explanation": "按坐标计算数量积：$7\\times 1+1\\times 7=14$。\n\n关键推导\n$$\n(7,1)\\cdot(1,7)=7\\cdot1+1\\cdot7=14\n$$\n数量积结果是实数，按对应坐标相乘后求和。"
+      "explanation": "按坐标计算数量积：$7\\times 1+1\\times 7=14$。\n\n关键推导\n$$\n(7,1)\\cdot(1,7)=7\\cdot1+1\\cdot7=14\n$$\n数量积结果是实数，按对应坐标相乘后求和。",
+      "diagram": {
+        "src": "assets/geometry/M0736.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0737",
@@ -2739,7 +3119,12 @@
         "65"
       ],
       "answer": 2,
-      "explanation": "按坐标计算数量积：$8\\times 1+1\\times 8=16$。\n\n关键推导\n$$\n(8,1)\\cdot(1,8)=8\\cdot1+1\\cdot8=16\n$$\n数量积结果是实数，按对应坐标相乘后求和。"
+      "explanation": "按坐标计算数量积：$8\\times 1+1\\times 8=16$。\n\n关键推导\n$$\n(8,1)\\cdot(1,8)=8\\cdot1+1\\cdot8=16\n$$\n数量积结果是实数，按对应坐标相乘后求和。",
+      "diagram": {
+        "src": "assets/geometry/M0737.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0738",
@@ -2759,7 +3144,12 @@
         "81"
       ],
       "answer": 1,
-      "explanation": "按坐标计算数量积：$9\\times 1+1\\times 9=18$。\n\n关键推导\n$$\n(9,1)\\cdot(1,9)=9\\cdot1+1\\cdot9=18\n$$\n数量积结果是实数，按对应坐标相乘后求和。"
+      "explanation": "按坐标计算数量积：$9\\times 1+1\\times 9=18$。\n\n关键推导\n$$\n(9,1)\\cdot(1,9)=9\\cdot1+1\\cdot9=18\n$$\n数量积结果是实数，按对应坐标相乘后求和。",
+      "diagram": {
+        "src": "assets/geometry/M0738.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0739",
@@ -2779,7 +3169,12 @@
         "0"
       ],
       "answer": 0,
-      "explanation": "按坐标计算数量积：$10\\times 1+1\\times 10=20$。\n\n关键推导\n$$\n(10,1)\\cdot(1,10)=10\\cdot1+1\\cdot10=20\n$$\n数量积结果是实数，按对应坐标相乘后求和。"
+      "explanation": "按坐标计算数量积：$10\\times 1+1\\times 10=20$。\n\n关键推导\n$$\n(10,1)\\cdot(1,10)=10\\cdot1+1\\cdot10=20\n$$\n数量积结果是实数，按对应坐标相乘后求和。",
+      "diagram": {
+        "src": "assets/geometry/M0739.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0740",
@@ -2799,7 +3194,12 @@
         "22"
       ],
       "answer": 3,
-      "explanation": "按坐标计算数量积：$11\\times 1+1\\times 11=22$。\n\n关键推导\n$$\n(11,1)\\cdot(1,11)=11\\cdot1+1\\cdot11=22\n$$\n数量积结果是实数，按对应坐标相乘后求和。"
+      "explanation": "按坐标计算数量积：$11\\times 1+1\\times 11=22$。\n\n关键推导\n$$\n(11,1)\\cdot(1,11)=11\\cdot1+1\\cdot11=22\n$$\n数量积结果是实数，按对应坐标相乘后求和。",
+      "diagram": {
+        "src": "assets/geometry/M0740.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0741",
@@ -2819,7 +3219,12 @@
         "-2"
       ],
       "answer": 0,
-      "explanation": "垂直的非零向量数量积为零：$4+k=0$，故 $k=-4$。\n\n关键推导\n$$\n(2,1)\\perp(2,k)\\iff2\\cdot2+k=0\\iff k=-4\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。"
+      "explanation": "垂直的非零向量数量积为零：$4+k=0$，故 $k=-4$。\n\n关键推导\n$$\n(2,1)\\perp(2,k)\\iff2\\cdot2+k=0\\iff k=-4\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。",
+      "diagram": {
+        "src": "assets/geometry/M0741.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0742",
@@ -2839,7 +3244,12 @@
         "-6"
       ],
       "answer": 3,
-      "explanation": "垂直的非零向量数量积为零：$6+k=0$，故 $k=-6$。\n\n关键推导\n$$\n(3,1)\\perp(2,k)\\iff2\\cdot3+k=0\\iff k=-6\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。"
+      "explanation": "垂直的非零向量数量积为零：$6+k=0$，故 $k=-6$。\n\n关键推导\n$$\n(3,1)\\perp(2,k)\\iff2\\cdot3+k=0\\iff k=-6\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。",
+      "diagram": {
+        "src": "assets/geometry/M0742.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0743",
@@ -2859,7 +3269,12 @@
         "8"
       ],
       "answer": 2,
-      "explanation": "垂直的非零向量数量积为零：$8+k=0$，故 $k=-8$。\n\n关键推导\n$$\n(4,1)\\perp(2,k)\\iff2\\cdot4+k=0\\iff k=-8\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。"
+      "explanation": "垂直的非零向量数量积为零：$8+k=0$，故 $k=-8$。\n\n关键推导\n$$\n(4,1)\\perp(2,k)\\iff2\\cdot4+k=0\\iff k=-8\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。",
+      "diagram": {
+        "src": "assets/geometry/M0743.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0744",
@@ -2879,7 +3294,12 @@
         "-\\frac{2}{5}"
       ],
       "answer": 1,
-      "explanation": "垂直的非零向量数量积为零：$10+k=0$，故 $k=-10$。\n\n关键推导\n$$\n(5,1)\\perp(2,k)\\iff2\\cdot5+k=0\\iff k=-10\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。"
+      "explanation": "垂直的非零向量数量积为零：$10+k=0$，故 $k=-10$。\n\n关键推导\n$$\n(5,1)\\perp(2,k)\\iff2\\cdot5+k=0\\iff k=-10\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。",
+      "diagram": {
+        "src": "assets/geometry/M0744.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0745",
@@ -2899,7 +3319,12 @@
         "-6"
       ],
       "answer": 0,
-      "explanation": "垂直的非零向量数量积为零：$12+k=0$，故 $k=-12$。\n\n关键推导\n$$\n(6,1)\\perp(2,k)\\iff2\\cdot6+k=0\\iff k=-12\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。"
+      "explanation": "垂直的非零向量数量积为零：$12+k=0$，故 $k=-12$。\n\n关键推导\n$$\n(6,1)\\perp(2,k)\\iff2\\cdot6+k=0\\iff k=-12\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。",
+      "diagram": {
+        "src": "assets/geometry/M0745.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0746",
@@ -2919,7 +3344,12 @@
         "-14"
       ],
       "answer": 3,
-      "explanation": "垂直的非零向量数量积为零：$14+k=0$，故 $k=-14$。\n\n关键推导\n$$\n(7,1)\\perp(2,k)\\iff2\\cdot7+k=0\\iff k=-14\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。"
+      "explanation": "垂直的非零向量数量积为零：$14+k=0$，故 $k=-14$。\n\n关键推导\n$$\n(7,1)\\perp(2,k)\\iff2\\cdot7+k=0\\iff k=-14\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。",
+      "diagram": {
+        "src": "assets/geometry/M0746.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0747",
@@ -2939,7 +3369,12 @@
         "16"
       ],
       "answer": 2,
-      "explanation": "垂直的非零向量数量积为零：$16+k=0$，故 $k=-16$。\n\n关键推导\n$$\n(8,1)\\perp(2,k)\\iff2\\cdot8+k=0\\iff k=-16\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。"
+      "explanation": "垂直的非零向量数量积为零：$16+k=0$，故 $k=-16$。\n\n关键推导\n$$\n(8,1)\\perp(2,k)\\iff2\\cdot8+k=0\\iff k=-16\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。",
+      "diagram": {
+        "src": "assets/geometry/M0747.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0748",
@@ -2959,7 +3394,12 @@
         "-\\frac{2}{9}"
       ],
       "answer": 1,
-      "explanation": "垂直的非零向量数量积为零：$18+k=0$，故 $k=-18$。\n\n关键推导\n$$\n(9,1)\\perp(2,k)\\iff2\\cdot9+k=0\\iff k=-18\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。"
+      "explanation": "垂直的非零向量数量积为零：$18+k=0$，故 $k=-18$。\n\n关键推导\n$$\n(9,1)\\perp(2,k)\\iff2\\cdot9+k=0\\iff k=-18\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。",
+      "diagram": {
+        "src": "assets/geometry/M0748.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0749",
@@ -2979,7 +3419,12 @@
         "-10"
       ],
       "answer": 0,
-      "explanation": "垂直的非零向量数量积为零：$20+k=0$，故 $k=-20$。\n\n关键推导\n$$\n(10,1)\\perp(2,k)\\iff2\\cdot10+k=0\\iff k=-20\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。"
+      "explanation": "垂直的非零向量数量积为零：$20+k=0$，故 $k=-20$。\n\n关键推导\n$$\n(10,1)\\perp(2,k)\\iff2\\cdot10+k=0\\iff k=-20\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。",
+      "diagram": {
+        "src": "assets/geometry/M0749.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0750",
@@ -2999,7 +3444,12 @@
         "-22"
       ],
       "answer": 3,
-      "explanation": "垂直的非零向量数量积为零：$22+k=0$，故 $k=-22$。\n\n关键推导\n$$\n(11,1)\\perp(2,k)\\iff2\\cdot11+k=0\\iff k=-22\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。"
+      "explanation": "垂直的非零向量数量积为零：$22+k=0$，故 $k=-22$。\n\n关键推导\n$$\n(11,1)\\perp(2,k)\\iff2\\cdot11+k=0\\iff k=-22\n$$\n两个向量均非零，垂直与数量积为零等价，不用先求两向量斜率。",
+      "diagram": {
+        "src": "assets/geometry/M0750.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0751",
@@ -3019,7 +3469,12 @@
         "12"
       ],
       "answer": 3,
-      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=4+4+4$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=4+4+4=12\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。"
+      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=4+4+4$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=4+4+4=12\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。",
+      "diagram": {
+        "src": "assets/geometry/M0751.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0752",
@@ -3039,7 +3494,12 @@
         "13"
       ],
       "answer": 2,
-      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=9+4+6$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=9+6+4=19\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。"
+      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=9+4+6$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=9+6+4=19\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。",
+      "diagram": {
+        "src": "assets/geometry/M0752.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0753",
@@ -3059,7 +3519,12 @@
         "24"
       ],
       "answer": 1,
-      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=16+4+8$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=16+8+4=28\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。"
+      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=16+4+8$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=16+8+4=28\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。",
+      "diagram": {
+        "src": "assets/geometry/M0753.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0754",
@@ -3079,7 +3544,12 @@
         "49"
       ],
       "answer": 0,
-      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=25+4+10$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=25+10+4=39\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。"
+      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=25+4+10$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=25+10+4=39\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。",
+      "diagram": {
+        "src": "assets/geometry/M0754.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0755",
@@ -3099,7 +3569,12 @@
         "52"
       ],
       "answer": 3,
-      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=36+4+12$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=36+12+4=52\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。"
+      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=36+4+12$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=36+12+4=52\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。",
+      "diagram": {
+        "src": "assets/geometry/M0755.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0756",
@@ -3119,7 +3594,12 @@
         "53"
       ],
       "answer": 2,
-      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=49+4+14$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=49+14+4=67\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。"
+      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=49+4+14$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=49+14+4=67\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。",
+      "diagram": {
+        "src": "assets/geometry/M0756.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0757",
@@ -3139,7 +3619,12 @@
         "76"
       ],
       "answer": 1,
-      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=64+4+16$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=64+16+4=84\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。"
+      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=64+4+16$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=64+16+4=84\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。",
+      "diagram": {
+        "src": "assets/geometry/M0757.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0758",
@@ -3159,7 +3644,12 @@
         "121"
       ],
       "answer": 0,
-      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=81+4+18$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=81+18+4=103\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。"
+      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=81+4+18$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=81+18+4=103\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。",
+      "diagram": {
+        "src": "assets/geometry/M0758.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0759",
@@ -3179,7 +3669,12 @@
         "124"
       ],
       "answer": 3,
-      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=100+4+20$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=100+20+4=124\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。"
+      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=100+4+20$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=100+20+4=124\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。",
+      "diagram": {
+        "src": "assets/geometry/M0759.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0760",
@@ -3199,7 +3694,12 @@
         "125"
       ],
       "answer": 2,
-      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=121+4+22$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=121+22+4=147\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。"
+      "explanation": "平方展开为 $|u|^{2}+|v|^{2}+2u\\cdot v=121+4+22$。\n\n关键推导\n$$\n|u+v|^2=|u|^2+2u\\cdot v+|v|^2=121+22+4=147\n$$\n平方展开包含数量积的二倍；向量的模长不能直接相加后平方。",
+      "diagram": {
+        "src": "assets/geometry/M0760.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0761",
@@ -3219,7 +3719,12 @@
         "\\left[\\frac{1-\\sqrt{5}}{2},\\frac{1+\\sqrt{5}}{2}\\right]"
       ],
       "answer": 3,
-      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-2\\le 0$，判别式为 $5$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le2&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{5}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。"
+      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-2\\le 0$，判别式为 $5$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le2&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{5}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。",
+      "diagram": {
+        "src": "assets/geometry/M0761.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0762",
@@ -3239,7 +3744,12 @@
         "[0,1]"
       ],
       "answer": 2,
-      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-3\\le 0$，判别式为 $9$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le3&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{9}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。"
+      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-3\\le 0$，判别式为 $9$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le3&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{9}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。",
+      "diagram": {
+        "src": "assets/geometry/M0762.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0763",
@@ -3259,7 +3769,12 @@
         "[-4,4]"
       ],
       "answer": 1,
-      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-4\\le 0$，判别式为 $13$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le4&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{13}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。"
+      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-4\\le 0$，判别式为 $13$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le4&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{13}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。",
+      "diagram": {
+        "src": "assets/geometry/M0763.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0764",
@@ -3279,7 +3794,12 @@
         "\\left[\\frac{1-\\sqrt{21}}{2},\\frac{1+\\sqrt{21}}{2}\\right]"
       ],
       "answer": 0,
-      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-5\\le 0$，判别式为 $17$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le5&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{17}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。"
+      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-5\\le 0$，判别式为 $17$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le5&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{17}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。",
+      "diagram": {
+        "src": "assets/geometry/M0764.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0765",
@@ -3299,7 +3819,12 @@
         "\\left[\\frac{1-\\sqrt{21}}{2},\\frac{1+\\sqrt{21}}{2}\\right]"
       ],
       "answer": 3,
-      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-6\\le 0$，判别式为 $21$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le6&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{21}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。"
+      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-6\\le 0$，判别式为 $21$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le6&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{21}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。",
+      "diagram": {
+        "src": "assets/geometry/M0765.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0766",
@@ -3319,7 +3844,12 @@
         "[0,1]"
       ],
       "answer": 2,
-      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-7\\le 0$，判别式为 $25$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le7&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{25}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。"
+      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-7\\le 0$，判别式为 $25$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le7&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{25}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。",
+      "diagram": {
+        "src": "assets/geometry/M0766.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0767",
@@ -3339,7 +3869,12 @@
         "[-8,8]"
       ],
       "answer": 1,
-      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-8\\le 0$，判别式为 $29$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le8&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{29}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。"
+      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-8\\le 0$，判别式为 $29$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le8&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{29}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。",
+      "diagram": {
+        "src": "assets/geometry/M0767.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0768",
@@ -3359,7 +3894,12 @@
         "\\left[\\frac{1-\\sqrt{37}}{2},\\frac{1+\\sqrt{37}}{2}\\right]"
       ],
       "answer": 0,
-      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-9\\le 0$，判别式为 $33$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le9&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{33}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。"
+      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-9\\le 0$，判别式为 $33$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le9&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{33}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。",
+      "diagram": {
+        "src": "assets/geometry/M0768.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0769",
@@ -3379,7 +3919,12 @@
         "\\left[\\frac{1-\\sqrt{37}}{2},\\frac{1+\\sqrt{37}}{2}\\right]"
       ],
       "answer": 3,
-      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-10\\le 0$，判别式为 $37$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le10&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{37}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。"
+      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-10\\le 0$，判别式为 $37$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le10&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{37}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。",
+      "diagram": {
+        "src": "assets/geometry/M0769.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0770",
@@ -3399,7 +3944,12 @@
         "[0,1]"
       ],
       "answer": 2,
-      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-11\\le 0$，判别式为 $41$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le11&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{41}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。"
+      "explanation": "展开得 $|w|^{2}=t^{2}+(1-t)^{2}+t(1-t)=t^{2}-t+1$。条件成为 $t^{2}-t+1-11\\le 0$，判别式为 $41$，解得两根之间的闭区间。\n\n关键推导\n$$\n\\begin{aligned}|w|^2&=t^2+(1-t)^2+2t(1-t)\\cdot\\frac12\\\\&=t^2-t+1,\\\\|w|^2\\le11&\\iff\\left(t-\\frac12\\right)^2\\le\\frac{41}4.\\end{aligned}\n$$\n$t$ 是任意实参数，并没有被限制在 $[0,1]$。解配方后的平方不等式，边界满足等号，所以取闭区间。",
+      "diagram": {
+        "src": "assets/geometry/M0770.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0771",
@@ -3419,7 +3969,12 @@
         "4+8\\sqrt2"
       ],
       "answer": 2,
-      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=4-4(x+y)$。圆上 $x+y$ 最大为 $2\\sqrt{2}$，因此最小值 $4-8\\sqrt{2}$，取 $P=(2/\\sqrt{2},2/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=4-4(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=8,\\\\x+y&\\le2\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=4-8\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。"
+      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=4-4(x+y)$。圆上 $x+y$ 最大为 $2\\sqrt{2}$，因此最小值 $4-8\\sqrt{2}$，取 $P=(2/\\sqrt{2},2/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=4-4(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=8,\\\\x+y&\\le2\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=4-8\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。",
+      "diagram": {
+        "src": "assets/geometry/M0771.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0772",
@@ -3439,7 +3994,12 @@
         "-9"
       ],
       "answer": 1,
-      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=9-6(x+y)$。圆上 $x+y$ 最大为 $3\\sqrt{2}$，因此最小值 $9-18\\sqrt{2}$，取 $P=(3/\\sqrt{2},3/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=9-6(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=18,\\\\x+y&\\le3\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=9-18\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。"
+      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=9-6(x+y)$。圆上 $x+y$ 最大为 $3\\sqrt{2}$，因此最小值 $9-18\\sqrt{2}$，取 $P=(3/\\sqrt{2},3/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=9-6(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=18,\\\\x+y&\\le3\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=9-18\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。",
+      "diagram": {
+        "src": "assets/geometry/M0772.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0773",
@@ -3459,7 +4019,12 @@
         "-48"
       ],
       "answer": 0,
-      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=16-8(x+y)$。圆上 $x+y$ 最大为 $4\\sqrt{2}$，因此最小值 $16-32\\sqrt{2}$，取 $P=(4/\\sqrt{2},4/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=16-8(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=32,\\\\x+y&\\le4\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=16-32\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。"
+      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=16-8(x+y)$。圆上 $x+y$ 最大为 $4\\sqrt{2}$，因此最小值 $16-32\\sqrt{2}$，取 $P=(4/\\sqrt{2},4/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=16-8(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=32,\\\\x+y&\\le4\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=16-32\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。",
+      "diagram": {
+        "src": "assets/geometry/M0773.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0774",
@@ -3479,7 +4044,12 @@
         "25-50\\sqrt2"
       ],
       "answer": 3,
-      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=25-10(x+y)$。圆上 $x+y$ 最大为 $5\\sqrt{2}$，因此最小值 $25-50\\sqrt{2}$，取 $P=(5/\\sqrt{2},5/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=25-10(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=50,\\\\x+y&\\le5\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=25-50\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。"
+      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=25-10(x+y)$。圆上 $x+y$ 最大为 $5\\sqrt{2}$，因此最小值 $25-50\\sqrt{2}$，取 $P=(5/\\sqrt{2},5/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=25-10(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=50,\\\\x+y&\\le5\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=25-50\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。",
+      "diagram": {
+        "src": "assets/geometry/M0774.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0775",
@@ -3499,7 +4069,12 @@
         "36+72\\sqrt2"
       ],
       "answer": 2,
-      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=36-12(x+y)$。圆上 $x+y$ 最大为 $6\\sqrt{2}$，因此最小值 $36-72\\sqrt{2}$，取 $P=(6/\\sqrt{2},6/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=36-12(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=72,\\\\x+y&\\le6\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=36-72\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。"
+      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=36-12(x+y)$。圆上 $x+y$ 最大为 $6\\sqrt{2}$，因此最小值 $36-72\\sqrt{2}$，取 $P=(6/\\sqrt{2},6/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=36-12(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=72,\\\\x+y&\\le6\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=36-72\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。",
+      "diagram": {
+        "src": "assets/geometry/M0775.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0776",
@@ -3519,7 +4094,12 @@
         "-49"
       ],
       "answer": 1,
-      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=49-14(x+y)$。圆上 $x+y$ 最大为 $7\\sqrt{2}$，因此最小值 $49-98\\sqrt{2}$，取 $P=(7/\\sqrt{2},7/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=49-14(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=98,\\\\x+y&\\le7\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=49-98\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。"
+      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=49-14(x+y)$。圆上 $x+y$ 最大为 $7\\sqrt{2}$，因此最小值 $49-98\\sqrt{2}$，取 $P=(7/\\sqrt{2},7/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=49-14(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=98,\\\\x+y&\\le7\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=49-98\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。",
+      "diagram": {
+        "src": "assets/geometry/M0776.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0777",
@@ -3539,7 +4119,12 @@
         "-192"
       ],
       "answer": 0,
-      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=64-16(x+y)$。圆上 $x+y$ 最大为 $8\\sqrt{2}$，因此最小值 $64-128\\sqrt{2}$，取 $P=(8/\\sqrt{2},8/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=64-16(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=128,\\\\x+y&\\le8\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=64-128\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。"
+      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=64-16(x+y)$。圆上 $x+y$ 最大为 $8\\sqrt{2}$，因此最小值 $64-128\\sqrt{2}$，取 $P=(8/\\sqrt{2},8/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=64-16(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=128,\\\\x+y&\\le8\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=64-128\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。",
+      "diagram": {
+        "src": "assets/geometry/M0777.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0778",
@@ -3559,7 +4144,12 @@
         "81-162\\sqrt2"
       ],
       "answer": 3,
-      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=81-18(x+y)$。圆上 $x+y$ 最大为 $9\\sqrt{2}$，因此最小值 $81-162\\sqrt{2}$，取 $P=(9/\\sqrt{2},9/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=81-18(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=162,\\\\x+y&\\le9\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=81-162\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。"
+      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=81-18(x+y)$。圆上 $x+y$ 最大为 $9\\sqrt{2}$，因此最小值 $81-162\\sqrt{2}$，取 $P=(9/\\sqrt{2},9/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=81-18(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=162,\\\\x+y&\\le9\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=81-162\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。",
+      "diagram": {
+        "src": "assets/geometry/M0778.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0779",
@@ -3579,7 +4169,12 @@
         "100+200\\sqrt2"
       ],
       "answer": 2,
-      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=100-20(x+y)$。圆上 $x+y$ 最大为 $10\\sqrt{2}$，因此最小值 $100-200\\sqrt{2}$，取 $P=(10/\\sqrt{2},10/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=100-20(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=200,\\\\x+y&\\le10\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=100-200\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。"
+      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=100-20(x+y)$。圆上 $x+y$ 最大为 $10\\sqrt{2}$，因此最小值 $100-200\\sqrt{2}$，取 $P=(10/\\sqrt{2},10/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=100-20(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=200,\\\\x+y&\\le10\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=100-200\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。",
+      "diagram": {
+        "src": "assets/geometry/M0779.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0780",
@@ -3599,7 +4194,12 @@
         "-121"
       ],
       "answer": 1,
-      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=121-22(x+y)$。圆上 $x+y$ 最大为 $11\\sqrt{2}$，因此最小值 $121-242\\sqrt{2}$，取 $P=(11/\\sqrt{2},11/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=121-22(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=242,\\\\x+y&\\le11\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=121-242\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。"
+      "explanation": "数量积$=(A-P)\\cdot (B-P)=|P|^{2}-P\\cdot (A+B)=121-22(x+y)$。圆上 $x+y$ 最大为 $11\\sqrt{2}$，因此最小值 $121-242\\sqrt{2}$，取 $P=(11/\\sqrt{2},11/\\sqrt{2})$ 可达。\n\n关键推导\n$$\n\\begin{aligned}(A-P)\\cdot(B-P)&=121-22(x+y),\\\\(x+y)^2&\\le2(x^2+y^2)=242,\\\\x+y&\\le11\\sqrt2,\\\\\\min\\overrightarrow{PA}\\cdot\\overrightarrow{PB}&=121-242\\sqrt2.\\end{aligned}\n$$\n$x=y=a/\\sqrt{2}$ 在圆上且让 $x+y$ 达到正的上界，因此数量积的下界可取。注意目标中线性项系数为负，要最大化 $x+y$。",
+      "diagram": {
+        "src": "assets/geometry/M0780.svg",
+        "alt": "平面向量与数量积示意图；具体条件以题干为准",
+        "kind": "legacy"
+      }
     },
     {
       "id": "M0781",

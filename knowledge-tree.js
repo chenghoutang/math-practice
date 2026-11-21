@@ -66,6 +66,7 @@
     const copy=el('div',undefined,'knowledge-question-copy'),link=el('a',`${node.id} · ${levels[node.question.difficulty]}`,'knowledge-question-link');link.href=(selectable?'index.html':'')+'#'+node.id;
     if(onOpen)link.addEventListener('click',event=>{event.preventDefault();onOpen(node.question);});
     const stem=el('div',node.question.stem,'math-copy knowledge-stem');copy.append(link,stem);
+    if(node.question.provenance||node.question.diagram){const assets=el('div');window.MathQuestionAssets?.mount(assets,node.question,{compact:true});copy.append(assets);}
     const input=selectable?checkbox(node):null;if(input)row.append(input);row.append(copy);item.append(row);views.set(node.id,{input,item});window.renderPracticeMath?.(stem);return;
    }
    const details=el('details',undefined,'knowledge-branch'),summary=el('summary'),label=el('label',undefined,'knowledge-label'),title=el('span',node.title,'knowledge-title'),count=el('small'),input=selectable?checkbox(node):null;

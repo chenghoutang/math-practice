@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import {families,expansionSources} from './math/expansion.mjs';
+const root=new URL('../',import.meta.url);
+let md='# 第二轮扩充：100 种题型\n\n本轮为每种题型提供 10 道练习，共 1000 题，题号 M2641–M3640。按解题任务与方法划分题型；同一原卷大题中的不同小题、条件推论分别列出。母题经过中文改写、单选化或模型拓展，后九题为自行调整参数并重新验算的变式。它们不是 100 道未经改动的原卷题。\n\n本轮来源：澳门四校 2025、2026 年正卷及附加卷（70 型），香港 DSE 2023 年必修试卷一（20 型），2021 年高考官方评析中的条件或模型拓展（10 型）。核对日期：2026-11-21。新增两轮的难度逐型复评见 [DIFFICULTY-REVIEW.md](DIFFICULTY-REVIEW.md)，练习页与试卷可展开每题的难度依据。\n\n';
+md+='## 官方资料\n\n';
+for(const [id,source] of Object.entries(expansionSources))md+=`- **${source.label} ${source.year} ${source.paper}**：[官方文档](${source.url})${source.indexUrl?` · [官方目录](${source.indexUrl})`:''}。\n`;
+md+='\n澳门大学的下载路径按“最近两年”轮换，查阅时请核对封面年份。DSE 使用第一份评卷样本中的印刷试题，扫描件和考生手写答案未打包进网站。高考来源为考试院刊载的《中国考试》2021 年第 7 期第 70–76 页试题评析。文档校验摘要保存在 `data/source-documents.json`；研究缓存位于忽略上传的 `.cache/exam-sources/`。\n\n## 逐型索引\n\n| 序号 | 题型 | 来源及原题定位 | 页码 | 练习母题 |\n| --- | --- | --- | --- | --- |\n';
+families.forEach((f,i)=>{const source=expansionSources[f.source],id=`M${2641+i*10}`;md+=`| ${i+1} | ${f.name} | ${source.label} ${source.year} ${source.paper} · ${f.question} | ${f.page} | [${id}](index.html#${id}) |\n`;});
+md+='\n## 旧题配图\n\n为原有 M0001–M2400 中的 55 类题型、550 道题补充 SVG，覆盖三角形、平面及空间向量、直线与圆、椭圆、双曲线、抛物线、立体几何、反射路径及部分地狱题。旧题题干、选项、答案、版本和题号保持不变。\n\n本轮新增题中 38 类、380 道含配图；加上上一轮 80 张，全站共 1010 张本地 SVG。曲线、交点和尺寸从参数生成；示例构型会在图上注明，长轴与短轴不同尺度的函数图也会注明。所有图在练习、知识树和试卷中共用。\n\n验证包含每型十道变式的独立数值或枚举验算、选项等价性检查、几何入射关系、内切圆半径、切线垂直关系、旧内容快照比较、全部 SVG XML 解析与离线加载，以及 320／390／1280 像素浏览器布局和含图试卷评分恢复。\n';
+fs.writeFileSync(new URL('SOURCES-EXPANSION.md',root),md);
+console.log('Built source catalog: 100 families.');
